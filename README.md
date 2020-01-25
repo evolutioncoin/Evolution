@@ -1,5 +1,12 @@
 ![logo_small_flat](https://user-images.githubusercontent.com/38456463/43392866-43c69cf4-93f5-11e8-81e2-3e3f81b6ca1d.png)
 
+
+
+#### Special Thanks To:
+will come soon 
+
+
+
 #### Build Status
 [![Build Status](https://travis-ci.com/evolutioncoin/evolution.svg?branch=master)](https://travis-ci.com/evolutioncoin/evolution) 
 [![Build status](https://ci.appveyor.com/api/projects/status/yiyj95qfdgkpca39?svg=true)](https://ci.appveyor.com/project/evolutioncoin/evolution)
