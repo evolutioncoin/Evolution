@@ -191,9 +191,9 @@ add_dependencies(zedwallet version)
 
 # Finally build the binaries
 set_property(TARGET Evolutiond PROPERTY OUTPUT_NAME "Evolutiond")
-set_property(TARGET zedwallet PROPERTY OUTPUT_NAME "zedwallet")
-set_property(TARGET zedwallet++ PROPERTY OUTPUT_NAME "zedwallet-beta")
-set_property(TARGET WalletService PROPERTY OUTPUT_NAME "wallet-service")
+set_property(TARGET zedwallet PROPERTY OUTPUT_NAME "EvolutionWallet")
+set_property(TARGET zedwallet++ PROPERTY OUTPUT_NAME "wallet-beta")
+set_property(TARGET WalletService PROPERTY OUTPUT_NAME "Evolution-Service")
 set_property(TARGET miner PROPERTY OUTPUT_NAME "miner")
 set_property(TARGET cryptotest PROPERTY OUTPUT_NAME "cryptotest")
 set_property(TARGET WalletApi PROPERTY OUTPUT_NAME "wallet-api")

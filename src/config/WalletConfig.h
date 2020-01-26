@@ -66,7 +66,7 @@ namespace WalletConfig
     const uint64_t minimumFee = CryptoNote::parameters::MINIMUM_FEE;
 
     /* The minimum amount allowed to be sent - usually 1 (in ATOMIC units!) */
-    const uint64_t minimumSend = 500;
+    const uint64_t minimumSend = 100000000;
 
     /* Is a mixin of zero disabled on your network? */
     const bool mixinZeroDisabled = false;
@@ -93,5 +93,5 @@ namespace WalletConfig
      */
     const size_t blockStoreMemoryLimit = 1024 * 1024 * 50;
 
-    const size_t saveWalletEveryNBlocks = 50'000; //idk what the fuck this is
+    const size_t saveWalletEveryNBlocks = 50000; //idk what the fuck this is
 }

@@ -38,7 +38,7 @@ namespace CryptoNote {
 
 		const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX = 2;
 		const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V2 = 3;
-		const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V3 = 280000; //diff adjustment
+		const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V3 = 250000; //diff adjustment
 
 		const unsigned EMISSION_SPEED_FACTOR = 25;
 		static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
@@ -73,7 +73,7 @@ namespace CryptoNote {
 		   You can get this value by doing "print_block 2" in Evolutiond. It is used to know what timestamp
 		   to import from when the block height cannot be found in the node or the node is offline. */
 
-		const uint64_t GENESIS_BLOCK_TIMESTAMP = 5;  // Replace with block 2 timestamp
+		const uint64_t GENESIS_BLOCK_TIMESTAMP = 1579874533;  // Replace with block 2 timestamp
 
 		const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW = 100;
 		
@@ -87,9 +87,9 @@ namespace CryptoNote {
 
 		//DustFund Parameters
 		const uint64_t CRYPTONOTE_DUST_OUT_LIMIT = UINT64_C(1000000); //the limit up to which dust outs should be removed and contributed back to the dust fund
-		const char CRYPTONOTE_DUST_OUT_ADDRESS[] = "evcFDKSkDHwDaMUGPjKEVs6PVjNJFEJX1AKttUVQEbLuGfxmEYcsPvyGZiAx7QmGHq6yHyQCkh4uDS5sUXxaqZw25YHKR7sKFW";
+		const char CRYPTONOTE_DUST_OUT_ADDRESS[] = "evcFADnJ8QJGP974EzANyp6nxFuaB9FeCXoSRrgRqtWKPwnHCYXPkzGW7SxnjVkNygdRRw8PSMBt6CFvbN79dCN478kgypzcMr";
 
-		const uint64_t MINIMUM_FEE = UINT64_C(10000000); //0.01 minimum fee
+		const uint64_t MINIMUM_FEE = UINT64_C(10000000); //0.1 minimum fee
 
 		const uint64_t MINIMUM_MIXIN = 3;
 		const uint64_t MAXIMUM_MIXIN = 12;
@@ -165,7 +165,7 @@ namespace CryptoNote {
 		const size_t FUSION_TX_MAX_POOL_COUNT = 50;
 
 		/* This prevents tx's from having a rediculous number of outputs in relation to inputs */
-		const size_t NORMAL_TX_MAX_OUTPUT_COUNT_V1 = 90;
+		const size_t NORMAL_TX_MAX_OUTPUT_COUNT_V1 = 50;
 		const size_t NORMAL_TX_MAX_OUTPUT_COUNT_V1_HEIGHT = 400000;
 
 		const uint32_t UPGRADE_HEIGHT_V2 = 1;
@@ -193,9 +193,9 @@ namespace CryptoNote {
 					 	  500, //first fork to introduce DUST fund
 						  600, //fix tx sizes issue
 				 	         1000, // CN Turtle
-					       480000, //Difficulty Update
+					        50000, //Difficulty Update
 				 	     40000000, // mixin limits reset & argon2 POW
-				            500000000 // next fork height (dust v2 & net protect)
+				            100000000 // next fork height (dust v2 & net protect)
 		};
 
 		/* MAKE SURE TO UPDATE THIS VALUE WITH EVERY MAJOR RELEASE BEFORE A FORK */
@@ -205,7 +205,7 @@ namespace CryptoNote {
 
 		/* The index in the FORK_HEIGHTS array that this version of the software will
 		   support. For example, if CURRENT_FORK_INDEX is 4, this version of the
-		   software will support the fork at 200 blocks.
+		   software will support the fork at 3 blocks.
 
 		   This will default to zero if the FORK_HEIGHTS array is empty, so you don't
 		   need to change it manually. */
@@ -221,8 +221,8 @@ namespace CryptoNote {
 		const char     MINER_CONFIG_FILE_NAME[] = "miner_conf.json";
 	} // parameters
 
-	const char     CRYPTONOTE_NAME[] = "Evolution";
-	const char     DATADIR_NAME[]              =             "Evolution-v1";
+	const char     CRYPTONOTE_NAME[]	=	"Evolution";
+
 	
 	const uint8_t  TRANSACTION_VERSION_1 = 1;
 	const uint8_t  TRANSACTION_VERSION_2 = 2;
@@ -282,8 +282,8 @@ const std::unordered_map<
 	const uint32_t P2P_DEFAULT_HANDSHAKE_INTERVAL = 60;            // seconds
 	const uint32_t P2P_DEFAULT_PACKET_MAX_SIZE = 50000000;      // 50 000 000 bytes maximum packet size
 	const uint32_t P2P_DEFAULT_PEERS_IN_HANDSHAKE = 250;
-	const uint32_t P2P_DEFAULT_CONNECTION_TIMEOUT = 5000;          // 5 seconds
-	const uint32_t P2P_DEFAULT_PING_CONNECTION_TIMEOUT = 2000;          // 2 seconds
+	const uint32_t P2P_DEFAULT_CONNECTION_TIMEOUT = 7000;          // 7 seconds
+	const uint32_t P2P_DEFAULT_PING_CONNECTION_TIMEOUT = 2500;          // 2.5 seconds
 	const uint64_t P2P_DEFAULT_INVOKE_TIMEOUT = 60 * 2 * 1000; // 2 minutes
 	const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT = 5000;          // 5 seconds
 	const char     P2P_STAT_TRUSTED_PUB_KEY[] = "";
@@ -303,7 +303,8 @@ const std::unordered_map<
 
 	const char* const SEED_NODES[] = {	//add seed nodes
 		
-		"evolutioncoin.go.ro:22100" // nodlocal 1
+		"79.115.186.120:22100", // main node 1
+		"82.38.224.216:22100"   // node2 pxlwarr
 
 	};
 } // CryptoNote
