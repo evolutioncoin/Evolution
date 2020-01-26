@@ -1,4 +1,4 @@
-![logo_small_flat](https://.png)
+![logo_small_flat](https://github.com/evolutioncoin/evolution/blob/master/logo/logo.png)
 
 
 
