@@ -93,5 +93,5 @@ namespace WalletConfig
      */
     const size_t blockStoreMemoryLimit = 1024 * 1024 * 50;
 
-    const size_t saveWalletEveryNBlocks = 50'000; //idk what the fuck this is
+    const size_t saveWalletEveryNBlocks = 50000; //idk what the fuck this is
 }
