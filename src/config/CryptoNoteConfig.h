@@ -73,7 +73,7 @@ namespace CryptoNote {
 		   You can get this value by doing "print_block 2" in Evolutiond. It is used to know what timestamp
 		   to import from when the block height cannot be found in the node or the node is offline. */
 
-		const uint64_t GENESIS_BLOCK_TIMESTAMP = 5;  // Replace with block 2 timestamp
+		const uint64_t GENESIS_BLOCK_TIMESTAMP = 1579874533;  // Replace with block 2 timestamp
 
 		const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW = 100;
 		
@@ -89,7 +89,7 @@ namespace CryptoNote {
 		const uint64_t CRYPTONOTE_DUST_OUT_LIMIT = UINT64_C(1000000); //the limit up to which dust outs should be removed and contributed back to the dust fund
 		const char CRYPTONOTE_DUST_OUT_ADDRESS[] = "evcFCsTprMXMy6HZDbo3AcBmZMFWvndWM5VL7qRW83kWJseD6on1dPLSFqaoYhjHj3BR32ptiQLEWjRN49cfWXgo3JepQZnBst";
 
-		const uint64_t MINIMUM_FEE = UINT64_C(10000000); //0.01 minimum fee
+		const uint64_t MINIMUM_FEE = UINT64_C(10000000); //0.1 minimum fee
 
 		const uint64_t MINIMUM_MIXIN = 3;
 		const uint64_t MAXIMUM_MIXIN = 12;
@@ -193,9 +193,9 @@ namespace CryptoNote {
 					 	  500, //first fork to introduce DUST fund
 						  600, //fix tx sizes issue
 				 	         1000, // CN Turtle
-					       480000, //Difficulty Update
+					        50000, //Difficulty Update
 				 	     40000000, // mixin limits reset & argon2 POW
-				            500000000 // next fork height (dust v2 & net protect)
+				            100000000 // next fork height (dust v2 & net protect)
 		};
 
 		/* MAKE SURE TO UPDATE THIS VALUE WITH EVERY MAJOR RELEASE BEFORE A FORK */
@@ -205,7 +205,7 @@ namespace CryptoNote {
 
 		/* The index in the FORK_HEIGHTS array that this version of the software will
 		   support. For example, if CURRENT_FORK_INDEX is 4, this version of the
-		   software will support the fork at 200 blocks.
+		   software will support the fork at 3 blocks.
 
 		   This will default to zero if the FORK_HEIGHTS array is empty, so you don't
 		   need to change it manually. */
