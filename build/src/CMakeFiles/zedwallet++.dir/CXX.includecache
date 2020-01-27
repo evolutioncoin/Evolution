@@ -1482,7 +1482,7 @@ vector
 walletbackend/WalletBackend.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/AddressBook.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/AddressBook.cpp
 zedwallet++/AddressBook.h
 -
 config/WalletConfig.h
@@ -1512,7 +1512,7 @@ rapidjson/ostreamwrapper.h
 rapidjson/prettywriter.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/CommandDispatcher.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/CommandDispatcher.cpp
 zedwallet++/CommandDispatcher.h
 -
 iostream
@@ -1534,7 +1534,7 @@ zedwallet++/Fusion.h
 zedwallet++/Utilities.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/CommandImplementations.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/CommandImplementations.cpp
 zedwallet++/CommandImplementations.h
 -
 config/WalletConfig.h
@@ -1570,7 +1570,7 @@ zedwallet++/Sync.h
 zedwallet++/Utilities.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/Commands.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/Commands.cpp
 zedwallet++/Commands.h
 -
 config/WalletConfig.h
@@ -1578,7 +1578,7 @@ config/WalletConfig.h
 utilities/Container.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/Fusion.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/Fusion.cpp
 zedwallet++/Fusion.h
 -
 iostream
@@ -1592,7 +1592,7 @@ utilities/ColouredMsg.h
 zedwallet++/Utilities.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/GetInput.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/GetInput.cpp
 algorithm
 -
 zedwallet++/GetInput.h
@@ -1602,7 +1602,7 @@ config/WalletConfig.h
 errors/ValidateParameters.h
 -
 linenoise.hpp
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/linenoise.hpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/linenoise.hpp
 utilities/ColouredMsg.h
 -
 utilities/FormatTools.h
@@ -1616,7 +1616,7 @@ utilities/Utilities.h
 zedwallet++/Commands.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/Menu.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/Menu.cpp
 zedwallet++/Menu.h
 -
 config/WalletConfig.h
@@ -1630,7 +1630,7 @@ zedwallet++/Commands.h
 zedwallet++/GetInput.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/Open.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/Open.cpp
 zedwallet++/Open.h
 -
 common/FileSystemShim.h
@@ -1656,7 +1656,7 @@ utilities/PasswordContainer.h
 zedwallet++/Utilities.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/ParseArguments.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/ParseArguments.cpp
 zedwallet++/ParseArguments.h
 -
 cxxopts.hpp
@@ -1672,11 +1672,11 @@ config/WalletConfig.h
 utilities/Utilities.h
 -
 version.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/version.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/version.h
 zedwallet++/Utilities.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/Sync.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/Sync.cpp
 zedwallet++/Sync.h
 -
 common/SignalHandler.h
@@ -1692,7 +1692,7 @@ utilities/ColouredMsg.h
 zedwallet++/CommandImplementations.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/TransactionMonitor.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/TransactionMonitor.cpp
 zedwallet++/TransactionMonitor.h
 -
 iostream
@@ -1704,7 +1704,7 @@ zedwallet++/CommandImplementations.h
 zedwallet++/GetInput.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/Transfer.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/Transfer.cpp
 zedwallet++/Transfer.h
 -
 config/WalletConfig.h
@@ -1724,7 +1724,7 @@ zedwallet++/GetInput.h
 zedwallet++/Utilities.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/Utilities.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/Utilities.cpp
 zedwallet++/Utilities.h
 -
 cmath
@@ -1742,7 +1742,7 @@ utilities/String.h
 utilities/PasswordContainer.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/ZedWallet.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/ZedWallet.cpp
 iostream
 -
 common/SignalHandler.h

@@ -1256,9 +1256,9 @@ serialization/ISerializer.h
 wallet/WalletGreen.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/Base58.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/Base58.cpp
 Base58.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/Base58.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/Base58.h
 assert.h
 -
 string
@@ -1266,23 +1266,23 @@ string
 vector
 -
 crypto/hash.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/crypto/hash.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/crypto/hash.h
 int-util.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/int-util.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/int-util.h
 Varint.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/Varint.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/Varint.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/Base58.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/Base58.h
 cstdint
 -
 string
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/BlockingQueue.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/BlockingQueue.cpp
 BlockingQueue.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/BlockingQueue.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/BlockingQueue.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/BlockingQueue.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/BlockingQueue.h
 atomic
 -
 condition_variable
@@ -1294,25 +1294,25 @@ mutex
 thread
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/CheckDifficulty.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/CheckDifficulty.cpp
 CheckDifficulty.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/CheckDifficulty.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/CheckDifficulty.h
 common/int-util.h
 -
 crypto/hash.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/CheckDifficulty.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/CheckDifficulty.h
 cstdint
 -
 vector
 -
 crypto/hash.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/crypto/hash.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/crypto/hash.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/ConsoleHandler.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/ConsoleHandler.cpp
 ConsoleHandler.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/ConsoleHandler.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/ConsoleHandler.h
 iostream
 -
 iomanip
@@ -1328,7 +1328,7 @@ stdio.h
 boost/algorithm/string.hpp
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/ConsoleHandler.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/ConsoleHandler.h
 atomic
 -
 functional
@@ -1342,15 +1342,15 @@ thread
 vector
 -
 BlockingQueue.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/BlockingQueue.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/BlockingQueue.h
 ConsoleTools.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/ConsoleTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/ConsoleTools.h
 sys/select.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/ConsoleTools.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/ConsoleTools.cpp
 ConsoleTools.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/ConsoleTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/ConsoleTools.h
 stdio.h
 -
 Windows.h
@@ -1362,15 +1362,15 @@ iostream
 unistd.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/ConsoleTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/ConsoleTools.h
 cstdint
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/CryptoNoteTools.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/CryptoNoteTools.cpp
 CryptoNoteTools.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/CryptoNoteTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/CryptoNoteTools.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/CryptoNoteTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/CryptoNoteTools.h
 common/MemoryInputStream.h
 -
 common/StringTools.h
@@ -1392,15 +1392,15 @@ serialization/CryptoNoteSerialization.h
 serialization/SerializationTools.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/FileMappedVector.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/FileMappedVector.cpp
 FileMappedVector.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/FileMappedVector.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/FileMappedVector.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/FileMappedVector.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/FileMappedVector.h
 common/ScopeExit.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/common/ScopeExit.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/common/ScopeExit.h
 system/MemoryMappedFile.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/system/MemoryMappedFile.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/system/MemoryMappedFile.h
 cassert
 -
 common/FileSystemShim.h
@@ -1416,35 +1416,35 @@ sstream
 iostream
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IInputStream.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IInputStream.cpp
 IInputStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IInputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IInputStream.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IInputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IInputStream.h
 cstdint
 -
 cstddef
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IOutputStream.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IOutputStream.cpp
 IOutputStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IOutputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IOutputStream.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IOutputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IOutputStream.h
 cstdint
 -
 cstddef
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/JsonValue.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/JsonValue.cpp
 JsonValue.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/JsonValue.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/JsonValue.h
 iomanip
 -
 sstream
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/JsonValue.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/JsonValue.h
 cstddef
 -
 cstdint
@@ -1456,19 +1456,19 @@ string
 vector
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/Math.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/Math.cpp
 Math.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/Math.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/Math.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/Math.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/Math.h
 algorithm
 -
 vector
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/MemoryInputStream.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/MemoryInputStream.cpp
 MemoryInputStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/MemoryInputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/MemoryInputStream.h
 algorithm
 -
 cassert
@@ -1476,31 +1476,31 @@ cassert
 cstring
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/MemoryInputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/MemoryInputStream.h
 IInputStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IInputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IInputStream.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/PathTools.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/PathTools.cpp
 PathTools.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/PathTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/PathTools.h
 algorithm
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/PathTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/PathTools.h
 string
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/ScopeExit.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/ScopeExit.cpp
 ScopeExit.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/ScopeExit.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/ScopeExit.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/ScopeExit.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/ScopeExit.h
 functional
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/SignalHandler.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/SignalHandler.cpp
 SignalHandler.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/SignalHandler.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/SignalHandler.h
 mutex
 -
 iostream
@@ -1512,41 +1512,41 @@ signal.h
 cstring
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/SignalHandler.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/SignalHandler.h
 functional
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StdInputStream.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StdInputStream.cpp
 StdInputStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StdInputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StdInputStream.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StdInputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StdInputStream.h
 istream
 -
 IInputStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IInputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IInputStream.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StdOutputStream.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StdOutputStream.cpp
 StdOutputStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StdOutputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StdOutputStream.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StdOutputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StdOutputStream.h
 ostream
 -
 IOutputStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IOutputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IOutputStream.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StreamTools.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StreamTools.cpp
 StreamTools.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StreamTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StreamTools.h
 stdexcept
 -
 IInputStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IInputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IInputStream.h
 IOutputStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IOutputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IOutputStream.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StreamTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StreamTools.h
 cstdint
 -
 ostream
@@ -1556,37 +1556,37 @@ vector
 string
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StringInputStream.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StringInputStream.cpp
 StringInputStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StringInputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StringInputStream.h
 string.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StringInputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StringInputStream.h
 string
 -
 IInputStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IInputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IInputStream.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StringOutputStream.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StringOutputStream.cpp
 StringOutputStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StringOutputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StringOutputStream.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StringOutputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StringOutputStream.h
 string
 -
 IOutputStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IOutputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IOutputStream.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StringTools.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StringTools.cpp
 StringTools.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StringTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StringTools.h
 fstream
 -
 iomanip
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StringTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StringTools.h
 cstdint
 -
 sstream
@@ -1596,35 +1596,35 @@ stdexcept
 vector
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StringView.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StringView.cpp
 StringView.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StringView.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StringView.h
 limits
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StringView.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StringView.h
 cassert
 -
 string
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/TransactionExtra.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/TransactionExtra.cpp
 TransactionExtra.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/TransactionExtra.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/TransactionExtra.h
 common/MemoryInputStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/common/MemoryInputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/common/MemoryInputStream.h
 common/StreamTools.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/common/StreamTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/common/StreamTools.h
 common/StringTools.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/common/StringTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/common/StringTools.h
 serialization/BinaryOutputStreamSerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/serialization/BinaryOutputStreamSerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/serialization/BinaryOutputStreamSerializer.h
 serialization/BinaryInputStreamSerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/serialization/BinaryInputStreamSerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/serialization/BinaryInputStreamSerializer.h
 serialization/SerializationTools.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/serialization/SerializationTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/serialization/SerializationTools.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/TransactionExtra.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/TransactionExtra.h
 algorithm
 -
 vector
@@ -1634,9 +1634,9 @@ boost/variant.hpp
 CryptoNote.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/Util.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/Util.cpp
 Util.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/Util.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/Util.h
 cstdio
 -
 cstring
@@ -1654,13 +1654,13 @@ strsafe.h
 sys/utsname.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/Util.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/Util.h
 string
 -
 system_error
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/Varint.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/Varint.h
 limits
 -
 sstream
@@ -1672,19 +1672,19 @@ type_traits
 utility
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/VectorOutputStream.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/VectorOutputStream.cpp
 VectorOutputStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/VectorOutputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/VectorOutputStream.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/VectorOutputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/VectorOutputStream.h
 cstdint
 -
 vector
 -
 IOutputStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IOutputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IOutputStream.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/int-util.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/int-util.h
 assert.h
 -
 stdbool.h

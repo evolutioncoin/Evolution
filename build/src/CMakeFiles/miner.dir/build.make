@@ -43,10 +43,10 @@ RM = /usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution
+CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/build
+CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/miner.dir/depend.make
@@ -59,81 +59,81 @@ include src/CMakeFiles/miner.dir/flags.make
 
 src/CMakeFiles/miner.dir/miner/BlockUtilities.cpp.o: src/CMakeFiles/miner.dir/flags.make
 src/CMakeFiles/miner.dir/miner/BlockUtilities.cpp.o: ../src/miner/BlockUtilities.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/miner.dir/miner/BlockUtilities.cpp.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/ccache /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/BlockUtilities.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/BlockUtilities.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/miner.dir/miner/BlockUtilities.cpp.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/BlockUtilities.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/BlockUtilities.cpp
 
 src/CMakeFiles/miner.dir/miner/BlockUtilities.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miner.dir/miner/BlockUtilities.cpp.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/BlockUtilities.cpp > CMakeFiles/miner.dir/miner/BlockUtilities.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/BlockUtilities.cpp > CMakeFiles/miner.dir/miner/BlockUtilities.cpp.i
 
 src/CMakeFiles/miner.dir/miner/BlockUtilities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miner.dir/miner/BlockUtilities.cpp.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/BlockUtilities.cpp -o CMakeFiles/miner.dir/miner/BlockUtilities.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/BlockUtilities.cpp -o CMakeFiles/miner.dir/miner/BlockUtilities.cpp.s
 
 src/CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.o: src/CMakeFiles/miner.dir/flags.make
 src/CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.o: ../src/miner/BlockchainMonitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/ccache /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/BlockchainMonitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/BlockchainMonitor.cpp
 
 src/CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/BlockchainMonitor.cpp > CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/BlockchainMonitor.cpp > CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.i
 
 src/CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/BlockchainMonitor.cpp -o CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/BlockchainMonitor.cpp -o CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.s
 
 src/CMakeFiles/miner.dir/miner/Miner.cpp.o: src/CMakeFiles/miner.dir/flags.make
 src/CMakeFiles/miner.dir/miner/Miner.cpp.o: ../src/miner/Miner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/miner.dir/miner/Miner.cpp.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/ccache /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/Miner.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/Miner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/miner.dir/miner/Miner.cpp.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/Miner.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/Miner.cpp
 
 src/CMakeFiles/miner.dir/miner/Miner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miner.dir/miner/Miner.cpp.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/Miner.cpp > CMakeFiles/miner.dir/miner/Miner.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/Miner.cpp > CMakeFiles/miner.dir/miner/Miner.cpp.i
 
 src/CMakeFiles/miner.dir/miner/Miner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miner.dir/miner/Miner.cpp.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/Miner.cpp -o CMakeFiles/miner.dir/miner/Miner.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/Miner.cpp -o CMakeFiles/miner.dir/miner/Miner.cpp.s
 
 src/CMakeFiles/miner.dir/miner/MinerManager.cpp.o: src/CMakeFiles/miner.dir/flags.make
 src/CMakeFiles/miner.dir/miner/MinerManager.cpp.o: ../src/miner/MinerManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/miner.dir/miner/MinerManager.cpp.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/ccache /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/MinerManager.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/MinerManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/miner.dir/miner/MinerManager.cpp.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/MinerManager.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/MinerManager.cpp
 
 src/CMakeFiles/miner.dir/miner/MinerManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miner.dir/miner/MinerManager.cpp.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/MinerManager.cpp > CMakeFiles/miner.dir/miner/MinerManager.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/MinerManager.cpp > CMakeFiles/miner.dir/miner/MinerManager.cpp.i
 
 src/CMakeFiles/miner.dir/miner/MinerManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miner.dir/miner/MinerManager.cpp.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/MinerManager.cpp -o CMakeFiles/miner.dir/miner/MinerManager.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/MinerManager.cpp -o CMakeFiles/miner.dir/miner/MinerManager.cpp.s
 
 src/CMakeFiles/miner.dir/miner/MiningConfig.cpp.o: src/CMakeFiles/miner.dir/flags.make
 src/CMakeFiles/miner.dir/miner/MiningConfig.cpp.o: ../src/miner/MiningConfig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/miner.dir/miner/MiningConfig.cpp.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/ccache /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/MiningConfig.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/MiningConfig.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/miner.dir/miner/MiningConfig.cpp.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/MiningConfig.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/MiningConfig.cpp
 
 src/CMakeFiles/miner.dir/miner/MiningConfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miner.dir/miner/MiningConfig.cpp.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/MiningConfig.cpp > CMakeFiles/miner.dir/miner/MiningConfig.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/MiningConfig.cpp > CMakeFiles/miner.dir/miner/MiningConfig.cpp.i
 
 src/CMakeFiles/miner.dir/miner/MiningConfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miner.dir/miner/MiningConfig.cpp.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/MiningConfig.cpp -o CMakeFiles/miner.dir/miner/MiningConfig.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/MiningConfig.cpp -o CMakeFiles/miner.dir/miner/MiningConfig.cpp.s
 
 src/CMakeFiles/miner.dir/miner/main.cpp.o: src/CMakeFiles/miner.dir/flags.make
 src/CMakeFiles/miner.dir/miner/main.cpp.o: ../src/miner/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/miner.dir/miner/main.cpp.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/ccache /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/main.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/miner.dir/miner/main.cpp.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/main.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/main.cpp
 
 src/CMakeFiles/miner.dir/miner/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miner.dir/miner/main.cpp.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/main.cpp > CMakeFiles/miner.dir/miner/main.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/main.cpp > CMakeFiles/miner.dir/miner/main.cpp.i
 
 src/CMakeFiles/miner.dir/miner/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miner.dir/miner/main.cpp.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/main.cpp -o CMakeFiles/miner.dir/miner/main.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/main.cpp -o CMakeFiles/miner.dir/miner/main.cpp.s
 
 # Object files for target miner
 miner_OBJECTS = \
@@ -174,8 +174,8 @@ src/miner: /usr/lib/x86_64-linux-gnu/libboost_chrono.a
 src/miner: /usr/lib/x86_64-linux-gnu/libboost_serialization.a
 src/miner: /usr/lib/x86_64-linux-gnu/libboost_atomic.a
 src/miner: src/CMakeFiles/miner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable miner"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/miner.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable miner"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/miner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/miner.dir/build: src/miner
@@ -183,10 +183,10 @@ src/CMakeFiles/miner.dir/build: src/miner
 .PHONY : src/CMakeFiles/miner.dir/build
 
 src/CMakeFiles/miner.dir/clean:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && $(CMAKE_COMMAND) -P CMakeFiles/miner.dir/cmake_clean.cmake
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && $(CMAKE_COMMAND) -P CMakeFiles/miner.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/miner.dir/clean
 
 src/CMakeFiles/miner.dir/depend:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution /home/experimental/evolution-coin/Evolution-V2/Evolution/src /home/experimental/evolution-coin/Evolution-V2/Evolution/build /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/miner.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution-V2 /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/miner.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/miner.dir/depend
 

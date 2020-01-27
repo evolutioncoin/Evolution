@@ -1244,7 +1244,7 @@ WalletTypes.h
 walletbackend/WalletSynchronizer.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletupgrader/Main.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletupgrader/Main.cpp
 iostream
 -
 config/CliHeader.h

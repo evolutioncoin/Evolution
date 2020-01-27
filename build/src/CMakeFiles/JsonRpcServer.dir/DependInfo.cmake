@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/src/jsonrpcserver/JsonRpcServer.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/JsonRpcServer.dir/jsonrpcserver/JsonRpcServer.cpp.o"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/jsonrpcserver/JsonRpcServer.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/JsonRpcServer.dir/jsonrpcserver/JsonRpcServer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

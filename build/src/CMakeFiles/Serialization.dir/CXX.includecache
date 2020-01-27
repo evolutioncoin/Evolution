@@ -1288,7 +1288,7 @@ serialization/ISerializer.h
 wallet/WalletGreen.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/JsonValue.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/JsonValue.h
 cstddef
 -
 cstdint
@@ -1300,9 +1300,9 @@ string
 vector
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/BinaryInputStreamSerializer.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/BinaryInputStreamSerializer.cpp
 BinaryInputStreamSerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/BinaryInputStreamSerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/BinaryInputStreamSerializer.h
 algorithm
 -
 cassert
@@ -1312,39 +1312,39 @@ stdexcept
 common/StreamTools.h
 -
 SerializationOverloads.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/SerializationOverloads.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/SerializationOverloads.h
 config/CryptoNoteConfig.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/BinaryInputStreamSerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/BinaryInputStreamSerializer.h
 common/IInputStream.h
 -
 ISerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/ISerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/ISerializer.h
 SerializationOverloads.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/SerializationOverloads.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/SerializationOverloads.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/BinaryOutputStreamSerializer.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/BinaryOutputStreamSerializer.cpp
 BinaryOutputStreamSerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/BinaryOutputStreamSerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/BinaryOutputStreamSerializer.h
 cassert
 -
 stdexcept
 -
 common/StreamTools.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/common/StreamTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/common/StreamTools.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/BinaryOutputStreamSerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/BinaryOutputStreamSerializer.h
 common/IOutputStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/common/IOutputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/common/IOutputStream.h
 ISerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/ISerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/ISerializer.h
 SerializationOverloads.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/SerializationOverloads.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/SerializationOverloads.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/BlockchainExplorerDataSerialization.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/BlockchainExplorerDataSerialization.cpp
 BlockchainExplorerDataSerialization.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/BlockchainExplorerDataSerialization.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/BlockchainExplorerDataSerialization.h
 stdexcept
 -
 boost/variant/static_visitor.hpp
@@ -1352,19 +1352,19 @@ boost/variant/static_visitor.hpp
 boost/variant/apply_visitor.hpp
 -
 serialization/CryptoNoteSerialization.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/serialization/CryptoNoteSerialization.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/serialization/CryptoNoteSerialization.h
 serialization/SerializationOverloads.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/serialization/SerializationOverloads.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/serialization/SerializationOverloads.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/BlockchainExplorerDataSerialization.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/BlockchainExplorerDataSerialization.h
 BlockchainExplorerData.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/BlockchainExplorerData.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/BlockchainExplorerData.h
 serialization/ISerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/serialization/ISerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/serialization/ISerializer.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/CryptoNoteSerialization.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/CryptoNoteSerialization.cpp
 CryptoNoteSerialization.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/CryptoNoteSerialization.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/CryptoNoteSerialization.h
 algorithm
 -
 sstream
@@ -1376,17 +1376,17 @@ boost/variant/static_visitor.hpp
 boost/variant/apply_visitor.hpp
 -
 serialization/ISerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/serialization/ISerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/serialization/ISerializer.h
 serialization/SerializationOverloads.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/serialization/SerializationOverloads.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/serialization/SerializationOverloads.h
 serialization/BinaryInputStreamSerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/serialization/BinaryInputStreamSerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/serialization/BinaryInputStreamSerializer.h
 serialization/BinaryOutputStreamSerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/serialization/BinaryOutputStreamSerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/serialization/BinaryOutputStreamSerializer.h
 common/StringOutputStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/common/StringOutputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/common/StringOutputStream.h
 crypto/crypto.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/crypto/crypto.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/crypto/crypto.h
 config/CryptoNoteConfig.h
 -
 common/CryptoNoteTools.h
@@ -1394,17 +1394,17 @@ common/CryptoNoteTools.h
 common/TransactionExtra.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/CryptoNoteSerialization.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/CryptoNoteSerialization.h
 CryptoNote.h
 -
 crypto/chacha8.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/crypto/chacha8.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/crypto/chacha8.h
 serialization/ISerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/serialization/ISerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/serialization/ISerializer.h
 crypto/crypto.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/crypto/crypto.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/crypto/crypto.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/ISerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/ISerializer.h
 string
 -
 cstdint
@@ -1412,55 +1412,55 @@ cstdint
 common/StringView.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/JsonInputStreamSerializer.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/JsonInputStreamSerializer.cpp
 serialization/JsonInputStreamSerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/serialization/JsonInputStreamSerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/serialization/JsonInputStreamSerializer.h
 ctype.h
 -
 exception
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/JsonInputValueSerializer.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/JsonInputValueSerializer.cpp
 JsonInputValueSerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/JsonInputValueSerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/JsonInputValueSerializer.h
 cassert
 -
 stdexcept
 -
 common/StringTools.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/common/StringTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/common/StringTools.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/JsonInputValueSerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/JsonInputValueSerializer.h
 common/JsonValue.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/common/JsonValue.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/common/JsonValue.h
 ISerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/ISerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/ISerializer.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/JsonOutputStreamSerializer.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/JsonOutputStreamSerializer.cpp
 JsonOutputStreamSerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/JsonOutputStreamSerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/JsonOutputStreamSerializer.h
 cassert
 -
 stdexcept
 -
 common/StringTools.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/common/StringTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/common/StringTools.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/JsonOutputStreamSerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/JsonOutputStreamSerializer.h
 iostream
 -
 ../common/JsonValue.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/JsonValue.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/JsonValue.h
 ISerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/ISerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/ISerializer.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/KVBinaryCommon.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/KVBinaryCommon.h
 cstdint
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/KVBinaryInputStreamSerializer.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/KVBinaryInputStreamSerializer.cpp
 KVBinaryInputStreamSerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/KVBinaryInputStreamSerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/KVBinaryInputStreamSerializer.h
 algorithm
 -
 cassert
@@ -1472,21 +1472,21 @@ stdexcept
 common/StreamTools.h
 -
 KVBinaryCommon.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/KVBinaryCommon.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/KVBinaryCommon.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/KVBinaryInputStreamSerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/KVBinaryInputStreamSerializer.h
 common/IInputStream.h
 -
 ISerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/ISerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/ISerializer.h
 JsonInputValueSerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/JsonInputValueSerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/JsonInputValueSerializer.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/KVBinaryOutputStreamSerializer.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/KVBinaryOutputStreamSerializer.cpp
 KVBinaryOutputStreamSerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/KVBinaryOutputStreamSerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/KVBinaryOutputStreamSerializer.h
 KVBinaryCommon.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/KVBinaryCommon.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/KVBinaryCommon.h
 cassert
 -
 stdexcept
@@ -1494,21 +1494,21 @@ stdexcept
 common/StreamTools.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/KVBinaryOutputStreamSerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/KVBinaryOutputStreamSerializer.h
 vector
 -
 common/IOutputStream.h
 -
 ISerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/ISerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/ISerializer.h
 MemoryStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/MemoryStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/MemoryStream.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/MemoryStream.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/MemoryStream.cpp
 MemoryStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/MemoryStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/MemoryStream.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/MemoryStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/MemoryStream.h
 algorithm
 -
 cstdint
@@ -1520,15 +1520,15 @@ vector
 common/IOutputStream.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/SerializationOverloads.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/SerializationOverloads.cpp
 serialization/SerializationOverloads.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/serialization/SerializationOverloads.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/serialization/SerializationOverloads.h
 limits
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/SerializationOverloads.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/SerializationOverloads.h
 ISerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/ISerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/ISerializer.h
 array
 -
 cstring

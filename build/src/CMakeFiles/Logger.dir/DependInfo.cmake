@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/src/logger/Logger.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/Logger.dir/logger/Logger.cpp.o"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/logger/Logger.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/Logger.dir/logger/Logger.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

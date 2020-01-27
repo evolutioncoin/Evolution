@@ -204,9 +204,9 @@ src/CMakeFiles/Evolutiond.dir/daemon/Daemon.cpp.o
  ../src/wallet/WalletGreen.h
  ../src/wallet/WalletIndices.h
  ../src/zedwallet/Types.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/daemon/Daemon.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/daemon/DaemonCommandsHandler.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/daemon/DaemonConfiguration.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/daemon/Daemon.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/daemon/DaemonCommandsHandler.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/daemon/DaemonConfiguration.h
  version/version.h
 src/CMakeFiles/Evolutiond.dir/daemon/DaemonCommandsHandler.cpp.o
  ../external/nlohmann-json/json.hpp
@@ -368,7 +368,7 @@ src/CMakeFiles/Evolutiond.dir/daemon/DaemonCommandsHandler.cpp.o
  ../src/wallet/WalletGreen.h
  ../src/wallet/WalletIndices.h
  ../src/zedwallet/Types.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/daemon/DaemonCommandsHandler.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/daemon/DaemonCommandsHandler.cpp
  version/version.h
 src/CMakeFiles/Evolutiond.dir/daemon/DaemonConfiguration.cpp.o
  ../external/cxxopts/cxxopts.hpp
@@ -411,6 +411,6 @@ src/CMakeFiles/Evolutiond.dir/daemon/DaemonConfiguration.cpp.o
  ../src/crypto/hash-ops.h
  ../src/crypto/hash.h
  ../src/logging/ILogger.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/daemon/DaemonConfiguration.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/daemon/DaemonConfiguration.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/daemon/DaemonConfiguration.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/daemon/DaemonConfiguration.h
  version/version.h

@@ -1952,29 +1952,29 @@ serialization/ISerializer.h
 wallet/WalletGreen.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/CoreRpcServerCommandsDefinitions.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/CoreRpcServerCommandsDefinitions.h
 BlockchainExplorerData.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/BlockchainExplorerData.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/BlockchainExplorerData.h
 crypto/hash.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/crypto/hash.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/crypto/hash.h
 cryptonotecore/CryptoNoteBasic.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/cryptonotecore/CryptoNoteBasic.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/cryptonotecore/CryptoNoteBasic.h
 cryptonotecore/Difficulty.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/cryptonotecore/Difficulty.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/cryptonotecore/Difficulty.h
 cryptonoteprotocol/CryptoNoteProtocolDefinitions.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/cryptonoteprotocol/CryptoNoteProtocolDefinitions.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/cryptonoteprotocol/CryptoNoteProtocolDefinitions.h
 serialization/BlockchainExplorerDataSerialization.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/serialization/BlockchainExplorerDataSerialization.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/serialization/BlockchainExplorerDataSerialization.h
 serialization/SerializationOverloads.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/serialization/SerializationOverloads.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/serialization/SerializationOverloads.h
 WalletTypes.h
 -
 cryptonotecore/ICoreDefinitions.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/HttpClient.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/HttpClient.cpp
 HttpClient.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/HttpClient.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/HttpClient.h
 http/HttpParser.h
 -
 system/Ipv4Resolver.h
@@ -1984,7 +1984,7 @@ system/Ipv4Address.h
 system/TcpConnector.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/HttpClient.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/HttpClient.h
 memory
 -
 http/HttpRequest.h
@@ -1996,11 +1996,11 @@ system/TcpConnection.h
 system/TcpStream.h
 -
 serialization/SerializationTools.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/serialization/SerializationTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/serialization/SerializationTools.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/HttpServer.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/HttpServer.cpp
 HttpServer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/HttpServer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/HttpServer.h
 boost/scope_exit.hpp
 -
 http/HttpParser.h
@@ -2012,7 +2012,7 @@ system/TcpStream.h
 system/Ipv4Address.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/HttpServer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/HttpServer.h
 unordered_set
 -
 http/HttpRequest.h
@@ -2032,13 +2032,13 @@ system/Event.h
 logging/LoggerRef.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/JsonRpc.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/JsonRpc.cpp
 JsonRpc.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/JsonRpc.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/JsonRpc.h
 rpc/HttpClient.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/rpc/HttpClient.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/rpc/HttpClient.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/JsonRpc.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/JsonRpc.h
 boost/optional.hpp
 -
 boost/foreach.hpp
@@ -2046,19 +2046,19 @@ boost/foreach.hpp
 functional
 -
 CoreRpcServerCommandsDefinitions.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/CoreRpcServerCommandsDefinitions.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/CoreRpcServerCommandsDefinitions.h
 common/JsonValue.h
 -
 serialization/ISerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/serialization/ISerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/serialization/ISerializer.h
 serialization/SerializationTools.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/serialization/SerializationTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/serialization/SerializationTools.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/RpcServer.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/RpcServer.cpp
 rpc/RpcServer.h
 -
 version.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/version.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/version.h
 cmath
 -
 common/CryptoNoteTools.h

@@ -66,9 +66,9 @@ src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorer.cpp.
  ../src/serialization/ISerializer.h
  ../src/serialization/SerializationOverloads.h
  ../src/wallet/WalletAsyncContextCounter.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/blockchainexplorer/BlockchainExplorer.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/blockchainexplorer/BlockchainExplorer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/blockchainexplorer/BlockchainExplorerErrors.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/blockchainexplorer/BlockchainExplorer.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/blockchainexplorer/BlockchainExplorer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/blockchainexplorer/BlockchainExplorerErrors.h
 src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.o
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/blockchainexplorer/BlockchainExplorerErrors.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/blockchainexplorer/BlockchainExplorerErrors.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/blockchainexplorer/BlockchainExplorerErrors.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/blockchainexplorer/BlockchainExplorerErrors.h

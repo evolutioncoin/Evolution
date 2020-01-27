@@ -48,10 +48,10 @@ RM = /usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution
+CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/build
+CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/progress.marks
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/progress.marks
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,17 +143,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # Convenience name for target.
 src/CMakeFiles/pool.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/pool.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/pool.dir/rule
 .PHONY : src/CMakeFiles/pool.dir/rule
 
 # Convenience name for target.
@@ -163,12 +163,12 @@ pool: src/CMakeFiles/pool.dir/rule
 
 # fast build rule for target.
 pool/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/pool.dir/build.make src/CMakeFiles/pool.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/pool.dir/build.make src/CMakeFiles/pool.dir/build
 .PHONY : pool/fast
 
 # Convenience name for target.
 src/CMakeFiles/zedwallet++.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/zedwallet++.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/zedwallet++.dir/rule
 .PHONY : src/CMakeFiles/zedwallet++.dir/rule
 
 # Convenience name for target.
@@ -178,12 +178,12 @@ zedwallet++: src/CMakeFiles/zedwallet++.dir/rule
 
 # fast build rule for target.
 zedwallet++/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/build
 .PHONY : zedwallet++/fast
 
 # Convenience name for target.
 src/CMakeFiles/WalletUpgrader.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/WalletUpgrader.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/WalletUpgrader.dir/rule
 .PHONY : src/CMakeFiles/WalletUpgrader.dir/rule
 
 # Convenience name for target.
@@ -193,12 +193,12 @@ WalletUpgrader: src/CMakeFiles/WalletUpgrader.dir/rule
 
 # fast build rule for target.
 WalletUpgrader/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletUpgrader.dir/build.make src/CMakeFiles/WalletUpgrader.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletUpgrader.dir/build.make src/CMakeFiles/WalletUpgrader.dir/build
 .PHONY : WalletUpgrader/fast
 
 # Convenience name for target.
 src/CMakeFiles/WalletApi.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/WalletApi.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/WalletApi.dir/rule
 .PHONY : src/CMakeFiles/WalletApi.dir/rule
 
 # Convenience name for target.
@@ -208,12 +208,12 @@ WalletApi: src/CMakeFiles/WalletApi.dir/rule
 
 # fast build rule for target.
 WalletApi/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/build
 .PHONY : WalletApi/fast
 
 # Convenience name for target.
 src/CMakeFiles/Evolutiond.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Evolutiond.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Evolutiond.dir/rule
 .PHONY : src/CMakeFiles/Evolutiond.dir/rule
 
 # Convenience name for target.
@@ -223,12 +223,12 @@ Evolutiond: src/CMakeFiles/Evolutiond.dir/rule
 
 # fast build rule for target.
 Evolutiond/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Evolutiond.dir/build.make src/CMakeFiles/Evolutiond.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Evolutiond.dir/build.make src/CMakeFiles/Evolutiond.dir/build
 .PHONY : Evolutiond/fast
 
 # Convenience name for target.
 src/CMakeFiles/WalletService.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/WalletService.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/WalletService.dir/rule
 .PHONY : src/CMakeFiles/WalletService.dir/rule
 
 # Convenience name for target.
@@ -238,12 +238,12 @@ WalletService: src/CMakeFiles/WalletService.dir/rule
 
 # fast build rule for target.
 WalletService/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/build
 .PHONY : WalletService/fast
 
 # Convenience name for target.
 src/CMakeFiles/Logging.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Logging.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Logging.dir/rule
 .PHONY : src/CMakeFiles/Logging.dir/rule
 
 # Convenience name for target.
@@ -253,12 +253,12 @@ Logging: src/CMakeFiles/Logging.dir/rule
 
 # fast build rule for target.
 Logging/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/build
 .PHONY : Logging/fast
 
 # Convenience name for target.
 src/CMakeFiles/Mnemonics.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Mnemonics.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Mnemonics.dir/rule
 .PHONY : src/CMakeFiles/Mnemonics.dir/rule
 
 # Convenience name for target.
@@ -268,12 +268,12 @@ Mnemonics: src/CMakeFiles/Mnemonics.dir/rule
 
 # fast build rule for target.
 Mnemonics/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Mnemonics.dir/build.make src/CMakeFiles/Mnemonics.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Mnemonics.dir/build.make src/CMakeFiles/Mnemonics.dir/build
 .PHONY : Mnemonics/fast
 
 # Convenience name for target.
 src/CMakeFiles/zedwallet.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/zedwallet.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/zedwallet.dir/rule
 .PHONY : src/CMakeFiles/zedwallet.dir/rule
 
 # Convenience name for target.
@@ -283,12 +283,12 @@ zedwallet: src/CMakeFiles/zedwallet.dir/rule
 
 # fast build rule for target.
 zedwallet/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/build
 .PHONY : zedwallet/fast
 
 # Convenience name for target.
 src/CMakeFiles/JsonRpcServer.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/JsonRpcServer.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/JsonRpcServer.dir/rule
 .PHONY : src/CMakeFiles/JsonRpcServer.dir/rule
 
 # Convenience name for target.
@@ -298,12 +298,12 @@ JsonRpcServer: src/CMakeFiles/JsonRpcServer.dir/rule
 
 # fast build rule for target.
 JsonRpcServer/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/JsonRpcServer.dir/build.make src/CMakeFiles/JsonRpcServer.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/JsonRpcServer.dir/build.make src/CMakeFiles/JsonRpcServer.dir/build
 .PHONY : JsonRpcServer/fast
 
 # Convenience name for target.
 src/CMakeFiles/Logger.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Logger.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Logger.dir/rule
 .PHONY : src/CMakeFiles/Logger.dir/rule
 
 # Convenience name for target.
@@ -313,12 +313,12 @@ Logger: src/CMakeFiles/Logger.dir/rule
 
 # fast build rule for target.
 Logger/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logger.dir/build.make src/CMakeFiles/Logger.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logger.dir/build.make src/CMakeFiles/Logger.dir/build
 .PHONY : Logger/fast
 
 # Convenience name for target.
 src/CMakeFiles/BlockchainExplorer.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/BlockchainExplorer.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/BlockchainExplorer.dir/rule
 .PHONY : src/CMakeFiles/BlockchainExplorer.dir/rule
 
 # Convenience name for target.
@@ -328,12 +328,12 @@ BlockchainExplorer: src/CMakeFiles/BlockchainExplorer.dir/rule
 
 # fast build rule for target.
 BlockchainExplorer/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/build
 .PHONY : BlockchainExplorer/fast
 
 # Convenience name for target.
 src/CMakeFiles/Wallet.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Wallet.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Wallet.dir/rule
 .PHONY : src/CMakeFiles/Wallet.dir/rule
 
 # Convenience name for target.
@@ -343,12 +343,12 @@ Wallet: src/CMakeFiles/Wallet.dir/rule
 
 # fast build rule for target.
 Wallet/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/build
 .PHONY : Wallet/fast
 
 # Convenience name for target.
 src/CMakeFiles/miner.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/miner.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/miner.dir/rule
 .PHONY : src/CMakeFiles/miner.dir/rule
 
 # Convenience name for target.
@@ -358,12 +358,12 @@ miner: src/CMakeFiles/miner.dir/rule
 
 # fast build rule for target.
 miner/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/build
 .PHONY : miner/fast
 
 # Convenience name for target.
 src/CMakeFiles/Errors.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Errors.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Errors.dir/rule
 .PHONY : src/CMakeFiles/Errors.dir/rule
 
 # Convenience name for target.
@@ -373,12 +373,12 @@ Errors: src/CMakeFiles/Errors.dir/rule
 
 # fast build rule for target.
 Errors/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Errors.dir/build.make src/CMakeFiles/Errors.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Errors.dir/build.make src/CMakeFiles/Errors.dir/build
 .PHONY : Errors/fast
 
 # Convenience name for target.
 src/CMakeFiles/P2P.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/P2P.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/P2P.dir/rule
 .PHONY : src/CMakeFiles/P2P.dir/rule
 
 # Convenience name for target.
@@ -388,12 +388,12 @@ P2P: src/CMakeFiles/P2P.dir/rule
 
 # fast build rule for target.
 P2P/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/build
 .PHONY : P2P/fast
 
 # Convenience name for target.
 src/CMakeFiles/Rpc.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Rpc.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Rpc.dir/rule
 .PHONY : src/CMakeFiles/Rpc.dir/rule
 
 # Convenience name for target.
@@ -403,12 +403,12 @@ Rpc: src/CMakeFiles/Rpc.dir/rule
 
 # fast build rule for target.
 Rpc/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/build
 .PHONY : Rpc/fast
 
 # Convenience name for target.
 src/CMakeFiles/Crypto.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Crypto.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Crypto.dir/rule
 .PHONY : src/CMakeFiles/Crypto.dir/rule
 
 # Convenience name for target.
@@ -418,12 +418,12 @@ Crypto: src/CMakeFiles/Crypto.dir/rule
 
 # fast build rule for target.
 Crypto/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/build
 .PHONY : Crypto/fast
 
 # Convenience name for target.
 src/CMakeFiles/Http.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Http.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Http.dir/rule
 .PHONY : src/CMakeFiles/Http.dir/rule
 
 # Convenience name for target.
@@ -433,12 +433,12 @@ Http: src/CMakeFiles/Http.dir/rule
 
 # fast build rule for target.
 Http/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/build
 .PHONY : Http/fast
 
 # Convenience name for target.
 src/CMakeFiles/Transfers.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Transfers.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Transfers.dir/rule
 .PHONY : src/CMakeFiles/Transfers.dir/rule
 
 # Convenience name for target.
@@ -448,12 +448,12 @@ Transfers: src/CMakeFiles/Transfers.dir/rule
 
 # fast build rule for target.
 Transfers/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/build
 .PHONY : Transfers/fast
 
 # Convenience name for target.
 src/CMakeFiles/Config.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Config.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Config.dir/rule
 .PHONY : src/CMakeFiles/Config.dir/rule
 
 # Convenience name for target.
@@ -463,12 +463,12 @@ Config: src/CMakeFiles/Config.dir/rule
 
 # fast build rule for target.
 Config/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Config.dir/build.make src/CMakeFiles/Config.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Config.dir/build.make src/CMakeFiles/Config.dir/build
 .PHONY : Config/fast
 
 # Convenience name for target.
 src/CMakeFiles/CryptoNoteCore.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/CryptoNoteCore.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/CryptoNoteCore.dir/rule
 .PHONY : src/CMakeFiles/CryptoNoteCore.dir/rule
 
 # Convenience name for target.
@@ -478,12 +478,12 @@ CryptoNoteCore: src/CMakeFiles/CryptoNoteCore.dir/rule
 
 # fast build rule for target.
 CryptoNoteCore/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/build
 .PHONY : CryptoNoteCore/fast
 
 # Convenience name for target.
 src/CMakeFiles/Common.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Common.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Common.dir/rule
 .PHONY : src/CMakeFiles/Common.dir/rule
 
 # Convenience name for target.
@@ -493,12 +493,12 @@ Common: src/CMakeFiles/Common.dir/rule
 
 # fast build rule for target.
 Common/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/build
 .PHONY : Common/fast
 
 # Convenience name for target.
 src/CMakeFiles/cli.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/cli.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/cli.dir/rule
 .PHONY : src/CMakeFiles/cli.dir/rule
 
 # Convenience name for target.
@@ -508,12 +508,12 @@ cli: src/CMakeFiles/cli.dir/rule
 
 # fast build rule for target.
 cli/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/cli.dir/build.make src/CMakeFiles/cli.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/cli.dir/build.make src/CMakeFiles/cli.dir/build
 .PHONY : cli/fast
 
 # Convenience name for target.
 src/CMakeFiles/solominer.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/solominer.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/solominer.dir/rule
 .PHONY : src/CMakeFiles/solominer.dir/rule
 
 # Convenience name for target.
@@ -523,12 +523,12 @@ solominer: src/CMakeFiles/solominer.dir/rule
 
 # fast build rule for target.
 solominer/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/solominer.dir/build.make src/CMakeFiles/solominer.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/solominer.dir/build.make src/CMakeFiles/solominer.dir/build
 .PHONY : solominer/fast
 
 # Convenience name for target.
 src/CMakeFiles/Nigel.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Nigel.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Nigel.dir/rule
 .PHONY : src/CMakeFiles/Nigel.dir/rule
 
 # Convenience name for target.
@@ -538,12 +538,12 @@ Nigel: src/CMakeFiles/Nigel.dir/rule
 
 # fast build rule for target.
 Nigel/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Nigel.dir/build.make src/CMakeFiles/Nigel.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Nigel.dir/build.make src/CMakeFiles/Nigel.dir/build
 .PHONY : Nigel/fast
 
 # Convenience name for target.
 src/CMakeFiles/NodeRpcProxy.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/NodeRpcProxy.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/NodeRpcProxy.dir/rule
 .PHONY : src/CMakeFiles/NodeRpcProxy.dir/rule
 
 # Convenience name for target.
@@ -553,12 +553,12 @@ NodeRpcProxy: src/CMakeFiles/NodeRpcProxy.dir/rule
 
 # fast build rule for target.
 NodeRpcProxy/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/build
 .PHONY : NodeRpcProxy/fast
 
 # Convenience name for target.
 src/CMakeFiles/Serialization.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Serialization.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Serialization.dir/rule
 .PHONY : src/CMakeFiles/Serialization.dir/rule
 
 # Convenience name for target.
@@ -568,12 +568,12 @@ Serialization: src/CMakeFiles/Serialization.dir/rule
 
 # fast build rule for target.
 Serialization/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/build
 .PHONY : Serialization/fast
 
 # Convenience name for target.
 src/CMakeFiles/cryptotest.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/cryptotest.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/cryptotest.dir/rule
 .PHONY : src/CMakeFiles/cryptotest.dir/rule
 
 # Convenience name for target.
@@ -583,12 +583,12 @@ cryptotest: src/CMakeFiles/cryptotest.dir/rule
 
 # fast build rule for target.
 cryptotest/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/cryptotest.dir/build.make src/CMakeFiles/cryptotest.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/cryptotest.dir/build.make src/CMakeFiles/cryptotest.dir/build
 .PHONY : cryptotest/fast
 
 # Convenience name for target.
 src/CMakeFiles/System.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/System.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/System.dir/rule
 .PHONY : src/CMakeFiles/System.dir/rule
 
 # Convenience name for target.
@@ -598,12 +598,12 @@ System: src/CMakeFiles/System.dir/rule
 
 # fast build rule for target.
 System/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/build
 .PHONY : System/fast
 
 # Convenience name for target.
 src/CMakeFiles/Utilities.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Utilities.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Utilities.dir/rule
 .PHONY : src/CMakeFiles/Utilities.dir/rule
 
 # Convenience name for target.
@@ -613,12 +613,12 @@ Utilities: src/CMakeFiles/Utilities.dir/rule
 
 # fast build rule for target.
 Utilities/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/build
 .PHONY : Utilities/fast
 
 # Convenience name for target.
 src/CMakeFiles/SubWallets.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/SubWallets.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/SubWallets.dir/rule
 .PHONY : src/CMakeFiles/SubWallets.dir/rule
 
 # Convenience name for target.
@@ -628,12 +628,12 @@ SubWallets: src/CMakeFiles/SubWallets.dir/rule
 
 # fast build rule for target.
 SubWallets/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/SubWallets.dir/build.make src/CMakeFiles/SubWallets.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/SubWallets.dir/build.make src/CMakeFiles/SubWallets.dir/build
 .PHONY : SubWallets/fast
 
 # Convenience name for target.
 src/CMakeFiles/WalletBackend.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/WalletBackend.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/WalletBackend.dir/rule
 .PHONY : src/CMakeFiles/WalletBackend.dir/rule
 
 # Convenience name for target.
@@ -643,7 +643,7 @@ WalletBackend: src/CMakeFiles/WalletBackend.dir/rule
 
 # fast build rule for target.
 WalletBackend/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/build
 .PHONY : WalletBackend/fast
 
 blockchainexplorer/BlockchainExplorer.o: blockchainexplorer/BlockchainExplorer.cpp.o
@@ -652,7 +652,7 @@ blockchainexplorer/BlockchainExplorer.o: blockchainexplorer/BlockchainExplorer.c
 
 # target to build an object file
 blockchainexplorer/BlockchainExplorer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorer.cpp.o
 .PHONY : blockchainexplorer/BlockchainExplorer.cpp.o
 
 blockchainexplorer/BlockchainExplorer.i: blockchainexplorer/BlockchainExplorer.cpp.i
@@ -661,7 +661,7 @@ blockchainexplorer/BlockchainExplorer.i: blockchainexplorer/BlockchainExplorer.c
 
 # target to preprocess a source file
 blockchainexplorer/BlockchainExplorer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorer.cpp.i
 .PHONY : blockchainexplorer/BlockchainExplorer.cpp.i
 
 blockchainexplorer/BlockchainExplorer.s: blockchainexplorer/BlockchainExplorer.cpp.s
@@ -670,7 +670,7 @@ blockchainexplorer/BlockchainExplorer.s: blockchainexplorer/BlockchainExplorer.c
 
 # target to generate assembly for a file
 blockchainexplorer/BlockchainExplorer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorer.cpp.s
 .PHONY : blockchainexplorer/BlockchainExplorer.cpp.s
 
 blockchainexplorer/BlockchainExplorerErrors.o: blockchainexplorer/BlockchainExplorerErrors.cpp.o
@@ -679,7 +679,7 @@ blockchainexplorer/BlockchainExplorerErrors.o: blockchainexplorer/BlockchainExpl
 
 # target to build an object file
 blockchainexplorer/BlockchainExplorerErrors.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.o
 .PHONY : blockchainexplorer/BlockchainExplorerErrors.cpp.o
 
 blockchainexplorer/BlockchainExplorerErrors.i: blockchainexplorer/BlockchainExplorerErrors.cpp.i
@@ -688,7 +688,7 @@ blockchainexplorer/BlockchainExplorerErrors.i: blockchainexplorer/BlockchainExpl
 
 # target to preprocess a source file
 blockchainexplorer/BlockchainExplorerErrors.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.i
 .PHONY : blockchainexplorer/BlockchainExplorerErrors.cpp.i
 
 blockchainexplorer/BlockchainExplorerErrors.s: blockchainexplorer/BlockchainExplorerErrors.cpp.s
@@ -697,7 +697,7 @@ blockchainexplorer/BlockchainExplorerErrors.s: blockchainexplorer/BlockchainExpl
 
 # target to generate assembly for a file
 blockchainexplorer/BlockchainExplorerErrors.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.s
 .PHONY : blockchainexplorer/BlockchainExplorerErrors.cpp.s
 
 common/Base58.o: common/Base58.cpp.o
@@ -706,7 +706,7 @@ common/Base58.o: common/Base58.cpp.o
 
 # target to build an object file
 common/Base58.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/Base58.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/Base58.cpp.o
 .PHONY : common/Base58.cpp.o
 
 common/Base58.i: common/Base58.cpp.i
@@ -715,7 +715,7 @@ common/Base58.i: common/Base58.cpp.i
 
 # target to preprocess a source file
 common/Base58.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/Base58.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/Base58.cpp.i
 .PHONY : common/Base58.cpp.i
 
 common/Base58.s: common/Base58.cpp.s
@@ -724,7 +724,7 @@ common/Base58.s: common/Base58.cpp.s
 
 # target to generate assembly for a file
 common/Base58.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/Base58.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/Base58.cpp.s
 .PHONY : common/Base58.cpp.s
 
 common/BlockingQueue.o: common/BlockingQueue.cpp.o
@@ -733,7 +733,7 @@ common/BlockingQueue.o: common/BlockingQueue.cpp.o
 
 # target to build an object file
 common/BlockingQueue.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/BlockingQueue.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/BlockingQueue.cpp.o
 .PHONY : common/BlockingQueue.cpp.o
 
 common/BlockingQueue.i: common/BlockingQueue.cpp.i
@@ -742,7 +742,7 @@ common/BlockingQueue.i: common/BlockingQueue.cpp.i
 
 # target to preprocess a source file
 common/BlockingQueue.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/BlockingQueue.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/BlockingQueue.cpp.i
 .PHONY : common/BlockingQueue.cpp.i
 
 common/BlockingQueue.s: common/BlockingQueue.cpp.s
@@ -751,7 +751,7 @@ common/BlockingQueue.s: common/BlockingQueue.cpp.s
 
 # target to generate assembly for a file
 common/BlockingQueue.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/BlockingQueue.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/BlockingQueue.cpp.s
 .PHONY : common/BlockingQueue.cpp.s
 
 common/CheckDifficulty.o: common/CheckDifficulty.cpp.o
@@ -760,7 +760,7 @@ common/CheckDifficulty.o: common/CheckDifficulty.cpp.o
 
 # target to build an object file
 common/CheckDifficulty.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/CheckDifficulty.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/CheckDifficulty.cpp.o
 .PHONY : common/CheckDifficulty.cpp.o
 
 common/CheckDifficulty.i: common/CheckDifficulty.cpp.i
@@ -769,7 +769,7 @@ common/CheckDifficulty.i: common/CheckDifficulty.cpp.i
 
 # target to preprocess a source file
 common/CheckDifficulty.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/CheckDifficulty.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/CheckDifficulty.cpp.i
 .PHONY : common/CheckDifficulty.cpp.i
 
 common/CheckDifficulty.s: common/CheckDifficulty.cpp.s
@@ -778,7 +778,7 @@ common/CheckDifficulty.s: common/CheckDifficulty.cpp.s
 
 # target to generate assembly for a file
 common/CheckDifficulty.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/CheckDifficulty.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/CheckDifficulty.cpp.s
 .PHONY : common/CheckDifficulty.cpp.s
 
 common/ConsoleHandler.o: common/ConsoleHandler.cpp.o
@@ -787,7 +787,7 @@ common/ConsoleHandler.o: common/ConsoleHandler.cpp.o
 
 # target to build an object file
 common/ConsoleHandler.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ConsoleHandler.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ConsoleHandler.cpp.o
 .PHONY : common/ConsoleHandler.cpp.o
 
 common/ConsoleHandler.i: common/ConsoleHandler.cpp.i
@@ -796,7 +796,7 @@ common/ConsoleHandler.i: common/ConsoleHandler.cpp.i
 
 # target to preprocess a source file
 common/ConsoleHandler.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ConsoleHandler.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ConsoleHandler.cpp.i
 .PHONY : common/ConsoleHandler.cpp.i
 
 common/ConsoleHandler.s: common/ConsoleHandler.cpp.s
@@ -805,7 +805,7 @@ common/ConsoleHandler.s: common/ConsoleHandler.cpp.s
 
 # target to generate assembly for a file
 common/ConsoleHandler.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ConsoleHandler.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ConsoleHandler.cpp.s
 .PHONY : common/ConsoleHandler.cpp.s
 
 common/ConsoleTools.o: common/ConsoleTools.cpp.o
@@ -814,7 +814,7 @@ common/ConsoleTools.o: common/ConsoleTools.cpp.o
 
 # target to build an object file
 common/ConsoleTools.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ConsoleTools.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ConsoleTools.cpp.o
 .PHONY : common/ConsoleTools.cpp.o
 
 common/ConsoleTools.i: common/ConsoleTools.cpp.i
@@ -823,7 +823,7 @@ common/ConsoleTools.i: common/ConsoleTools.cpp.i
 
 # target to preprocess a source file
 common/ConsoleTools.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ConsoleTools.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ConsoleTools.cpp.i
 .PHONY : common/ConsoleTools.cpp.i
 
 common/ConsoleTools.s: common/ConsoleTools.cpp.s
@@ -832,7 +832,7 @@ common/ConsoleTools.s: common/ConsoleTools.cpp.s
 
 # target to generate assembly for a file
 common/ConsoleTools.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ConsoleTools.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ConsoleTools.cpp.s
 .PHONY : common/ConsoleTools.cpp.s
 
 common/CryptoNoteTools.o: common/CryptoNoteTools.cpp.o
@@ -841,7 +841,7 @@ common/CryptoNoteTools.o: common/CryptoNoteTools.cpp.o
 
 # target to build an object file
 common/CryptoNoteTools.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/CryptoNoteTools.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/CryptoNoteTools.cpp.o
 .PHONY : common/CryptoNoteTools.cpp.o
 
 common/CryptoNoteTools.i: common/CryptoNoteTools.cpp.i
@@ -850,7 +850,7 @@ common/CryptoNoteTools.i: common/CryptoNoteTools.cpp.i
 
 # target to preprocess a source file
 common/CryptoNoteTools.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/CryptoNoteTools.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/CryptoNoteTools.cpp.i
 .PHONY : common/CryptoNoteTools.cpp.i
 
 common/CryptoNoteTools.s: common/CryptoNoteTools.cpp.s
@@ -859,7 +859,7 @@ common/CryptoNoteTools.s: common/CryptoNoteTools.cpp.s
 
 # target to generate assembly for a file
 common/CryptoNoteTools.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/CryptoNoteTools.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/CryptoNoteTools.cpp.s
 .PHONY : common/CryptoNoteTools.cpp.s
 
 common/FileMappedVector.o: common/FileMappedVector.cpp.o
@@ -868,7 +868,7 @@ common/FileMappedVector.o: common/FileMappedVector.cpp.o
 
 # target to build an object file
 common/FileMappedVector.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/FileMappedVector.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/FileMappedVector.cpp.o
 .PHONY : common/FileMappedVector.cpp.o
 
 common/FileMappedVector.i: common/FileMappedVector.cpp.i
@@ -877,7 +877,7 @@ common/FileMappedVector.i: common/FileMappedVector.cpp.i
 
 # target to preprocess a source file
 common/FileMappedVector.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/FileMappedVector.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/FileMappedVector.cpp.i
 .PHONY : common/FileMappedVector.cpp.i
 
 common/FileMappedVector.s: common/FileMappedVector.cpp.s
@@ -886,7 +886,7 @@ common/FileMappedVector.s: common/FileMappedVector.cpp.s
 
 # target to generate assembly for a file
 common/FileMappedVector.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/FileMappedVector.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/FileMappedVector.cpp.s
 .PHONY : common/FileMappedVector.cpp.s
 
 common/IInputStream.o: common/IInputStream.cpp.o
@@ -895,7 +895,7 @@ common/IInputStream.o: common/IInputStream.cpp.o
 
 # target to build an object file
 common/IInputStream.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/IInputStream.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/IInputStream.cpp.o
 .PHONY : common/IInputStream.cpp.o
 
 common/IInputStream.i: common/IInputStream.cpp.i
@@ -904,7 +904,7 @@ common/IInputStream.i: common/IInputStream.cpp.i
 
 # target to preprocess a source file
 common/IInputStream.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/IInputStream.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/IInputStream.cpp.i
 .PHONY : common/IInputStream.cpp.i
 
 common/IInputStream.s: common/IInputStream.cpp.s
@@ -913,7 +913,7 @@ common/IInputStream.s: common/IInputStream.cpp.s
 
 # target to generate assembly for a file
 common/IInputStream.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/IInputStream.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/IInputStream.cpp.s
 .PHONY : common/IInputStream.cpp.s
 
 common/IOutputStream.o: common/IOutputStream.cpp.o
@@ -922,7 +922,7 @@ common/IOutputStream.o: common/IOutputStream.cpp.o
 
 # target to build an object file
 common/IOutputStream.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/IOutputStream.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/IOutputStream.cpp.o
 .PHONY : common/IOutputStream.cpp.o
 
 common/IOutputStream.i: common/IOutputStream.cpp.i
@@ -931,7 +931,7 @@ common/IOutputStream.i: common/IOutputStream.cpp.i
 
 # target to preprocess a source file
 common/IOutputStream.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/IOutputStream.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/IOutputStream.cpp.i
 .PHONY : common/IOutputStream.cpp.i
 
 common/IOutputStream.s: common/IOutputStream.cpp.s
@@ -940,7 +940,7 @@ common/IOutputStream.s: common/IOutputStream.cpp.s
 
 # target to generate assembly for a file
 common/IOutputStream.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/IOutputStream.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/IOutputStream.cpp.s
 .PHONY : common/IOutputStream.cpp.s
 
 common/JsonValue.o: common/JsonValue.cpp.o
@@ -949,7 +949,7 @@ common/JsonValue.o: common/JsonValue.cpp.o
 
 # target to build an object file
 common/JsonValue.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/JsonValue.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/JsonValue.cpp.o
 .PHONY : common/JsonValue.cpp.o
 
 common/JsonValue.i: common/JsonValue.cpp.i
@@ -958,7 +958,7 @@ common/JsonValue.i: common/JsonValue.cpp.i
 
 # target to preprocess a source file
 common/JsonValue.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/JsonValue.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/JsonValue.cpp.i
 .PHONY : common/JsonValue.cpp.i
 
 common/JsonValue.s: common/JsonValue.cpp.s
@@ -967,7 +967,7 @@ common/JsonValue.s: common/JsonValue.cpp.s
 
 # target to generate assembly for a file
 common/JsonValue.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/JsonValue.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/JsonValue.cpp.s
 .PHONY : common/JsonValue.cpp.s
 
 common/Math.o: common/Math.cpp.o
@@ -976,7 +976,7 @@ common/Math.o: common/Math.cpp.o
 
 # target to build an object file
 common/Math.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/Math.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/Math.cpp.o
 .PHONY : common/Math.cpp.o
 
 common/Math.i: common/Math.cpp.i
@@ -985,7 +985,7 @@ common/Math.i: common/Math.cpp.i
 
 # target to preprocess a source file
 common/Math.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/Math.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/Math.cpp.i
 .PHONY : common/Math.cpp.i
 
 common/Math.s: common/Math.cpp.s
@@ -994,7 +994,7 @@ common/Math.s: common/Math.cpp.s
 
 # target to generate assembly for a file
 common/Math.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/Math.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/Math.cpp.s
 .PHONY : common/Math.cpp.s
 
 common/MemoryInputStream.o: common/MemoryInputStream.cpp.o
@@ -1003,7 +1003,7 @@ common/MemoryInputStream.o: common/MemoryInputStream.cpp.o
 
 # target to build an object file
 common/MemoryInputStream.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/MemoryInputStream.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/MemoryInputStream.cpp.o
 .PHONY : common/MemoryInputStream.cpp.o
 
 common/MemoryInputStream.i: common/MemoryInputStream.cpp.i
@@ -1012,7 +1012,7 @@ common/MemoryInputStream.i: common/MemoryInputStream.cpp.i
 
 # target to preprocess a source file
 common/MemoryInputStream.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/MemoryInputStream.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/MemoryInputStream.cpp.i
 .PHONY : common/MemoryInputStream.cpp.i
 
 common/MemoryInputStream.s: common/MemoryInputStream.cpp.s
@@ -1021,7 +1021,7 @@ common/MemoryInputStream.s: common/MemoryInputStream.cpp.s
 
 # target to generate assembly for a file
 common/MemoryInputStream.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/MemoryInputStream.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/MemoryInputStream.cpp.s
 .PHONY : common/MemoryInputStream.cpp.s
 
 common/PathTools.o: common/PathTools.cpp.o
@@ -1030,7 +1030,7 @@ common/PathTools.o: common/PathTools.cpp.o
 
 # target to build an object file
 common/PathTools.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/PathTools.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/PathTools.cpp.o
 .PHONY : common/PathTools.cpp.o
 
 common/PathTools.i: common/PathTools.cpp.i
@@ -1039,7 +1039,7 @@ common/PathTools.i: common/PathTools.cpp.i
 
 # target to preprocess a source file
 common/PathTools.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/PathTools.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/PathTools.cpp.i
 .PHONY : common/PathTools.cpp.i
 
 common/PathTools.s: common/PathTools.cpp.s
@@ -1048,7 +1048,7 @@ common/PathTools.s: common/PathTools.cpp.s
 
 # target to generate assembly for a file
 common/PathTools.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/PathTools.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/PathTools.cpp.s
 .PHONY : common/PathTools.cpp.s
 
 common/ScopeExit.o: common/ScopeExit.cpp.o
@@ -1057,7 +1057,7 @@ common/ScopeExit.o: common/ScopeExit.cpp.o
 
 # target to build an object file
 common/ScopeExit.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ScopeExit.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ScopeExit.cpp.o
 .PHONY : common/ScopeExit.cpp.o
 
 common/ScopeExit.i: common/ScopeExit.cpp.i
@@ -1066,7 +1066,7 @@ common/ScopeExit.i: common/ScopeExit.cpp.i
 
 # target to preprocess a source file
 common/ScopeExit.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ScopeExit.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ScopeExit.cpp.i
 .PHONY : common/ScopeExit.cpp.i
 
 common/ScopeExit.s: common/ScopeExit.cpp.s
@@ -1075,7 +1075,7 @@ common/ScopeExit.s: common/ScopeExit.cpp.s
 
 # target to generate assembly for a file
 common/ScopeExit.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ScopeExit.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ScopeExit.cpp.s
 .PHONY : common/ScopeExit.cpp.s
 
 common/SignalHandler.o: common/SignalHandler.cpp.o
@@ -1084,7 +1084,7 @@ common/SignalHandler.o: common/SignalHandler.cpp.o
 
 # target to build an object file
 common/SignalHandler.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/SignalHandler.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/SignalHandler.cpp.o
 .PHONY : common/SignalHandler.cpp.o
 
 common/SignalHandler.i: common/SignalHandler.cpp.i
@@ -1093,7 +1093,7 @@ common/SignalHandler.i: common/SignalHandler.cpp.i
 
 # target to preprocess a source file
 common/SignalHandler.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/SignalHandler.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/SignalHandler.cpp.i
 .PHONY : common/SignalHandler.cpp.i
 
 common/SignalHandler.s: common/SignalHandler.cpp.s
@@ -1102,7 +1102,7 @@ common/SignalHandler.s: common/SignalHandler.cpp.s
 
 # target to generate assembly for a file
 common/SignalHandler.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/SignalHandler.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/SignalHandler.cpp.s
 .PHONY : common/SignalHandler.cpp.s
 
 common/StdInputStream.o: common/StdInputStream.cpp.o
@@ -1111,7 +1111,7 @@ common/StdInputStream.o: common/StdInputStream.cpp.o
 
 # target to build an object file
 common/StdInputStream.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StdInputStream.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StdInputStream.cpp.o
 .PHONY : common/StdInputStream.cpp.o
 
 common/StdInputStream.i: common/StdInputStream.cpp.i
@@ -1120,7 +1120,7 @@ common/StdInputStream.i: common/StdInputStream.cpp.i
 
 # target to preprocess a source file
 common/StdInputStream.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StdInputStream.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StdInputStream.cpp.i
 .PHONY : common/StdInputStream.cpp.i
 
 common/StdInputStream.s: common/StdInputStream.cpp.s
@@ -1129,7 +1129,7 @@ common/StdInputStream.s: common/StdInputStream.cpp.s
 
 # target to generate assembly for a file
 common/StdInputStream.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StdInputStream.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StdInputStream.cpp.s
 .PHONY : common/StdInputStream.cpp.s
 
 common/StdOutputStream.o: common/StdOutputStream.cpp.o
@@ -1138,7 +1138,7 @@ common/StdOutputStream.o: common/StdOutputStream.cpp.o
 
 # target to build an object file
 common/StdOutputStream.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StdOutputStream.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StdOutputStream.cpp.o
 .PHONY : common/StdOutputStream.cpp.o
 
 common/StdOutputStream.i: common/StdOutputStream.cpp.i
@@ -1147,7 +1147,7 @@ common/StdOutputStream.i: common/StdOutputStream.cpp.i
 
 # target to preprocess a source file
 common/StdOutputStream.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StdOutputStream.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StdOutputStream.cpp.i
 .PHONY : common/StdOutputStream.cpp.i
 
 common/StdOutputStream.s: common/StdOutputStream.cpp.s
@@ -1156,7 +1156,7 @@ common/StdOutputStream.s: common/StdOutputStream.cpp.s
 
 # target to generate assembly for a file
 common/StdOutputStream.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StdOutputStream.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StdOutputStream.cpp.s
 .PHONY : common/StdOutputStream.cpp.s
 
 common/StreamTools.o: common/StreamTools.cpp.o
@@ -1165,7 +1165,7 @@ common/StreamTools.o: common/StreamTools.cpp.o
 
 # target to build an object file
 common/StreamTools.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StreamTools.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StreamTools.cpp.o
 .PHONY : common/StreamTools.cpp.o
 
 common/StreamTools.i: common/StreamTools.cpp.i
@@ -1174,7 +1174,7 @@ common/StreamTools.i: common/StreamTools.cpp.i
 
 # target to preprocess a source file
 common/StreamTools.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StreamTools.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StreamTools.cpp.i
 .PHONY : common/StreamTools.cpp.i
 
 common/StreamTools.s: common/StreamTools.cpp.s
@@ -1183,7 +1183,7 @@ common/StreamTools.s: common/StreamTools.cpp.s
 
 # target to generate assembly for a file
 common/StreamTools.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StreamTools.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StreamTools.cpp.s
 .PHONY : common/StreamTools.cpp.s
 
 common/StringInputStream.o: common/StringInputStream.cpp.o
@@ -1192,7 +1192,7 @@ common/StringInputStream.o: common/StringInputStream.cpp.o
 
 # target to build an object file
 common/StringInputStream.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringInputStream.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringInputStream.cpp.o
 .PHONY : common/StringInputStream.cpp.o
 
 common/StringInputStream.i: common/StringInputStream.cpp.i
@@ -1201,7 +1201,7 @@ common/StringInputStream.i: common/StringInputStream.cpp.i
 
 # target to preprocess a source file
 common/StringInputStream.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringInputStream.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringInputStream.cpp.i
 .PHONY : common/StringInputStream.cpp.i
 
 common/StringInputStream.s: common/StringInputStream.cpp.s
@@ -1210,7 +1210,7 @@ common/StringInputStream.s: common/StringInputStream.cpp.s
 
 # target to generate assembly for a file
 common/StringInputStream.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringInputStream.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringInputStream.cpp.s
 .PHONY : common/StringInputStream.cpp.s
 
 common/StringOutputStream.o: common/StringOutputStream.cpp.o
@@ -1219,7 +1219,7 @@ common/StringOutputStream.o: common/StringOutputStream.cpp.o
 
 # target to build an object file
 common/StringOutputStream.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringOutputStream.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringOutputStream.cpp.o
 .PHONY : common/StringOutputStream.cpp.o
 
 common/StringOutputStream.i: common/StringOutputStream.cpp.i
@@ -1228,7 +1228,7 @@ common/StringOutputStream.i: common/StringOutputStream.cpp.i
 
 # target to preprocess a source file
 common/StringOutputStream.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringOutputStream.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringOutputStream.cpp.i
 .PHONY : common/StringOutputStream.cpp.i
 
 common/StringOutputStream.s: common/StringOutputStream.cpp.s
@@ -1237,7 +1237,7 @@ common/StringOutputStream.s: common/StringOutputStream.cpp.s
 
 # target to generate assembly for a file
 common/StringOutputStream.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringOutputStream.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringOutputStream.cpp.s
 .PHONY : common/StringOutputStream.cpp.s
 
 common/StringTools.o: common/StringTools.cpp.o
@@ -1246,7 +1246,7 @@ common/StringTools.o: common/StringTools.cpp.o
 
 # target to build an object file
 common/StringTools.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringTools.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringTools.cpp.o
 .PHONY : common/StringTools.cpp.o
 
 common/StringTools.i: common/StringTools.cpp.i
@@ -1255,7 +1255,7 @@ common/StringTools.i: common/StringTools.cpp.i
 
 # target to preprocess a source file
 common/StringTools.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringTools.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringTools.cpp.i
 .PHONY : common/StringTools.cpp.i
 
 common/StringTools.s: common/StringTools.cpp.s
@@ -1264,7 +1264,7 @@ common/StringTools.s: common/StringTools.cpp.s
 
 # target to generate assembly for a file
 common/StringTools.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringTools.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringTools.cpp.s
 .PHONY : common/StringTools.cpp.s
 
 common/StringView.o: common/StringView.cpp.o
@@ -1273,7 +1273,7 @@ common/StringView.o: common/StringView.cpp.o
 
 # target to build an object file
 common/StringView.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringView.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringView.cpp.o
 .PHONY : common/StringView.cpp.o
 
 common/StringView.i: common/StringView.cpp.i
@@ -1282,7 +1282,7 @@ common/StringView.i: common/StringView.cpp.i
 
 # target to preprocess a source file
 common/StringView.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringView.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringView.cpp.i
 .PHONY : common/StringView.cpp.i
 
 common/StringView.s: common/StringView.cpp.s
@@ -1291,7 +1291,7 @@ common/StringView.s: common/StringView.cpp.s
 
 # target to generate assembly for a file
 common/StringView.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringView.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringView.cpp.s
 .PHONY : common/StringView.cpp.s
 
 common/TransactionExtra.o: common/TransactionExtra.cpp.o
@@ -1300,7 +1300,7 @@ common/TransactionExtra.o: common/TransactionExtra.cpp.o
 
 # target to build an object file
 common/TransactionExtra.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/TransactionExtra.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/TransactionExtra.cpp.o
 .PHONY : common/TransactionExtra.cpp.o
 
 common/TransactionExtra.i: common/TransactionExtra.cpp.i
@@ -1309,7 +1309,7 @@ common/TransactionExtra.i: common/TransactionExtra.cpp.i
 
 # target to preprocess a source file
 common/TransactionExtra.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/TransactionExtra.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/TransactionExtra.cpp.i
 .PHONY : common/TransactionExtra.cpp.i
 
 common/TransactionExtra.s: common/TransactionExtra.cpp.s
@@ -1318,7 +1318,7 @@ common/TransactionExtra.s: common/TransactionExtra.cpp.s
 
 # target to generate assembly for a file
 common/TransactionExtra.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/TransactionExtra.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/TransactionExtra.cpp.s
 .PHONY : common/TransactionExtra.cpp.s
 
 common/Util.o: common/Util.cpp.o
@@ -1327,7 +1327,7 @@ common/Util.o: common/Util.cpp.o
 
 # target to build an object file
 common/Util.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/Util.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/Util.cpp.o
 .PHONY : common/Util.cpp.o
 
 common/Util.i: common/Util.cpp.i
@@ -1336,7 +1336,7 @@ common/Util.i: common/Util.cpp.i
 
 # target to preprocess a source file
 common/Util.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/Util.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/Util.cpp.i
 .PHONY : common/Util.cpp.i
 
 common/Util.s: common/Util.cpp.s
@@ -1345,7 +1345,7 @@ common/Util.s: common/Util.cpp.s
 
 # target to generate assembly for a file
 common/Util.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/Util.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/Util.cpp.s
 .PHONY : common/Util.cpp.s
 
 common/VectorOutputStream.o: common/VectorOutputStream.cpp.o
@@ -1354,7 +1354,7 @@ common/VectorOutputStream.o: common/VectorOutputStream.cpp.o
 
 # target to build an object file
 common/VectorOutputStream.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/VectorOutputStream.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/VectorOutputStream.cpp.o
 .PHONY : common/VectorOutputStream.cpp.o
 
 common/VectorOutputStream.i: common/VectorOutputStream.cpp.i
@@ -1363,7 +1363,7 @@ common/VectorOutputStream.i: common/VectorOutputStream.cpp.i
 
 # target to preprocess a source file
 common/VectorOutputStream.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/VectorOutputStream.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/VectorOutputStream.cpp.i
 .PHONY : common/VectorOutputStream.cpp.i
 
 common/VectorOutputStream.s: common/VectorOutputStream.cpp.s
@@ -1372,7 +1372,7 @@ common/VectorOutputStream.s: common/VectorOutputStream.cpp.s
 
 # target to generate assembly for a file
 common/VectorOutputStream.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/VectorOutputStream.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/VectorOutputStream.cpp.s
 .PHONY : common/VectorOutputStream.cpp.s
 
 config/Config.o: config/Config.cpp.o
@@ -1381,7 +1381,7 @@ config/Config.o: config/Config.cpp.o
 
 # target to build an object file
 config/Config.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Config.dir/build.make src/CMakeFiles/Config.dir/config/Config.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Config.dir/build.make src/CMakeFiles/Config.dir/config/Config.cpp.o
 .PHONY : config/Config.cpp.o
 
 config/Config.i: config/Config.cpp.i
@@ -1390,7 +1390,7 @@ config/Config.i: config/Config.cpp.i
 
 # target to preprocess a source file
 config/Config.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Config.dir/build.make src/CMakeFiles/Config.dir/config/Config.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Config.dir/build.make src/CMakeFiles/Config.dir/config/Config.cpp.i
 .PHONY : config/Config.cpp.i
 
 config/Config.s: config/Config.cpp.s
@@ -1399,7 +1399,7 @@ config/Config.s: config/Config.cpp.s
 
 # target to generate assembly for a file
 config/Config.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Config.dir/build.make src/CMakeFiles/Config.dir/config/Config.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Config.dir/build.make src/CMakeFiles/Config.dir/config/Config.cpp.s
 .PHONY : config/Config.cpp.s
 
 crypto/aesb.o: crypto/aesb.c.o
@@ -1408,7 +1408,7 @@ crypto/aesb.o: crypto/aesb.c.o
 
 # target to build an object file
 crypto/aesb.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/aesb.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/aesb.c.o
 .PHONY : crypto/aesb.c.o
 
 crypto/aesb.i: crypto/aesb.c.i
@@ -1417,7 +1417,7 @@ crypto/aesb.i: crypto/aesb.c.i
 
 # target to preprocess a source file
 crypto/aesb.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/aesb.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/aesb.c.i
 .PHONY : crypto/aesb.c.i
 
 crypto/aesb.s: crypto/aesb.c.s
@@ -1426,7 +1426,7 @@ crypto/aesb.s: crypto/aesb.c.s
 
 # target to generate assembly for a file
 crypto/aesb.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/aesb.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/aesb.c.s
 .PHONY : crypto/aesb.c.s
 
 crypto/blake256.o: crypto/blake256.c.o
@@ -1435,7 +1435,7 @@ crypto/blake256.o: crypto/blake256.c.o
 
 # target to build an object file
 crypto/blake256.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/blake256.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/blake256.c.o
 .PHONY : crypto/blake256.c.o
 
 crypto/blake256.i: crypto/blake256.c.i
@@ -1444,7 +1444,7 @@ crypto/blake256.i: crypto/blake256.c.i
 
 # target to preprocess a source file
 crypto/blake256.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/blake256.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/blake256.c.i
 .PHONY : crypto/blake256.c.i
 
 crypto/blake256.s: crypto/blake256.c.s
@@ -1453,7 +1453,7 @@ crypto/blake256.s: crypto/blake256.c.s
 
 # target to generate assembly for a file
 crypto/blake256.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/blake256.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/blake256.c.s
 .PHONY : crypto/blake256.c.s
 
 crypto/chacha8.o: crypto/chacha8.cpp.o
@@ -1462,7 +1462,7 @@ crypto/chacha8.o: crypto/chacha8.cpp.o
 
 # target to build an object file
 crypto/chacha8.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/chacha8.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/chacha8.cpp.o
 .PHONY : crypto/chacha8.cpp.o
 
 crypto/chacha8.i: crypto/chacha8.cpp.i
@@ -1471,7 +1471,7 @@ crypto/chacha8.i: crypto/chacha8.cpp.i
 
 # target to preprocess a source file
 crypto/chacha8.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/chacha8.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/chacha8.cpp.i
 .PHONY : crypto/chacha8.cpp.i
 
 crypto/chacha8.s: crypto/chacha8.cpp.s
@@ -1480,7 +1480,7 @@ crypto/chacha8.s: crypto/chacha8.cpp.s
 
 # target to generate assembly for a file
 crypto/chacha8.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/chacha8.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/chacha8.cpp.s
 .PHONY : crypto/chacha8.cpp.s
 
 crypto/crypto-ops-data.o: crypto/crypto-ops-data.c.o
@@ -1489,7 +1489,7 @@ crypto/crypto-ops-data.o: crypto/crypto-ops-data.c.o
 
 # target to build an object file
 crypto/crypto-ops-data.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.o
 .PHONY : crypto/crypto-ops-data.c.o
 
 crypto/crypto-ops-data.i: crypto/crypto-ops-data.c.i
@@ -1498,7 +1498,7 @@ crypto/crypto-ops-data.i: crypto/crypto-ops-data.c.i
 
 # target to preprocess a source file
 crypto/crypto-ops-data.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.i
 .PHONY : crypto/crypto-ops-data.c.i
 
 crypto/crypto-ops-data.s: crypto/crypto-ops-data.c.s
@@ -1507,7 +1507,7 @@ crypto/crypto-ops-data.s: crypto/crypto-ops-data.c.s
 
 # target to generate assembly for a file
 crypto/crypto-ops-data.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.s
 .PHONY : crypto/crypto-ops-data.c.s
 
 crypto/crypto-ops.o: crypto/crypto-ops.c.o
@@ -1516,7 +1516,7 @@ crypto/crypto-ops.o: crypto/crypto-ops.c.o
 
 # target to build an object file
 crypto/crypto-ops.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o
 .PHONY : crypto/crypto-ops.c.o
 
 crypto/crypto-ops.i: crypto/crypto-ops.c.i
@@ -1525,7 +1525,7 @@ crypto/crypto-ops.i: crypto/crypto-ops.c.i
 
 # target to preprocess a source file
 crypto/crypto-ops.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.i
 .PHONY : crypto/crypto-ops.c.i
 
 crypto/crypto-ops.s: crypto/crypto-ops.c.s
@@ -1534,7 +1534,7 @@ crypto/crypto-ops.s: crypto/crypto-ops.c.s
 
 # target to generate assembly for a file
 crypto/crypto-ops.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.s
 .PHONY : crypto/crypto-ops.c.s
 
 crypto/crypto.o: crypto/crypto.cpp.o
@@ -1543,7 +1543,7 @@ crypto/crypto.o: crypto/crypto.cpp.o
 
 # target to build an object file
 crypto/crypto.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o
 .PHONY : crypto/crypto.cpp.o
 
 crypto/crypto.i: crypto/crypto.cpp.i
@@ -1552,7 +1552,7 @@ crypto/crypto.i: crypto/crypto.cpp.i
 
 # target to preprocess a source file
 crypto/crypto.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.i
 .PHONY : crypto/crypto.cpp.i
 
 crypto/crypto.s: crypto/crypto.cpp.s
@@ -1561,7 +1561,7 @@ crypto/crypto.s: crypto/crypto.cpp.s
 
 # target to generate assembly for a file
 crypto/crypto.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.s
 .PHONY : crypto/crypto.cpp.s
 
 crypto/groestl.o: crypto/groestl.c.o
@@ -1570,7 +1570,7 @@ crypto/groestl.o: crypto/groestl.c.o
 
 # target to build an object file
 crypto/groestl.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/groestl.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/groestl.c.o
 .PHONY : crypto/groestl.c.o
 
 crypto/groestl.i: crypto/groestl.c.i
@@ -1579,7 +1579,7 @@ crypto/groestl.i: crypto/groestl.c.i
 
 # target to preprocess a source file
 crypto/groestl.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/groestl.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/groestl.c.i
 .PHONY : crypto/groestl.c.i
 
 crypto/groestl.s: crypto/groestl.c.s
@@ -1588,7 +1588,7 @@ crypto/groestl.s: crypto/groestl.c.s
 
 # target to generate assembly for a file
 crypto/groestl.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/groestl.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/groestl.c.s
 .PHONY : crypto/groestl.c.s
 
 crypto/hash-extra-blake.o: crypto/hash-extra-blake.c.o
@@ -1597,7 +1597,7 @@ crypto/hash-extra-blake.o: crypto/hash-extra-blake.c.o
 
 # target to build an object file
 crypto/hash-extra-blake.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o
 .PHONY : crypto/hash-extra-blake.c.o
 
 crypto/hash-extra-blake.i: crypto/hash-extra-blake.c.i
@@ -1606,7 +1606,7 @@ crypto/hash-extra-blake.i: crypto/hash-extra-blake.c.i
 
 # target to preprocess a source file
 crypto/hash-extra-blake.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.i
 .PHONY : crypto/hash-extra-blake.c.i
 
 crypto/hash-extra-blake.s: crypto/hash-extra-blake.c.s
@@ -1615,7 +1615,7 @@ crypto/hash-extra-blake.s: crypto/hash-extra-blake.c.s
 
 # target to generate assembly for a file
 crypto/hash-extra-blake.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.s
 .PHONY : crypto/hash-extra-blake.c.s
 
 crypto/hash-extra-groestl.o: crypto/hash-extra-groestl.c.o
@@ -1624,7 +1624,7 @@ crypto/hash-extra-groestl.o: crypto/hash-extra-groestl.c.o
 
 # target to build an object file
 crypto/hash-extra-groestl.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o
 .PHONY : crypto/hash-extra-groestl.c.o
 
 crypto/hash-extra-groestl.i: crypto/hash-extra-groestl.c.i
@@ -1633,7 +1633,7 @@ crypto/hash-extra-groestl.i: crypto/hash-extra-groestl.c.i
 
 # target to preprocess a source file
 crypto/hash-extra-groestl.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.i
 .PHONY : crypto/hash-extra-groestl.c.i
 
 crypto/hash-extra-groestl.s: crypto/hash-extra-groestl.c.s
@@ -1642,7 +1642,7 @@ crypto/hash-extra-groestl.s: crypto/hash-extra-groestl.c.s
 
 # target to generate assembly for a file
 crypto/hash-extra-groestl.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.s
 .PHONY : crypto/hash-extra-groestl.c.s
 
 crypto/hash-extra-jh.o: crypto/hash-extra-jh.c.o
@@ -1651,7 +1651,7 @@ crypto/hash-extra-jh.o: crypto/hash-extra-jh.c.o
 
 # target to build an object file
 crypto/hash-extra-jh.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o
 .PHONY : crypto/hash-extra-jh.c.o
 
 crypto/hash-extra-jh.i: crypto/hash-extra-jh.c.i
@@ -1660,7 +1660,7 @@ crypto/hash-extra-jh.i: crypto/hash-extra-jh.c.i
 
 # target to preprocess a source file
 crypto/hash-extra-jh.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.i
 .PHONY : crypto/hash-extra-jh.c.i
 
 crypto/hash-extra-jh.s: crypto/hash-extra-jh.c.s
@@ -1669,7 +1669,7 @@ crypto/hash-extra-jh.s: crypto/hash-extra-jh.c.s
 
 # target to generate assembly for a file
 crypto/hash-extra-jh.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.s
 .PHONY : crypto/hash-extra-jh.c.s
 
 crypto/hash-extra-skein.o: crypto/hash-extra-skein.c.o
@@ -1678,7 +1678,7 @@ crypto/hash-extra-skein.o: crypto/hash-extra-skein.c.o
 
 # target to build an object file
 crypto/hash-extra-skein.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o
 .PHONY : crypto/hash-extra-skein.c.o
 
 crypto/hash-extra-skein.i: crypto/hash-extra-skein.c.i
@@ -1687,7 +1687,7 @@ crypto/hash-extra-skein.i: crypto/hash-extra-skein.c.i
 
 # target to preprocess a source file
 crypto/hash-extra-skein.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.i
 .PHONY : crypto/hash-extra-skein.c.i
 
 crypto/hash-extra-skein.s: crypto/hash-extra-skein.c.s
@@ -1696,7 +1696,7 @@ crypto/hash-extra-skein.s: crypto/hash-extra-skein.c.s
 
 # target to generate assembly for a file
 crypto/hash-extra-skein.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.s
 .PHONY : crypto/hash-extra-skein.c.s
 
 crypto/hash.o: crypto/hash.c.o
@@ -1705,7 +1705,7 @@ crypto/hash.o: crypto/hash.c.o
 
 # target to build an object file
 crypto/hash.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash.c.o
 .PHONY : crypto/hash.c.o
 
 crypto/hash.i: crypto/hash.c.i
@@ -1714,7 +1714,7 @@ crypto/hash.i: crypto/hash.c.i
 
 # target to preprocess a source file
 crypto/hash.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash.c.i
 .PHONY : crypto/hash.c.i
 
 crypto/hash.s: crypto/hash.c.s
@@ -1723,7 +1723,7 @@ crypto/hash.s: crypto/hash.c.s
 
 # target to generate assembly for a file
 crypto/hash.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash.c.s
 .PHONY : crypto/hash.c.s
 
 crypto/jh.o: crypto/jh.c.o
@@ -1732,7 +1732,7 @@ crypto/jh.o: crypto/jh.c.o
 
 # target to build an object file
 crypto/jh.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/jh.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/jh.c.o
 .PHONY : crypto/jh.c.o
 
 crypto/jh.i: crypto/jh.c.i
@@ -1741,7 +1741,7 @@ crypto/jh.i: crypto/jh.c.i
 
 # target to preprocess a source file
 crypto/jh.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/jh.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/jh.c.i
 .PHONY : crypto/jh.c.i
 
 crypto/jh.s: crypto/jh.c.s
@@ -1750,7 +1750,7 @@ crypto/jh.s: crypto/jh.c.s
 
 # target to generate assembly for a file
 crypto/jh.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/jh.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/jh.c.s
 .PHONY : crypto/jh.c.s
 
 crypto/keccak.o: crypto/keccak.c.o
@@ -1759,7 +1759,7 @@ crypto/keccak.o: crypto/keccak.c.o
 
 # target to build an object file
 crypto/keccak.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/keccak.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/keccak.c.o
 .PHONY : crypto/keccak.c.o
 
 crypto/keccak.i: crypto/keccak.c.i
@@ -1768,7 +1768,7 @@ crypto/keccak.i: crypto/keccak.c.i
 
 # target to preprocess a source file
 crypto/keccak.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/keccak.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/keccak.c.i
 .PHONY : crypto/keccak.c.i
 
 crypto/keccak.s: crypto/keccak.c.s
@@ -1777,7 +1777,7 @@ crypto/keccak.s: crypto/keccak.c.s
 
 # target to generate assembly for a file
 crypto/keccak.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/keccak.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/keccak.c.s
 .PHONY : crypto/keccak.c.s
 
 crypto/oaes_lib.o: crypto/oaes_lib.c.o
@@ -1786,7 +1786,7 @@ crypto/oaes_lib.o: crypto/oaes_lib.c.o
 
 # target to build an object file
 crypto/oaes_lib.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o
 .PHONY : crypto/oaes_lib.c.o
 
 crypto/oaes_lib.i: crypto/oaes_lib.c.i
@@ -1795,7 +1795,7 @@ crypto/oaes_lib.i: crypto/oaes_lib.c.i
 
 # target to preprocess a source file
 crypto/oaes_lib.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.i
 .PHONY : crypto/oaes_lib.c.i
 
 crypto/oaes_lib.s: crypto/oaes_lib.c.s
@@ -1804,7 +1804,7 @@ crypto/oaes_lib.s: crypto/oaes_lib.c.s
 
 # target to generate assembly for a file
 crypto/oaes_lib.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.s
 .PHONY : crypto/oaes_lib.c.s
 
 crypto/skein.o: crypto/skein.c.o
@@ -1813,7 +1813,7 @@ crypto/skein.o: crypto/skein.c.o
 
 # target to build an object file
 crypto/skein.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/skein.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/skein.c.o
 .PHONY : crypto/skein.c.o
 
 crypto/skein.i: crypto/skein.c.i
@@ -1822,7 +1822,7 @@ crypto/skein.i: crypto/skein.c.i
 
 # target to preprocess a source file
 crypto/skein.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/skein.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/skein.c.i
 .PHONY : crypto/skein.c.i
 
 crypto/skein.s: crypto/skein.c.s
@@ -1831,7 +1831,7 @@ crypto/skein.s: crypto/skein.c.s
 
 # target to generate assembly for a file
 crypto/skein.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/skein.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/skein.c.s
 .PHONY : crypto/skein.c.s
 
 crypto/slow-hash-arm.o: crypto/slow-hash-arm.c.o
@@ -1840,7 +1840,7 @@ crypto/slow-hash-arm.o: crypto/slow-hash-arm.c.o
 
 # target to build an object file
 crypto/slow-hash-arm.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash-arm.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash-arm.c.o
 .PHONY : crypto/slow-hash-arm.c.o
 
 crypto/slow-hash-arm.i: crypto/slow-hash-arm.c.i
@@ -1849,7 +1849,7 @@ crypto/slow-hash-arm.i: crypto/slow-hash-arm.c.i
 
 # target to preprocess a source file
 crypto/slow-hash-arm.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash-arm.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash-arm.c.i
 .PHONY : crypto/slow-hash-arm.c.i
 
 crypto/slow-hash-arm.s: crypto/slow-hash-arm.c.s
@@ -1858,7 +1858,7 @@ crypto/slow-hash-arm.s: crypto/slow-hash-arm.c.s
 
 # target to generate assembly for a file
 crypto/slow-hash-arm.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash-arm.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash-arm.c.s
 .PHONY : crypto/slow-hash-arm.c.s
 
 crypto/slow-hash-portable.o: crypto/slow-hash-portable.c.o
@@ -1867,7 +1867,7 @@ crypto/slow-hash-portable.o: crypto/slow-hash-portable.c.o
 
 # target to build an object file
 crypto/slow-hash-portable.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash-portable.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash-portable.c.o
 .PHONY : crypto/slow-hash-portable.c.o
 
 crypto/slow-hash-portable.i: crypto/slow-hash-portable.c.i
@@ -1876,7 +1876,7 @@ crypto/slow-hash-portable.i: crypto/slow-hash-portable.c.i
 
 # target to preprocess a source file
 crypto/slow-hash-portable.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash-portable.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash-portable.c.i
 .PHONY : crypto/slow-hash-portable.c.i
 
 crypto/slow-hash-portable.s: crypto/slow-hash-portable.c.s
@@ -1885,7 +1885,7 @@ crypto/slow-hash-portable.s: crypto/slow-hash-portable.c.s
 
 # target to generate assembly for a file
 crypto/slow-hash-portable.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash-portable.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash-portable.c.s
 .PHONY : crypto/slow-hash-portable.c.s
 
 crypto/slow-hash-x86.o: crypto/slow-hash-x86.c.o
@@ -1894,7 +1894,7 @@ crypto/slow-hash-x86.o: crypto/slow-hash-x86.c.o
 
 # target to build an object file
 crypto/slow-hash-x86.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash-x86.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash-x86.c.o
 .PHONY : crypto/slow-hash-x86.c.o
 
 crypto/slow-hash-x86.i: crypto/slow-hash-x86.c.i
@@ -1903,7 +1903,7 @@ crypto/slow-hash-x86.i: crypto/slow-hash-x86.c.i
 
 # target to preprocess a source file
 crypto/slow-hash-x86.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash-x86.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash-x86.c.i
 .PHONY : crypto/slow-hash-x86.c.i
 
 crypto/slow-hash-x86.s: crypto/slow-hash-x86.c.s
@@ -1912,7 +1912,7 @@ crypto/slow-hash-x86.s: crypto/slow-hash-x86.c.s
 
 # target to generate assembly for a file
 crypto/slow-hash-x86.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash-x86.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash-x86.c.s
 .PHONY : crypto/slow-hash-x86.c.s
 
 crypto/tree-hash.o: crypto/tree-hash.c.o
@@ -1921,7 +1921,7 @@ crypto/tree-hash.o: crypto/tree-hash.c.o
 
 # target to build an object file
 crypto/tree-hash.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o
 .PHONY : crypto/tree-hash.c.o
 
 crypto/tree-hash.i: crypto/tree-hash.c.i
@@ -1930,7 +1930,7 @@ crypto/tree-hash.i: crypto/tree-hash.c.i
 
 # target to preprocess a source file
 crypto/tree-hash.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.i
 .PHONY : crypto/tree-hash.c.i
 
 crypto/tree-hash.s: crypto/tree-hash.c.s
@@ -1939,7 +1939,7 @@ crypto/tree-hash.s: crypto/tree-hash.c.s
 
 # target to generate assembly for a file
 crypto/tree-hash.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.s
 .PHONY : crypto/tree-hash.c.s
 
 cryptonotecore/AddBlockErrorCondition.o: cryptonotecore/AddBlockErrorCondition.cpp.o
@@ -1948,7 +1948,7 @@ cryptonotecore/AddBlockErrorCondition.o: cryptonotecore/AddBlockErrorCondition.c
 
 # target to build an object file
 cryptonotecore/AddBlockErrorCondition.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/AddBlockErrorCondition.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/AddBlockErrorCondition.cpp.o
 .PHONY : cryptonotecore/AddBlockErrorCondition.cpp.o
 
 cryptonotecore/AddBlockErrorCondition.i: cryptonotecore/AddBlockErrorCondition.cpp.i
@@ -1957,7 +1957,7 @@ cryptonotecore/AddBlockErrorCondition.i: cryptonotecore/AddBlockErrorCondition.c
 
 # target to preprocess a source file
 cryptonotecore/AddBlockErrorCondition.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/AddBlockErrorCondition.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/AddBlockErrorCondition.cpp.i
 .PHONY : cryptonotecore/AddBlockErrorCondition.cpp.i
 
 cryptonotecore/AddBlockErrorCondition.s: cryptonotecore/AddBlockErrorCondition.cpp.s
@@ -1966,7 +1966,7 @@ cryptonotecore/AddBlockErrorCondition.s: cryptonotecore/AddBlockErrorCondition.c
 
 # target to generate assembly for a file
 cryptonotecore/AddBlockErrorCondition.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/AddBlockErrorCondition.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/AddBlockErrorCondition.cpp.s
 .PHONY : cryptonotecore/AddBlockErrorCondition.cpp.s
 
 cryptonotecore/AddBlockErrors.o: cryptonotecore/AddBlockErrors.cpp.o
@@ -1975,7 +1975,7 @@ cryptonotecore/AddBlockErrors.o: cryptonotecore/AddBlockErrors.cpp.o
 
 # target to build an object file
 cryptonotecore/AddBlockErrors.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/AddBlockErrors.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/AddBlockErrors.cpp.o
 .PHONY : cryptonotecore/AddBlockErrors.cpp.o
 
 cryptonotecore/AddBlockErrors.i: cryptonotecore/AddBlockErrors.cpp.i
@@ -1984,7 +1984,7 @@ cryptonotecore/AddBlockErrors.i: cryptonotecore/AddBlockErrors.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/AddBlockErrors.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/AddBlockErrors.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/AddBlockErrors.cpp.i
 .PHONY : cryptonotecore/AddBlockErrors.cpp.i
 
 cryptonotecore/AddBlockErrors.s: cryptonotecore/AddBlockErrors.cpp.s
@@ -1993,7 +1993,7 @@ cryptonotecore/AddBlockErrors.s: cryptonotecore/AddBlockErrors.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/AddBlockErrors.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/AddBlockErrors.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/AddBlockErrors.cpp.s
 .PHONY : cryptonotecore/AddBlockErrors.cpp.s
 
 cryptonotecore/BlockValidationErrors.o: cryptonotecore/BlockValidationErrors.cpp.o
@@ -2002,7 +2002,7 @@ cryptonotecore/BlockValidationErrors.o: cryptonotecore/BlockValidationErrors.cpp
 
 # target to build an object file
 cryptonotecore/BlockValidationErrors.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockValidationErrors.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockValidationErrors.cpp.o
 .PHONY : cryptonotecore/BlockValidationErrors.cpp.o
 
 cryptonotecore/BlockValidationErrors.i: cryptonotecore/BlockValidationErrors.cpp.i
@@ -2011,7 +2011,7 @@ cryptonotecore/BlockValidationErrors.i: cryptonotecore/BlockValidationErrors.cpp
 
 # target to preprocess a source file
 cryptonotecore/BlockValidationErrors.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockValidationErrors.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockValidationErrors.cpp.i
 .PHONY : cryptonotecore/BlockValidationErrors.cpp.i
 
 cryptonotecore/BlockValidationErrors.s: cryptonotecore/BlockValidationErrors.cpp.s
@@ -2020,7 +2020,7 @@ cryptonotecore/BlockValidationErrors.s: cryptonotecore/BlockValidationErrors.cpp
 
 # target to generate assembly for a file
 cryptonotecore/BlockValidationErrors.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockValidationErrors.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockValidationErrors.cpp.s
 .PHONY : cryptonotecore/BlockValidationErrors.cpp.s
 
 cryptonotecore/BlockchainCache.o: cryptonotecore/BlockchainCache.cpp.o
@@ -2029,7 +2029,7 @@ cryptonotecore/BlockchainCache.o: cryptonotecore/BlockchainCache.cpp.o
 
 # target to build an object file
 cryptonotecore/BlockchainCache.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainCache.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainCache.cpp.o
 .PHONY : cryptonotecore/BlockchainCache.cpp.o
 
 cryptonotecore/BlockchainCache.i: cryptonotecore/BlockchainCache.cpp.i
@@ -2038,7 +2038,7 @@ cryptonotecore/BlockchainCache.i: cryptonotecore/BlockchainCache.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/BlockchainCache.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainCache.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainCache.cpp.i
 .PHONY : cryptonotecore/BlockchainCache.cpp.i
 
 cryptonotecore/BlockchainCache.s: cryptonotecore/BlockchainCache.cpp.s
@@ -2047,7 +2047,7 @@ cryptonotecore/BlockchainCache.s: cryptonotecore/BlockchainCache.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/BlockchainCache.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainCache.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainCache.cpp.s
 .PHONY : cryptonotecore/BlockchainCache.cpp.s
 
 cryptonotecore/BlockchainMessages.o: cryptonotecore/BlockchainMessages.cpp.o
@@ -2056,7 +2056,7 @@ cryptonotecore/BlockchainMessages.o: cryptonotecore/BlockchainMessages.cpp.o
 
 # target to build an object file
 cryptonotecore/BlockchainMessages.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainMessages.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainMessages.cpp.o
 .PHONY : cryptonotecore/BlockchainMessages.cpp.o
 
 cryptonotecore/BlockchainMessages.i: cryptonotecore/BlockchainMessages.cpp.i
@@ -2065,7 +2065,7 @@ cryptonotecore/BlockchainMessages.i: cryptonotecore/BlockchainMessages.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/BlockchainMessages.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainMessages.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainMessages.cpp.i
 .PHONY : cryptonotecore/BlockchainMessages.cpp.i
 
 cryptonotecore/BlockchainMessages.s: cryptonotecore/BlockchainMessages.cpp.s
@@ -2074,7 +2074,7 @@ cryptonotecore/BlockchainMessages.s: cryptonotecore/BlockchainMessages.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/BlockchainMessages.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainMessages.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainMessages.cpp.s
 .PHONY : cryptonotecore/BlockchainMessages.cpp.s
 
 cryptonotecore/BlockchainReadBatch.o: cryptonotecore/BlockchainReadBatch.cpp.o
@@ -2083,7 +2083,7 @@ cryptonotecore/BlockchainReadBatch.o: cryptonotecore/BlockchainReadBatch.cpp.o
 
 # target to build an object file
 cryptonotecore/BlockchainReadBatch.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainReadBatch.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainReadBatch.cpp.o
 .PHONY : cryptonotecore/BlockchainReadBatch.cpp.o
 
 cryptonotecore/BlockchainReadBatch.i: cryptonotecore/BlockchainReadBatch.cpp.i
@@ -2092,7 +2092,7 @@ cryptonotecore/BlockchainReadBatch.i: cryptonotecore/BlockchainReadBatch.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/BlockchainReadBatch.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainReadBatch.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainReadBatch.cpp.i
 .PHONY : cryptonotecore/BlockchainReadBatch.cpp.i
 
 cryptonotecore/BlockchainReadBatch.s: cryptonotecore/BlockchainReadBatch.cpp.s
@@ -2101,7 +2101,7 @@ cryptonotecore/BlockchainReadBatch.s: cryptonotecore/BlockchainReadBatch.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/BlockchainReadBatch.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainReadBatch.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainReadBatch.cpp.s
 .PHONY : cryptonotecore/BlockchainReadBatch.cpp.s
 
 cryptonotecore/BlockchainStorage.o: cryptonotecore/BlockchainStorage.cpp.o
@@ -2110,7 +2110,7 @@ cryptonotecore/BlockchainStorage.o: cryptonotecore/BlockchainStorage.cpp.o
 
 # target to build an object file
 cryptonotecore/BlockchainStorage.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainStorage.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainStorage.cpp.o
 .PHONY : cryptonotecore/BlockchainStorage.cpp.o
 
 cryptonotecore/BlockchainStorage.i: cryptonotecore/BlockchainStorage.cpp.i
@@ -2119,7 +2119,7 @@ cryptonotecore/BlockchainStorage.i: cryptonotecore/BlockchainStorage.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/BlockchainStorage.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainStorage.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainStorage.cpp.i
 .PHONY : cryptonotecore/BlockchainStorage.cpp.i
 
 cryptonotecore/BlockchainStorage.s: cryptonotecore/BlockchainStorage.cpp.s
@@ -2128,7 +2128,7 @@ cryptonotecore/BlockchainStorage.s: cryptonotecore/BlockchainStorage.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/BlockchainStorage.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainStorage.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainStorage.cpp.s
 .PHONY : cryptonotecore/BlockchainStorage.cpp.s
 
 cryptonotecore/BlockchainUtils.o: cryptonotecore/BlockchainUtils.cpp.o
@@ -2137,7 +2137,7 @@ cryptonotecore/BlockchainUtils.o: cryptonotecore/BlockchainUtils.cpp.o
 
 # target to build an object file
 cryptonotecore/BlockchainUtils.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainUtils.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainUtils.cpp.o
 .PHONY : cryptonotecore/BlockchainUtils.cpp.o
 
 cryptonotecore/BlockchainUtils.i: cryptonotecore/BlockchainUtils.cpp.i
@@ -2146,7 +2146,7 @@ cryptonotecore/BlockchainUtils.i: cryptonotecore/BlockchainUtils.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/BlockchainUtils.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainUtils.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainUtils.cpp.i
 .PHONY : cryptonotecore/BlockchainUtils.cpp.i
 
 cryptonotecore/BlockchainUtils.s: cryptonotecore/BlockchainUtils.cpp.s
@@ -2155,7 +2155,7 @@ cryptonotecore/BlockchainUtils.s: cryptonotecore/BlockchainUtils.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/BlockchainUtils.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainUtils.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainUtils.cpp.s
 .PHONY : cryptonotecore/BlockchainUtils.cpp.s
 
 cryptonotecore/BlockchainWriteBatch.o: cryptonotecore/BlockchainWriteBatch.cpp.o
@@ -2164,7 +2164,7 @@ cryptonotecore/BlockchainWriteBatch.o: cryptonotecore/BlockchainWriteBatch.cpp.o
 
 # target to build an object file
 cryptonotecore/BlockchainWriteBatch.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainWriteBatch.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainWriteBatch.cpp.o
 .PHONY : cryptonotecore/BlockchainWriteBatch.cpp.o
 
 cryptonotecore/BlockchainWriteBatch.i: cryptonotecore/BlockchainWriteBatch.cpp.i
@@ -2173,7 +2173,7 @@ cryptonotecore/BlockchainWriteBatch.i: cryptonotecore/BlockchainWriteBatch.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/BlockchainWriteBatch.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainWriteBatch.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainWriteBatch.cpp.i
 .PHONY : cryptonotecore/BlockchainWriteBatch.cpp.i
 
 cryptonotecore/BlockchainWriteBatch.s: cryptonotecore/BlockchainWriteBatch.cpp.s
@@ -2182,7 +2182,7 @@ cryptonotecore/BlockchainWriteBatch.s: cryptonotecore/BlockchainWriteBatch.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/BlockchainWriteBatch.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainWriteBatch.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/BlockchainWriteBatch.cpp.s
 .PHONY : cryptonotecore/BlockchainWriteBatch.cpp.s
 
 cryptonotecore/CachedBlock.o: cryptonotecore/CachedBlock.cpp.o
@@ -2191,7 +2191,7 @@ cryptonotecore/CachedBlock.o: cryptonotecore/CachedBlock.cpp.o
 
 # target to build an object file
 cryptonotecore/CachedBlock.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CachedBlock.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CachedBlock.cpp.o
 .PHONY : cryptonotecore/CachedBlock.cpp.o
 
 cryptonotecore/CachedBlock.i: cryptonotecore/CachedBlock.cpp.i
@@ -2200,7 +2200,7 @@ cryptonotecore/CachedBlock.i: cryptonotecore/CachedBlock.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/CachedBlock.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CachedBlock.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CachedBlock.cpp.i
 .PHONY : cryptonotecore/CachedBlock.cpp.i
 
 cryptonotecore/CachedBlock.s: cryptonotecore/CachedBlock.cpp.s
@@ -2209,7 +2209,7 @@ cryptonotecore/CachedBlock.s: cryptonotecore/CachedBlock.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/CachedBlock.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CachedBlock.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CachedBlock.cpp.s
 .PHONY : cryptonotecore/CachedBlock.cpp.s
 
 cryptonotecore/CachedTransaction.o: cryptonotecore/CachedTransaction.cpp.o
@@ -2218,7 +2218,7 @@ cryptonotecore/CachedTransaction.o: cryptonotecore/CachedTransaction.cpp.o
 
 # target to build an object file
 cryptonotecore/CachedTransaction.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CachedTransaction.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CachedTransaction.cpp.o
 .PHONY : cryptonotecore/CachedTransaction.cpp.o
 
 cryptonotecore/CachedTransaction.i: cryptonotecore/CachedTransaction.cpp.i
@@ -2227,7 +2227,7 @@ cryptonotecore/CachedTransaction.i: cryptonotecore/CachedTransaction.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/CachedTransaction.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CachedTransaction.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CachedTransaction.cpp.i
 .PHONY : cryptonotecore/CachedTransaction.cpp.i
 
 cryptonotecore/CachedTransaction.s: cryptonotecore/CachedTransaction.cpp.s
@@ -2236,7 +2236,7 @@ cryptonotecore/CachedTransaction.s: cryptonotecore/CachedTransaction.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/CachedTransaction.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CachedTransaction.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CachedTransaction.cpp.s
 .PHONY : cryptonotecore/CachedTransaction.cpp.s
 
 cryptonotecore/Checkpoints.o: cryptonotecore/Checkpoints.cpp.o
@@ -2245,7 +2245,7 @@ cryptonotecore/Checkpoints.o: cryptonotecore/Checkpoints.cpp.o
 
 # target to build an object file
 cryptonotecore/Checkpoints.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Checkpoints.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Checkpoints.cpp.o
 .PHONY : cryptonotecore/Checkpoints.cpp.o
 
 cryptonotecore/Checkpoints.i: cryptonotecore/Checkpoints.cpp.i
@@ -2254,7 +2254,7 @@ cryptonotecore/Checkpoints.i: cryptonotecore/Checkpoints.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/Checkpoints.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Checkpoints.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Checkpoints.cpp.i
 .PHONY : cryptonotecore/Checkpoints.cpp.i
 
 cryptonotecore/Checkpoints.s: cryptonotecore/Checkpoints.cpp.s
@@ -2263,7 +2263,7 @@ cryptonotecore/Checkpoints.s: cryptonotecore/Checkpoints.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/Checkpoints.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Checkpoints.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Checkpoints.cpp.s
 .PHONY : cryptonotecore/Checkpoints.cpp.s
 
 cryptonotecore/Core.o: cryptonotecore/Core.cpp.o
@@ -2272,7 +2272,7 @@ cryptonotecore/Core.o: cryptonotecore/Core.cpp.o
 
 # target to build an object file
 cryptonotecore/Core.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Core.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Core.cpp.o
 .PHONY : cryptonotecore/Core.cpp.o
 
 cryptonotecore/Core.i: cryptonotecore/Core.cpp.i
@@ -2281,7 +2281,7 @@ cryptonotecore/Core.i: cryptonotecore/Core.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/Core.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Core.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Core.cpp.i
 .PHONY : cryptonotecore/Core.cpp.i
 
 cryptonotecore/Core.s: cryptonotecore/Core.cpp.s
@@ -2290,7 +2290,7 @@ cryptonotecore/Core.s: cryptonotecore/Core.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/Core.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Core.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Core.cpp.s
 .PHONY : cryptonotecore/Core.cpp.s
 
 cryptonotecore/CoreErrors.o: cryptonotecore/CoreErrors.cpp.o
@@ -2299,7 +2299,7 @@ cryptonotecore/CoreErrors.o: cryptonotecore/CoreErrors.cpp.o
 
 # target to build an object file
 cryptonotecore/CoreErrors.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CoreErrors.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CoreErrors.cpp.o
 .PHONY : cryptonotecore/CoreErrors.cpp.o
 
 cryptonotecore/CoreErrors.i: cryptonotecore/CoreErrors.cpp.i
@@ -2308,7 +2308,7 @@ cryptonotecore/CoreErrors.i: cryptonotecore/CoreErrors.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/CoreErrors.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CoreErrors.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CoreErrors.cpp.i
 .PHONY : cryptonotecore/CoreErrors.cpp.i
 
 cryptonotecore/CoreErrors.s: cryptonotecore/CoreErrors.cpp.s
@@ -2317,7 +2317,7 @@ cryptonotecore/CoreErrors.s: cryptonotecore/CoreErrors.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/CoreErrors.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CoreErrors.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CoreErrors.cpp.s
 .PHONY : cryptonotecore/CoreErrors.cpp.s
 
 cryptonotecore/CryptoNoteBasic.o: cryptonotecore/CryptoNoteBasic.cpp.o
@@ -2326,7 +2326,7 @@ cryptonotecore/CryptoNoteBasic.o: cryptonotecore/CryptoNoteBasic.cpp.o
 
 # target to build an object file
 cryptonotecore/CryptoNoteBasic.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CryptoNoteBasic.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CryptoNoteBasic.cpp.o
 .PHONY : cryptonotecore/CryptoNoteBasic.cpp.o
 
 cryptonotecore/CryptoNoteBasic.i: cryptonotecore/CryptoNoteBasic.cpp.i
@@ -2335,7 +2335,7 @@ cryptonotecore/CryptoNoteBasic.i: cryptonotecore/CryptoNoteBasic.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/CryptoNoteBasic.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CryptoNoteBasic.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CryptoNoteBasic.cpp.i
 .PHONY : cryptonotecore/CryptoNoteBasic.cpp.i
 
 cryptonotecore/CryptoNoteBasic.s: cryptonotecore/CryptoNoteBasic.cpp.s
@@ -2344,7 +2344,7 @@ cryptonotecore/CryptoNoteBasic.s: cryptonotecore/CryptoNoteBasic.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/CryptoNoteBasic.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CryptoNoteBasic.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CryptoNoteBasic.cpp.s
 .PHONY : cryptonotecore/CryptoNoteBasic.cpp.s
 
 cryptonotecore/CryptoNoteBasicImpl.o: cryptonotecore/CryptoNoteBasicImpl.cpp.o
@@ -2353,7 +2353,7 @@ cryptonotecore/CryptoNoteBasicImpl.o: cryptonotecore/CryptoNoteBasicImpl.cpp.o
 
 # target to build an object file
 cryptonotecore/CryptoNoteBasicImpl.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CryptoNoteBasicImpl.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CryptoNoteBasicImpl.cpp.o
 .PHONY : cryptonotecore/CryptoNoteBasicImpl.cpp.o
 
 cryptonotecore/CryptoNoteBasicImpl.i: cryptonotecore/CryptoNoteBasicImpl.cpp.i
@@ -2362,7 +2362,7 @@ cryptonotecore/CryptoNoteBasicImpl.i: cryptonotecore/CryptoNoteBasicImpl.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/CryptoNoteBasicImpl.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CryptoNoteBasicImpl.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CryptoNoteBasicImpl.cpp.i
 .PHONY : cryptonotecore/CryptoNoteBasicImpl.cpp.i
 
 cryptonotecore/CryptoNoteBasicImpl.s: cryptonotecore/CryptoNoteBasicImpl.cpp.s
@@ -2371,7 +2371,7 @@ cryptonotecore/CryptoNoteBasicImpl.s: cryptonotecore/CryptoNoteBasicImpl.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/CryptoNoteBasicImpl.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CryptoNoteBasicImpl.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CryptoNoteBasicImpl.cpp.s
 .PHONY : cryptonotecore/CryptoNoteBasicImpl.cpp.s
 
 cryptonotecore/CryptoNoteFormatUtils.o: cryptonotecore/CryptoNoteFormatUtils.cpp.o
@@ -2380,7 +2380,7 @@ cryptonotecore/CryptoNoteFormatUtils.o: cryptonotecore/CryptoNoteFormatUtils.cpp
 
 # target to build an object file
 cryptonotecore/CryptoNoteFormatUtils.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CryptoNoteFormatUtils.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CryptoNoteFormatUtils.cpp.o
 .PHONY : cryptonotecore/CryptoNoteFormatUtils.cpp.o
 
 cryptonotecore/CryptoNoteFormatUtils.i: cryptonotecore/CryptoNoteFormatUtils.cpp.i
@@ -2389,7 +2389,7 @@ cryptonotecore/CryptoNoteFormatUtils.i: cryptonotecore/CryptoNoteFormatUtils.cpp
 
 # target to preprocess a source file
 cryptonotecore/CryptoNoteFormatUtils.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CryptoNoteFormatUtils.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CryptoNoteFormatUtils.cpp.i
 .PHONY : cryptonotecore/CryptoNoteFormatUtils.cpp.i
 
 cryptonotecore/CryptoNoteFormatUtils.s: cryptonotecore/CryptoNoteFormatUtils.cpp.s
@@ -2398,7 +2398,7 @@ cryptonotecore/CryptoNoteFormatUtils.s: cryptonotecore/CryptoNoteFormatUtils.cpp
 
 # target to generate assembly for a file
 cryptonotecore/CryptoNoteFormatUtils.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CryptoNoteFormatUtils.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/CryptoNoteFormatUtils.cpp.s
 .PHONY : cryptonotecore/CryptoNoteFormatUtils.cpp.s
 
 cryptonotecore/Currency.o: cryptonotecore/Currency.cpp.o
@@ -2407,7 +2407,7 @@ cryptonotecore/Currency.o: cryptonotecore/Currency.cpp.o
 
 # target to build an object file
 cryptonotecore/Currency.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Currency.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Currency.cpp.o
 .PHONY : cryptonotecore/Currency.cpp.o
 
 cryptonotecore/Currency.i: cryptonotecore/Currency.cpp.i
@@ -2416,7 +2416,7 @@ cryptonotecore/Currency.i: cryptonotecore/Currency.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/Currency.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Currency.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Currency.cpp.i
 .PHONY : cryptonotecore/Currency.cpp.i
 
 cryptonotecore/Currency.s: cryptonotecore/Currency.cpp.s
@@ -2425,7 +2425,7 @@ cryptonotecore/Currency.s: cryptonotecore/Currency.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/Currency.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Currency.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Currency.cpp.s
 .PHONY : cryptonotecore/Currency.cpp.s
 
 cryptonotecore/DBUtils.o: cryptonotecore/DBUtils.cpp.o
@@ -2434,7 +2434,7 @@ cryptonotecore/DBUtils.o: cryptonotecore/DBUtils.cpp.o
 
 # target to build an object file
 cryptonotecore/DBUtils.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DBUtils.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DBUtils.cpp.o
 .PHONY : cryptonotecore/DBUtils.cpp.o
 
 cryptonotecore/DBUtils.i: cryptonotecore/DBUtils.cpp.i
@@ -2443,7 +2443,7 @@ cryptonotecore/DBUtils.i: cryptonotecore/DBUtils.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/DBUtils.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DBUtils.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DBUtils.cpp.i
 .PHONY : cryptonotecore/DBUtils.cpp.i
 
 cryptonotecore/DBUtils.s: cryptonotecore/DBUtils.cpp.s
@@ -2452,7 +2452,7 @@ cryptonotecore/DBUtils.s: cryptonotecore/DBUtils.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/DBUtils.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DBUtils.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DBUtils.cpp.s
 .PHONY : cryptonotecore/DBUtils.cpp.s
 
 cryptonotecore/DataBaseConfig.o: cryptonotecore/DataBaseConfig.cpp.o
@@ -2461,7 +2461,7 @@ cryptonotecore/DataBaseConfig.o: cryptonotecore/DataBaseConfig.cpp.o
 
 # target to build an object file
 cryptonotecore/DataBaseConfig.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DataBaseConfig.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DataBaseConfig.cpp.o
 .PHONY : cryptonotecore/DataBaseConfig.cpp.o
 
 cryptonotecore/DataBaseConfig.i: cryptonotecore/DataBaseConfig.cpp.i
@@ -2470,7 +2470,7 @@ cryptonotecore/DataBaseConfig.i: cryptonotecore/DataBaseConfig.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/DataBaseConfig.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DataBaseConfig.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DataBaseConfig.cpp.i
 .PHONY : cryptonotecore/DataBaseConfig.cpp.i
 
 cryptonotecore/DataBaseConfig.s: cryptonotecore/DataBaseConfig.cpp.s
@@ -2479,7 +2479,7 @@ cryptonotecore/DataBaseConfig.s: cryptonotecore/DataBaseConfig.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/DataBaseConfig.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DataBaseConfig.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DataBaseConfig.cpp.s
 .PHONY : cryptonotecore/DataBaseConfig.cpp.s
 
 cryptonotecore/DataBaseErrors.o: cryptonotecore/DataBaseErrors.cpp.o
@@ -2488,7 +2488,7 @@ cryptonotecore/DataBaseErrors.o: cryptonotecore/DataBaseErrors.cpp.o
 
 # target to build an object file
 cryptonotecore/DataBaseErrors.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DataBaseErrors.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DataBaseErrors.cpp.o
 .PHONY : cryptonotecore/DataBaseErrors.cpp.o
 
 cryptonotecore/DataBaseErrors.i: cryptonotecore/DataBaseErrors.cpp.i
@@ -2497,7 +2497,7 @@ cryptonotecore/DataBaseErrors.i: cryptonotecore/DataBaseErrors.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/DataBaseErrors.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DataBaseErrors.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DataBaseErrors.cpp.i
 .PHONY : cryptonotecore/DataBaseErrors.cpp.i
 
 cryptonotecore/DataBaseErrors.s: cryptonotecore/DataBaseErrors.cpp.s
@@ -2506,7 +2506,7 @@ cryptonotecore/DataBaseErrors.s: cryptonotecore/DataBaseErrors.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/DataBaseErrors.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DataBaseErrors.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DataBaseErrors.cpp.s
 .PHONY : cryptonotecore/DataBaseErrors.cpp.s
 
 cryptonotecore/DatabaseBlockchainCache.o: cryptonotecore/DatabaseBlockchainCache.cpp.o
@@ -2515,7 +2515,7 @@ cryptonotecore/DatabaseBlockchainCache.o: cryptonotecore/DatabaseBlockchainCache
 
 # target to build an object file
 cryptonotecore/DatabaseBlockchainCache.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DatabaseBlockchainCache.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DatabaseBlockchainCache.cpp.o
 .PHONY : cryptonotecore/DatabaseBlockchainCache.cpp.o
 
 cryptonotecore/DatabaseBlockchainCache.i: cryptonotecore/DatabaseBlockchainCache.cpp.i
@@ -2524,7 +2524,7 @@ cryptonotecore/DatabaseBlockchainCache.i: cryptonotecore/DatabaseBlockchainCache
 
 # target to preprocess a source file
 cryptonotecore/DatabaseBlockchainCache.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DatabaseBlockchainCache.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DatabaseBlockchainCache.cpp.i
 .PHONY : cryptonotecore/DatabaseBlockchainCache.cpp.i
 
 cryptonotecore/DatabaseBlockchainCache.s: cryptonotecore/DatabaseBlockchainCache.cpp.s
@@ -2533,7 +2533,7 @@ cryptonotecore/DatabaseBlockchainCache.s: cryptonotecore/DatabaseBlockchainCache
 
 # target to generate assembly for a file
 cryptonotecore/DatabaseBlockchainCache.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DatabaseBlockchainCache.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DatabaseBlockchainCache.cpp.s
 .PHONY : cryptonotecore/DatabaseBlockchainCache.cpp.s
 
 cryptonotecore/DatabaseBlockchainCacheFactory.o: cryptonotecore/DatabaseBlockchainCacheFactory.cpp.o
@@ -2542,7 +2542,7 @@ cryptonotecore/DatabaseBlockchainCacheFactory.o: cryptonotecore/DatabaseBlockcha
 
 # target to build an object file
 cryptonotecore/DatabaseBlockchainCacheFactory.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DatabaseBlockchainCacheFactory.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DatabaseBlockchainCacheFactory.cpp.o
 .PHONY : cryptonotecore/DatabaseBlockchainCacheFactory.cpp.o
 
 cryptonotecore/DatabaseBlockchainCacheFactory.i: cryptonotecore/DatabaseBlockchainCacheFactory.cpp.i
@@ -2551,7 +2551,7 @@ cryptonotecore/DatabaseBlockchainCacheFactory.i: cryptonotecore/DatabaseBlockcha
 
 # target to preprocess a source file
 cryptonotecore/DatabaseBlockchainCacheFactory.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DatabaseBlockchainCacheFactory.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DatabaseBlockchainCacheFactory.cpp.i
 .PHONY : cryptonotecore/DatabaseBlockchainCacheFactory.cpp.i
 
 cryptonotecore/DatabaseBlockchainCacheFactory.s: cryptonotecore/DatabaseBlockchainCacheFactory.cpp.s
@@ -2560,7 +2560,7 @@ cryptonotecore/DatabaseBlockchainCacheFactory.s: cryptonotecore/DatabaseBlockcha
 
 # target to generate assembly for a file
 cryptonotecore/DatabaseBlockchainCacheFactory.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DatabaseBlockchainCacheFactory.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DatabaseBlockchainCacheFactory.cpp.s
 .PHONY : cryptonotecore/DatabaseBlockchainCacheFactory.cpp.s
 
 cryptonotecore/DatabaseCacheData.o: cryptonotecore/DatabaseCacheData.cpp.o
@@ -2569,7 +2569,7 @@ cryptonotecore/DatabaseCacheData.o: cryptonotecore/DatabaseCacheData.cpp.o
 
 # target to build an object file
 cryptonotecore/DatabaseCacheData.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DatabaseCacheData.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DatabaseCacheData.cpp.o
 .PHONY : cryptonotecore/DatabaseCacheData.cpp.o
 
 cryptonotecore/DatabaseCacheData.i: cryptonotecore/DatabaseCacheData.cpp.i
@@ -2578,7 +2578,7 @@ cryptonotecore/DatabaseCacheData.i: cryptonotecore/DatabaseCacheData.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/DatabaseCacheData.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DatabaseCacheData.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DatabaseCacheData.cpp.i
 .PHONY : cryptonotecore/DatabaseCacheData.cpp.i
 
 cryptonotecore/DatabaseCacheData.s: cryptonotecore/DatabaseCacheData.cpp.s
@@ -2587,7 +2587,7 @@ cryptonotecore/DatabaseCacheData.s: cryptonotecore/DatabaseCacheData.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/DatabaseCacheData.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DatabaseCacheData.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/DatabaseCacheData.cpp.s
 .PHONY : cryptonotecore/DatabaseCacheData.cpp.s
 
 cryptonotecore/Difficulty.o: cryptonotecore/Difficulty.cpp.o
@@ -2596,7 +2596,7 @@ cryptonotecore/Difficulty.o: cryptonotecore/Difficulty.cpp.o
 
 # target to build an object file
 cryptonotecore/Difficulty.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Difficulty.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Difficulty.cpp.o
 .PHONY : cryptonotecore/Difficulty.cpp.o
 
 cryptonotecore/Difficulty.i: cryptonotecore/Difficulty.cpp.i
@@ -2605,7 +2605,7 @@ cryptonotecore/Difficulty.i: cryptonotecore/Difficulty.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/Difficulty.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Difficulty.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Difficulty.cpp.i
 .PHONY : cryptonotecore/Difficulty.cpp.i
 
 cryptonotecore/Difficulty.s: cryptonotecore/Difficulty.cpp.s
@@ -2614,7 +2614,7 @@ cryptonotecore/Difficulty.s: cryptonotecore/Difficulty.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/Difficulty.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Difficulty.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Difficulty.cpp.s
 .PHONY : cryptonotecore/Difficulty.cpp.s
 
 cryptonotecore/ITimeProvider.o: cryptonotecore/ITimeProvider.cpp.o
@@ -2623,7 +2623,7 @@ cryptonotecore/ITimeProvider.o: cryptonotecore/ITimeProvider.cpp.o
 
 # target to build an object file
 cryptonotecore/ITimeProvider.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/ITimeProvider.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/ITimeProvider.cpp.o
 .PHONY : cryptonotecore/ITimeProvider.cpp.o
 
 cryptonotecore/ITimeProvider.i: cryptonotecore/ITimeProvider.cpp.i
@@ -2632,7 +2632,7 @@ cryptonotecore/ITimeProvider.i: cryptonotecore/ITimeProvider.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/ITimeProvider.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/ITimeProvider.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/ITimeProvider.cpp.i
 .PHONY : cryptonotecore/ITimeProvider.cpp.i
 
 cryptonotecore/ITimeProvider.s: cryptonotecore/ITimeProvider.cpp.s
@@ -2641,7 +2641,7 @@ cryptonotecore/ITimeProvider.s: cryptonotecore/ITimeProvider.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/ITimeProvider.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/ITimeProvider.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/ITimeProvider.cpp.s
 .PHONY : cryptonotecore/ITimeProvider.cpp.s
 
 cryptonotecore/MainChainStorage.o: cryptonotecore/MainChainStorage.cpp.o
@@ -2650,7 +2650,7 @@ cryptonotecore/MainChainStorage.o: cryptonotecore/MainChainStorage.cpp.o
 
 # target to build an object file
 cryptonotecore/MainChainStorage.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/MainChainStorage.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/MainChainStorage.cpp.o
 .PHONY : cryptonotecore/MainChainStorage.cpp.o
 
 cryptonotecore/MainChainStorage.i: cryptonotecore/MainChainStorage.cpp.i
@@ -2659,7 +2659,7 @@ cryptonotecore/MainChainStorage.i: cryptonotecore/MainChainStorage.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/MainChainStorage.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/MainChainStorage.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/MainChainStorage.cpp.i
 .PHONY : cryptonotecore/MainChainStorage.cpp.i
 
 cryptonotecore/MainChainStorage.s: cryptonotecore/MainChainStorage.cpp.s
@@ -2668,7 +2668,7 @@ cryptonotecore/MainChainStorage.s: cryptonotecore/MainChainStorage.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/MainChainStorage.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/MainChainStorage.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/MainChainStorage.cpp.s
 .PHONY : cryptonotecore/MainChainStorage.cpp.s
 
 cryptonotecore/MemoryBlockchainCacheFactory.o: cryptonotecore/MemoryBlockchainCacheFactory.cpp.o
@@ -2677,7 +2677,7 @@ cryptonotecore/MemoryBlockchainCacheFactory.o: cryptonotecore/MemoryBlockchainCa
 
 # target to build an object file
 cryptonotecore/MemoryBlockchainCacheFactory.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/MemoryBlockchainCacheFactory.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/MemoryBlockchainCacheFactory.cpp.o
 .PHONY : cryptonotecore/MemoryBlockchainCacheFactory.cpp.o
 
 cryptonotecore/MemoryBlockchainCacheFactory.i: cryptonotecore/MemoryBlockchainCacheFactory.cpp.i
@@ -2686,7 +2686,7 @@ cryptonotecore/MemoryBlockchainCacheFactory.i: cryptonotecore/MemoryBlockchainCa
 
 # target to preprocess a source file
 cryptonotecore/MemoryBlockchainCacheFactory.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/MemoryBlockchainCacheFactory.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/MemoryBlockchainCacheFactory.cpp.i
 .PHONY : cryptonotecore/MemoryBlockchainCacheFactory.cpp.i
 
 cryptonotecore/MemoryBlockchainCacheFactory.s: cryptonotecore/MemoryBlockchainCacheFactory.cpp.s
@@ -2695,7 +2695,7 @@ cryptonotecore/MemoryBlockchainCacheFactory.s: cryptonotecore/MemoryBlockchainCa
 
 # target to generate assembly for a file
 cryptonotecore/MemoryBlockchainCacheFactory.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/MemoryBlockchainCacheFactory.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/MemoryBlockchainCacheFactory.cpp.s
 .PHONY : cryptonotecore/MemoryBlockchainCacheFactory.cpp.s
 
 cryptonotecore/MemoryBlockchainStorage.o: cryptonotecore/MemoryBlockchainStorage.cpp.o
@@ -2704,7 +2704,7 @@ cryptonotecore/MemoryBlockchainStorage.o: cryptonotecore/MemoryBlockchainStorage
 
 # target to build an object file
 cryptonotecore/MemoryBlockchainStorage.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/MemoryBlockchainStorage.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/MemoryBlockchainStorage.cpp.o
 .PHONY : cryptonotecore/MemoryBlockchainStorage.cpp.o
 
 cryptonotecore/MemoryBlockchainStorage.i: cryptonotecore/MemoryBlockchainStorage.cpp.i
@@ -2713,7 +2713,7 @@ cryptonotecore/MemoryBlockchainStorage.i: cryptonotecore/MemoryBlockchainStorage
 
 # target to preprocess a source file
 cryptonotecore/MemoryBlockchainStorage.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/MemoryBlockchainStorage.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/MemoryBlockchainStorage.cpp.i
 .PHONY : cryptonotecore/MemoryBlockchainStorage.cpp.i
 
 cryptonotecore/MemoryBlockchainStorage.s: cryptonotecore/MemoryBlockchainStorage.cpp.s
@@ -2722,7 +2722,7 @@ cryptonotecore/MemoryBlockchainStorage.s: cryptonotecore/MemoryBlockchainStorage
 
 # target to generate assembly for a file
 cryptonotecore/MemoryBlockchainStorage.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/MemoryBlockchainStorage.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/MemoryBlockchainStorage.cpp.s
 .PHONY : cryptonotecore/MemoryBlockchainStorage.cpp.s
 
 cryptonotecore/RocksDBWrapper.o: cryptonotecore/RocksDBWrapper.cpp.o
@@ -2731,7 +2731,7 @@ cryptonotecore/RocksDBWrapper.o: cryptonotecore/RocksDBWrapper.cpp.o
 
 # target to build an object file
 cryptonotecore/RocksDBWrapper.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/RocksDBWrapper.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/RocksDBWrapper.cpp.o
 .PHONY : cryptonotecore/RocksDBWrapper.cpp.o
 
 cryptonotecore/RocksDBWrapper.i: cryptonotecore/RocksDBWrapper.cpp.i
@@ -2740,7 +2740,7 @@ cryptonotecore/RocksDBWrapper.i: cryptonotecore/RocksDBWrapper.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/RocksDBWrapper.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/RocksDBWrapper.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/RocksDBWrapper.cpp.i
 .PHONY : cryptonotecore/RocksDBWrapper.cpp.i
 
 cryptonotecore/RocksDBWrapper.s: cryptonotecore/RocksDBWrapper.cpp.s
@@ -2749,7 +2749,7 @@ cryptonotecore/RocksDBWrapper.s: cryptonotecore/RocksDBWrapper.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/RocksDBWrapper.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/RocksDBWrapper.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/RocksDBWrapper.cpp.s
 .PHONY : cryptonotecore/RocksDBWrapper.cpp.s
 
 cryptonotecore/SwappedBlockchainStorage.o: cryptonotecore/SwappedBlockchainStorage.cpp.o
@@ -2758,7 +2758,7 @@ cryptonotecore/SwappedBlockchainStorage.o: cryptonotecore/SwappedBlockchainStora
 
 # target to build an object file
 cryptonotecore/SwappedBlockchainStorage.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/SwappedBlockchainStorage.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/SwappedBlockchainStorage.cpp.o
 .PHONY : cryptonotecore/SwappedBlockchainStorage.cpp.o
 
 cryptonotecore/SwappedBlockchainStorage.i: cryptonotecore/SwappedBlockchainStorage.cpp.i
@@ -2767,7 +2767,7 @@ cryptonotecore/SwappedBlockchainStorage.i: cryptonotecore/SwappedBlockchainStora
 
 # target to preprocess a source file
 cryptonotecore/SwappedBlockchainStorage.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/SwappedBlockchainStorage.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/SwappedBlockchainStorage.cpp.i
 .PHONY : cryptonotecore/SwappedBlockchainStorage.cpp.i
 
 cryptonotecore/SwappedBlockchainStorage.s: cryptonotecore/SwappedBlockchainStorage.cpp.s
@@ -2776,7 +2776,7 @@ cryptonotecore/SwappedBlockchainStorage.s: cryptonotecore/SwappedBlockchainStora
 
 # target to generate assembly for a file
 cryptonotecore/SwappedBlockchainStorage.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/SwappedBlockchainStorage.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/SwappedBlockchainStorage.cpp.s
 .PHONY : cryptonotecore/SwappedBlockchainStorage.cpp.s
 
 cryptonotecore/SwappedVector.o: cryptonotecore/SwappedVector.cpp.o
@@ -2785,7 +2785,7 @@ cryptonotecore/SwappedVector.o: cryptonotecore/SwappedVector.cpp.o
 
 # target to build an object file
 cryptonotecore/SwappedVector.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/SwappedVector.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/SwappedVector.cpp.o
 .PHONY : cryptonotecore/SwappedVector.cpp.o
 
 cryptonotecore/SwappedVector.i: cryptonotecore/SwappedVector.cpp.i
@@ -2794,7 +2794,7 @@ cryptonotecore/SwappedVector.i: cryptonotecore/SwappedVector.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/SwappedVector.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/SwappedVector.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/SwappedVector.cpp.i
 .PHONY : cryptonotecore/SwappedVector.cpp.i
 
 cryptonotecore/SwappedVector.s: cryptonotecore/SwappedVector.cpp.s
@@ -2803,7 +2803,7 @@ cryptonotecore/SwappedVector.s: cryptonotecore/SwappedVector.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/SwappedVector.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/SwappedVector.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/SwappedVector.cpp.s
 .PHONY : cryptonotecore/SwappedVector.cpp.s
 
 cryptonotecore/Transaction.o: cryptonotecore/Transaction.cpp.o
@@ -2812,7 +2812,7 @@ cryptonotecore/Transaction.o: cryptonotecore/Transaction.cpp.o
 
 # target to build an object file
 cryptonotecore/Transaction.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Transaction.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Transaction.cpp.o
 .PHONY : cryptonotecore/Transaction.cpp.o
 
 cryptonotecore/Transaction.i: cryptonotecore/Transaction.cpp.i
@@ -2821,7 +2821,7 @@ cryptonotecore/Transaction.i: cryptonotecore/Transaction.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/Transaction.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Transaction.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Transaction.cpp.i
 .PHONY : cryptonotecore/Transaction.cpp.i
 
 cryptonotecore/Transaction.s: cryptonotecore/Transaction.cpp.s
@@ -2830,7 +2830,7 @@ cryptonotecore/Transaction.s: cryptonotecore/Transaction.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/Transaction.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Transaction.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/Transaction.cpp.s
 .PHONY : cryptonotecore/Transaction.cpp.s
 
 cryptonotecore/TransactionPool.o: cryptonotecore/TransactionPool.cpp.o
@@ -2839,7 +2839,7 @@ cryptonotecore/TransactionPool.o: cryptonotecore/TransactionPool.cpp.o
 
 # target to build an object file
 cryptonotecore/TransactionPool.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPool.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPool.cpp.o
 .PHONY : cryptonotecore/TransactionPool.cpp.o
 
 cryptonotecore/TransactionPool.i: cryptonotecore/TransactionPool.cpp.i
@@ -2848,7 +2848,7 @@ cryptonotecore/TransactionPool.i: cryptonotecore/TransactionPool.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/TransactionPool.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPool.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPool.cpp.i
 .PHONY : cryptonotecore/TransactionPool.cpp.i
 
 cryptonotecore/TransactionPool.s: cryptonotecore/TransactionPool.cpp.s
@@ -2857,7 +2857,7 @@ cryptonotecore/TransactionPool.s: cryptonotecore/TransactionPool.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/TransactionPool.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPool.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPool.cpp.s
 .PHONY : cryptonotecore/TransactionPool.cpp.s
 
 cryptonotecore/TransactionPoolCleaner.o: cryptonotecore/TransactionPoolCleaner.cpp.o
@@ -2866,7 +2866,7 @@ cryptonotecore/TransactionPoolCleaner.o: cryptonotecore/TransactionPoolCleaner.c
 
 # target to build an object file
 cryptonotecore/TransactionPoolCleaner.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPoolCleaner.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPoolCleaner.cpp.o
 .PHONY : cryptonotecore/TransactionPoolCleaner.cpp.o
 
 cryptonotecore/TransactionPoolCleaner.i: cryptonotecore/TransactionPoolCleaner.cpp.i
@@ -2875,7 +2875,7 @@ cryptonotecore/TransactionPoolCleaner.i: cryptonotecore/TransactionPoolCleaner.c
 
 # target to preprocess a source file
 cryptonotecore/TransactionPoolCleaner.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPoolCleaner.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPoolCleaner.cpp.i
 .PHONY : cryptonotecore/TransactionPoolCleaner.cpp.i
 
 cryptonotecore/TransactionPoolCleaner.s: cryptonotecore/TransactionPoolCleaner.cpp.s
@@ -2884,7 +2884,7 @@ cryptonotecore/TransactionPoolCleaner.s: cryptonotecore/TransactionPoolCleaner.c
 
 # target to generate assembly for a file
 cryptonotecore/TransactionPoolCleaner.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPoolCleaner.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPoolCleaner.cpp.s
 .PHONY : cryptonotecore/TransactionPoolCleaner.cpp.s
 
 cryptonotecore/TransactionPoolMessages.o: cryptonotecore/TransactionPoolMessages.cpp.o
@@ -2893,7 +2893,7 @@ cryptonotecore/TransactionPoolMessages.o: cryptonotecore/TransactionPoolMessages
 
 # target to build an object file
 cryptonotecore/TransactionPoolMessages.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPoolMessages.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPoolMessages.cpp.o
 .PHONY : cryptonotecore/TransactionPoolMessages.cpp.o
 
 cryptonotecore/TransactionPoolMessages.i: cryptonotecore/TransactionPoolMessages.cpp.i
@@ -2902,7 +2902,7 @@ cryptonotecore/TransactionPoolMessages.i: cryptonotecore/TransactionPoolMessages
 
 # target to preprocess a source file
 cryptonotecore/TransactionPoolMessages.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPoolMessages.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPoolMessages.cpp.i
 .PHONY : cryptonotecore/TransactionPoolMessages.cpp.i
 
 cryptonotecore/TransactionPoolMessages.s: cryptonotecore/TransactionPoolMessages.cpp.s
@@ -2911,7 +2911,7 @@ cryptonotecore/TransactionPoolMessages.s: cryptonotecore/TransactionPoolMessages
 
 # target to generate assembly for a file
 cryptonotecore/TransactionPoolMessages.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPoolMessages.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPoolMessages.cpp.s
 .PHONY : cryptonotecore/TransactionPoolMessages.cpp.s
 
 cryptonotecore/TransactionPrefixImpl.o: cryptonotecore/TransactionPrefixImpl.cpp.o
@@ -2920,7 +2920,7 @@ cryptonotecore/TransactionPrefixImpl.o: cryptonotecore/TransactionPrefixImpl.cpp
 
 # target to build an object file
 cryptonotecore/TransactionPrefixImpl.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPrefixImpl.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPrefixImpl.cpp.o
 .PHONY : cryptonotecore/TransactionPrefixImpl.cpp.o
 
 cryptonotecore/TransactionPrefixImpl.i: cryptonotecore/TransactionPrefixImpl.cpp.i
@@ -2929,7 +2929,7 @@ cryptonotecore/TransactionPrefixImpl.i: cryptonotecore/TransactionPrefixImpl.cpp
 
 # target to preprocess a source file
 cryptonotecore/TransactionPrefixImpl.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPrefixImpl.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPrefixImpl.cpp.i
 .PHONY : cryptonotecore/TransactionPrefixImpl.cpp.i
 
 cryptonotecore/TransactionPrefixImpl.s: cryptonotecore/TransactionPrefixImpl.cpp.s
@@ -2938,7 +2938,7 @@ cryptonotecore/TransactionPrefixImpl.s: cryptonotecore/TransactionPrefixImpl.cpp
 
 # target to generate assembly for a file
 cryptonotecore/TransactionPrefixImpl.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPrefixImpl.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionPrefixImpl.cpp.s
 .PHONY : cryptonotecore/TransactionPrefixImpl.cpp.s
 
 cryptonotecore/TransactionUtils.o: cryptonotecore/TransactionUtils.cpp.o
@@ -2947,7 +2947,7 @@ cryptonotecore/TransactionUtils.o: cryptonotecore/TransactionUtils.cpp.o
 
 # target to build an object file
 cryptonotecore/TransactionUtils.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionUtils.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionUtils.cpp.o
 .PHONY : cryptonotecore/TransactionUtils.cpp.o
 
 cryptonotecore/TransactionUtils.i: cryptonotecore/TransactionUtils.cpp.i
@@ -2956,7 +2956,7 @@ cryptonotecore/TransactionUtils.i: cryptonotecore/TransactionUtils.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/TransactionUtils.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionUtils.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionUtils.cpp.i
 .PHONY : cryptonotecore/TransactionUtils.cpp.i
 
 cryptonotecore/TransactionUtils.s: cryptonotecore/TransactionUtils.cpp.s
@@ -2965,7 +2965,7 @@ cryptonotecore/TransactionUtils.s: cryptonotecore/TransactionUtils.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/TransactionUtils.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionUtils.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionUtils.cpp.s
 .PHONY : cryptonotecore/TransactionUtils.cpp.s
 
 cryptonotecore/TransactionValidationErrors.o: cryptonotecore/TransactionValidationErrors.cpp.o
@@ -2974,7 +2974,7 @@ cryptonotecore/TransactionValidationErrors.o: cryptonotecore/TransactionValidati
 
 # target to build an object file
 cryptonotecore/TransactionValidationErrors.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionValidationErrors.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionValidationErrors.cpp.o
 .PHONY : cryptonotecore/TransactionValidationErrors.cpp.o
 
 cryptonotecore/TransactionValidationErrors.i: cryptonotecore/TransactionValidationErrors.cpp.i
@@ -2983,7 +2983,7 @@ cryptonotecore/TransactionValidationErrors.i: cryptonotecore/TransactionValidati
 
 # target to preprocess a source file
 cryptonotecore/TransactionValidationErrors.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionValidationErrors.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionValidationErrors.cpp.i
 .PHONY : cryptonotecore/TransactionValidationErrors.cpp.i
 
 cryptonotecore/TransactionValidationErrors.s: cryptonotecore/TransactionValidationErrors.cpp.s
@@ -2992,7 +2992,7 @@ cryptonotecore/TransactionValidationErrors.s: cryptonotecore/TransactionValidati
 
 # target to generate assembly for a file
 cryptonotecore/TransactionValidationErrors.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionValidationErrors.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionValidationErrors.cpp.s
 .PHONY : cryptonotecore/TransactionValidationErrors.cpp.s
 
 cryptonotecore/TransactionValidatiorState.o: cryptonotecore/TransactionValidatiorState.cpp.o
@@ -3001,7 +3001,7 @@ cryptonotecore/TransactionValidatiorState.o: cryptonotecore/TransactionValidatio
 
 # target to build an object file
 cryptonotecore/TransactionValidatiorState.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionValidatiorState.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionValidatiorState.cpp.o
 .PHONY : cryptonotecore/TransactionValidatiorState.cpp.o
 
 cryptonotecore/TransactionValidatiorState.i: cryptonotecore/TransactionValidatiorState.cpp.i
@@ -3010,7 +3010,7 @@ cryptonotecore/TransactionValidatiorState.i: cryptonotecore/TransactionValidatio
 
 # target to preprocess a source file
 cryptonotecore/TransactionValidatiorState.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionValidatiorState.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionValidatiorState.cpp.i
 .PHONY : cryptonotecore/TransactionValidatiorState.cpp.i
 
 cryptonotecore/TransactionValidatiorState.s: cryptonotecore/TransactionValidatiorState.cpp.s
@@ -3019,7 +3019,7 @@ cryptonotecore/TransactionValidatiorState.s: cryptonotecore/TransactionValidatio
 
 # target to generate assembly for a file
 cryptonotecore/TransactionValidatiorState.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionValidatiorState.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/TransactionValidatiorState.cpp.s
 .PHONY : cryptonotecore/TransactionValidatiorState.cpp.s
 
 cryptonotecore/UpgradeDetector.o: cryptonotecore/UpgradeDetector.cpp.o
@@ -3028,7 +3028,7 @@ cryptonotecore/UpgradeDetector.o: cryptonotecore/UpgradeDetector.cpp.o
 
 # target to build an object file
 cryptonotecore/UpgradeDetector.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/UpgradeDetector.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/UpgradeDetector.cpp.o
 .PHONY : cryptonotecore/UpgradeDetector.cpp.o
 
 cryptonotecore/UpgradeDetector.i: cryptonotecore/UpgradeDetector.cpp.i
@@ -3037,7 +3037,7 @@ cryptonotecore/UpgradeDetector.i: cryptonotecore/UpgradeDetector.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/UpgradeDetector.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/UpgradeDetector.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/UpgradeDetector.cpp.i
 .PHONY : cryptonotecore/UpgradeDetector.cpp.i
 
 cryptonotecore/UpgradeDetector.s: cryptonotecore/UpgradeDetector.cpp.s
@@ -3046,7 +3046,7 @@ cryptonotecore/UpgradeDetector.s: cryptonotecore/UpgradeDetector.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/UpgradeDetector.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/UpgradeDetector.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/UpgradeDetector.cpp.s
 .PHONY : cryptonotecore/UpgradeDetector.cpp.s
 
 cryptonotecore/UpgradeManager.o: cryptonotecore/UpgradeManager.cpp.o
@@ -3055,7 +3055,7 @@ cryptonotecore/UpgradeManager.o: cryptonotecore/UpgradeManager.cpp.o
 
 # target to build an object file
 cryptonotecore/UpgradeManager.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/UpgradeManager.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/UpgradeManager.cpp.o
 .PHONY : cryptonotecore/UpgradeManager.cpp.o
 
 cryptonotecore/UpgradeManager.i: cryptonotecore/UpgradeManager.cpp.i
@@ -3064,7 +3064,7 @@ cryptonotecore/UpgradeManager.i: cryptonotecore/UpgradeManager.cpp.i
 
 # target to preprocess a source file
 cryptonotecore/UpgradeManager.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/UpgradeManager.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/UpgradeManager.cpp.i
 .PHONY : cryptonotecore/UpgradeManager.cpp.i
 
 cryptonotecore/UpgradeManager.s: cryptonotecore/UpgradeManager.cpp.s
@@ -3073,7 +3073,7 @@ cryptonotecore/UpgradeManager.s: cryptonotecore/UpgradeManager.cpp.s
 
 # target to generate assembly for a file
 cryptonotecore/UpgradeManager.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/UpgradeManager.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonotecore/UpgradeManager.cpp.s
 .PHONY : cryptonotecore/UpgradeManager.cpp.s
 
 cryptonoteprotocol/CryptoNoteProtocolHandler.o: cryptonoteprotocol/CryptoNoteProtocolHandler.cpp.o
@@ -3082,7 +3082,7 @@ cryptonoteprotocol/CryptoNoteProtocolHandler.o: cryptonoteprotocol/CryptoNotePro
 
 # target to build an object file
 cryptonoteprotocol/CryptoNoteProtocolHandler.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/cryptonoteprotocol/CryptoNoteProtocolHandler.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/cryptonoteprotocol/CryptoNoteProtocolHandler.cpp.o
 .PHONY : cryptonoteprotocol/CryptoNoteProtocolHandler.cpp.o
 
 cryptonoteprotocol/CryptoNoteProtocolHandler.i: cryptonoteprotocol/CryptoNoteProtocolHandler.cpp.i
@@ -3091,7 +3091,7 @@ cryptonoteprotocol/CryptoNoteProtocolHandler.i: cryptonoteprotocol/CryptoNotePro
 
 # target to preprocess a source file
 cryptonoteprotocol/CryptoNoteProtocolHandler.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/cryptonoteprotocol/CryptoNoteProtocolHandler.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/cryptonoteprotocol/CryptoNoteProtocolHandler.cpp.i
 .PHONY : cryptonoteprotocol/CryptoNoteProtocolHandler.cpp.i
 
 cryptonoteprotocol/CryptoNoteProtocolHandler.s: cryptonoteprotocol/CryptoNoteProtocolHandler.cpp.s
@@ -3100,7 +3100,7 @@ cryptonoteprotocol/CryptoNoteProtocolHandler.s: cryptonoteprotocol/CryptoNotePro
 
 # target to generate assembly for a file
 cryptonoteprotocol/CryptoNoteProtocolHandler.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/cryptonoteprotocol/CryptoNoteProtocolHandler.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/cryptonoteprotocol/CryptoNoteProtocolHandler.cpp.s
 .PHONY : cryptonoteprotocol/CryptoNoteProtocolHandler.cpp.s
 
 cryptotest/main.o: cryptotest/main.cpp.o
@@ -3109,7 +3109,7 @@ cryptotest/main.o: cryptotest/main.cpp.o
 
 # target to build an object file
 cryptotest/main.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/cryptotest.dir/build.make src/CMakeFiles/cryptotest.dir/cryptotest/main.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/cryptotest.dir/build.make src/CMakeFiles/cryptotest.dir/cryptotest/main.cpp.o
 .PHONY : cryptotest/main.cpp.o
 
 cryptotest/main.i: cryptotest/main.cpp.i
@@ -3118,7 +3118,7 @@ cryptotest/main.i: cryptotest/main.cpp.i
 
 # target to preprocess a source file
 cryptotest/main.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/cryptotest.dir/build.make src/CMakeFiles/cryptotest.dir/cryptotest/main.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/cryptotest.dir/build.make src/CMakeFiles/cryptotest.dir/cryptotest/main.cpp.i
 .PHONY : cryptotest/main.cpp.i
 
 cryptotest/main.s: cryptotest/main.cpp.s
@@ -3127,7 +3127,7 @@ cryptotest/main.s: cryptotest/main.cpp.s
 
 # target to generate assembly for a file
 cryptotest/main.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/cryptotest.dir/build.make src/CMakeFiles/cryptotest.dir/cryptotest/main.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/cryptotest.dir/build.make src/CMakeFiles/cryptotest.dir/cryptotest/main.cpp.s
 .PHONY : cryptotest/main.cpp.s
 
 daemon/Daemon.o: daemon/Daemon.cpp.o
@@ -3136,7 +3136,7 @@ daemon/Daemon.o: daemon/Daemon.cpp.o
 
 # target to build an object file
 daemon/Daemon.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Evolutiond.dir/build.make src/CMakeFiles/Evolutiond.dir/daemon/Daemon.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Evolutiond.dir/build.make src/CMakeFiles/Evolutiond.dir/daemon/Daemon.cpp.o
 .PHONY : daemon/Daemon.cpp.o
 
 daemon/Daemon.i: daemon/Daemon.cpp.i
@@ -3145,7 +3145,7 @@ daemon/Daemon.i: daemon/Daemon.cpp.i
 
 # target to preprocess a source file
 daemon/Daemon.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Evolutiond.dir/build.make src/CMakeFiles/Evolutiond.dir/daemon/Daemon.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Evolutiond.dir/build.make src/CMakeFiles/Evolutiond.dir/daemon/Daemon.cpp.i
 .PHONY : daemon/Daemon.cpp.i
 
 daemon/Daemon.s: daemon/Daemon.cpp.s
@@ -3154,7 +3154,7 @@ daemon/Daemon.s: daemon/Daemon.cpp.s
 
 # target to generate assembly for a file
 daemon/Daemon.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Evolutiond.dir/build.make src/CMakeFiles/Evolutiond.dir/daemon/Daemon.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Evolutiond.dir/build.make src/CMakeFiles/Evolutiond.dir/daemon/Daemon.cpp.s
 .PHONY : daemon/Daemon.cpp.s
 
 daemon/DaemonCommandsHandler.o: daemon/DaemonCommandsHandler.cpp.o
@@ -3163,7 +3163,7 @@ daemon/DaemonCommandsHandler.o: daemon/DaemonCommandsHandler.cpp.o
 
 # target to build an object file
 daemon/DaemonCommandsHandler.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Evolutiond.dir/build.make src/CMakeFiles/Evolutiond.dir/daemon/DaemonCommandsHandler.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Evolutiond.dir/build.make src/CMakeFiles/Evolutiond.dir/daemon/DaemonCommandsHandler.cpp.o
 .PHONY : daemon/DaemonCommandsHandler.cpp.o
 
 daemon/DaemonCommandsHandler.i: daemon/DaemonCommandsHandler.cpp.i
@@ -3172,7 +3172,7 @@ daemon/DaemonCommandsHandler.i: daemon/DaemonCommandsHandler.cpp.i
 
 # target to preprocess a source file
 daemon/DaemonCommandsHandler.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Evolutiond.dir/build.make src/CMakeFiles/Evolutiond.dir/daemon/DaemonCommandsHandler.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Evolutiond.dir/build.make src/CMakeFiles/Evolutiond.dir/daemon/DaemonCommandsHandler.cpp.i
 .PHONY : daemon/DaemonCommandsHandler.cpp.i
 
 daemon/DaemonCommandsHandler.s: daemon/DaemonCommandsHandler.cpp.s
@@ -3181,7 +3181,7 @@ daemon/DaemonCommandsHandler.s: daemon/DaemonCommandsHandler.cpp.s
 
 # target to generate assembly for a file
 daemon/DaemonCommandsHandler.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Evolutiond.dir/build.make src/CMakeFiles/Evolutiond.dir/daemon/DaemonCommandsHandler.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Evolutiond.dir/build.make src/CMakeFiles/Evolutiond.dir/daemon/DaemonCommandsHandler.cpp.s
 .PHONY : daemon/DaemonCommandsHandler.cpp.s
 
 daemon/DaemonConfiguration.o: daemon/DaemonConfiguration.cpp.o
@@ -3190,7 +3190,7 @@ daemon/DaemonConfiguration.o: daemon/DaemonConfiguration.cpp.o
 
 # target to build an object file
 daemon/DaemonConfiguration.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Evolutiond.dir/build.make src/CMakeFiles/Evolutiond.dir/daemon/DaemonConfiguration.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Evolutiond.dir/build.make src/CMakeFiles/Evolutiond.dir/daemon/DaemonConfiguration.cpp.o
 .PHONY : daemon/DaemonConfiguration.cpp.o
 
 daemon/DaemonConfiguration.i: daemon/DaemonConfiguration.cpp.i
@@ -3199,7 +3199,7 @@ daemon/DaemonConfiguration.i: daemon/DaemonConfiguration.cpp.i
 
 # target to preprocess a source file
 daemon/DaemonConfiguration.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Evolutiond.dir/build.make src/CMakeFiles/Evolutiond.dir/daemon/DaemonConfiguration.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Evolutiond.dir/build.make src/CMakeFiles/Evolutiond.dir/daemon/DaemonConfiguration.cpp.i
 .PHONY : daemon/DaemonConfiguration.cpp.i
 
 daemon/DaemonConfiguration.s: daemon/DaemonConfiguration.cpp.s
@@ -3208,7 +3208,7 @@ daemon/DaemonConfiguration.s: daemon/DaemonConfiguration.cpp.s
 
 # target to generate assembly for a file
 daemon/DaemonConfiguration.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Evolutiond.dir/build.make src/CMakeFiles/Evolutiond.dir/daemon/DaemonConfiguration.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Evolutiond.dir/build.make src/CMakeFiles/Evolutiond.dir/daemon/DaemonConfiguration.cpp.s
 .PHONY : daemon/DaemonConfiguration.cpp.s
 
 errors/Errors.o: errors/Errors.cpp.o
@@ -3217,7 +3217,7 @@ errors/Errors.o: errors/Errors.cpp.o
 
 # target to build an object file
 errors/Errors.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Errors.dir/build.make src/CMakeFiles/Errors.dir/errors/Errors.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Errors.dir/build.make src/CMakeFiles/Errors.dir/errors/Errors.cpp.o
 .PHONY : errors/Errors.cpp.o
 
 errors/Errors.i: errors/Errors.cpp.i
@@ -3226,7 +3226,7 @@ errors/Errors.i: errors/Errors.cpp.i
 
 # target to preprocess a source file
 errors/Errors.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Errors.dir/build.make src/CMakeFiles/Errors.dir/errors/Errors.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Errors.dir/build.make src/CMakeFiles/Errors.dir/errors/Errors.cpp.i
 .PHONY : errors/Errors.cpp.i
 
 errors/Errors.s: errors/Errors.cpp.s
@@ -3235,7 +3235,7 @@ errors/Errors.s: errors/Errors.cpp.s
 
 # target to generate assembly for a file
 errors/Errors.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Errors.dir/build.make src/CMakeFiles/Errors.dir/errors/Errors.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Errors.dir/build.make src/CMakeFiles/Errors.dir/errors/Errors.cpp.s
 .PHONY : errors/Errors.cpp.s
 
 errors/ValidateParameters.o: errors/ValidateParameters.cpp.o
@@ -3244,7 +3244,7 @@ errors/ValidateParameters.o: errors/ValidateParameters.cpp.o
 
 # target to build an object file
 errors/ValidateParameters.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Errors.dir/build.make src/CMakeFiles/Errors.dir/errors/ValidateParameters.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Errors.dir/build.make src/CMakeFiles/Errors.dir/errors/ValidateParameters.cpp.o
 .PHONY : errors/ValidateParameters.cpp.o
 
 errors/ValidateParameters.i: errors/ValidateParameters.cpp.i
@@ -3253,7 +3253,7 @@ errors/ValidateParameters.i: errors/ValidateParameters.cpp.i
 
 # target to preprocess a source file
 errors/ValidateParameters.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Errors.dir/build.make src/CMakeFiles/Errors.dir/errors/ValidateParameters.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Errors.dir/build.make src/CMakeFiles/Errors.dir/errors/ValidateParameters.cpp.i
 .PHONY : errors/ValidateParameters.cpp.i
 
 errors/ValidateParameters.s: errors/ValidateParameters.cpp.s
@@ -3262,7 +3262,7 @@ errors/ValidateParameters.s: errors/ValidateParameters.cpp.s
 
 # target to generate assembly for a file
 errors/ValidateParameters.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Errors.dir/build.make src/CMakeFiles/Errors.dir/errors/ValidateParameters.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Errors.dir/build.make src/CMakeFiles/Errors.dir/errors/ValidateParameters.cpp.s
 .PHONY : errors/ValidateParameters.cpp.s
 
 http/HttpParser.o: http/HttpParser.cpp.o
@@ -3271,7 +3271,7 @@ http/HttpParser.o: http/HttpParser.cpp.o
 
 # target to build an object file
 http/HttpParser.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpParser.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpParser.cpp.o
 .PHONY : http/HttpParser.cpp.o
 
 http/HttpParser.i: http/HttpParser.cpp.i
@@ -3280,7 +3280,7 @@ http/HttpParser.i: http/HttpParser.cpp.i
 
 # target to preprocess a source file
 http/HttpParser.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpParser.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpParser.cpp.i
 .PHONY : http/HttpParser.cpp.i
 
 http/HttpParser.s: http/HttpParser.cpp.s
@@ -3289,7 +3289,7 @@ http/HttpParser.s: http/HttpParser.cpp.s
 
 # target to generate assembly for a file
 http/HttpParser.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpParser.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpParser.cpp.s
 .PHONY : http/HttpParser.cpp.s
 
 http/HttpParserErrorCodes.o: http/HttpParserErrorCodes.cpp.o
@@ -3298,7 +3298,7 @@ http/HttpParserErrorCodes.o: http/HttpParserErrorCodes.cpp.o
 
 # target to build an object file
 http/HttpParserErrorCodes.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpParserErrorCodes.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpParserErrorCodes.cpp.o
 .PHONY : http/HttpParserErrorCodes.cpp.o
 
 http/HttpParserErrorCodes.i: http/HttpParserErrorCodes.cpp.i
@@ -3307,7 +3307,7 @@ http/HttpParserErrorCodes.i: http/HttpParserErrorCodes.cpp.i
 
 # target to preprocess a source file
 http/HttpParserErrorCodes.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpParserErrorCodes.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpParserErrorCodes.cpp.i
 .PHONY : http/HttpParserErrorCodes.cpp.i
 
 http/HttpParserErrorCodes.s: http/HttpParserErrorCodes.cpp.s
@@ -3316,7 +3316,7 @@ http/HttpParserErrorCodes.s: http/HttpParserErrorCodes.cpp.s
 
 # target to generate assembly for a file
 http/HttpParserErrorCodes.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpParserErrorCodes.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpParserErrorCodes.cpp.s
 .PHONY : http/HttpParserErrorCodes.cpp.s
 
 http/HttpRequest.o: http/HttpRequest.cpp.o
@@ -3325,7 +3325,7 @@ http/HttpRequest.o: http/HttpRequest.cpp.o
 
 # target to build an object file
 http/HttpRequest.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpRequest.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpRequest.cpp.o
 .PHONY : http/HttpRequest.cpp.o
 
 http/HttpRequest.i: http/HttpRequest.cpp.i
@@ -3334,7 +3334,7 @@ http/HttpRequest.i: http/HttpRequest.cpp.i
 
 # target to preprocess a source file
 http/HttpRequest.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpRequest.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpRequest.cpp.i
 .PHONY : http/HttpRequest.cpp.i
 
 http/HttpRequest.s: http/HttpRequest.cpp.s
@@ -3343,7 +3343,7 @@ http/HttpRequest.s: http/HttpRequest.cpp.s
 
 # target to generate assembly for a file
 http/HttpRequest.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpRequest.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpRequest.cpp.s
 .PHONY : http/HttpRequest.cpp.s
 
 http/HttpResponse.o: http/HttpResponse.cpp.o
@@ -3352,7 +3352,7 @@ http/HttpResponse.o: http/HttpResponse.cpp.o
 
 # target to build an object file
 http/HttpResponse.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpResponse.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpResponse.cpp.o
 .PHONY : http/HttpResponse.cpp.o
 
 http/HttpResponse.i: http/HttpResponse.cpp.i
@@ -3361,7 +3361,7 @@ http/HttpResponse.i: http/HttpResponse.cpp.i
 
 # target to preprocess a source file
 http/HttpResponse.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpResponse.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpResponse.cpp.i
 .PHONY : http/HttpResponse.cpp.i
 
 http/HttpResponse.s: http/HttpResponse.cpp.s
@@ -3370,7 +3370,7 @@ http/HttpResponse.s: http/HttpResponse.cpp.s
 
 # target to generate assembly for a file
 http/HttpResponse.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpResponse.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpResponse.cpp.s
 .PHONY : http/HttpResponse.cpp.s
 
 jsonrpcserver/JsonRpcServer.o: jsonrpcserver/JsonRpcServer.cpp.o
@@ -3379,7 +3379,7 @@ jsonrpcserver/JsonRpcServer.o: jsonrpcserver/JsonRpcServer.cpp.o
 
 # target to build an object file
 jsonrpcserver/JsonRpcServer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/JsonRpcServer.dir/build.make src/CMakeFiles/JsonRpcServer.dir/jsonrpcserver/JsonRpcServer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/JsonRpcServer.dir/build.make src/CMakeFiles/JsonRpcServer.dir/jsonrpcserver/JsonRpcServer.cpp.o
 .PHONY : jsonrpcserver/JsonRpcServer.cpp.o
 
 jsonrpcserver/JsonRpcServer.i: jsonrpcserver/JsonRpcServer.cpp.i
@@ -3388,7 +3388,7 @@ jsonrpcserver/JsonRpcServer.i: jsonrpcserver/JsonRpcServer.cpp.i
 
 # target to preprocess a source file
 jsonrpcserver/JsonRpcServer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/JsonRpcServer.dir/build.make src/CMakeFiles/JsonRpcServer.dir/jsonrpcserver/JsonRpcServer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/JsonRpcServer.dir/build.make src/CMakeFiles/JsonRpcServer.dir/jsonrpcserver/JsonRpcServer.cpp.i
 .PHONY : jsonrpcserver/JsonRpcServer.cpp.i
 
 jsonrpcserver/JsonRpcServer.s: jsonrpcserver/JsonRpcServer.cpp.s
@@ -3397,7 +3397,7 @@ jsonrpcserver/JsonRpcServer.s: jsonrpcserver/JsonRpcServer.cpp.s
 
 # target to generate assembly for a file
 jsonrpcserver/JsonRpcServer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/JsonRpcServer.dir/build.make src/CMakeFiles/JsonRpcServer.dir/jsonrpcserver/JsonRpcServer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/JsonRpcServer.dir/build.make src/CMakeFiles/JsonRpcServer.dir/jsonrpcserver/JsonRpcServer.cpp.s
 .PHONY : jsonrpcserver/JsonRpcServer.cpp.s
 
 logger/Logger.o: logger/Logger.cpp.o
@@ -3406,7 +3406,7 @@ logger/Logger.o: logger/Logger.cpp.o
 
 # target to build an object file
 logger/Logger.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logger.dir/build.make src/CMakeFiles/Logger.dir/logger/Logger.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logger.dir/build.make src/CMakeFiles/Logger.dir/logger/Logger.cpp.o
 .PHONY : logger/Logger.cpp.o
 
 logger/Logger.i: logger/Logger.cpp.i
@@ -3415,7 +3415,7 @@ logger/Logger.i: logger/Logger.cpp.i
 
 # target to preprocess a source file
 logger/Logger.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logger.dir/build.make src/CMakeFiles/Logger.dir/logger/Logger.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logger.dir/build.make src/CMakeFiles/Logger.dir/logger/Logger.cpp.i
 .PHONY : logger/Logger.cpp.i
 
 logger/Logger.s: logger/Logger.cpp.s
@@ -3424,7 +3424,7 @@ logger/Logger.s: logger/Logger.cpp.s
 
 # target to generate assembly for a file
 logger/Logger.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logger.dir/build.make src/CMakeFiles/Logger.dir/logger/Logger.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logger.dir/build.make src/CMakeFiles/Logger.dir/logger/Logger.cpp.s
 .PHONY : logger/Logger.cpp.s
 
 logging/CommonLogger.o: logging/CommonLogger.cpp.o
@@ -3433,7 +3433,7 @@ logging/CommonLogger.o: logging/CommonLogger.cpp.o
 
 # target to build an object file
 logging/CommonLogger.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/CommonLogger.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/CommonLogger.cpp.o
 .PHONY : logging/CommonLogger.cpp.o
 
 logging/CommonLogger.i: logging/CommonLogger.cpp.i
@@ -3442,7 +3442,7 @@ logging/CommonLogger.i: logging/CommonLogger.cpp.i
 
 # target to preprocess a source file
 logging/CommonLogger.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/CommonLogger.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/CommonLogger.cpp.i
 .PHONY : logging/CommonLogger.cpp.i
 
 logging/CommonLogger.s: logging/CommonLogger.cpp.s
@@ -3451,7 +3451,7 @@ logging/CommonLogger.s: logging/CommonLogger.cpp.s
 
 # target to generate assembly for a file
 logging/CommonLogger.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/CommonLogger.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/CommonLogger.cpp.s
 .PHONY : logging/CommonLogger.cpp.s
 
 logging/ConsoleLogger.o: logging/ConsoleLogger.cpp.o
@@ -3460,7 +3460,7 @@ logging/ConsoleLogger.o: logging/ConsoleLogger.cpp.o
 
 # target to build an object file
 logging/ConsoleLogger.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/ConsoleLogger.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/ConsoleLogger.cpp.o
 .PHONY : logging/ConsoleLogger.cpp.o
 
 logging/ConsoleLogger.i: logging/ConsoleLogger.cpp.i
@@ -3469,7 +3469,7 @@ logging/ConsoleLogger.i: logging/ConsoleLogger.cpp.i
 
 # target to preprocess a source file
 logging/ConsoleLogger.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/ConsoleLogger.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/ConsoleLogger.cpp.i
 .PHONY : logging/ConsoleLogger.cpp.i
 
 logging/ConsoleLogger.s: logging/ConsoleLogger.cpp.s
@@ -3478,7 +3478,7 @@ logging/ConsoleLogger.s: logging/ConsoleLogger.cpp.s
 
 # target to generate assembly for a file
 logging/ConsoleLogger.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/ConsoleLogger.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/ConsoleLogger.cpp.s
 .PHONY : logging/ConsoleLogger.cpp.s
 
 logging/FileLogger.o: logging/FileLogger.cpp.o
@@ -3487,7 +3487,7 @@ logging/FileLogger.o: logging/FileLogger.cpp.o
 
 # target to build an object file
 logging/FileLogger.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/FileLogger.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/FileLogger.cpp.o
 .PHONY : logging/FileLogger.cpp.o
 
 logging/FileLogger.i: logging/FileLogger.cpp.i
@@ -3496,7 +3496,7 @@ logging/FileLogger.i: logging/FileLogger.cpp.i
 
 # target to preprocess a source file
 logging/FileLogger.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/FileLogger.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/FileLogger.cpp.i
 .PHONY : logging/FileLogger.cpp.i
 
 logging/FileLogger.s: logging/FileLogger.cpp.s
@@ -3505,7 +3505,7 @@ logging/FileLogger.s: logging/FileLogger.cpp.s
 
 # target to generate assembly for a file
 logging/FileLogger.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/FileLogger.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/FileLogger.cpp.s
 .PHONY : logging/FileLogger.cpp.s
 
 logging/ILogger.o: logging/ILogger.cpp.o
@@ -3514,7 +3514,7 @@ logging/ILogger.o: logging/ILogger.cpp.o
 
 # target to build an object file
 logging/ILogger.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/ILogger.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/ILogger.cpp.o
 .PHONY : logging/ILogger.cpp.o
 
 logging/ILogger.i: logging/ILogger.cpp.i
@@ -3523,7 +3523,7 @@ logging/ILogger.i: logging/ILogger.cpp.i
 
 # target to preprocess a source file
 logging/ILogger.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/ILogger.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/ILogger.cpp.i
 .PHONY : logging/ILogger.cpp.i
 
 logging/ILogger.s: logging/ILogger.cpp.s
@@ -3532,7 +3532,7 @@ logging/ILogger.s: logging/ILogger.cpp.s
 
 # target to generate assembly for a file
 logging/ILogger.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/ILogger.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/ILogger.cpp.s
 .PHONY : logging/ILogger.cpp.s
 
 logging/LoggerGroup.o: logging/LoggerGroup.cpp.o
@@ -3541,7 +3541,7 @@ logging/LoggerGroup.o: logging/LoggerGroup.cpp.o
 
 # target to build an object file
 logging/LoggerGroup.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerGroup.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerGroup.cpp.o
 .PHONY : logging/LoggerGroup.cpp.o
 
 logging/LoggerGroup.i: logging/LoggerGroup.cpp.i
@@ -3550,7 +3550,7 @@ logging/LoggerGroup.i: logging/LoggerGroup.cpp.i
 
 # target to preprocess a source file
 logging/LoggerGroup.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerGroup.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerGroup.cpp.i
 .PHONY : logging/LoggerGroup.cpp.i
 
 logging/LoggerGroup.s: logging/LoggerGroup.cpp.s
@@ -3559,7 +3559,7 @@ logging/LoggerGroup.s: logging/LoggerGroup.cpp.s
 
 # target to generate assembly for a file
 logging/LoggerGroup.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerGroup.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerGroup.cpp.s
 .PHONY : logging/LoggerGroup.cpp.s
 
 logging/LoggerManager.o: logging/LoggerManager.cpp.o
@@ -3568,7 +3568,7 @@ logging/LoggerManager.o: logging/LoggerManager.cpp.o
 
 # target to build an object file
 logging/LoggerManager.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerManager.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerManager.cpp.o
 .PHONY : logging/LoggerManager.cpp.o
 
 logging/LoggerManager.i: logging/LoggerManager.cpp.i
@@ -3577,7 +3577,7 @@ logging/LoggerManager.i: logging/LoggerManager.cpp.i
 
 # target to preprocess a source file
 logging/LoggerManager.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerManager.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerManager.cpp.i
 .PHONY : logging/LoggerManager.cpp.i
 
 logging/LoggerManager.s: logging/LoggerManager.cpp.s
@@ -3586,7 +3586,7 @@ logging/LoggerManager.s: logging/LoggerManager.cpp.s
 
 # target to generate assembly for a file
 logging/LoggerManager.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerManager.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerManager.cpp.s
 .PHONY : logging/LoggerManager.cpp.s
 
 logging/LoggerMessage.o: logging/LoggerMessage.cpp.o
@@ -3595,7 +3595,7 @@ logging/LoggerMessage.o: logging/LoggerMessage.cpp.o
 
 # target to build an object file
 logging/LoggerMessage.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerMessage.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerMessage.cpp.o
 .PHONY : logging/LoggerMessage.cpp.o
 
 logging/LoggerMessage.i: logging/LoggerMessage.cpp.i
@@ -3604,7 +3604,7 @@ logging/LoggerMessage.i: logging/LoggerMessage.cpp.i
 
 # target to preprocess a source file
 logging/LoggerMessage.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerMessage.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerMessage.cpp.i
 .PHONY : logging/LoggerMessage.cpp.i
 
 logging/LoggerMessage.s: logging/LoggerMessage.cpp.s
@@ -3613,7 +3613,7 @@ logging/LoggerMessage.s: logging/LoggerMessage.cpp.s
 
 # target to generate assembly for a file
 logging/LoggerMessage.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerMessage.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerMessage.cpp.s
 .PHONY : logging/LoggerMessage.cpp.s
 
 logging/LoggerRef.o: logging/LoggerRef.cpp.o
@@ -3622,7 +3622,7 @@ logging/LoggerRef.o: logging/LoggerRef.cpp.o
 
 # target to build an object file
 logging/LoggerRef.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerRef.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerRef.cpp.o
 .PHONY : logging/LoggerRef.cpp.o
 
 logging/LoggerRef.i: logging/LoggerRef.cpp.i
@@ -3631,7 +3631,7 @@ logging/LoggerRef.i: logging/LoggerRef.cpp.i
 
 # target to preprocess a source file
 logging/LoggerRef.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerRef.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerRef.cpp.i
 .PHONY : logging/LoggerRef.cpp.i
 
 logging/LoggerRef.s: logging/LoggerRef.cpp.s
@@ -3640,7 +3640,7 @@ logging/LoggerRef.s: logging/LoggerRef.cpp.s
 
 # target to generate assembly for a file
 logging/LoggerRef.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerRef.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerRef.cpp.s
 .PHONY : logging/LoggerRef.cpp.s
 
 logging/StreamLogger.o: logging/StreamLogger.cpp.o
@@ -3649,7 +3649,7 @@ logging/StreamLogger.o: logging/StreamLogger.cpp.o
 
 # target to build an object file
 logging/StreamLogger.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/StreamLogger.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/StreamLogger.cpp.o
 .PHONY : logging/StreamLogger.cpp.o
 
 logging/StreamLogger.i: logging/StreamLogger.cpp.i
@@ -3658,7 +3658,7 @@ logging/StreamLogger.i: logging/StreamLogger.cpp.i
 
 # target to preprocess a source file
 logging/StreamLogger.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/StreamLogger.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/StreamLogger.cpp.i
 .PHONY : logging/StreamLogger.cpp.i
 
 logging/StreamLogger.s: logging/StreamLogger.cpp.s
@@ -3667,7 +3667,7 @@ logging/StreamLogger.s: logging/StreamLogger.cpp.s
 
 # target to generate assembly for a file
 logging/StreamLogger.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/StreamLogger.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/StreamLogger.cpp.s
 .PHONY : logging/StreamLogger.cpp.s
 
 miner/BlockUtilities.o: miner/BlockUtilities.cpp.o
@@ -3676,7 +3676,7 @@ miner/BlockUtilities.o: miner/BlockUtilities.cpp.o
 
 # target to build an object file
 miner/BlockUtilities.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/BlockUtilities.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/BlockUtilities.cpp.o
 .PHONY : miner/BlockUtilities.cpp.o
 
 miner/BlockUtilities.i: miner/BlockUtilities.cpp.i
@@ -3685,7 +3685,7 @@ miner/BlockUtilities.i: miner/BlockUtilities.cpp.i
 
 # target to preprocess a source file
 miner/BlockUtilities.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/BlockUtilities.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/BlockUtilities.cpp.i
 .PHONY : miner/BlockUtilities.cpp.i
 
 miner/BlockUtilities.s: miner/BlockUtilities.cpp.s
@@ -3694,7 +3694,7 @@ miner/BlockUtilities.s: miner/BlockUtilities.cpp.s
 
 # target to generate assembly for a file
 miner/BlockUtilities.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/BlockUtilities.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/BlockUtilities.cpp.s
 .PHONY : miner/BlockUtilities.cpp.s
 
 miner/BlockchainMonitor.o: miner/BlockchainMonitor.cpp.o
@@ -3703,7 +3703,7 @@ miner/BlockchainMonitor.o: miner/BlockchainMonitor.cpp.o
 
 # target to build an object file
 miner/BlockchainMonitor.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.o
 .PHONY : miner/BlockchainMonitor.cpp.o
 
 miner/BlockchainMonitor.i: miner/BlockchainMonitor.cpp.i
@@ -3712,7 +3712,7 @@ miner/BlockchainMonitor.i: miner/BlockchainMonitor.cpp.i
 
 # target to preprocess a source file
 miner/BlockchainMonitor.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.i
 .PHONY : miner/BlockchainMonitor.cpp.i
 
 miner/BlockchainMonitor.s: miner/BlockchainMonitor.cpp.s
@@ -3721,7 +3721,7 @@ miner/BlockchainMonitor.s: miner/BlockchainMonitor.cpp.s
 
 # target to generate assembly for a file
 miner/BlockchainMonitor.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.s
 .PHONY : miner/BlockchainMonitor.cpp.s
 
 miner/Miner.o: miner/Miner.cpp.o
@@ -3730,7 +3730,7 @@ miner/Miner.o: miner/Miner.cpp.o
 
 # target to build an object file
 miner/Miner.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/Miner.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/Miner.cpp.o
 .PHONY : miner/Miner.cpp.o
 
 miner/Miner.i: miner/Miner.cpp.i
@@ -3739,7 +3739,7 @@ miner/Miner.i: miner/Miner.cpp.i
 
 # target to preprocess a source file
 miner/Miner.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/Miner.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/Miner.cpp.i
 .PHONY : miner/Miner.cpp.i
 
 miner/Miner.s: miner/Miner.cpp.s
@@ -3748,7 +3748,7 @@ miner/Miner.s: miner/Miner.cpp.s
 
 # target to generate assembly for a file
 miner/Miner.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/Miner.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/Miner.cpp.s
 .PHONY : miner/Miner.cpp.s
 
 miner/MinerManager.o: miner/MinerManager.cpp.o
@@ -3757,7 +3757,7 @@ miner/MinerManager.o: miner/MinerManager.cpp.o
 
 # target to build an object file
 miner/MinerManager.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/MinerManager.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/MinerManager.cpp.o
 .PHONY : miner/MinerManager.cpp.o
 
 miner/MinerManager.i: miner/MinerManager.cpp.i
@@ -3766,7 +3766,7 @@ miner/MinerManager.i: miner/MinerManager.cpp.i
 
 # target to preprocess a source file
 miner/MinerManager.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/MinerManager.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/MinerManager.cpp.i
 .PHONY : miner/MinerManager.cpp.i
 
 miner/MinerManager.s: miner/MinerManager.cpp.s
@@ -3775,7 +3775,7 @@ miner/MinerManager.s: miner/MinerManager.cpp.s
 
 # target to generate assembly for a file
 miner/MinerManager.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/MinerManager.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/MinerManager.cpp.s
 .PHONY : miner/MinerManager.cpp.s
 
 miner/MiningConfig.o: miner/MiningConfig.cpp.o
@@ -3784,7 +3784,7 @@ miner/MiningConfig.o: miner/MiningConfig.cpp.o
 
 # target to build an object file
 miner/MiningConfig.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/MiningConfig.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/MiningConfig.cpp.o
 .PHONY : miner/MiningConfig.cpp.o
 
 miner/MiningConfig.i: miner/MiningConfig.cpp.i
@@ -3793,7 +3793,7 @@ miner/MiningConfig.i: miner/MiningConfig.cpp.i
 
 # target to preprocess a source file
 miner/MiningConfig.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/MiningConfig.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/MiningConfig.cpp.i
 .PHONY : miner/MiningConfig.cpp.i
 
 miner/MiningConfig.s: miner/MiningConfig.cpp.s
@@ -3802,7 +3802,7 @@ miner/MiningConfig.s: miner/MiningConfig.cpp.s
 
 # target to generate assembly for a file
 miner/MiningConfig.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/MiningConfig.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/MiningConfig.cpp.s
 .PHONY : miner/MiningConfig.cpp.s
 
 miner/main.o: miner/main.cpp.o
@@ -3811,7 +3811,7 @@ miner/main.o: miner/main.cpp.o
 
 # target to build an object file
 miner/main.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/main.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/main.cpp.o
 .PHONY : miner/main.cpp.o
 
 miner/main.i: miner/main.cpp.i
@@ -3820,7 +3820,7 @@ miner/main.i: miner/main.cpp.i
 
 # target to preprocess a source file
 miner/main.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/main.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/main.cpp.i
 .PHONY : miner/main.cpp.i
 
 miner/main.s: miner/main.cpp.s
@@ -3829,7 +3829,7 @@ miner/main.s: miner/main.cpp.s
 
 # target to generate assembly for a file
 miner/main.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/main.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/miner/main.cpp.s
 .PHONY : miner/main.cpp.s
 
 mnemonics/Mnemonics.o: mnemonics/Mnemonics.cpp.o
@@ -3838,7 +3838,7 @@ mnemonics/Mnemonics.o: mnemonics/Mnemonics.cpp.o
 
 # target to build an object file
 mnemonics/Mnemonics.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Mnemonics.dir/build.make src/CMakeFiles/Mnemonics.dir/mnemonics/Mnemonics.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Mnemonics.dir/build.make src/CMakeFiles/Mnemonics.dir/mnemonics/Mnemonics.cpp.o
 .PHONY : mnemonics/Mnemonics.cpp.o
 
 mnemonics/Mnemonics.i: mnemonics/Mnemonics.cpp.i
@@ -3847,7 +3847,7 @@ mnemonics/Mnemonics.i: mnemonics/Mnemonics.cpp.i
 
 # target to preprocess a source file
 mnemonics/Mnemonics.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Mnemonics.dir/build.make src/CMakeFiles/Mnemonics.dir/mnemonics/Mnemonics.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Mnemonics.dir/build.make src/CMakeFiles/Mnemonics.dir/mnemonics/Mnemonics.cpp.i
 .PHONY : mnemonics/Mnemonics.cpp.i
 
 mnemonics/Mnemonics.s: mnemonics/Mnemonics.cpp.s
@@ -3856,7 +3856,7 @@ mnemonics/Mnemonics.s: mnemonics/Mnemonics.cpp.s
 
 # target to generate assembly for a file
 mnemonics/Mnemonics.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Mnemonics.dir/build.make src/CMakeFiles/Mnemonics.dir/mnemonics/Mnemonics.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Mnemonics.dir/build.make src/CMakeFiles/Mnemonics.dir/mnemonics/Mnemonics.cpp.s
 .PHONY : mnemonics/Mnemonics.cpp.s
 
 nigel/Nigel.o: nigel/Nigel.cpp.o
@@ -3865,7 +3865,7 @@ nigel/Nigel.o: nigel/Nigel.cpp.o
 
 # target to build an object file
 nigel/Nigel.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Nigel.dir/build.make src/CMakeFiles/Nigel.dir/nigel/Nigel.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Nigel.dir/build.make src/CMakeFiles/Nigel.dir/nigel/Nigel.cpp.o
 .PHONY : nigel/Nigel.cpp.o
 
 nigel/Nigel.i: nigel/Nigel.cpp.i
@@ -3874,7 +3874,7 @@ nigel/Nigel.i: nigel/Nigel.cpp.i
 
 # target to preprocess a source file
 nigel/Nigel.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Nigel.dir/build.make src/CMakeFiles/Nigel.dir/nigel/Nigel.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Nigel.dir/build.make src/CMakeFiles/Nigel.dir/nigel/Nigel.cpp.i
 .PHONY : nigel/Nigel.cpp.i
 
 nigel/Nigel.s: nigel/Nigel.cpp.s
@@ -3883,7 +3883,7 @@ nigel/Nigel.s: nigel/Nigel.cpp.s
 
 # target to generate assembly for a file
 nigel/Nigel.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Nigel.dir/build.make src/CMakeFiles/Nigel.dir/nigel/Nigel.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Nigel.dir/build.make src/CMakeFiles/Nigel.dir/nigel/Nigel.cpp.s
 .PHONY : nigel/Nigel.cpp.s
 
 noderpcproxy/NodeErrors.o: noderpcproxy/NodeErrors.cpp.o
@@ -3892,7 +3892,7 @@ noderpcproxy/NodeErrors.o: noderpcproxy/NodeErrors.cpp.o
 
 # target to build an object file
 noderpcproxy/NodeErrors.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeErrors.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeErrors.cpp.o
 .PHONY : noderpcproxy/NodeErrors.cpp.o
 
 noderpcproxy/NodeErrors.i: noderpcproxy/NodeErrors.cpp.i
@@ -3901,7 +3901,7 @@ noderpcproxy/NodeErrors.i: noderpcproxy/NodeErrors.cpp.i
 
 # target to preprocess a source file
 noderpcproxy/NodeErrors.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeErrors.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeErrors.cpp.i
 .PHONY : noderpcproxy/NodeErrors.cpp.i
 
 noderpcproxy/NodeErrors.s: noderpcproxy/NodeErrors.cpp.s
@@ -3910,7 +3910,7 @@ noderpcproxy/NodeErrors.s: noderpcproxy/NodeErrors.cpp.s
 
 # target to generate assembly for a file
 noderpcproxy/NodeErrors.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeErrors.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeErrors.cpp.s
 .PHONY : noderpcproxy/NodeErrors.cpp.s
 
 noderpcproxy/NodeRpcProxy.o: noderpcproxy/NodeRpcProxy.cpp.o
@@ -3919,7 +3919,7 @@ noderpcproxy/NodeRpcProxy.o: noderpcproxy/NodeRpcProxy.cpp.o
 
 # target to build an object file
 noderpcproxy/NodeRpcProxy.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeRpcProxy.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeRpcProxy.cpp.o
 .PHONY : noderpcproxy/NodeRpcProxy.cpp.o
 
 noderpcproxy/NodeRpcProxy.i: noderpcproxy/NodeRpcProxy.cpp.i
@@ -3928,7 +3928,7 @@ noderpcproxy/NodeRpcProxy.i: noderpcproxy/NodeRpcProxy.cpp.i
 
 # target to preprocess a source file
 noderpcproxy/NodeRpcProxy.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeRpcProxy.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeRpcProxy.cpp.i
 .PHONY : noderpcproxy/NodeRpcProxy.cpp.i
 
 noderpcproxy/NodeRpcProxy.s: noderpcproxy/NodeRpcProxy.cpp.s
@@ -3937,7 +3937,7 @@ noderpcproxy/NodeRpcProxy.s: noderpcproxy/NodeRpcProxy.cpp.s
 
 # target to generate assembly for a file
 noderpcproxy/NodeRpcProxy.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeRpcProxy.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeRpcProxy.cpp.s
 .PHONY : noderpcproxy/NodeRpcProxy.cpp.s
 
 p2p/IP2pNodeInternal.o: p2p/IP2pNodeInternal.cpp.o
@@ -3946,7 +3946,7 @@ p2p/IP2pNodeInternal.o: p2p/IP2pNodeInternal.cpp.o
 
 # target to build an object file
 p2p/IP2pNodeInternal.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/IP2pNodeInternal.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/IP2pNodeInternal.cpp.o
 .PHONY : p2p/IP2pNodeInternal.cpp.o
 
 p2p/IP2pNodeInternal.i: p2p/IP2pNodeInternal.cpp.i
@@ -3955,7 +3955,7 @@ p2p/IP2pNodeInternal.i: p2p/IP2pNodeInternal.cpp.i
 
 # target to preprocess a source file
 p2p/IP2pNodeInternal.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/IP2pNodeInternal.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/IP2pNodeInternal.cpp.i
 .PHONY : p2p/IP2pNodeInternal.cpp.i
 
 p2p/IP2pNodeInternal.s: p2p/IP2pNodeInternal.cpp.s
@@ -3964,7 +3964,7 @@ p2p/IP2pNodeInternal.s: p2p/IP2pNodeInternal.cpp.s
 
 # target to generate assembly for a file
 p2p/IP2pNodeInternal.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/IP2pNodeInternal.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/IP2pNodeInternal.cpp.s
 .PHONY : p2p/IP2pNodeInternal.cpp.s
 
 p2p/LevinProtocol.o: p2p/LevinProtocol.cpp.o
@@ -3973,7 +3973,7 @@ p2p/LevinProtocol.o: p2p/LevinProtocol.cpp.o
 
 # target to build an object file
 p2p/LevinProtocol.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/LevinProtocol.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/LevinProtocol.cpp.o
 .PHONY : p2p/LevinProtocol.cpp.o
 
 p2p/LevinProtocol.i: p2p/LevinProtocol.cpp.i
@@ -3982,7 +3982,7 @@ p2p/LevinProtocol.i: p2p/LevinProtocol.cpp.i
 
 # target to preprocess a source file
 p2p/LevinProtocol.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/LevinProtocol.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/LevinProtocol.cpp.i
 .PHONY : p2p/LevinProtocol.cpp.i
 
 p2p/LevinProtocol.s: p2p/LevinProtocol.cpp.s
@@ -3991,7 +3991,7 @@ p2p/LevinProtocol.s: p2p/LevinProtocol.cpp.s
 
 # target to generate assembly for a file
 p2p/LevinProtocol.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/LevinProtocol.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/LevinProtocol.cpp.s
 .PHONY : p2p/LevinProtocol.cpp.s
 
 p2p/NetNode.o: p2p/NetNode.cpp.o
@@ -4000,7 +4000,7 @@ p2p/NetNode.o: p2p/NetNode.cpp.o
 
 # target to build an object file
 p2p/NetNode.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/NetNode.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/NetNode.cpp.o
 .PHONY : p2p/NetNode.cpp.o
 
 p2p/NetNode.i: p2p/NetNode.cpp.i
@@ -4009,7 +4009,7 @@ p2p/NetNode.i: p2p/NetNode.cpp.i
 
 # target to preprocess a source file
 p2p/NetNode.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/NetNode.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/NetNode.cpp.i
 .PHONY : p2p/NetNode.cpp.i
 
 p2p/NetNode.s: p2p/NetNode.cpp.s
@@ -4018,7 +4018,7 @@ p2p/NetNode.s: p2p/NetNode.cpp.s
 
 # target to generate assembly for a file
 p2p/NetNode.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/NetNode.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/NetNode.cpp.s
 .PHONY : p2p/NetNode.cpp.s
 
 p2p/NetNodeConfig.o: p2p/NetNodeConfig.cpp.o
@@ -4027,7 +4027,7 @@ p2p/NetNodeConfig.o: p2p/NetNodeConfig.cpp.o
 
 # target to build an object file
 p2p/NetNodeConfig.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/NetNodeConfig.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/NetNodeConfig.cpp.o
 .PHONY : p2p/NetNodeConfig.cpp.o
 
 p2p/NetNodeConfig.i: p2p/NetNodeConfig.cpp.i
@@ -4036,7 +4036,7 @@ p2p/NetNodeConfig.i: p2p/NetNodeConfig.cpp.i
 
 # target to preprocess a source file
 p2p/NetNodeConfig.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/NetNodeConfig.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/NetNodeConfig.cpp.i
 .PHONY : p2p/NetNodeConfig.cpp.i
 
 p2p/NetNodeConfig.s: p2p/NetNodeConfig.cpp.s
@@ -4045,7 +4045,7 @@ p2p/NetNodeConfig.s: p2p/NetNodeConfig.cpp.s
 
 # target to generate assembly for a file
 p2p/NetNodeConfig.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/NetNodeConfig.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/NetNodeConfig.cpp.s
 .PHONY : p2p/NetNodeConfig.cpp.s
 
 p2p/P2pConnectionProxy.o: p2p/P2pConnectionProxy.cpp.o
@@ -4054,7 +4054,7 @@ p2p/P2pConnectionProxy.o: p2p/P2pConnectionProxy.cpp.o
 
 # target to build an object file
 p2p/P2pConnectionProxy.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pConnectionProxy.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pConnectionProxy.cpp.o
 .PHONY : p2p/P2pConnectionProxy.cpp.o
 
 p2p/P2pConnectionProxy.i: p2p/P2pConnectionProxy.cpp.i
@@ -4063,7 +4063,7 @@ p2p/P2pConnectionProxy.i: p2p/P2pConnectionProxy.cpp.i
 
 # target to preprocess a source file
 p2p/P2pConnectionProxy.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pConnectionProxy.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pConnectionProxy.cpp.i
 .PHONY : p2p/P2pConnectionProxy.cpp.i
 
 p2p/P2pConnectionProxy.s: p2p/P2pConnectionProxy.cpp.s
@@ -4072,7 +4072,7 @@ p2p/P2pConnectionProxy.s: p2p/P2pConnectionProxy.cpp.s
 
 # target to generate assembly for a file
 p2p/P2pConnectionProxy.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pConnectionProxy.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pConnectionProxy.cpp.s
 .PHONY : p2p/P2pConnectionProxy.cpp.s
 
 p2p/P2pContext.o: p2p/P2pContext.cpp.o
@@ -4081,7 +4081,7 @@ p2p/P2pContext.o: p2p/P2pContext.cpp.o
 
 # target to build an object file
 p2p/P2pContext.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pContext.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pContext.cpp.o
 .PHONY : p2p/P2pContext.cpp.o
 
 p2p/P2pContext.i: p2p/P2pContext.cpp.i
@@ -4090,7 +4090,7 @@ p2p/P2pContext.i: p2p/P2pContext.cpp.i
 
 # target to preprocess a source file
 p2p/P2pContext.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pContext.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pContext.cpp.i
 .PHONY : p2p/P2pContext.cpp.i
 
 p2p/P2pContext.s: p2p/P2pContext.cpp.s
@@ -4099,7 +4099,7 @@ p2p/P2pContext.s: p2p/P2pContext.cpp.s
 
 # target to generate assembly for a file
 p2p/P2pContext.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pContext.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pContext.cpp.s
 .PHONY : p2p/P2pContext.cpp.s
 
 p2p/P2pContextOwner.o: p2p/P2pContextOwner.cpp.o
@@ -4108,7 +4108,7 @@ p2p/P2pContextOwner.o: p2p/P2pContextOwner.cpp.o
 
 # target to build an object file
 p2p/P2pContextOwner.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pContextOwner.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pContextOwner.cpp.o
 .PHONY : p2p/P2pContextOwner.cpp.o
 
 p2p/P2pContextOwner.i: p2p/P2pContextOwner.cpp.i
@@ -4117,7 +4117,7 @@ p2p/P2pContextOwner.i: p2p/P2pContextOwner.cpp.i
 
 # target to preprocess a source file
 p2p/P2pContextOwner.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pContextOwner.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pContextOwner.cpp.i
 .PHONY : p2p/P2pContextOwner.cpp.i
 
 p2p/P2pContextOwner.s: p2p/P2pContextOwner.cpp.s
@@ -4126,7 +4126,7 @@ p2p/P2pContextOwner.s: p2p/P2pContextOwner.cpp.s
 
 # target to generate assembly for a file
 p2p/P2pContextOwner.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pContextOwner.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pContextOwner.cpp.s
 .PHONY : p2p/P2pContextOwner.cpp.s
 
 p2p/P2pInterfaces.o: p2p/P2pInterfaces.cpp.o
@@ -4135,7 +4135,7 @@ p2p/P2pInterfaces.o: p2p/P2pInterfaces.cpp.o
 
 # target to build an object file
 p2p/P2pInterfaces.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pInterfaces.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pInterfaces.cpp.o
 .PHONY : p2p/P2pInterfaces.cpp.o
 
 p2p/P2pInterfaces.i: p2p/P2pInterfaces.cpp.i
@@ -4144,7 +4144,7 @@ p2p/P2pInterfaces.i: p2p/P2pInterfaces.cpp.i
 
 # target to preprocess a source file
 p2p/P2pInterfaces.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pInterfaces.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pInterfaces.cpp.i
 .PHONY : p2p/P2pInterfaces.cpp.i
 
 p2p/P2pInterfaces.s: p2p/P2pInterfaces.cpp.s
@@ -4153,7 +4153,7 @@ p2p/P2pInterfaces.s: p2p/P2pInterfaces.cpp.s
 
 # target to generate assembly for a file
 p2p/P2pInterfaces.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pInterfaces.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pInterfaces.cpp.s
 .PHONY : p2p/P2pInterfaces.cpp.s
 
 p2p/P2pNode.o: p2p/P2pNode.cpp.o
@@ -4162,7 +4162,7 @@ p2p/P2pNode.o: p2p/P2pNode.cpp.o
 
 # target to build an object file
 p2p/P2pNode.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pNode.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pNode.cpp.o
 .PHONY : p2p/P2pNode.cpp.o
 
 p2p/P2pNode.i: p2p/P2pNode.cpp.i
@@ -4171,7 +4171,7 @@ p2p/P2pNode.i: p2p/P2pNode.cpp.i
 
 # target to preprocess a source file
 p2p/P2pNode.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pNode.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pNode.cpp.i
 .PHONY : p2p/P2pNode.cpp.i
 
 p2p/P2pNode.s: p2p/P2pNode.cpp.s
@@ -4180,7 +4180,7 @@ p2p/P2pNode.s: p2p/P2pNode.cpp.s
 
 # target to generate assembly for a file
 p2p/P2pNode.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pNode.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pNode.cpp.s
 .PHONY : p2p/P2pNode.cpp.s
 
 p2p/P2pNodeConfig.o: p2p/P2pNodeConfig.cpp.o
@@ -4189,7 +4189,7 @@ p2p/P2pNodeConfig.o: p2p/P2pNodeConfig.cpp.o
 
 # target to build an object file
 p2p/P2pNodeConfig.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pNodeConfig.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pNodeConfig.cpp.o
 .PHONY : p2p/P2pNodeConfig.cpp.o
 
 p2p/P2pNodeConfig.i: p2p/P2pNodeConfig.cpp.i
@@ -4198,7 +4198,7 @@ p2p/P2pNodeConfig.i: p2p/P2pNodeConfig.cpp.i
 
 # target to preprocess a source file
 p2p/P2pNodeConfig.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pNodeConfig.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pNodeConfig.cpp.i
 .PHONY : p2p/P2pNodeConfig.cpp.i
 
 p2p/P2pNodeConfig.s: p2p/P2pNodeConfig.cpp.s
@@ -4207,7 +4207,7 @@ p2p/P2pNodeConfig.s: p2p/P2pNodeConfig.cpp.s
 
 # target to generate assembly for a file
 p2p/P2pNodeConfig.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pNodeConfig.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pNodeConfig.cpp.s
 .PHONY : p2p/P2pNodeConfig.cpp.s
 
 p2p/PeerListManager.o: p2p/PeerListManager.cpp.o
@@ -4216,7 +4216,7 @@ p2p/PeerListManager.o: p2p/PeerListManager.cpp.o
 
 # target to build an object file
 p2p/PeerListManager.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/PeerListManager.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/PeerListManager.cpp.o
 .PHONY : p2p/PeerListManager.cpp.o
 
 p2p/PeerListManager.i: p2p/PeerListManager.cpp.i
@@ -4225,7 +4225,7 @@ p2p/PeerListManager.i: p2p/PeerListManager.cpp.i
 
 # target to preprocess a source file
 p2p/PeerListManager.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/PeerListManager.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/PeerListManager.cpp.i
 .PHONY : p2p/PeerListManager.cpp.i
 
 p2p/PeerListManager.s: p2p/PeerListManager.cpp.s
@@ -4234,7 +4234,7 @@ p2p/PeerListManager.s: p2p/PeerListManager.cpp.s
 
 # target to generate assembly for a file
 p2p/PeerListManager.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/PeerListManager.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/PeerListManager.cpp.s
 .PHONY : p2p/PeerListManager.cpp.s
 
 p2p/Peerlist.o: p2p/Peerlist.cpp.o
@@ -4243,7 +4243,7 @@ p2p/Peerlist.o: p2p/Peerlist.cpp.o
 
 # target to build an object file
 p2p/Peerlist.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/Peerlist.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/Peerlist.cpp.o
 .PHONY : p2p/Peerlist.cpp.o
 
 p2p/Peerlist.i: p2p/Peerlist.cpp.i
@@ -4252,7 +4252,7 @@ p2p/Peerlist.i: p2p/Peerlist.cpp.i
 
 # target to preprocess a source file
 p2p/Peerlist.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/Peerlist.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/Peerlist.cpp.i
 .PHONY : p2p/Peerlist.cpp.i
 
 p2p/Peerlist.s: p2p/Peerlist.cpp.s
@@ -4261,7 +4261,7 @@ p2p/Peerlist.s: p2p/Peerlist.cpp.s
 
 # target to generate assembly for a file
 p2p/Peerlist.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/Peerlist.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/Peerlist.cpp.s
 .PHONY : p2p/Peerlist.cpp.s
 
 platform/linux/system/Dispatcher.o: platform/linux/system/Dispatcher.cpp.o
@@ -4270,7 +4270,7 @@ platform/linux/system/Dispatcher.o: platform/linux/system/Dispatcher.cpp.o
 
 # target to build an object file
 platform/linux/system/Dispatcher.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/Dispatcher.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/Dispatcher.cpp.o
 .PHONY : platform/linux/system/Dispatcher.cpp.o
 
 platform/linux/system/Dispatcher.i: platform/linux/system/Dispatcher.cpp.i
@@ -4279,7 +4279,7 @@ platform/linux/system/Dispatcher.i: platform/linux/system/Dispatcher.cpp.i
 
 # target to preprocess a source file
 platform/linux/system/Dispatcher.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/Dispatcher.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/Dispatcher.cpp.i
 .PHONY : platform/linux/system/Dispatcher.cpp.i
 
 platform/linux/system/Dispatcher.s: platform/linux/system/Dispatcher.cpp.s
@@ -4288,7 +4288,7 @@ platform/linux/system/Dispatcher.s: platform/linux/system/Dispatcher.cpp.s
 
 # target to generate assembly for a file
 platform/linux/system/Dispatcher.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/Dispatcher.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/Dispatcher.cpp.s
 .PHONY : platform/linux/system/Dispatcher.cpp.s
 
 platform/linux/system/ErrorMessage.o: platform/linux/system/ErrorMessage.cpp.o
@@ -4297,7 +4297,7 @@ platform/linux/system/ErrorMessage.o: platform/linux/system/ErrorMessage.cpp.o
 
 # target to build an object file
 platform/linux/system/ErrorMessage.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/ErrorMessage.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/ErrorMessage.cpp.o
 .PHONY : platform/linux/system/ErrorMessage.cpp.o
 
 platform/linux/system/ErrorMessage.i: platform/linux/system/ErrorMessage.cpp.i
@@ -4306,7 +4306,7 @@ platform/linux/system/ErrorMessage.i: platform/linux/system/ErrorMessage.cpp.i
 
 # target to preprocess a source file
 platform/linux/system/ErrorMessage.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/ErrorMessage.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/ErrorMessage.cpp.i
 .PHONY : platform/linux/system/ErrorMessage.cpp.i
 
 platform/linux/system/ErrorMessage.s: platform/linux/system/ErrorMessage.cpp.s
@@ -4315,7 +4315,7 @@ platform/linux/system/ErrorMessage.s: platform/linux/system/ErrorMessage.cpp.s
 
 # target to generate assembly for a file
 platform/linux/system/ErrorMessage.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/ErrorMessage.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/ErrorMessage.cpp.s
 .PHONY : platform/linux/system/ErrorMessage.cpp.s
 
 platform/linux/system/Ipv4Resolver.o: platform/linux/system/Ipv4Resolver.cpp.o
@@ -4324,7 +4324,7 @@ platform/linux/system/Ipv4Resolver.o: platform/linux/system/Ipv4Resolver.cpp.o
 
 # target to build an object file
 platform/linux/system/Ipv4Resolver.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/Ipv4Resolver.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/Ipv4Resolver.cpp.o
 .PHONY : platform/linux/system/Ipv4Resolver.cpp.o
 
 platform/linux/system/Ipv4Resolver.i: platform/linux/system/Ipv4Resolver.cpp.i
@@ -4333,7 +4333,7 @@ platform/linux/system/Ipv4Resolver.i: platform/linux/system/Ipv4Resolver.cpp.i
 
 # target to preprocess a source file
 platform/linux/system/Ipv4Resolver.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/Ipv4Resolver.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/Ipv4Resolver.cpp.i
 .PHONY : platform/linux/system/Ipv4Resolver.cpp.i
 
 platform/linux/system/Ipv4Resolver.s: platform/linux/system/Ipv4Resolver.cpp.s
@@ -4342,7 +4342,7 @@ platform/linux/system/Ipv4Resolver.s: platform/linux/system/Ipv4Resolver.cpp.s
 
 # target to generate assembly for a file
 platform/linux/system/Ipv4Resolver.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/Ipv4Resolver.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/Ipv4Resolver.cpp.s
 .PHONY : platform/linux/system/Ipv4Resolver.cpp.s
 
 platform/linux/system/TcpConnection.o: platform/linux/system/TcpConnection.cpp.o
@@ -4351,7 +4351,7 @@ platform/linux/system/TcpConnection.o: platform/linux/system/TcpConnection.cpp.o
 
 # target to build an object file
 platform/linux/system/TcpConnection.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/TcpConnection.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/TcpConnection.cpp.o
 .PHONY : platform/linux/system/TcpConnection.cpp.o
 
 platform/linux/system/TcpConnection.i: platform/linux/system/TcpConnection.cpp.i
@@ -4360,7 +4360,7 @@ platform/linux/system/TcpConnection.i: platform/linux/system/TcpConnection.cpp.i
 
 # target to preprocess a source file
 platform/linux/system/TcpConnection.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/TcpConnection.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/TcpConnection.cpp.i
 .PHONY : platform/linux/system/TcpConnection.cpp.i
 
 platform/linux/system/TcpConnection.s: platform/linux/system/TcpConnection.cpp.s
@@ -4369,7 +4369,7 @@ platform/linux/system/TcpConnection.s: platform/linux/system/TcpConnection.cpp.s
 
 # target to generate assembly for a file
 platform/linux/system/TcpConnection.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/TcpConnection.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/TcpConnection.cpp.s
 .PHONY : platform/linux/system/TcpConnection.cpp.s
 
 platform/linux/system/TcpConnector.o: platform/linux/system/TcpConnector.cpp.o
@@ -4378,7 +4378,7 @@ platform/linux/system/TcpConnector.o: platform/linux/system/TcpConnector.cpp.o
 
 # target to build an object file
 platform/linux/system/TcpConnector.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/TcpConnector.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/TcpConnector.cpp.o
 .PHONY : platform/linux/system/TcpConnector.cpp.o
 
 platform/linux/system/TcpConnector.i: platform/linux/system/TcpConnector.cpp.i
@@ -4387,7 +4387,7 @@ platform/linux/system/TcpConnector.i: platform/linux/system/TcpConnector.cpp.i
 
 # target to preprocess a source file
 platform/linux/system/TcpConnector.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/TcpConnector.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/TcpConnector.cpp.i
 .PHONY : platform/linux/system/TcpConnector.cpp.i
 
 platform/linux/system/TcpConnector.s: platform/linux/system/TcpConnector.cpp.s
@@ -4396,7 +4396,7 @@ platform/linux/system/TcpConnector.s: platform/linux/system/TcpConnector.cpp.s
 
 # target to generate assembly for a file
 platform/linux/system/TcpConnector.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/TcpConnector.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/TcpConnector.cpp.s
 .PHONY : platform/linux/system/TcpConnector.cpp.s
 
 platform/linux/system/TcpListener.o: platform/linux/system/TcpListener.cpp.o
@@ -4405,7 +4405,7 @@ platform/linux/system/TcpListener.o: platform/linux/system/TcpListener.cpp.o
 
 # target to build an object file
 platform/linux/system/TcpListener.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/TcpListener.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/TcpListener.cpp.o
 .PHONY : platform/linux/system/TcpListener.cpp.o
 
 platform/linux/system/TcpListener.i: platform/linux/system/TcpListener.cpp.i
@@ -4414,7 +4414,7 @@ platform/linux/system/TcpListener.i: platform/linux/system/TcpListener.cpp.i
 
 # target to preprocess a source file
 platform/linux/system/TcpListener.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/TcpListener.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/TcpListener.cpp.i
 .PHONY : platform/linux/system/TcpListener.cpp.i
 
 platform/linux/system/TcpListener.s: platform/linux/system/TcpListener.cpp.s
@@ -4423,7 +4423,7 @@ platform/linux/system/TcpListener.s: platform/linux/system/TcpListener.cpp.s
 
 # target to generate assembly for a file
 platform/linux/system/TcpListener.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/TcpListener.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/TcpListener.cpp.s
 .PHONY : platform/linux/system/TcpListener.cpp.s
 
 platform/linux/system/Timer.o: platform/linux/system/Timer.cpp.o
@@ -4432,7 +4432,7 @@ platform/linux/system/Timer.o: platform/linux/system/Timer.cpp.o
 
 # target to build an object file
 platform/linux/system/Timer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/Timer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/Timer.cpp.o
 .PHONY : platform/linux/system/Timer.cpp.o
 
 platform/linux/system/Timer.i: platform/linux/system/Timer.cpp.i
@@ -4441,7 +4441,7 @@ platform/linux/system/Timer.i: platform/linux/system/Timer.cpp.i
 
 # target to preprocess a source file
 platform/linux/system/Timer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/Timer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/Timer.cpp.i
 .PHONY : platform/linux/system/Timer.cpp.i
 
 platform/linux/system/Timer.s: platform/linux/system/Timer.cpp.s
@@ -4450,7 +4450,7 @@ platform/linux/system/Timer.s: platform/linux/system/Timer.cpp.s
 
 # target to generate assembly for a file
 platform/linux/system/Timer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/Timer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/linux/system/Timer.cpp.s
 .PHONY : platform/linux/system/Timer.cpp.s
 
 platform/posix/system/MemoryMappedFile.o: platform/posix/system/MemoryMappedFile.cpp.o
@@ -4459,7 +4459,7 @@ platform/posix/system/MemoryMappedFile.o: platform/posix/system/MemoryMappedFile
 
 # target to build an object file
 platform/posix/system/MemoryMappedFile.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/posix/system/MemoryMappedFile.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/posix/system/MemoryMappedFile.cpp.o
 .PHONY : platform/posix/system/MemoryMappedFile.cpp.o
 
 platform/posix/system/MemoryMappedFile.i: platform/posix/system/MemoryMappedFile.cpp.i
@@ -4468,7 +4468,7 @@ platform/posix/system/MemoryMappedFile.i: platform/posix/system/MemoryMappedFile
 
 # target to preprocess a source file
 platform/posix/system/MemoryMappedFile.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/posix/system/MemoryMappedFile.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/posix/system/MemoryMappedFile.cpp.i
 .PHONY : platform/posix/system/MemoryMappedFile.cpp.i
 
 platform/posix/system/MemoryMappedFile.s: platform/posix/system/MemoryMappedFile.cpp.s
@@ -4477,7 +4477,7 @@ platform/posix/system/MemoryMappedFile.s: platform/posix/system/MemoryMappedFile
 
 # target to generate assembly for a file
 platform/posix/system/MemoryMappedFile.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/posix/system/MemoryMappedFile.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/posix/system/MemoryMappedFile.cpp.s
 .PHONY : platform/posix/system/MemoryMappedFile.cpp.s
 
 rpc/HttpClient.o: rpc/HttpClient.cpp.o
@@ -4486,7 +4486,7 @@ rpc/HttpClient.o: rpc/HttpClient.cpp.o
 
 # target to build an object file
 rpc/HttpClient.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.o
 .PHONY : rpc/HttpClient.cpp.o
 
 rpc/HttpClient.i: rpc/HttpClient.cpp.i
@@ -4495,7 +4495,7 @@ rpc/HttpClient.i: rpc/HttpClient.cpp.i
 
 # target to preprocess a source file
 rpc/HttpClient.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.i
 .PHONY : rpc/HttpClient.cpp.i
 
 rpc/HttpClient.s: rpc/HttpClient.cpp.s
@@ -4504,7 +4504,7 @@ rpc/HttpClient.s: rpc/HttpClient.cpp.s
 
 # target to generate assembly for a file
 rpc/HttpClient.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.s
 .PHONY : rpc/HttpClient.cpp.s
 
 rpc/HttpServer.o: rpc/HttpServer.cpp.o
@@ -4513,7 +4513,7 @@ rpc/HttpServer.o: rpc/HttpServer.cpp.o
 
 # target to build an object file
 rpc/HttpServer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.o
 .PHONY : rpc/HttpServer.cpp.o
 
 rpc/HttpServer.i: rpc/HttpServer.cpp.i
@@ -4522,7 +4522,7 @@ rpc/HttpServer.i: rpc/HttpServer.cpp.i
 
 # target to preprocess a source file
 rpc/HttpServer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.i
 .PHONY : rpc/HttpServer.cpp.i
 
 rpc/HttpServer.s: rpc/HttpServer.cpp.s
@@ -4531,7 +4531,7 @@ rpc/HttpServer.s: rpc/HttpServer.cpp.s
 
 # target to generate assembly for a file
 rpc/HttpServer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.s
 .PHONY : rpc/HttpServer.cpp.s
 
 rpc/JsonRpc.o: rpc/JsonRpc.cpp.o
@@ -4540,7 +4540,7 @@ rpc/JsonRpc.o: rpc/JsonRpc.cpp.o
 
 # target to build an object file
 rpc/JsonRpc.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.o
 .PHONY : rpc/JsonRpc.cpp.o
 
 rpc/JsonRpc.i: rpc/JsonRpc.cpp.i
@@ -4549,7 +4549,7 @@ rpc/JsonRpc.i: rpc/JsonRpc.cpp.i
 
 # target to preprocess a source file
 rpc/JsonRpc.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.i
 .PHONY : rpc/JsonRpc.cpp.i
 
 rpc/JsonRpc.s: rpc/JsonRpc.cpp.s
@@ -4558,7 +4558,7 @@ rpc/JsonRpc.s: rpc/JsonRpc.cpp.s
 
 # target to generate assembly for a file
 rpc/JsonRpc.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.s
 .PHONY : rpc/JsonRpc.cpp.s
 
 rpc/RpcServer.o: rpc/RpcServer.cpp.o
@@ -4567,7 +4567,7 @@ rpc/RpcServer.o: rpc/RpcServer.cpp.o
 
 # target to build an object file
 rpc/RpcServer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.o
 .PHONY : rpc/RpcServer.cpp.o
 
 rpc/RpcServer.i: rpc/RpcServer.cpp.i
@@ -4576,7 +4576,7 @@ rpc/RpcServer.i: rpc/RpcServer.cpp.i
 
 # target to preprocess a source file
 rpc/RpcServer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.i
 .PHONY : rpc/RpcServer.cpp.i
 
 rpc/RpcServer.s: rpc/RpcServer.cpp.s
@@ -4585,7 +4585,7 @@ rpc/RpcServer.s: rpc/RpcServer.cpp.s
 
 # target to generate assembly for a file
 rpc/RpcServer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.s
 .PHONY : rpc/RpcServer.cpp.s
 
 serialization/BinaryInputStreamSerializer.o: serialization/BinaryInputStreamSerializer.cpp.o
@@ -4594,7 +4594,7 @@ serialization/BinaryInputStreamSerializer.o: serialization/BinaryInputStreamSeri
 
 # target to build an object file
 serialization/BinaryInputStreamSerializer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.o
 .PHONY : serialization/BinaryInputStreamSerializer.cpp.o
 
 serialization/BinaryInputStreamSerializer.i: serialization/BinaryInputStreamSerializer.cpp.i
@@ -4603,7 +4603,7 @@ serialization/BinaryInputStreamSerializer.i: serialization/BinaryInputStreamSeri
 
 # target to preprocess a source file
 serialization/BinaryInputStreamSerializer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.i
 .PHONY : serialization/BinaryInputStreamSerializer.cpp.i
 
 serialization/BinaryInputStreamSerializer.s: serialization/BinaryInputStreamSerializer.cpp.s
@@ -4612,7 +4612,7 @@ serialization/BinaryInputStreamSerializer.s: serialization/BinaryInputStreamSeri
 
 # target to generate assembly for a file
 serialization/BinaryInputStreamSerializer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.s
 .PHONY : serialization/BinaryInputStreamSerializer.cpp.s
 
 serialization/BinaryOutputStreamSerializer.o: serialization/BinaryOutputStreamSerializer.cpp.o
@@ -4621,7 +4621,7 @@ serialization/BinaryOutputStreamSerializer.o: serialization/BinaryOutputStreamSe
 
 # target to build an object file
 serialization/BinaryOutputStreamSerializer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.o
 .PHONY : serialization/BinaryOutputStreamSerializer.cpp.o
 
 serialization/BinaryOutputStreamSerializer.i: serialization/BinaryOutputStreamSerializer.cpp.i
@@ -4630,7 +4630,7 @@ serialization/BinaryOutputStreamSerializer.i: serialization/BinaryOutputStreamSe
 
 # target to preprocess a source file
 serialization/BinaryOutputStreamSerializer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.i
 .PHONY : serialization/BinaryOutputStreamSerializer.cpp.i
 
 serialization/BinaryOutputStreamSerializer.s: serialization/BinaryOutputStreamSerializer.cpp.s
@@ -4639,7 +4639,7 @@ serialization/BinaryOutputStreamSerializer.s: serialization/BinaryOutputStreamSe
 
 # target to generate assembly for a file
 serialization/BinaryOutputStreamSerializer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.s
 .PHONY : serialization/BinaryOutputStreamSerializer.cpp.s
 
 serialization/BlockchainExplorerDataSerialization.o: serialization/BlockchainExplorerDataSerialization.cpp.o
@@ -4648,7 +4648,7 @@ serialization/BlockchainExplorerDataSerialization.o: serialization/BlockchainExp
 
 # target to build an object file
 serialization/BlockchainExplorerDataSerialization.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BlockchainExplorerDataSerialization.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BlockchainExplorerDataSerialization.cpp.o
 .PHONY : serialization/BlockchainExplorerDataSerialization.cpp.o
 
 serialization/BlockchainExplorerDataSerialization.i: serialization/BlockchainExplorerDataSerialization.cpp.i
@@ -4657,7 +4657,7 @@ serialization/BlockchainExplorerDataSerialization.i: serialization/BlockchainExp
 
 # target to preprocess a source file
 serialization/BlockchainExplorerDataSerialization.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BlockchainExplorerDataSerialization.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BlockchainExplorerDataSerialization.cpp.i
 .PHONY : serialization/BlockchainExplorerDataSerialization.cpp.i
 
 serialization/BlockchainExplorerDataSerialization.s: serialization/BlockchainExplorerDataSerialization.cpp.s
@@ -4666,7 +4666,7 @@ serialization/BlockchainExplorerDataSerialization.s: serialization/BlockchainExp
 
 # target to generate assembly for a file
 serialization/BlockchainExplorerDataSerialization.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BlockchainExplorerDataSerialization.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BlockchainExplorerDataSerialization.cpp.s
 .PHONY : serialization/BlockchainExplorerDataSerialization.cpp.s
 
 serialization/CryptoNoteSerialization.o: serialization/CryptoNoteSerialization.cpp.o
@@ -4675,7 +4675,7 @@ serialization/CryptoNoteSerialization.o: serialization/CryptoNoteSerialization.c
 
 # target to build an object file
 serialization/CryptoNoteSerialization.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/CryptoNoteSerialization.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/CryptoNoteSerialization.cpp.o
 .PHONY : serialization/CryptoNoteSerialization.cpp.o
 
 serialization/CryptoNoteSerialization.i: serialization/CryptoNoteSerialization.cpp.i
@@ -4684,7 +4684,7 @@ serialization/CryptoNoteSerialization.i: serialization/CryptoNoteSerialization.c
 
 # target to preprocess a source file
 serialization/CryptoNoteSerialization.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/CryptoNoteSerialization.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/CryptoNoteSerialization.cpp.i
 .PHONY : serialization/CryptoNoteSerialization.cpp.i
 
 serialization/CryptoNoteSerialization.s: serialization/CryptoNoteSerialization.cpp.s
@@ -4693,7 +4693,7 @@ serialization/CryptoNoteSerialization.s: serialization/CryptoNoteSerialization.c
 
 # target to generate assembly for a file
 serialization/CryptoNoteSerialization.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/CryptoNoteSerialization.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/CryptoNoteSerialization.cpp.s
 .PHONY : serialization/CryptoNoteSerialization.cpp.s
 
 serialization/JsonInputStreamSerializer.o: serialization/JsonInputStreamSerializer.cpp.o
@@ -4702,7 +4702,7 @@ serialization/JsonInputStreamSerializer.o: serialization/JsonInputStreamSerializ
 
 # target to build an object file
 serialization/JsonInputStreamSerializer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.o
 .PHONY : serialization/JsonInputStreamSerializer.cpp.o
 
 serialization/JsonInputStreamSerializer.i: serialization/JsonInputStreamSerializer.cpp.i
@@ -4711,7 +4711,7 @@ serialization/JsonInputStreamSerializer.i: serialization/JsonInputStreamSerializ
 
 # target to preprocess a source file
 serialization/JsonInputStreamSerializer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.i
 .PHONY : serialization/JsonInputStreamSerializer.cpp.i
 
 serialization/JsonInputStreamSerializer.s: serialization/JsonInputStreamSerializer.cpp.s
@@ -4720,7 +4720,7 @@ serialization/JsonInputStreamSerializer.s: serialization/JsonInputStreamSerializ
 
 # target to generate assembly for a file
 serialization/JsonInputStreamSerializer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.s
 .PHONY : serialization/JsonInputStreamSerializer.cpp.s
 
 serialization/JsonInputValueSerializer.o: serialization/JsonInputValueSerializer.cpp.o
@@ -4729,7 +4729,7 @@ serialization/JsonInputValueSerializer.o: serialization/JsonInputValueSerializer
 
 # target to build an object file
 serialization/JsonInputValueSerializer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.o
 .PHONY : serialization/JsonInputValueSerializer.cpp.o
 
 serialization/JsonInputValueSerializer.i: serialization/JsonInputValueSerializer.cpp.i
@@ -4738,7 +4738,7 @@ serialization/JsonInputValueSerializer.i: serialization/JsonInputValueSerializer
 
 # target to preprocess a source file
 serialization/JsonInputValueSerializer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.i
 .PHONY : serialization/JsonInputValueSerializer.cpp.i
 
 serialization/JsonInputValueSerializer.s: serialization/JsonInputValueSerializer.cpp.s
@@ -4747,7 +4747,7 @@ serialization/JsonInputValueSerializer.s: serialization/JsonInputValueSerializer
 
 # target to generate assembly for a file
 serialization/JsonInputValueSerializer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.s
 .PHONY : serialization/JsonInputValueSerializer.cpp.s
 
 serialization/JsonOutputStreamSerializer.o: serialization/JsonOutputStreamSerializer.cpp.o
@@ -4756,7 +4756,7 @@ serialization/JsonOutputStreamSerializer.o: serialization/JsonOutputStreamSerial
 
 # target to build an object file
 serialization/JsonOutputStreamSerializer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.o
 .PHONY : serialization/JsonOutputStreamSerializer.cpp.o
 
 serialization/JsonOutputStreamSerializer.i: serialization/JsonOutputStreamSerializer.cpp.i
@@ -4765,7 +4765,7 @@ serialization/JsonOutputStreamSerializer.i: serialization/JsonOutputStreamSerial
 
 # target to preprocess a source file
 serialization/JsonOutputStreamSerializer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.i
 .PHONY : serialization/JsonOutputStreamSerializer.cpp.i
 
 serialization/JsonOutputStreamSerializer.s: serialization/JsonOutputStreamSerializer.cpp.s
@@ -4774,7 +4774,7 @@ serialization/JsonOutputStreamSerializer.s: serialization/JsonOutputStreamSerial
 
 # target to generate assembly for a file
 serialization/JsonOutputStreamSerializer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.s
 .PHONY : serialization/JsonOutputStreamSerializer.cpp.s
 
 serialization/KVBinaryInputStreamSerializer.o: serialization/KVBinaryInputStreamSerializer.cpp.o
@@ -4783,7 +4783,7 @@ serialization/KVBinaryInputStreamSerializer.o: serialization/KVBinaryInputStream
 
 # target to build an object file
 serialization/KVBinaryInputStreamSerializer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.o
 .PHONY : serialization/KVBinaryInputStreamSerializer.cpp.o
 
 serialization/KVBinaryInputStreamSerializer.i: serialization/KVBinaryInputStreamSerializer.cpp.i
@@ -4792,7 +4792,7 @@ serialization/KVBinaryInputStreamSerializer.i: serialization/KVBinaryInputStream
 
 # target to preprocess a source file
 serialization/KVBinaryInputStreamSerializer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.i
 .PHONY : serialization/KVBinaryInputStreamSerializer.cpp.i
 
 serialization/KVBinaryInputStreamSerializer.s: serialization/KVBinaryInputStreamSerializer.cpp.s
@@ -4801,7 +4801,7 @@ serialization/KVBinaryInputStreamSerializer.s: serialization/KVBinaryInputStream
 
 # target to generate assembly for a file
 serialization/KVBinaryInputStreamSerializer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.s
 .PHONY : serialization/KVBinaryInputStreamSerializer.cpp.s
 
 serialization/KVBinaryOutputStreamSerializer.o: serialization/KVBinaryOutputStreamSerializer.cpp.o
@@ -4810,7 +4810,7 @@ serialization/KVBinaryOutputStreamSerializer.o: serialization/KVBinaryOutputStre
 
 # target to build an object file
 serialization/KVBinaryOutputStreamSerializer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.o
 .PHONY : serialization/KVBinaryOutputStreamSerializer.cpp.o
 
 serialization/KVBinaryOutputStreamSerializer.i: serialization/KVBinaryOutputStreamSerializer.cpp.i
@@ -4819,7 +4819,7 @@ serialization/KVBinaryOutputStreamSerializer.i: serialization/KVBinaryOutputStre
 
 # target to preprocess a source file
 serialization/KVBinaryOutputStreamSerializer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.i
 .PHONY : serialization/KVBinaryOutputStreamSerializer.cpp.i
 
 serialization/KVBinaryOutputStreamSerializer.s: serialization/KVBinaryOutputStreamSerializer.cpp.s
@@ -4828,7 +4828,7 @@ serialization/KVBinaryOutputStreamSerializer.s: serialization/KVBinaryOutputStre
 
 # target to generate assembly for a file
 serialization/KVBinaryOutputStreamSerializer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.s
 .PHONY : serialization/KVBinaryOutputStreamSerializer.cpp.s
 
 serialization/MemoryStream.o: serialization/MemoryStream.cpp.o
@@ -4837,7 +4837,7 @@ serialization/MemoryStream.o: serialization/MemoryStream.cpp.o
 
 # target to build an object file
 serialization/MemoryStream.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.o
 .PHONY : serialization/MemoryStream.cpp.o
 
 serialization/MemoryStream.i: serialization/MemoryStream.cpp.i
@@ -4846,7 +4846,7 @@ serialization/MemoryStream.i: serialization/MemoryStream.cpp.i
 
 # target to preprocess a source file
 serialization/MemoryStream.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.i
 .PHONY : serialization/MemoryStream.cpp.i
 
 serialization/MemoryStream.s: serialization/MemoryStream.cpp.s
@@ -4855,7 +4855,7 @@ serialization/MemoryStream.s: serialization/MemoryStream.cpp.s
 
 # target to generate assembly for a file
 serialization/MemoryStream.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.s
 .PHONY : serialization/MemoryStream.cpp.s
 
 serialization/SerializationOverloads.o: serialization/SerializationOverloads.cpp.o
@@ -4864,7 +4864,7 @@ serialization/SerializationOverloads.o: serialization/SerializationOverloads.cpp
 
 # target to build an object file
 serialization/SerializationOverloads.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.o
 .PHONY : serialization/SerializationOverloads.cpp.o
 
 serialization/SerializationOverloads.i: serialization/SerializationOverloads.cpp.i
@@ -4873,7 +4873,7 @@ serialization/SerializationOverloads.i: serialization/SerializationOverloads.cpp
 
 # target to preprocess a source file
 serialization/SerializationOverloads.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.i
 .PHONY : serialization/SerializationOverloads.cpp.i
 
 serialization/SerializationOverloads.s: serialization/SerializationOverloads.cpp.s
@@ -4882,7 +4882,7 @@ serialization/SerializationOverloads.s: serialization/SerializationOverloads.cpp
 
 # target to generate assembly for a file
 serialization/SerializationOverloads.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.s
 .PHONY : serialization/SerializationOverloads.cpp.s
 
 subwallets/SubWallet.o: subwallets/SubWallet.cpp.o
@@ -4891,7 +4891,7 @@ subwallets/SubWallet.o: subwallets/SubWallet.cpp.o
 
 # target to build an object file
 subwallets/SubWallet.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/SubWallets.dir/build.make src/CMakeFiles/SubWallets.dir/subwallets/SubWallet.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/SubWallets.dir/build.make src/CMakeFiles/SubWallets.dir/subwallets/SubWallet.cpp.o
 .PHONY : subwallets/SubWallet.cpp.o
 
 subwallets/SubWallet.i: subwallets/SubWallet.cpp.i
@@ -4900,7 +4900,7 @@ subwallets/SubWallet.i: subwallets/SubWallet.cpp.i
 
 # target to preprocess a source file
 subwallets/SubWallet.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/SubWallets.dir/build.make src/CMakeFiles/SubWallets.dir/subwallets/SubWallet.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/SubWallets.dir/build.make src/CMakeFiles/SubWallets.dir/subwallets/SubWallet.cpp.i
 .PHONY : subwallets/SubWallet.cpp.i
 
 subwallets/SubWallet.s: subwallets/SubWallet.cpp.s
@@ -4909,7 +4909,7 @@ subwallets/SubWallet.s: subwallets/SubWallet.cpp.s
 
 # target to generate assembly for a file
 subwallets/SubWallet.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/SubWallets.dir/build.make src/CMakeFiles/SubWallets.dir/subwallets/SubWallet.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/SubWallets.dir/build.make src/CMakeFiles/SubWallets.dir/subwallets/SubWallet.cpp.s
 .PHONY : subwallets/SubWallet.cpp.s
 
 subwallets/SubWallets.o: subwallets/SubWallets.cpp.o
@@ -4918,7 +4918,7 @@ subwallets/SubWallets.o: subwallets/SubWallets.cpp.o
 
 # target to build an object file
 subwallets/SubWallets.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/SubWallets.dir/build.make src/CMakeFiles/SubWallets.dir/subwallets/SubWallets.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/SubWallets.dir/build.make src/CMakeFiles/SubWallets.dir/subwallets/SubWallets.cpp.o
 .PHONY : subwallets/SubWallets.cpp.o
 
 subwallets/SubWallets.i: subwallets/SubWallets.cpp.i
@@ -4927,7 +4927,7 @@ subwallets/SubWallets.i: subwallets/SubWallets.cpp.i
 
 # target to preprocess a source file
 subwallets/SubWallets.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/SubWallets.dir/build.make src/CMakeFiles/SubWallets.dir/subwallets/SubWallets.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/SubWallets.dir/build.make src/CMakeFiles/SubWallets.dir/subwallets/SubWallets.cpp.i
 .PHONY : subwallets/SubWallets.cpp.i
 
 subwallets/SubWallets.s: subwallets/SubWallets.cpp.s
@@ -4936,7 +4936,7 @@ subwallets/SubWallets.s: subwallets/SubWallets.cpp.s
 
 # target to generate assembly for a file
 subwallets/SubWallets.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/SubWallets.dir/build.make src/CMakeFiles/SubWallets.dir/subwallets/SubWallets.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/SubWallets.dir/build.make src/CMakeFiles/SubWallets.dir/subwallets/SubWallets.cpp.s
 .PHONY : subwallets/SubWallets.cpp.s
 
 system/ContextGroup.o: system/ContextGroup.cpp.o
@@ -4945,7 +4945,7 @@ system/ContextGroup.o: system/ContextGroup.cpp.o
 
 # target to build an object file
 system/ContextGroup.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/ContextGroup.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/ContextGroup.cpp.o
 .PHONY : system/ContextGroup.cpp.o
 
 system/ContextGroup.i: system/ContextGroup.cpp.i
@@ -4954,7 +4954,7 @@ system/ContextGroup.i: system/ContextGroup.cpp.i
 
 # target to preprocess a source file
 system/ContextGroup.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/ContextGroup.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/ContextGroup.cpp.i
 .PHONY : system/ContextGroup.cpp.i
 
 system/ContextGroup.s: system/ContextGroup.cpp.s
@@ -4963,7 +4963,7 @@ system/ContextGroup.s: system/ContextGroup.cpp.s
 
 # target to generate assembly for a file
 system/ContextGroup.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/ContextGroup.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/ContextGroup.cpp.s
 .PHONY : system/ContextGroup.cpp.s
 
 system/ContextGroupTimeout.o: system/ContextGroupTimeout.cpp.o
@@ -4972,7 +4972,7 @@ system/ContextGroupTimeout.o: system/ContextGroupTimeout.cpp.o
 
 # target to build an object file
 system/ContextGroupTimeout.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/ContextGroupTimeout.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/ContextGroupTimeout.cpp.o
 .PHONY : system/ContextGroupTimeout.cpp.o
 
 system/ContextGroupTimeout.i: system/ContextGroupTimeout.cpp.i
@@ -4981,7 +4981,7 @@ system/ContextGroupTimeout.i: system/ContextGroupTimeout.cpp.i
 
 # target to preprocess a source file
 system/ContextGroupTimeout.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/ContextGroupTimeout.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/ContextGroupTimeout.cpp.i
 .PHONY : system/ContextGroupTimeout.cpp.i
 
 system/ContextGroupTimeout.s: system/ContextGroupTimeout.cpp.s
@@ -4990,7 +4990,7 @@ system/ContextGroupTimeout.s: system/ContextGroupTimeout.cpp.s
 
 # target to generate assembly for a file
 system/ContextGroupTimeout.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/ContextGroupTimeout.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/ContextGroupTimeout.cpp.s
 .PHONY : system/ContextGroupTimeout.cpp.s
 
 system/Event.o: system/Event.cpp.o
@@ -4999,7 +4999,7 @@ system/Event.o: system/Event.cpp.o
 
 # target to build an object file
 system/Event.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/Event.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/Event.cpp.o
 .PHONY : system/Event.cpp.o
 
 system/Event.i: system/Event.cpp.i
@@ -5008,7 +5008,7 @@ system/Event.i: system/Event.cpp.i
 
 # target to preprocess a source file
 system/Event.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/Event.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/Event.cpp.i
 .PHONY : system/Event.cpp.i
 
 system/Event.s: system/Event.cpp.s
@@ -5017,7 +5017,7 @@ system/Event.s: system/Event.cpp.s
 
 # target to generate assembly for a file
 system/Event.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/Event.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/Event.cpp.s
 .PHONY : system/Event.cpp.s
 
 system/EventLock.o: system/EventLock.cpp.o
@@ -5026,7 +5026,7 @@ system/EventLock.o: system/EventLock.cpp.o
 
 # target to build an object file
 system/EventLock.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/EventLock.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/EventLock.cpp.o
 .PHONY : system/EventLock.cpp.o
 
 system/EventLock.i: system/EventLock.cpp.i
@@ -5035,7 +5035,7 @@ system/EventLock.i: system/EventLock.cpp.i
 
 # target to preprocess a source file
 system/EventLock.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/EventLock.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/EventLock.cpp.i
 .PHONY : system/EventLock.cpp.i
 
 system/EventLock.s: system/EventLock.cpp.s
@@ -5044,7 +5044,7 @@ system/EventLock.s: system/EventLock.cpp.s
 
 # target to generate assembly for a file
 system/EventLock.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/EventLock.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/EventLock.cpp.s
 .PHONY : system/EventLock.cpp.s
 
 system/InterruptedException.o: system/InterruptedException.cpp.o
@@ -5053,7 +5053,7 @@ system/InterruptedException.o: system/InterruptedException.cpp.o
 
 # target to build an object file
 system/InterruptedException.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/InterruptedException.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/InterruptedException.cpp.o
 .PHONY : system/InterruptedException.cpp.o
 
 system/InterruptedException.i: system/InterruptedException.cpp.i
@@ -5062,7 +5062,7 @@ system/InterruptedException.i: system/InterruptedException.cpp.i
 
 # target to preprocess a source file
 system/InterruptedException.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/InterruptedException.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/InterruptedException.cpp.i
 .PHONY : system/InterruptedException.cpp.i
 
 system/InterruptedException.s: system/InterruptedException.cpp.s
@@ -5071,7 +5071,7 @@ system/InterruptedException.s: system/InterruptedException.cpp.s
 
 # target to generate assembly for a file
 system/InterruptedException.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/InterruptedException.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/InterruptedException.cpp.s
 .PHONY : system/InterruptedException.cpp.s
 
 system/Ipv4Address.o: system/Ipv4Address.cpp.o
@@ -5080,7 +5080,7 @@ system/Ipv4Address.o: system/Ipv4Address.cpp.o
 
 # target to build an object file
 system/Ipv4Address.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/Ipv4Address.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/Ipv4Address.cpp.o
 .PHONY : system/Ipv4Address.cpp.o
 
 system/Ipv4Address.i: system/Ipv4Address.cpp.i
@@ -5089,7 +5089,7 @@ system/Ipv4Address.i: system/Ipv4Address.cpp.i
 
 # target to preprocess a source file
 system/Ipv4Address.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/Ipv4Address.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/Ipv4Address.cpp.i
 .PHONY : system/Ipv4Address.cpp.i
 
 system/Ipv4Address.s: system/Ipv4Address.cpp.s
@@ -5098,7 +5098,7 @@ system/Ipv4Address.s: system/Ipv4Address.cpp.s
 
 # target to generate assembly for a file
 system/Ipv4Address.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/Ipv4Address.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/Ipv4Address.cpp.s
 .PHONY : system/Ipv4Address.cpp.s
 
 system/RemoteEventLock.o: system/RemoteEventLock.cpp.o
@@ -5107,7 +5107,7 @@ system/RemoteEventLock.o: system/RemoteEventLock.cpp.o
 
 # target to build an object file
 system/RemoteEventLock.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/RemoteEventLock.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/RemoteEventLock.cpp.o
 .PHONY : system/RemoteEventLock.cpp.o
 
 system/RemoteEventLock.i: system/RemoteEventLock.cpp.i
@@ -5116,7 +5116,7 @@ system/RemoteEventLock.i: system/RemoteEventLock.cpp.i
 
 # target to preprocess a source file
 system/RemoteEventLock.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/RemoteEventLock.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/RemoteEventLock.cpp.i
 .PHONY : system/RemoteEventLock.cpp.i
 
 system/RemoteEventLock.s: system/RemoteEventLock.cpp.s
@@ -5125,7 +5125,7 @@ system/RemoteEventLock.s: system/RemoteEventLock.cpp.s
 
 # target to generate assembly for a file
 system/RemoteEventLock.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/RemoteEventLock.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/RemoteEventLock.cpp.s
 .PHONY : system/RemoteEventLock.cpp.s
 
 system/TcpStream.o: system/TcpStream.cpp.o
@@ -5134,7 +5134,7 @@ system/TcpStream.o: system/TcpStream.cpp.o
 
 # target to build an object file
 system/TcpStream.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/TcpStream.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/TcpStream.cpp.o
 .PHONY : system/TcpStream.cpp.o
 
 system/TcpStream.i: system/TcpStream.cpp.i
@@ -5143,7 +5143,7 @@ system/TcpStream.i: system/TcpStream.cpp.i
 
 # target to preprocess a source file
 system/TcpStream.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/TcpStream.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/TcpStream.cpp.i
 .PHONY : system/TcpStream.cpp.i
 
 system/TcpStream.s: system/TcpStream.cpp.s
@@ -5152,7 +5152,7 @@ system/TcpStream.s: system/TcpStream.cpp.s
 
 # target to generate assembly for a file
 system/TcpStream.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/TcpStream.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/TcpStream.cpp.s
 .PHONY : system/TcpStream.cpp.s
 
 transfers/BlockchainSynchronizer.o: transfers/BlockchainSynchronizer.cpp.o
@@ -5161,7 +5161,7 @@ transfers/BlockchainSynchronizer.o: transfers/BlockchainSynchronizer.cpp.o
 
 # target to build an object file
 transfers/BlockchainSynchronizer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/BlockchainSynchronizer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/BlockchainSynchronizer.cpp.o
 .PHONY : transfers/BlockchainSynchronizer.cpp.o
 
 transfers/BlockchainSynchronizer.i: transfers/BlockchainSynchronizer.cpp.i
@@ -5170,7 +5170,7 @@ transfers/BlockchainSynchronizer.i: transfers/BlockchainSynchronizer.cpp.i
 
 # target to preprocess a source file
 transfers/BlockchainSynchronizer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/BlockchainSynchronizer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/BlockchainSynchronizer.cpp.i
 .PHONY : transfers/BlockchainSynchronizer.cpp.i
 
 transfers/BlockchainSynchronizer.s: transfers/BlockchainSynchronizer.cpp.s
@@ -5179,7 +5179,7 @@ transfers/BlockchainSynchronizer.s: transfers/BlockchainSynchronizer.cpp.s
 
 # target to generate assembly for a file
 transfers/BlockchainSynchronizer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/BlockchainSynchronizer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/BlockchainSynchronizer.cpp.s
 .PHONY : transfers/BlockchainSynchronizer.cpp.s
 
 transfers/SynchronizationState.o: transfers/SynchronizationState.cpp.o
@@ -5188,7 +5188,7 @@ transfers/SynchronizationState.o: transfers/SynchronizationState.cpp.o
 
 # target to build an object file
 transfers/SynchronizationState.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/SynchronizationState.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/SynchronizationState.cpp.o
 .PHONY : transfers/SynchronizationState.cpp.o
 
 transfers/SynchronizationState.i: transfers/SynchronizationState.cpp.i
@@ -5197,7 +5197,7 @@ transfers/SynchronizationState.i: transfers/SynchronizationState.cpp.i
 
 # target to preprocess a source file
 transfers/SynchronizationState.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/SynchronizationState.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/SynchronizationState.cpp.i
 .PHONY : transfers/SynchronizationState.cpp.i
 
 transfers/SynchronizationState.s: transfers/SynchronizationState.cpp.s
@@ -5206,7 +5206,7 @@ transfers/SynchronizationState.s: transfers/SynchronizationState.cpp.s
 
 # target to generate assembly for a file
 transfers/SynchronizationState.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/SynchronizationState.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/SynchronizationState.cpp.s
 .PHONY : transfers/SynchronizationState.cpp.s
 
 transfers/TransfersConsumer.o: transfers/TransfersConsumer.cpp.o
@@ -5215,7 +5215,7 @@ transfers/TransfersConsumer.o: transfers/TransfersConsumer.cpp.o
 
 # target to build an object file
 transfers/TransfersConsumer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersConsumer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersConsumer.cpp.o
 .PHONY : transfers/TransfersConsumer.cpp.o
 
 transfers/TransfersConsumer.i: transfers/TransfersConsumer.cpp.i
@@ -5224,7 +5224,7 @@ transfers/TransfersConsumer.i: transfers/TransfersConsumer.cpp.i
 
 # target to preprocess a source file
 transfers/TransfersConsumer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersConsumer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersConsumer.cpp.i
 .PHONY : transfers/TransfersConsumer.cpp.i
 
 transfers/TransfersConsumer.s: transfers/TransfersConsumer.cpp.s
@@ -5233,7 +5233,7 @@ transfers/TransfersConsumer.s: transfers/TransfersConsumer.cpp.s
 
 # target to generate assembly for a file
 transfers/TransfersConsumer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersConsumer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersConsumer.cpp.s
 .PHONY : transfers/TransfersConsumer.cpp.s
 
 transfers/TransfersContainer.o: transfers/TransfersContainer.cpp.o
@@ -5242,7 +5242,7 @@ transfers/TransfersContainer.o: transfers/TransfersContainer.cpp.o
 
 # target to build an object file
 transfers/TransfersContainer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersContainer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersContainer.cpp.o
 .PHONY : transfers/TransfersContainer.cpp.o
 
 transfers/TransfersContainer.i: transfers/TransfersContainer.cpp.i
@@ -5251,7 +5251,7 @@ transfers/TransfersContainer.i: transfers/TransfersContainer.cpp.i
 
 # target to preprocess a source file
 transfers/TransfersContainer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersContainer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersContainer.cpp.i
 .PHONY : transfers/TransfersContainer.cpp.i
 
 transfers/TransfersContainer.s: transfers/TransfersContainer.cpp.s
@@ -5260,7 +5260,7 @@ transfers/TransfersContainer.s: transfers/TransfersContainer.cpp.s
 
 # target to generate assembly for a file
 transfers/TransfersContainer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersContainer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersContainer.cpp.s
 .PHONY : transfers/TransfersContainer.cpp.s
 
 transfers/TransfersSubscription.o: transfers/TransfersSubscription.cpp.o
@@ -5269,7 +5269,7 @@ transfers/TransfersSubscription.o: transfers/TransfersSubscription.cpp.o
 
 # target to build an object file
 transfers/TransfersSubscription.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersSubscription.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersSubscription.cpp.o
 .PHONY : transfers/TransfersSubscription.cpp.o
 
 transfers/TransfersSubscription.i: transfers/TransfersSubscription.cpp.i
@@ -5278,7 +5278,7 @@ transfers/TransfersSubscription.i: transfers/TransfersSubscription.cpp.i
 
 # target to preprocess a source file
 transfers/TransfersSubscription.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersSubscription.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersSubscription.cpp.i
 .PHONY : transfers/TransfersSubscription.cpp.i
 
 transfers/TransfersSubscription.s: transfers/TransfersSubscription.cpp.s
@@ -5287,7 +5287,7 @@ transfers/TransfersSubscription.s: transfers/TransfersSubscription.cpp.s
 
 # target to generate assembly for a file
 transfers/TransfersSubscription.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersSubscription.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersSubscription.cpp.s
 .PHONY : transfers/TransfersSubscription.cpp.s
 
 transfers/TransfersSynchronizer.o: transfers/TransfersSynchronizer.cpp.o
@@ -5296,7 +5296,7 @@ transfers/TransfersSynchronizer.o: transfers/TransfersSynchronizer.cpp.o
 
 # target to build an object file
 transfers/TransfersSynchronizer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersSynchronizer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersSynchronizer.cpp.o
 .PHONY : transfers/TransfersSynchronizer.cpp.o
 
 transfers/TransfersSynchronizer.i: transfers/TransfersSynchronizer.cpp.i
@@ -5305,7 +5305,7 @@ transfers/TransfersSynchronizer.i: transfers/TransfersSynchronizer.cpp.i
 
 # target to preprocess a source file
 transfers/TransfersSynchronizer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersSynchronizer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersSynchronizer.cpp.i
 .PHONY : transfers/TransfersSynchronizer.cpp.i
 
 transfers/TransfersSynchronizer.s: transfers/TransfersSynchronizer.cpp.s
@@ -5314,7 +5314,7 @@ transfers/TransfersSynchronizer.s: transfers/TransfersSynchronizer.cpp.s
 
 # target to generate assembly for a file
 transfers/TransfersSynchronizer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersSynchronizer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersSynchronizer.cpp.s
 .PHONY : transfers/TransfersSynchronizer.cpp.s
 
 utilities/Addresses.o: utilities/Addresses.cpp.o
@@ -5323,7 +5323,7 @@ utilities/Addresses.o: utilities/Addresses.cpp.o
 
 # target to build an object file
 utilities/Addresses.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Addresses.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Addresses.cpp.o
 .PHONY : utilities/Addresses.cpp.o
 
 utilities/Addresses.i: utilities/Addresses.cpp.i
@@ -5332,7 +5332,7 @@ utilities/Addresses.i: utilities/Addresses.cpp.i
 
 # target to preprocess a source file
 utilities/Addresses.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Addresses.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Addresses.cpp.i
 .PHONY : utilities/Addresses.cpp.i
 
 utilities/Addresses.s: utilities/Addresses.cpp.s
@@ -5341,7 +5341,7 @@ utilities/Addresses.s: utilities/Addresses.cpp.s
 
 # target to generate assembly for a file
 utilities/Addresses.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Addresses.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Addresses.cpp.s
 .PHONY : utilities/Addresses.cpp.s
 
 utilities/FormatTools.o: utilities/FormatTools.cpp.o
@@ -5350,7 +5350,7 @@ utilities/FormatTools.o: utilities/FormatTools.cpp.o
 
 # target to build an object file
 utilities/FormatTools.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/FormatTools.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/FormatTools.cpp.o
 .PHONY : utilities/FormatTools.cpp.o
 
 utilities/FormatTools.i: utilities/FormatTools.cpp.i
@@ -5359,7 +5359,7 @@ utilities/FormatTools.i: utilities/FormatTools.cpp.i
 
 # target to preprocess a source file
 utilities/FormatTools.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/FormatTools.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/FormatTools.cpp.i
 .PHONY : utilities/FormatTools.cpp.i
 
 utilities/FormatTools.s: utilities/FormatTools.cpp.s
@@ -5368,7 +5368,7 @@ utilities/FormatTools.s: utilities/FormatTools.cpp.s
 
 # target to generate assembly for a file
 utilities/FormatTools.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/FormatTools.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/FormatTools.cpp.s
 .PHONY : utilities/FormatTools.cpp.s
 
 utilities/Input.o: utilities/Input.cpp.o
@@ -5377,7 +5377,7 @@ utilities/Input.o: utilities/Input.cpp.o
 
 # target to build an object file
 utilities/Input.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Input.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Input.cpp.o
 .PHONY : utilities/Input.cpp.o
 
 utilities/Input.i: utilities/Input.cpp.i
@@ -5386,7 +5386,7 @@ utilities/Input.i: utilities/Input.cpp.i
 
 # target to preprocess a source file
 utilities/Input.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Input.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Input.cpp.i
 .PHONY : utilities/Input.cpp.i
 
 utilities/Input.s: utilities/Input.cpp.s
@@ -5395,7 +5395,7 @@ utilities/Input.s: utilities/Input.cpp.s
 
 # target to generate assembly for a file
 utilities/Input.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Input.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Input.cpp.s
 .PHONY : utilities/Input.cpp.s
 
 utilities/Mixins.o: utilities/Mixins.cpp.o
@@ -5404,7 +5404,7 @@ utilities/Mixins.o: utilities/Mixins.cpp.o
 
 # target to build an object file
 utilities/Mixins.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Mixins.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Mixins.cpp.o
 .PHONY : utilities/Mixins.cpp.o
 
 utilities/Mixins.i: utilities/Mixins.cpp.i
@@ -5413,7 +5413,7 @@ utilities/Mixins.i: utilities/Mixins.cpp.i
 
 # target to preprocess a source file
 utilities/Mixins.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Mixins.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Mixins.cpp.i
 .PHONY : utilities/Mixins.cpp.i
 
 utilities/Mixins.s: utilities/Mixins.cpp.s
@@ -5422,7 +5422,7 @@ utilities/Mixins.s: utilities/Mixins.cpp.s
 
 # target to generate assembly for a file
 utilities/Mixins.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Mixins.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Mixins.cpp.s
 .PHONY : utilities/Mixins.cpp.s
 
 utilities/ParseExtra.o: utilities/ParseExtra.cpp.o
@@ -5431,7 +5431,7 @@ utilities/ParseExtra.o: utilities/ParseExtra.cpp.o
 
 # target to build an object file
 utilities/ParseExtra.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/ParseExtra.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/ParseExtra.cpp.o
 .PHONY : utilities/ParseExtra.cpp.o
 
 utilities/ParseExtra.i: utilities/ParseExtra.cpp.i
@@ -5440,7 +5440,7 @@ utilities/ParseExtra.i: utilities/ParseExtra.cpp.i
 
 # target to preprocess a source file
 utilities/ParseExtra.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/ParseExtra.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/ParseExtra.cpp.i
 .PHONY : utilities/ParseExtra.cpp.i
 
 utilities/ParseExtra.s: utilities/ParseExtra.cpp.s
@@ -5449,7 +5449,7 @@ utilities/ParseExtra.s: utilities/ParseExtra.cpp.s
 
 # target to generate assembly for a file
 utilities/ParseExtra.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/ParseExtra.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/ParseExtra.cpp.s
 .PHONY : utilities/ParseExtra.cpp.s
 
 utilities/PasswordContainer.o: utilities/PasswordContainer.cpp.o
@@ -5458,7 +5458,7 @@ utilities/PasswordContainer.o: utilities/PasswordContainer.cpp.o
 
 # target to build an object file
 utilities/PasswordContainer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/PasswordContainer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/PasswordContainer.cpp.o
 .PHONY : utilities/PasswordContainer.cpp.o
 
 utilities/PasswordContainer.i: utilities/PasswordContainer.cpp.i
@@ -5467,7 +5467,7 @@ utilities/PasswordContainer.i: utilities/PasswordContainer.cpp.i
 
 # target to preprocess a source file
 utilities/PasswordContainer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/PasswordContainer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/PasswordContainer.cpp.i
 .PHONY : utilities/PasswordContainer.cpp.i
 
 utilities/PasswordContainer.s: utilities/PasswordContainer.cpp.s
@@ -5476,7 +5476,7 @@ utilities/PasswordContainer.s: utilities/PasswordContainer.cpp.s
 
 # target to generate assembly for a file
 utilities/PasswordContainer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/PasswordContainer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/PasswordContainer.cpp.s
 .PHONY : utilities/PasswordContainer.cpp.s
 
 utilities/String.o: utilities/String.cpp.o
@@ -5485,7 +5485,7 @@ utilities/String.o: utilities/String.cpp.o
 
 # target to build an object file
 utilities/String.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/String.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/String.cpp.o
 .PHONY : utilities/String.cpp.o
 
 utilities/String.i: utilities/String.cpp.i
@@ -5494,7 +5494,7 @@ utilities/String.i: utilities/String.cpp.i
 
 # target to preprocess a source file
 utilities/String.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/String.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/String.cpp.i
 .PHONY : utilities/String.cpp.i
 
 utilities/String.s: utilities/String.cpp.s
@@ -5503,7 +5503,7 @@ utilities/String.s: utilities/String.cpp.s
 
 # target to generate assembly for a file
 utilities/String.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/String.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/String.cpp.s
 .PHONY : utilities/String.cpp.s
 
 utilities/Utilities.o: utilities/Utilities.cpp.o
@@ -5512,7 +5512,7 @@ utilities/Utilities.o: utilities/Utilities.cpp.o
 
 # target to build an object file
 utilities/Utilities.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Utilities.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Utilities.cpp.o
 .PHONY : utilities/Utilities.cpp.o
 
 utilities/Utilities.i: utilities/Utilities.cpp.i
@@ -5521,7 +5521,7 @@ utilities/Utilities.i: utilities/Utilities.cpp.i
 
 # target to preprocess a source file
 utilities/Utilities.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Utilities.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Utilities.cpp.i
 .PHONY : utilities/Utilities.cpp.i
 
 utilities/Utilities.s: utilities/Utilities.cpp.s
@@ -5530,7 +5530,7 @@ utilities/Utilities.s: utilities/Utilities.cpp.s
 
 # target to generate assembly for a file
 utilities/Utilities.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Utilities.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/utilities/Utilities.cpp.s
 .PHONY : utilities/Utilities.cpp.s
 
 wallet/WalletAsyncContextCounter.o: wallet/WalletAsyncContextCounter.cpp.o
@@ -5539,7 +5539,7 @@ wallet/WalletAsyncContextCounter.o: wallet/WalletAsyncContextCounter.cpp.o
 
 # target to build an object file
 wallet/WalletAsyncContextCounter.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletAsyncContextCounter.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletAsyncContextCounter.cpp.o
 .PHONY : wallet/WalletAsyncContextCounter.cpp.o
 
 wallet/WalletAsyncContextCounter.i: wallet/WalletAsyncContextCounter.cpp.i
@@ -5548,7 +5548,7 @@ wallet/WalletAsyncContextCounter.i: wallet/WalletAsyncContextCounter.cpp.i
 
 # target to preprocess a source file
 wallet/WalletAsyncContextCounter.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletAsyncContextCounter.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletAsyncContextCounter.cpp.i
 .PHONY : wallet/WalletAsyncContextCounter.cpp.i
 
 wallet/WalletAsyncContextCounter.s: wallet/WalletAsyncContextCounter.cpp.s
@@ -5557,7 +5557,7 @@ wallet/WalletAsyncContextCounter.s: wallet/WalletAsyncContextCounter.cpp.s
 
 # target to generate assembly for a file
 wallet/WalletAsyncContextCounter.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletAsyncContextCounter.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletAsyncContextCounter.cpp.s
 .PHONY : wallet/WalletAsyncContextCounter.cpp.s
 
 wallet/WalletErrors.o: wallet/WalletErrors.cpp.o
@@ -5566,7 +5566,7 @@ wallet/WalletErrors.o: wallet/WalletErrors.cpp.o
 
 # target to build an object file
 wallet/WalletErrors.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletErrors.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletErrors.cpp.o
 .PHONY : wallet/WalletErrors.cpp.o
 
 wallet/WalletErrors.i: wallet/WalletErrors.cpp.i
@@ -5575,7 +5575,7 @@ wallet/WalletErrors.i: wallet/WalletErrors.cpp.i
 
 # target to preprocess a source file
 wallet/WalletErrors.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletErrors.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletErrors.cpp.i
 .PHONY : wallet/WalletErrors.cpp.i
 
 wallet/WalletErrors.s: wallet/WalletErrors.cpp.s
@@ -5584,7 +5584,7 @@ wallet/WalletErrors.s: wallet/WalletErrors.cpp.s
 
 # target to generate assembly for a file
 wallet/WalletErrors.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletErrors.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletErrors.cpp.s
 .PHONY : wallet/WalletErrors.cpp.s
 
 wallet/WalletGreen.o: wallet/WalletGreen.cpp.o
@@ -5593,7 +5593,7 @@ wallet/WalletGreen.o: wallet/WalletGreen.cpp.o
 
 # target to build an object file
 wallet/WalletGreen.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletGreen.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletGreen.cpp.o
 .PHONY : wallet/WalletGreen.cpp.o
 
 wallet/WalletGreen.i: wallet/WalletGreen.cpp.i
@@ -5602,7 +5602,7 @@ wallet/WalletGreen.i: wallet/WalletGreen.cpp.i
 
 # target to preprocess a source file
 wallet/WalletGreen.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletGreen.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletGreen.cpp.i
 .PHONY : wallet/WalletGreen.cpp.i
 
 wallet/WalletGreen.s: wallet/WalletGreen.cpp.s
@@ -5611,7 +5611,7 @@ wallet/WalletGreen.s: wallet/WalletGreen.cpp.s
 
 # target to generate assembly for a file
 wallet/WalletGreen.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletGreen.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletGreen.cpp.s
 .PHONY : wallet/WalletGreen.cpp.s
 
 wallet/WalletSerializationV2.o: wallet/WalletSerializationV2.cpp.o
@@ -5620,7 +5620,7 @@ wallet/WalletSerializationV2.o: wallet/WalletSerializationV2.cpp.o
 
 # target to build an object file
 wallet/WalletSerializationV2.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletSerializationV2.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletSerializationV2.cpp.o
 .PHONY : wallet/WalletSerializationV2.cpp.o
 
 wallet/WalletSerializationV2.i: wallet/WalletSerializationV2.cpp.i
@@ -5629,7 +5629,7 @@ wallet/WalletSerializationV2.i: wallet/WalletSerializationV2.cpp.i
 
 # target to preprocess a source file
 wallet/WalletSerializationV2.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletSerializationV2.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletSerializationV2.cpp.i
 .PHONY : wallet/WalletSerializationV2.cpp.i
 
 wallet/WalletSerializationV2.s: wallet/WalletSerializationV2.cpp.s
@@ -5638,7 +5638,7 @@ wallet/WalletSerializationV2.s: wallet/WalletSerializationV2.cpp.s
 
 # target to generate assembly for a file
 wallet/WalletSerializationV2.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletSerializationV2.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletSerializationV2.cpp.s
 .PHONY : wallet/WalletSerializationV2.cpp.s
 
 wallet/WalletUtils.o: wallet/WalletUtils.cpp.o
@@ -5647,7 +5647,7 @@ wallet/WalletUtils.o: wallet/WalletUtils.cpp.o
 
 # target to build an object file
 wallet/WalletUtils.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletUtils.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletUtils.cpp.o
 .PHONY : wallet/WalletUtils.cpp.o
 
 wallet/WalletUtils.i: wallet/WalletUtils.cpp.i
@@ -5656,7 +5656,7 @@ wallet/WalletUtils.i: wallet/WalletUtils.cpp.i
 
 # target to preprocess a source file
 wallet/WalletUtils.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletUtils.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletUtils.cpp.i
 .PHONY : wallet/WalletUtils.cpp.i
 
 wallet/WalletUtils.s: wallet/WalletUtils.cpp.s
@@ -5665,7 +5665,7 @@ wallet/WalletUtils.s: wallet/WalletUtils.cpp.s
 
 # target to generate assembly for a file
 wallet/WalletUtils.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletUtils.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletUtils.cpp.s
 .PHONY : wallet/WalletUtils.cpp.s
 
 walletapi/ApiDispatcher.o: walletapi/ApiDispatcher.cpp.o
@@ -5674,7 +5674,7 @@ walletapi/ApiDispatcher.o: walletapi/ApiDispatcher.cpp.o
 
 # target to build an object file
 walletapi/ApiDispatcher.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.o
 .PHONY : walletapi/ApiDispatcher.cpp.o
 
 walletapi/ApiDispatcher.i: walletapi/ApiDispatcher.cpp.i
@@ -5683,7 +5683,7 @@ walletapi/ApiDispatcher.i: walletapi/ApiDispatcher.cpp.i
 
 # target to preprocess a source file
 walletapi/ApiDispatcher.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.i
 .PHONY : walletapi/ApiDispatcher.cpp.i
 
 walletapi/ApiDispatcher.s: walletapi/ApiDispatcher.cpp.s
@@ -5692,7 +5692,7 @@ walletapi/ApiDispatcher.s: walletapi/ApiDispatcher.cpp.s
 
 # target to generate assembly for a file
 walletapi/ApiDispatcher.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.s
 .PHONY : walletapi/ApiDispatcher.cpp.s
 
 walletapi/ParseArguments.o: walletapi/ParseArguments.cpp.o
@@ -5701,7 +5701,7 @@ walletapi/ParseArguments.o: walletapi/ParseArguments.cpp.o
 
 # target to build an object file
 walletapi/ParseArguments.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.o
 .PHONY : walletapi/ParseArguments.cpp.o
 
 walletapi/ParseArguments.i: walletapi/ParseArguments.cpp.i
@@ -5710,7 +5710,7 @@ walletapi/ParseArguments.i: walletapi/ParseArguments.cpp.i
 
 # target to preprocess a source file
 walletapi/ParseArguments.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.i
 .PHONY : walletapi/ParseArguments.cpp.i
 
 walletapi/ParseArguments.s: walletapi/ParseArguments.cpp.s
@@ -5719,7 +5719,7 @@ walletapi/ParseArguments.s: walletapi/ParseArguments.cpp.s
 
 # target to generate assembly for a file
 walletapi/ParseArguments.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.s
 .PHONY : walletapi/ParseArguments.cpp.s
 
 walletapi/WalletApi.o: walletapi/WalletApi.cpp.o
@@ -5728,7 +5728,7 @@ walletapi/WalletApi.o: walletapi/WalletApi.cpp.o
 
 # target to build an object file
 walletapi/WalletApi.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.o
 .PHONY : walletapi/WalletApi.cpp.o
 
 walletapi/WalletApi.i: walletapi/WalletApi.cpp.i
@@ -5737,7 +5737,7 @@ walletapi/WalletApi.i: walletapi/WalletApi.cpp.i
 
 # target to preprocess a source file
 walletapi/WalletApi.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.i
 .PHONY : walletapi/WalletApi.cpp.i
 
 walletapi/WalletApi.s: walletapi/WalletApi.cpp.s
@@ -5746,7 +5746,7 @@ walletapi/WalletApi.s: walletapi/WalletApi.cpp.s
 
 # target to generate assembly for a file
 walletapi/WalletApi.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.s
 .PHONY : walletapi/WalletApi.cpp.s
 
 walletbackend/BlockDownloader.o: walletbackend/BlockDownloader.cpp.o
@@ -5755,7 +5755,7 @@ walletbackend/BlockDownloader.o: walletbackend/BlockDownloader.cpp.o
 
 # target to build an object file
 walletbackend/BlockDownloader.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/BlockDownloader.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/BlockDownloader.cpp.o
 .PHONY : walletbackend/BlockDownloader.cpp.o
 
 walletbackend/BlockDownloader.i: walletbackend/BlockDownloader.cpp.i
@@ -5764,7 +5764,7 @@ walletbackend/BlockDownloader.i: walletbackend/BlockDownloader.cpp.i
 
 # target to preprocess a source file
 walletbackend/BlockDownloader.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/BlockDownloader.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/BlockDownloader.cpp.i
 .PHONY : walletbackend/BlockDownloader.cpp.i
 
 walletbackend/BlockDownloader.s: walletbackend/BlockDownloader.cpp.s
@@ -5773,7 +5773,7 @@ walletbackend/BlockDownloader.s: walletbackend/BlockDownloader.cpp.s
 
 # target to generate assembly for a file
 walletbackend/BlockDownloader.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/BlockDownloader.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/BlockDownloader.cpp.s
 .PHONY : walletbackend/BlockDownloader.cpp.s
 
 walletbackend/JsonSerialization.o: walletbackend/JsonSerialization.cpp.o
@@ -5782,7 +5782,7 @@ walletbackend/JsonSerialization.o: walletbackend/JsonSerialization.cpp.o
 
 # target to build an object file
 walletbackend/JsonSerialization.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/JsonSerialization.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/JsonSerialization.cpp.o
 .PHONY : walletbackend/JsonSerialization.cpp.o
 
 walletbackend/JsonSerialization.i: walletbackend/JsonSerialization.cpp.i
@@ -5791,7 +5791,7 @@ walletbackend/JsonSerialization.i: walletbackend/JsonSerialization.cpp.i
 
 # target to preprocess a source file
 walletbackend/JsonSerialization.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/JsonSerialization.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/JsonSerialization.cpp.i
 .PHONY : walletbackend/JsonSerialization.cpp.i
 
 walletbackend/JsonSerialization.s: walletbackend/JsonSerialization.cpp.s
@@ -5800,7 +5800,7 @@ walletbackend/JsonSerialization.s: walletbackend/JsonSerialization.cpp.s
 
 # target to generate assembly for a file
 walletbackend/JsonSerialization.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/JsonSerialization.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/JsonSerialization.cpp.s
 .PHONY : walletbackend/JsonSerialization.cpp.s
 
 walletbackend/SynchronizationStatus.o: walletbackend/SynchronizationStatus.cpp.o
@@ -5809,7 +5809,7 @@ walletbackend/SynchronizationStatus.o: walletbackend/SynchronizationStatus.cpp.o
 
 # target to build an object file
 walletbackend/SynchronizationStatus.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/SynchronizationStatus.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/SynchronizationStatus.cpp.o
 .PHONY : walletbackend/SynchronizationStatus.cpp.o
 
 walletbackend/SynchronizationStatus.i: walletbackend/SynchronizationStatus.cpp.i
@@ -5818,7 +5818,7 @@ walletbackend/SynchronizationStatus.i: walletbackend/SynchronizationStatus.cpp.i
 
 # target to preprocess a source file
 walletbackend/SynchronizationStatus.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/SynchronizationStatus.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/SynchronizationStatus.cpp.i
 .PHONY : walletbackend/SynchronizationStatus.cpp.i
 
 walletbackend/SynchronizationStatus.s: walletbackend/SynchronizationStatus.cpp.s
@@ -5827,7 +5827,7 @@ walletbackend/SynchronizationStatus.s: walletbackend/SynchronizationStatus.cpp.s
 
 # target to generate assembly for a file
 walletbackend/SynchronizationStatus.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/SynchronizationStatus.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/SynchronizationStatus.cpp.s
 .PHONY : walletbackend/SynchronizationStatus.cpp.s
 
 walletbackend/Transfer.o: walletbackend/Transfer.cpp.o
@@ -5836,7 +5836,7 @@ walletbackend/Transfer.o: walletbackend/Transfer.cpp.o
 
 # target to build an object file
 walletbackend/Transfer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/Transfer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/Transfer.cpp.o
 .PHONY : walletbackend/Transfer.cpp.o
 
 walletbackend/Transfer.i: walletbackend/Transfer.cpp.i
@@ -5845,7 +5845,7 @@ walletbackend/Transfer.i: walletbackend/Transfer.cpp.i
 
 # target to preprocess a source file
 walletbackend/Transfer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/Transfer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/Transfer.cpp.i
 .PHONY : walletbackend/Transfer.cpp.i
 
 walletbackend/Transfer.s: walletbackend/Transfer.cpp.s
@@ -5854,7 +5854,7 @@ walletbackend/Transfer.s: walletbackend/Transfer.cpp.s
 
 # target to generate assembly for a file
 walletbackend/Transfer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/Transfer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/Transfer.cpp.s
 .PHONY : walletbackend/Transfer.cpp.s
 
 walletbackend/WalletBackend.o: walletbackend/WalletBackend.cpp.o
@@ -5863,7 +5863,7 @@ walletbackend/WalletBackend.o: walletbackend/WalletBackend.cpp.o
 
 # target to build an object file
 walletbackend/WalletBackend.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/WalletBackend.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/WalletBackend.cpp.o
 .PHONY : walletbackend/WalletBackend.cpp.o
 
 walletbackend/WalletBackend.i: walletbackend/WalletBackend.cpp.i
@@ -5872,7 +5872,7 @@ walletbackend/WalletBackend.i: walletbackend/WalletBackend.cpp.i
 
 # target to preprocess a source file
 walletbackend/WalletBackend.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/WalletBackend.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/WalletBackend.cpp.i
 .PHONY : walletbackend/WalletBackend.cpp.i
 
 walletbackend/WalletBackend.s: walletbackend/WalletBackend.cpp.s
@@ -5881,7 +5881,7 @@ walletbackend/WalletBackend.s: walletbackend/WalletBackend.cpp.s
 
 # target to generate assembly for a file
 walletbackend/WalletBackend.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/WalletBackend.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/WalletBackend.cpp.s
 .PHONY : walletbackend/WalletBackend.cpp.s
 
 walletbackend/WalletSynchronizer.o: walletbackend/WalletSynchronizer.cpp.o
@@ -5890,7 +5890,7 @@ walletbackend/WalletSynchronizer.o: walletbackend/WalletSynchronizer.cpp.o
 
 # target to build an object file
 walletbackend/WalletSynchronizer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/WalletSynchronizer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/WalletSynchronizer.cpp.o
 .PHONY : walletbackend/WalletSynchronizer.cpp.o
 
 walletbackend/WalletSynchronizer.i: walletbackend/WalletSynchronizer.cpp.i
@@ -5899,7 +5899,7 @@ walletbackend/WalletSynchronizer.i: walletbackend/WalletSynchronizer.cpp.i
 
 # target to preprocess a source file
 walletbackend/WalletSynchronizer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/WalletSynchronizer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/WalletSynchronizer.cpp.i
 .PHONY : walletbackend/WalletSynchronizer.cpp.i
 
 walletbackend/WalletSynchronizer.s: walletbackend/WalletSynchronizer.cpp.s
@@ -5908,7 +5908,7 @@ walletbackend/WalletSynchronizer.s: walletbackend/WalletSynchronizer.cpp.s
 
 # target to generate assembly for a file
 walletbackend/WalletSynchronizer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/WalletSynchronizer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/walletbackend/WalletSynchronizer.cpp.s
 .PHONY : walletbackend/WalletSynchronizer.cpp.s
 
 walletservice/ConfigurationManager.o: walletservice/ConfigurationManager.cpp.o
@@ -5917,7 +5917,7 @@ walletservice/ConfigurationManager.o: walletservice/ConfigurationManager.cpp.o
 
 # target to build an object file
 walletservice/ConfigurationManager.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.o
 .PHONY : walletservice/ConfigurationManager.cpp.o
 
 walletservice/ConfigurationManager.i: walletservice/ConfigurationManager.cpp.i
@@ -5926,7 +5926,7 @@ walletservice/ConfigurationManager.i: walletservice/ConfigurationManager.cpp.i
 
 # target to preprocess a source file
 walletservice/ConfigurationManager.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.i
 .PHONY : walletservice/ConfigurationManager.cpp.i
 
 walletservice/ConfigurationManager.s: walletservice/ConfigurationManager.cpp.s
@@ -5935,7 +5935,7 @@ walletservice/ConfigurationManager.s: walletservice/ConfigurationManager.cpp.s
 
 # target to generate assembly for a file
 walletservice/ConfigurationManager.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.s
 .PHONY : walletservice/ConfigurationManager.cpp.s
 
 walletservice/NodeFactory.o: walletservice/NodeFactory.cpp.o
@@ -5944,7 +5944,7 @@ walletservice/NodeFactory.o: walletservice/NodeFactory.cpp.o
 
 # target to build an object file
 walletservice/NodeFactory.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.o
 .PHONY : walletservice/NodeFactory.cpp.o
 
 walletservice/NodeFactory.i: walletservice/NodeFactory.cpp.i
@@ -5953,7 +5953,7 @@ walletservice/NodeFactory.i: walletservice/NodeFactory.cpp.i
 
 # target to preprocess a source file
 walletservice/NodeFactory.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.i
 .PHONY : walletservice/NodeFactory.cpp.i
 
 walletservice/NodeFactory.s: walletservice/NodeFactory.cpp.s
@@ -5962,7 +5962,7 @@ walletservice/NodeFactory.s: walletservice/NodeFactory.cpp.s
 
 # target to generate assembly for a file
 walletservice/NodeFactory.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.s
 .PHONY : walletservice/NodeFactory.cpp.s
 
 walletservice/PaymentGateService.o: walletservice/PaymentGateService.cpp.o
@@ -5971,7 +5971,7 @@ walletservice/PaymentGateService.o: walletservice/PaymentGateService.cpp.o
 
 # target to build an object file
 walletservice/PaymentGateService.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.o
 .PHONY : walletservice/PaymentGateService.cpp.o
 
 walletservice/PaymentGateService.i: walletservice/PaymentGateService.cpp.i
@@ -5980,7 +5980,7 @@ walletservice/PaymentGateService.i: walletservice/PaymentGateService.cpp.i
 
 # target to preprocess a source file
 walletservice/PaymentGateService.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.i
 .PHONY : walletservice/PaymentGateService.cpp.i
 
 walletservice/PaymentGateService.s: walletservice/PaymentGateService.cpp.s
@@ -5989,7 +5989,7 @@ walletservice/PaymentGateService.s: walletservice/PaymentGateService.cpp.s
 
 # target to generate assembly for a file
 walletservice/PaymentGateService.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.s
 .PHONY : walletservice/PaymentGateService.cpp.s
 
 walletservice/PaymentServiceJsonRpcMessages.o: walletservice/PaymentServiceJsonRpcMessages.cpp.o
@@ -5998,7 +5998,7 @@ walletservice/PaymentServiceJsonRpcMessages.o: walletservice/PaymentServiceJsonR
 
 # target to build an object file
 walletservice/PaymentServiceJsonRpcMessages.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.o
 .PHONY : walletservice/PaymentServiceJsonRpcMessages.cpp.o
 
 walletservice/PaymentServiceJsonRpcMessages.i: walletservice/PaymentServiceJsonRpcMessages.cpp.i
@@ -6007,7 +6007,7 @@ walletservice/PaymentServiceJsonRpcMessages.i: walletservice/PaymentServiceJsonR
 
 # target to preprocess a source file
 walletservice/PaymentServiceJsonRpcMessages.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.i
 .PHONY : walletservice/PaymentServiceJsonRpcMessages.cpp.i
 
 walletservice/PaymentServiceJsonRpcMessages.s: walletservice/PaymentServiceJsonRpcMessages.cpp.s
@@ -6016,7 +6016,7 @@ walletservice/PaymentServiceJsonRpcMessages.s: walletservice/PaymentServiceJsonR
 
 # target to generate assembly for a file
 walletservice/PaymentServiceJsonRpcMessages.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.s
 .PHONY : walletservice/PaymentServiceJsonRpcMessages.cpp.s
 
 walletservice/PaymentServiceJsonRpcServer.o: walletservice/PaymentServiceJsonRpcServer.cpp.o
@@ -6025,7 +6025,7 @@ walletservice/PaymentServiceJsonRpcServer.o: walletservice/PaymentServiceJsonRpc
 
 # target to build an object file
 walletservice/PaymentServiceJsonRpcServer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.o
 .PHONY : walletservice/PaymentServiceJsonRpcServer.cpp.o
 
 walletservice/PaymentServiceJsonRpcServer.i: walletservice/PaymentServiceJsonRpcServer.cpp.i
@@ -6034,7 +6034,7 @@ walletservice/PaymentServiceJsonRpcServer.i: walletservice/PaymentServiceJsonRpc
 
 # target to preprocess a source file
 walletservice/PaymentServiceJsonRpcServer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.i
 .PHONY : walletservice/PaymentServiceJsonRpcServer.cpp.i
 
 walletservice/PaymentServiceJsonRpcServer.s: walletservice/PaymentServiceJsonRpcServer.cpp.s
@@ -6043,7 +6043,7 @@ walletservice/PaymentServiceJsonRpcServer.s: walletservice/PaymentServiceJsonRpc
 
 # target to generate assembly for a file
 walletservice/PaymentServiceJsonRpcServer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.s
 .PHONY : walletservice/PaymentServiceJsonRpcServer.cpp.s
 
 walletservice/WalletService.o: walletservice/WalletService.cpp.o
@@ -6052,7 +6052,7 @@ walletservice/WalletService.o: walletservice/WalletService.cpp.o
 
 # target to build an object file
 walletservice/WalletService.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.o
 .PHONY : walletservice/WalletService.cpp.o
 
 walletservice/WalletService.i: walletservice/WalletService.cpp.i
@@ -6061,7 +6061,7 @@ walletservice/WalletService.i: walletservice/WalletService.cpp.i
 
 # target to preprocess a source file
 walletservice/WalletService.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.i
 .PHONY : walletservice/WalletService.cpp.i
 
 walletservice/WalletService.s: walletservice/WalletService.cpp.s
@@ -6070,7 +6070,7 @@ walletservice/WalletService.s: walletservice/WalletService.cpp.s
 
 # target to generate assembly for a file
 walletservice/WalletService.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.s
 .PHONY : walletservice/WalletService.cpp.s
 
 walletservice/WalletServiceConfiguration.o: walletservice/WalletServiceConfiguration.cpp.o
@@ -6079,7 +6079,7 @@ walletservice/WalletServiceConfiguration.o: walletservice/WalletServiceConfigura
 
 # target to build an object file
 walletservice/WalletServiceConfiguration.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.o
 .PHONY : walletservice/WalletServiceConfiguration.cpp.o
 
 walletservice/WalletServiceConfiguration.i: walletservice/WalletServiceConfiguration.cpp.i
@@ -6088,7 +6088,7 @@ walletservice/WalletServiceConfiguration.i: walletservice/WalletServiceConfigura
 
 # target to preprocess a source file
 walletservice/WalletServiceConfiguration.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.i
 .PHONY : walletservice/WalletServiceConfiguration.cpp.i
 
 walletservice/WalletServiceConfiguration.s: walletservice/WalletServiceConfiguration.cpp.s
@@ -6097,7 +6097,7 @@ walletservice/WalletServiceConfiguration.s: walletservice/WalletServiceConfigura
 
 # target to generate assembly for a file
 walletservice/WalletServiceConfiguration.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.s
 .PHONY : walletservice/WalletServiceConfiguration.cpp.s
 
 walletservice/WalletServiceErrorCategory.o: walletservice/WalletServiceErrorCategory.cpp.o
@@ -6106,7 +6106,7 @@ walletservice/WalletServiceErrorCategory.o: walletservice/WalletServiceErrorCate
 
 # target to build an object file
 walletservice/WalletServiceErrorCategory.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.o
 .PHONY : walletservice/WalletServiceErrorCategory.cpp.o
 
 walletservice/WalletServiceErrorCategory.i: walletservice/WalletServiceErrorCategory.cpp.i
@@ -6115,7 +6115,7 @@ walletservice/WalletServiceErrorCategory.i: walletservice/WalletServiceErrorCate
 
 # target to preprocess a source file
 walletservice/WalletServiceErrorCategory.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.i
 .PHONY : walletservice/WalletServiceErrorCategory.cpp.i
 
 walletservice/WalletServiceErrorCategory.s: walletservice/WalletServiceErrorCategory.cpp.s
@@ -6124,7 +6124,7 @@ walletservice/WalletServiceErrorCategory.s: walletservice/WalletServiceErrorCate
 
 # target to generate assembly for a file
 walletservice/WalletServiceErrorCategory.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.s
 .PHONY : walletservice/WalletServiceErrorCategory.cpp.s
 
 walletservice/main.o: walletservice/main.cpp.o
@@ -6133,7 +6133,7 @@ walletservice/main.o: walletservice/main.cpp.o
 
 # target to build an object file
 walletservice/main.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/main.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/main.cpp.o
 .PHONY : walletservice/main.cpp.o
 
 walletservice/main.i: walletservice/main.cpp.i
@@ -6142,7 +6142,7 @@ walletservice/main.i: walletservice/main.cpp.i
 
 # target to preprocess a source file
 walletservice/main.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/main.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/main.cpp.i
 .PHONY : walletservice/main.cpp.i
 
 walletservice/main.s: walletservice/main.cpp.s
@@ -6151,7 +6151,7 @@ walletservice/main.s: walletservice/main.cpp.s
 
 # target to generate assembly for a file
 walletservice/main.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/main.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/walletservice/main.cpp.s
 .PHONY : walletservice/main.cpp.s
 
 walletupgrader/Main.o: walletupgrader/Main.cpp.o
@@ -6160,7 +6160,7 @@ walletupgrader/Main.o: walletupgrader/Main.cpp.o
 
 # target to build an object file
 walletupgrader/Main.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletUpgrader.dir/build.make src/CMakeFiles/WalletUpgrader.dir/walletupgrader/Main.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletUpgrader.dir/build.make src/CMakeFiles/WalletUpgrader.dir/walletupgrader/Main.cpp.o
 .PHONY : walletupgrader/Main.cpp.o
 
 walletupgrader/Main.i: walletupgrader/Main.cpp.i
@@ -6169,7 +6169,7 @@ walletupgrader/Main.i: walletupgrader/Main.cpp.i
 
 # target to preprocess a source file
 walletupgrader/Main.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletUpgrader.dir/build.make src/CMakeFiles/WalletUpgrader.dir/walletupgrader/Main.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletUpgrader.dir/build.make src/CMakeFiles/WalletUpgrader.dir/walletupgrader/Main.cpp.i
 .PHONY : walletupgrader/Main.cpp.i
 
 walletupgrader/Main.s: walletupgrader/Main.cpp.s
@@ -6178,7 +6178,7 @@ walletupgrader/Main.s: walletupgrader/Main.cpp.s
 
 # target to generate assembly for a file
 walletupgrader/Main.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/WalletUpgrader.dir/build.make src/CMakeFiles/WalletUpgrader.dir/walletupgrader/Main.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/WalletUpgrader.dir/build.make src/CMakeFiles/WalletUpgrader.dir/walletupgrader/Main.cpp.s
 .PHONY : walletupgrader/Main.cpp.s
 
 zedwallet++/AddressBook.o: zedwallet++/AddressBook.cpp.o
@@ -6187,7 +6187,7 @@ zedwallet++/AddressBook.o: zedwallet++/AddressBook.cpp.o
 
 # target to build an object file
 zedwallet++/AddressBook.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/AddressBook.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/AddressBook.cpp.o
 .PHONY : zedwallet++/AddressBook.cpp.o
 
 zedwallet++/AddressBook.i: zedwallet++/AddressBook.cpp.i
@@ -6196,7 +6196,7 @@ zedwallet++/AddressBook.i: zedwallet++/AddressBook.cpp.i
 
 # target to preprocess a source file
 zedwallet++/AddressBook.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/AddressBook.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/AddressBook.cpp.i
 .PHONY : zedwallet++/AddressBook.cpp.i
 
 zedwallet++/AddressBook.s: zedwallet++/AddressBook.cpp.s
@@ -6205,7 +6205,7 @@ zedwallet++/AddressBook.s: zedwallet++/AddressBook.cpp.s
 
 # target to generate assembly for a file
 zedwallet++/AddressBook.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/AddressBook.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/AddressBook.cpp.s
 .PHONY : zedwallet++/AddressBook.cpp.s
 
 zedwallet++/CommandDispatcher.o: zedwallet++/CommandDispatcher.cpp.o
@@ -6214,7 +6214,7 @@ zedwallet++/CommandDispatcher.o: zedwallet++/CommandDispatcher.cpp.o
 
 # target to build an object file
 zedwallet++/CommandDispatcher.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/CommandDispatcher.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/CommandDispatcher.cpp.o
 .PHONY : zedwallet++/CommandDispatcher.cpp.o
 
 zedwallet++/CommandDispatcher.i: zedwallet++/CommandDispatcher.cpp.i
@@ -6223,7 +6223,7 @@ zedwallet++/CommandDispatcher.i: zedwallet++/CommandDispatcher.cpp.i
 
 # target to preprocess a source file
 zedwallet++/CommandDispatcher.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/CommandDispatcher.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/CommandDispatcher.cpp.i
 .PHONY : zedwallet++/CommandDispatcher.cpp.i
 
 zedwallet++/CommandDispatcher.s: zedwallet++/CommandDispatcher.cpp.s
@@ -6232,7 +6232,7 @@ zedwallet++/CommandDispatcher.s: zedwallet++/CommandDispatcher.cpp.s
 
 # target to generate assembly for a file
 zedwallet++/CommandDispatcher.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/CommandDispatcher.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/CommandDispatcher.cpp.s
 .PHONY : zedwallet++/CommandDispatcher.cpp.s
 
 zedwallet++/CommandImplementations.o: zedwallet++/CommandImplementations.cpp.o
@@ -6241,7 +6241,7 @@ zedwallet++/CommandImplementations.o: zedwallet++/CommandImplementations.cpp.o
 
 # target to build an object file
 zedwallet++/CommandImplementations.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/CommandImplementations.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/CommandImplementations.cpp.o
 .PHONY : zedwallet++/CommandImplementations.cpp.o
 
 zedwallet++/CommandImplementations.i: zedwallet++/CommandImplementations.cpp.i
@@ -6250,7 +6250,7 @@ zedwallet++/CommandImplementations.i: zedwallet++/CommandImplementations.cpp.i
 
 # target to preprocess a source file
 zedwallet++/CommandImplementations.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/CommandImplementations.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/CommandImplementations.cpp.i
 .PHONY : zedwallet++/CommandImplementations.cpp.i
 
 zedwallet++/CommandImplementations.s: zedwallet++/CommandImplementations.cpp.s
@@ -6259,7 +6259,7 @@ zedwallet++/CommandImplementations.s: zedwallet++/CommandImplementations.cpp.s
 
 # target to generate assembly for a file
 zedwallet++/CommandImplementations.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/CommandImplementations.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/CommandImplementations.cpp.s
 .PHONY : zedwallet++/CommandImplementations.cpp.s
 
 zedwallet++/Commands.o: zedwallet++/Commands.cpp.o
@@ -6268,7 +6268,7 @@ zedwallet++/Commands.o: zedwallet++/Commands.cpp.o
 
 # target to build an object file
 zedwallet++/Commands.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Commands.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Commands.cpp.o
 .PHONY : zedwallet++/Commands.cpp.o
 
 zedwallet++/Commands.i: zedwallet++/Commands.cpp.i
@@ -6277,7 +6277,7 @@ zedwallet++/Commands.i: zedwallet++/Commands.cpp.i
 
 # target to preprocess a source file
 zedwallet++/Commands.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Commands.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Commands.cpp.i
 .PHONY : zedwallet++/Commands.cpp.i
 
 zedwallet++/Commands.s: zedwallet++/Commands.cpp.s
@@ -6286,7 +6286,7 @@ zedwallet++/Commands.s: zedwallet++/Commands.cpp.s
 
 # target to generate assembly for a file
 zedwallet++/Commands.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Commands.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Commands.cpp.s
 .PHONY : zedwallet++/Commands.cpp.s
 
 zedwallet++/Fusion.o: zedwallet++/Fusion.cpp.o
@@ -6295,7 +6295,7 @@ zedwallet++/Fusion.o: zedwallet++/Fusion.cpp.o
 
 # target to build an object file
 zedwallet++/Fusion.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Fusion.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Fusion.cpp.o
 .PHONY : zedwallet++/Fusion.cpp.o
 
 zedwallet++/Fusion.i: zedwallet++/Fusion.cpp.i
@@ -6304,7 +6304,7 @@ zedwallet++/Fusion.i: zedwallet++/Fusion.cpp.i
 
 # target to preprocess a source file
 zedwallet++/Fusion.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Fusion.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Fusion.cpp.i
 .PHONY : zedwallet++/Fusion.cpp.i
 
 zedwallet++/Fusion.s: zedwallet++/Fusion.cpp.s
@@ -6313,7 +6313,7 @@ zedwallet++/Fusion.s: zedwallet++/Fusion.cpp.s
 
 # target to generate assembly for a file
 zedwallet++/Fusion.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Fusion.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Fusion.cpp.s
 .PHONY : zedwallet++/Fusion.cpp.s
 
 zedwallet++/GetInput.o: zedwallet++/GetInput.cpp.o
@@ -6322,7 +6322,7 @@ zedwallet++/GetInput.o: zedwallet++/GetInput.cpp.o
 
 # target to build an object file
 zedwallet++/GetInput.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/GetInput.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/GetInput.cpp.o
 .PHONY : zedwallet++/GetInput.cpp.o
 
 zedwallet++/GetInput.i: zedwallet++/GetInput.cpp.i
@@ -6331,7 +6331,7 @@ zedwallet++/GetInput.i: zedwallet++/GetInput.cpp.i
 
 # target to preprocess a source file
 zedwallet++/GetInput.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/GetInput.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/GetInput.cpp.i
 .PHONY : zedwallet++/GetInput.cpp.i
 
 zedwallet++/GetInput.s: zedwallet++/GetInput.cpp.s
@@ -6340,7 +6340,7 @@ zedwallet++/GetInput.s: zedwallet++/GetInput.cpp.s
 
 # target to generate assembly for a file
 zedwallet++/GetInput.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/GetInput.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/GetInput.cpp.s
 .PHONY : zedwallet++/GetInput.cpp.s
 
 zedwallet++/Menu.o: zedwallet++/Menu.cpp.o
@@ -6349,7 +6349,7 @@ zedwallet++/Menu.o: zedwallet++/Menu.cpp.o
 
 # target to build an object file
 zedwallet++/Menu.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Menu.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Menu.cpp.o
 .PHONY : zedwallet++/Menu.cpp.o
 
 zedwallet++/Menu.i: zedwallet++/Menu.cpp.i
@@ -6358,7 +6358,7 @@ zedwallet++/Menu.i: zedwallet++/Menu.cpp.i
 
 # target to preprocess a source file
 zedwallet++/Menu.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Menu.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Menu.cpp.i
 .PHONY : zedwallet++/Menu.cpp.i
 
 zedwallet++/Menu.s: zedwallet++/Menu.cpp.s
@@ -6367,7 +6367,7 @@ zedwallet++/Menu.s: zedwallet++/Menu.cpp.s
 
 # target to generate assembly for a file
 zedwallet++/Menu.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Menu.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Menu.cpp.s
 .PHONY : zedwallet++/Menu.cpp.s
 
 zedwallet++/Open.o: zedwallet++/Open.cpp.o
@@ -6376,7 +6376,7 @@ zedwallet++/Open.o: zedwallet++/Open.cpp.o
 
 # target to build an object file
 zedwallet++/Open.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Open.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Open.cpp.o
 .PHONY : zedwallet++/Open.cpp.o
 
 zedwallet++/Open.i: zedwallet++/Open.cpp.i
@@ -6385,7 +6385,7 @@ zedwallet++/Open.i: zedwallet++/Open.cpp.i
 
 # target to preprocess a source file
 zedwallet++/Open.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Open.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Open.cpp.i
 .PHONY : zedwallet++/Open.cpp.i
 
 zedwallet++/Open.s: zedwallet++/Open.cpp.s
@@ -6394,7 +6394,7 @@ zedwallet++/Open.s: zedwallet++/Open.cpp.s
 
 # target to generate assembly for a file
 zedwallet++/Open.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Open.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Open.cpp.s
 .PHONY : zedwallet++/Open.cpp.s
 
 zedwallet++/ParseArguments.o: zedwallet++/ParseArguments.cpp.o
@@ -6403,7 +6403,7 @@ zedwallet++/ParseArguments.o: zedwallet++/ParseArguments.cpp.o
 
 # target to build an object file
 zedwallet++/ParseArguments.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/ParseArguments.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/ParseArguments.cpp.o
 .PHONY : zedwallet++/ParseArguments.cpp.o
 
 zedwallet++/ParseArguments.i: zedwallet++/ParseArguments.cpp.i
@@ -6412,7 +6412,7 @@ zedwallet++/ParseArguments.i: zedwallet++/ParseArguments.cpp.i
 
 # target to preprocess a source file
 zedwallet++/ParseArguments.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/ParseArguments.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/ParseArguments.cpp.i
 .PHONY : zedwallet++/ParseArguments.cpp.i
 
 zedwallet++/ParseArguments.s: zedwallet++/ParseArguments.cpp.s
@@ -6421,7 +6421,7 @@ zedwallet++/ParseArguments.s: zedwallet++/ParseArguments.cpp.s
 
 # target to generate assembly for a file
 zedwallet++/ParseArguments.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/ParseArguments.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/ParseArguments.cpp.s
 .PHONY : zedwallet++/ParseArguments.cpp.s
 
 zedwallet++/Sync.o: zedwallet++/Sync.cpp.o
@@ -6430,7 +6430,7 @@ zedwallet++/Sync.o: zedwallet++/Sync.cpp.o
 
 # target to build an object file
 zedwallet++/Sync.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Sync.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Sync.cpp.o
 .PHONY : zedwallet++/Sync.cpp.o
 
 zedwallet++/Sync.i: zedwallet++/Sync.cpp.i
@@ -6439,7 +6439,7 @@ zedwallet++/Sync.i: zedwallet++/Sync.cpp.i
 
 # target to preprocess a source file
 zedwallet++/Sync.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Sync.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Sync.cpp.i
 .PHONY : zedwallet++/Sync.cpp.i
 
 zedwallet++/Sync.s: zedwallet++/Sync.cpp.s
@@ -6448,7 +6448,7 @@ zedwallet++/Sync.s: zedwallet++/Sync.cpp.s
 
 # target to generate assembly for a file
 zedwallet++/Sync.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Sync.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Sync.cpp.s
 .PHONY : zedwallet++/Sync.cpp.s
 
 zedwallet++/TransactionMonitor.o: zedwallet++/TransactionMonitor.cpp.o
@@ -6457,7 +6457,7 @@ zedwallet++/TransactionMonitor.o: zedwallet++/TransactionMonitor.cpp.o
 
 # target to build an object file
 zedwallet++/TransactionMonitor.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/TransactionMonitor.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/TransactionMonitor.cpp.o
 .PHONY : zedwallet++/TransactionMonitor.cpp.o
 
 zedwallet++/TransactionMonitor.i: zedwallet++/TransactionMonitor.cpp.i
@@ -6466,7 +6466,7 @@ zedwallet++/TransactionMonitor.i: zedwallet++/TransactionMonitor.cpp.i
 
 # target to preprocess a source file
 zedwallet++/TransactionMonitor.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/TransactionMonitor.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/TransactionMonitor.cpp.i
 .PHONY : zedwallet++/TransactionMonitor.cpp.i
 
 zedwallet++/TransactionMonitor.s: zedwallet++/TransactionMonitor.cpp.s
@@ -6475,7 +6475,7 @@ zedwallet++/TransactionMonitor.s: zedwallet++/TransactionMonitor.cpp.s
 
 # target to generate assembly for a file
 zedwallet++/TransactionMonitor.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/TransactionMonitor.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/TransactionMonitor.cpp.s
 .PHONY : zedwallet++/TransactionMonitor.cpp.s
 
 zedwallet++/Transfer.o: zedwallet++/Transfer.cpp.o
@@ -6484,7 +6484,7 @@ zedwallet++/Transfer.o: zedwallet++/Transfer.cpp.o
 
 # target to build an object file
 zedwallet++/Transfer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Transfer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Transfer.cpp.o
 .PHONY : zedwallet++/Transfer.cpp.o
 
 zedwallet++/Transfer.i: zedwallet++/Transfer.cpp.i
@@ -6493,7 +6493,7 @@ zedwallet++/Transfer.i: zedwallet++/Transfer.cpp.i
 
 # target to preprocess a source file
 zedwallet++/Transfer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Transfer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Transfer.cpp.i
 .PHONY : zedwallet++/Transfer.cpp.i
 
 zedwallet++/Transfer.s: zedwallet++/Transfer.cpp.s
@@ -6502,7 +6502,7 @@ zedwallet++/Transfer.s: zedwallet++/Transfer.cpp.s
 
 # target to generate assembly for a file
 zedwallet++/Transfer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Transfer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Transfer.cpp.s
 .PHONY : zedwallet++/Transfer.cpp.s
 
 zedwallet++/Utilities.o: zedwallet++/Utilities.cpp.o
@@ -6511,7 +6511,7 @@ zedwallet++/Utilities.o: zedwallet++/Utilities.cpp.o
 
 # target to build an object file
 zedwallet++/Utilities.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Utilities.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Utilities.cpp.o
 .PHONY : zedwallet++/Utilities.cpp.o
 
 zedwallet++/Utilities.i: zedwallet++/Utilities.cpp.i
@@ -6520,7 +6520,7 @@ zedwallet++/Utilities.i: zedwallet++/Utilities.cpp.i
 
 # target to preprocess a source file
 zedwallet++/Utilities.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Utilities.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Utilities.cpp.i
 .PHONY : zedwallet++/Utilities.cpp.i
 
 zedwallet++/Utilities.s: zedwallet++/Utilities.cpp.s
@@ -6529,7 +6529,7 @@ zedwallet++/Utilities.s: zedwallet++/Utilities.cpp.s
 
 # target to generate assembly for a file
 zedwallet++/Utilities.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Utilities.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/Utilities.cpp.s
 .PHONY : zedwallet++/Utilities.cpp.s
 
 zedwallet++/ZedWallet.o: zedwallet++/ZedWallet.cpp.o
@@ -6538,7 +6538,7 @@ zedwallet++/ZedWallet.o: zedwallet++/ZedWallet.cpp.o
 
 # target to build an object file
 zedwallet++/ZedWallet.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/ZedWallet.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/ZedWallet.cpp.o
 .PHONY : zedwallet++/ZedWallet.cpp.o
 
 zedwallet++/ZedWallet.i: zedwallet++/ZedWallet.cpp.i
@@ -6547,7 +6547,7 @@ zedwallet++/ZedWallet.i: zedwallet++/ZedWallet.cpp.i
 
 # target to preprocess a source file
 zedwallet++/ZedWallet.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/ZedWallet.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/ZedWallet.cpp.i
 .PHONY : zedwallet++/ZedWallet.cpp.i
 
 zedwallet++/ZedWallet.s: zedwallet++/ZedWallet.cpp.s
@@ -6556,7 +6556,7 @@ zedwallet++/ZedWallet.s: zedwallet++/ZedWallet.cpp.s
 
 # target to generate assembly for a file
 zedwallet++/ZedWallet.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/ZedWallet.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/zedwallet++/ZedWallet.cpp.s
 .PHONY : zedwallet++/ZedWallet.cpp.s
 
 zedwallet/AddressBook.o: zedwallet/AddressBook.cpp.o
@@ -6565,7 +6565,7 @@ zedwallet/AddressBook.o: zedwallet/AddressBook.cpp.o
 
 # target to build an object file
 zedwallet/AddressBook.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/AddressBook.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/AddressBook.cpp.o
 .PHONY : zedwallet/AddressBook.cpp.o
 
 zedwallet/AddressBook.i: zedwallet/AddressBook.cpp.i
@@ -6574,7 +6574,7 @@ zedwallet/AddressBook.i: zedwallet/AddressBook.cpp.i
 
 # target to preprocess a source file
 zedwallet/AddressBook.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/AddressBook.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/AddressBook.cpp.i
 .PHONY : zedwallet/AddressBook.cpp.i
 
 zedwallet/AddressBook.s: zedwallet/AddressBook.cpp.s
@@ -6583,7 +6583,7 @@ zedwallet/AddressBook.s: zedwallet/AddressBook.cpp.s
 
 # target to generate assembly for a file
 zedwallet/AddressBook.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/AddressBook.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/AddressBook.cpp.s
 .PHONY : zedwallet/AddressBook.cpp.s
 
 zedwallet/CommandDispatcher.o: zedwallet/CommandDispatcher.cpp.o
@@ -6592,7 +6592,7 @@ zedwallet/CommandDispatcher.o: zedwallet/CommandDispatcher.cpp.o
 
 # target to build an object file
 zedwallet/CommandDispatcher.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/CommandDispatcher.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/CommandDispatcher.cpp.o
 .PHONY : zedwallet/CommandDispatcher.cpp.o
 
 zedwallet/CommandDispatcher.i: zedwallet/CommandDispatcher.cpp.i
@@ -6601,7 +6601,7 @@ zedwallet/CommandDispatcher.i: zedwallet/CommandDispatcher.cpp.i
 
 # target to preprocess a source file
 zedwallet/CommandDispatcher.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/CommandDispatcher.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/CommandDispatcher.cpp.i
 .PHONY : zedwallet/CommandDispatcher.cpp.i
 
 zedwallet/CommandDispatcher.s: zedwallet/CommandDispatcher.cpp.s
@@ -6610,7 +6610,7 @@ zedwallet/CommandDispatcher.s: zedwallet/CommandDispatcher.cpp.s
 
 # target to generate assembly for a file
 zedwallet/CommandDispatcher.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/CommandDispatcher.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/CommandDispatcher.cpp.s
 .PHONY : zedwallet/CommandDispatcher.cpp.s
 
 zedwallet/CommandImplementations.o: zedwallet/CommandImplementations.cpp.o
@@ -6619,7 +6619,7 @@ zedwallet/CommandImplementations.o: zedwallet/CommandImplementations.cpp.o
 
 # target to build an object file
 zedwallet/CommandImplementations.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/CommandImplementations.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/CommandImplementations.cpp.o
 .PHONY : zedwallet/CommandImplementations.cpp.o
 
 zedwallet/CommandImplementations.i: zedwallet/CommandImplementations.cpp.i
@@ -6628,7 +6628,7 @@ zedwallet/CommandImplementations.i: zedwallet/CommandImplementations.cpp.i
 
 # target to preprocess a source file
 zedwallet/CommandImplementations.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/CommandImplementations.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/CommandImplementations.cpp.i
 .PHONY : zedwallet/CommandImplementations.cpp.i
 
 zedwallet/CommandImplementations.s: zedwallet/CommandImplementations.cpp.s
@@ -6637,7 +6637,7 @@ zedwallet/CommandImplementations.s: zedwallet/CommandImplementations.cpp.s
 
 # target to generate assembly for a file
 zedwallet/CommandImplementations.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/CommandImplementations.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/CommandImplementations.cpp.s
 .PHONY : zedwallet/CommandImplementations.cpp.s
 
 zedwallet/Commands.o: zedwallet/Commands.cpp.o
@@ -6646,7 +6646,7 @@ zedwallet/Commands.o: zedwallet/Commands.cpp.o
 
 # target to build an object file
 zedwallet/Commands.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Commands.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Commands.cpp.o
 .PHONY : zedwallet/Commands.cpp.o
 
 zedwallet/Commands.i: zedwallet/Commands.cpp.i
@@ -6655,7 +6655,7 @@ zedwallet/Commands.i: zedwallet/Commands.cpp.i
 
 # target to preprocess a source file
 zedwallet/Commands.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Commands.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Commands.cpp.i
 .PHONY : zedwallet/Commands.cpp.i
 
 zedwallet/Commands.s: zedwallet/Commands.cpp.s
@@ -6664,7 +6664,7 @@ zedwallet/Commands.s: zedwallet/Commands.cpp.s
 
 # target to generate assembly for a file
 zedwallet/Commands.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Commands.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Commands.cpp.s
 .PHONY : zedwallet/Commands.cpp.s
 
 zedwallet/Fusion.o: zedwallet/Fusion.cpp.o
@@ -6673,7 +6673,7 @@ zedwallet/Fusion.o: zedwallet/Fusion.cpp.o
 
 # target to build an object file
 zedwallet/Fusion.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Fusion.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Fusion.cpp.o
 .PHONY : zedwallet/Fusion.cpp.o
 
 zedwallet/Fusion.i: zedwallet/Fusion.cpp.i
@@ -6682,7 +6682,7 @@ zedwallet/Fusion.i: zedwallet/Fusion.cpp.i
 
 # target to preprocess a source file
 zedwallet/Fusion.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Fusion.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Fusion.cpp.i
 .PHONY : zedwallet/Fusion.cpp.i
 
 zedwallet/Fusion.s: zedwallet/Fusion.cpp.s
@@ -6691,7 +6691,7 @@ zedwallet/Fusion.s: zedwallet/Fusion.cpp.s
 
 # target to generate assembly for a file
 zedwallet/Fusion.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Fusion.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Fusion.cpp.s
 .PHONY : zedwallet/Fusion.cpp.s
 
 zedwallet/GetInput.o: zedwallet/GetInput.cpp.o
@@ -6700,7 +6700,7 @@ zedwallet/GetInput.o: zedwallet/GetInput.cpp.o
 
 # target to build an object file
 zedwallet/GetInput.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/GetInput.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/GetInput.cpp.o
 .PHONY : zedwallet/GetInput.cpp.o
 
 zedwallet/GetInput.i: zedwallet/GetInput.cpp.i
@@ -6709,7 +6709,7 @@ zedwallet/GetInput.i: zedwallet/GetInput.cpp.i
 
 # target to preprocess a source file
 zedwallet/GetInput.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/GetInput.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/GetInput.cpp.i
 .PHONY : zedwallet/GetInput.cpp.i
 
 zedwallet/GetInput.s: zedwallet/GetInput.cpp.s
@@ -6718,7 +6718,7 @@ zedwallet/GetInput.s: zedwallet/GetInput.cpp.s
 
 # target to generate assembly for a file
 zedwallet/GetInput.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/GetInput.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/GetInput.cpp.s
 .PHONY : zedwallet/GetInput.cpp.s
 
 zedwallet/Menu.o: zedwallet/Menu.cpp.o
@@ -6727,7 +6727,7 @@ zedwallet/Menu.o: zedwallet/Menu.cpp.o
 
 # target to build an object file
 zedwallet/Menu.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Menu.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Menu.cpp.o
 .PHONY : zedwallet/Menu.cpp.o
 
 zedwallet/Menu.i: zedwallet/Menu.cpp.i
@@ -6736,7 +6736,7 @@ zedwallet/Menu.i: zedwallet/Menu.cpp.i
 
 # target to preprocess a source file
 zedwallet/Menu.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Menu.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Menu.cpp.i
 .PHONY : zedwallet/Menu.cpp.i
 
 zedwallet/Menu.s: zedwallet/Menu.cpp.s
@@ -6745,7 +6745,7 @@ zedwallet/Menu.s: zedwallet/Menu.cpp.s
 
 # target to generate assembly for a file
 zedwallet/Menu.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Menu.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Menu.cpp.s
 .PHONY : zedwallet/Menu.cpp.s
 
 zedwallet/Open.o: zedwallet/Open.cpp.o
@@ -6754,7 +6754,7 @@ zedwallet/Open.o: zedwallet/Open.cpp.o
 
 # target to build an object file
 zedwallet/Open.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Open.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Open.cpp.o
 .PHONY : zedwallet/Open.cpp.o
 
 zedwallet/Open.i: zedwallet/Open.cpp.i
@@ -6763,7 +6763,7 @@ zedwallet/Open.i: zedwallet/Open.cpp.i
 
 # target to preprocess a source file
 zedwallet/Open.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Open.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Open.cpp.i
 .PHONY : zedwallet/Open.cpp.i
 
 zedwallet/Open.s: zedwallet/Open.cpp.s
@@ -6772,7 +6772,7 @@ zedwallet/Open.s: zedwallet/Open.cpp.s
 
 # target to generate assembly for a file
 zedwallet/Open.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Open.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Open.cpp.s
 .PHONY : zedwallet/Open.cpp.s
 
 zedwallet/ParseArguments.o: zedwallet/ParseArguments.cpp.o
@@ -6781,7 +6781,7 @@ zedwallet/ParseArguments.o: zedwallet/ParseArguments.cpp.o
 
 # target to build an object file
 zedwallet/ParseArguments.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/ParseArguments.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/ParseArguments.cpp.o
 .PHONY : zedwallet/ParseArguments.cpp.o
 
 zedwallet/ParseArguments.i: zedwallet/ParseArguments.cpp.i
@@ -6790,7 +6790,7 @@ zedwallet/ParseArguments.i: zedwallet/ParseArguments.cpp.i
 
 # target to preprocess a source file
 zedwallet/ParseArguments.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/ParseArguments.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/ParseArguments.cpp.i
 .PHONY : zedwallet/ParseArguments.cpp.i
 
 zedwallet/ParseArguments.s: zedwallet/ParseArguments.cpp.s
@@ -6799,7 +6799,7 @@ zedwallet/ParseArguments.s: zedwallet/ParseArguments.cpp.s
 
 # target to generate assembly for a file
 zedwallet/ParseArguments.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/ParseArguments.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/ParseArguments.cpp.s
 .PHONY : zedwallet/ParseArguments.cpp.s
 
 zedwallet/Sync.o: zedwallet/Sync.cpp.o
@@ -6808,7 +6808,7 @@ zedwallet/Sync.o: zedwallet/Sync.cpp.o
 
 # target to build an object file
 zedwallet/Sync.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Sync.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Sync.cpp.o
 .PHONY : zedwallet/Sync.cpp.o
 
 zedwallet/Sync.i: zedwallet/Sync.cpp.i
@@ -6817,7 +6817,7 @@ zedwallet/Sync.i: zedwallet/Sync.cpp.i
 
 # target to preprocess a source file
 zedwallet/Sync.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Sync.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Sync.cpp.i
 .PHONY : zedwallet/Sync.cpp.i
 
 zedwallet/Sync.s: zedwallet/Sync.cpp.s
@@ -6826,7 +6826,7 @@ zedwallet/Sync.s: zedwallet/Sync.cpp.s
 
 # target to generate assembly for a file
 zedwallet/Sync.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Sync.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Sync.cpp.s
 .PHONY : zedwallet/Sync.cpp.s
 
 zedwallet/Tools.o: zedwallet/Tools.cpp.o
@@ -6835,7 +6835,7 @@ zedwallet/Tools.o: zedwallet/Tools.cpp.o
 
 # target to build an object file
 zedwallet/Tools.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Tools.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Tools.cpp.o
 .PHONY : zedwallet/Tools.cpp.o
 
 zedwallet/Tools.i: zedwallet/Tools.cpp.i
@@ -6844,7 +6844,7 @@ zedwallet/Tools.i: zedwallet/Tools.cpp.i
 
 # target to preprocess a source file
 zedwallet/Tools.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Tools.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Tools.cpp.i
 .PHONY : zedwallet/Tools.cpp.i
 
 zedwallet/Tools.s: zedwallet/Tools.cpp.s
@@ -6853,7 +6853,7 @@ zedwallet/Tools.s: zedwallet/Tools.cpp.s
 
 # target to generate assembly for a file
 zedwallet/Tools.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Tools.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Tools.cpp.s
 .PHONY : zedwallet/Tools.cpp.s
 
 zedwallet/Transfer.o: zedwallet/Transfer.cpp.o
@@ -6862,7 +6862,7 @@ zedwallet/Transfer.o: zedwallet/Transfer.cpp.o
 
 # target to build an object file
 zedwallet/Transfer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Transfer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Transfer.cpp.o
 .PHONY : zedwallet/Transfer.cpp.o
 
 zedwallet/Transfer.i: zedwallet/Transfer.cpp.i
@@ -6871,7 +6871,7 @@ zedwallet/Transfer.i: zedwallet/Transfer.cpp.i
 
 # target to preprocess a source file
 zedwallet/Transfer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Transfer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Transfer.cpp.i
 .PHONY : zedwallet/Transfer.cpp.i
 
 zedwallet/Transfer.s: zedwallet/Transfer.cpp.s
@@ -6880,7 +6880,7 @@ zedwallet/Transfer.s: zedwallet/Transfer.cpp.s
 
 # target to generate assembly for a file
 zedwallet/Transfer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Transfer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/Transfer.cpp.s
 .PHONY : zedwallet/Transfer.cpp.s
 
 zedwallet/ZedWallet.o: zedwallet/ZedWallet.cpp.o
@@ -6889,7 +6889,7 @@ zedwallet/ZedWallet.o: zedwallet/ZedWallet.cpp.o
 
 # target to build an object file
 zedwallet/ZedWallet.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/ZedWallet.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/ZedWallet.cpp.o
 .PHONY : zedwallet/ZedWallet.cpp.o
 
 zedwallet/ZedWallet.i: zedwallet/ZedWallet.cpp.i
@@ -6898,7 +6898,7 @@ zedwallet/ZedWallet.i: zedwallet/ZedWallet.cpp.i
 
 # target to preprocess a source file
 zedwallet/ZedWallet.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/ZedWallet.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/ZedWallet.cpp.i
 .PHONY : zedwallet/ZedWallet.cpp.i
 
 zedwallet/ZedWallet.s: zedwallet/ZedWallet.cpp.s
@@ -6907,7 +6907,7 @@ zedwallet/ZedWallet.s: zedwallet/ZedWallet.cpp.s
 
 # target to generate assembly for a file
 zedwallet/ZedWallet.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/ZedWallet.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/zedwallet/ZedWallet.cpp.s
 .PHONY : zedwallet/ZedWallet.cpp.s
 
 # Help Target

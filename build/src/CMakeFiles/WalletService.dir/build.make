@@ -43,10 +43,10 @@ RM = /usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution
+CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/build
+CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/WalletService.dir/depend.make
@@ -59,120 +59,120 @@ include src/CMakeFiles/WalletService.dir/flags.make
 
 src/CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.o: src/CMakeFiles/WalletService.dir/flags.make
 src/CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.o: ../src/walletservice/ConfigurationManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/ccache /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/ConfigurationManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/ConfigurationManager.cpp
 
 src/CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/ConfigurationManager.cpp > CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/ConfigurationManager.cpp > CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.i
 
 src/CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/ConfigurationManager.cpp -o CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/ConfigurationManager.cpp -o CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.s
 
 src/CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.o: src/CMakeFiles/WalletService.dir/flags.make
 src/CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.o: ../src/walletservice/NodeFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/ccache /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/NodeFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/NodeFactory.cpp
 
 src/CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/NodeFactory.cpp > CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/NodeFactory.cpp > CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.i
 
 src/CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/NodeFactory.cpp -o CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/NodeFactory.cpp -o CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.s
 
 src/CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.o: src/CMakeFiles/WalletService.dir/flags.make
 src/CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.o: ../src/walletservice/PaymentGateService.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/ccache /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/PaymentGateService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/PaymentGateService.cpp
 
 src/CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/PaymentGateService.cpp > CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/PaymentGateService.cpp > CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.i
 
 src/CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/PaymentGateService.cpp -o CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/PaymentGateService.cpp -o CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.s
 
 src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.o: src/CMakeFiles/WalletService.dir/flags.make
 src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.o: ../src/walletservice/PaymentServiceJsonRpcMessages.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/ccache /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/PaymentServiceJsonRpcMessages.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/PaymentServiceJsonRpcMessages.cpp
 
 src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/PaymentServiceJsonRpcMessages.cpp > CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/PaymentServiceJsonRpcMessages.cpp > CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.i
 
 src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/PaymentServiceJsonRpcMessages.cpp -o CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/PaymentServiceJsonRpcMessages.cpp -o CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.s
 
 src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.o: src/CMakeFiles/WalletService.dir/flags.make
 src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.o: ../src/walletservice/PaymentServiceJsonRpcServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/ccache /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/PaymentServiceJsonRpcServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/PaymentServiceJsonRpcServer.cpp
 
 src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/PaymentServiceJsonRpcServer.cpp > CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/PaymentServiceJsonRpcServer.cpp > CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.i
 
 src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/PaymentServiceJsonRpcServer.cpp -o CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/PaymentServiceJsonRpcServer.cpp -o CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.s
 
 src/CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.o: src/CMakeFiles/WalletService.dir/flags.make
 src/CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.o: ../src/walletservice/WalletService.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/ccache /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/WalletService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/WalletService.cpp
 
 src/CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/WalletService.cpp > CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/WalletService.cpp > CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.i
 
 src/CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/WalletService.cpp -o CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/WalletService.cpp -o CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.s
 
 src/CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.o: src/CMakeFiles/WalletService.dir/flags.make
 src/CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.o: ../src/walletservice/WalletServiceConfiguration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/ccache /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/WalletServiceConfiguration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/WalletServiceConfiguration.cpp
 
 src/CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/WalletServiceConfiguration.cpp > CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/WalletServiceConfiguration.cpp > CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.i
 
 src/CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/WalletServiceConfiguration.cpp -o CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/WalletServiceConfiguration.cpp -o CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.s
 
 src/CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.o: src/CMakeFiles/WalletService.dir/flags.make
 src/CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.o: ../src/walletservice/WalletServiceErrorCategory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/ccache /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/WalletServiceErrorCategory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/WalletServiceErrorCategory.cpp
 
 src/CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/WalletServiceErrorCategory.cpp > CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/WalletServiceErrorCategory.cpp > CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.i
 
 src/CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/WalletServiceErrorCategory.cpp -o CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/WalletServiceErrorCategory.cpp -o CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.s
 
 src/CMakeFiles/WalletService.dir/walletservice/main.cpp.o: src/CMakeFiles/WalletService.dir/flags.make
 src/CMakeFiles/WalletService.dir/walletservice/main.cpp.o: ../src/walletservice/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/main.cpp.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/ccache /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/main.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/main.cpp.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/main.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/main.cpp
 
 src/CMakeFiles/WalletService.dir/walletservice/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletService.dir/walletservice/main.cpp.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/main.cpp > CMakeFiles/WalletService.dir/walletservice/main.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/main.cpp > CMakeFiles/WalletService.dir/walletservice/main.cpp.i
 
 src/CMakeFiles/WalletService.dir/walletservice/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletService.dir/walletservice/main.cpp.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/main.cpp -o CMakeFiles/WalletService.dir/walletservice/main.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/main.cpp -o CMakeFiles/WalletService.dir/walletservice/main.cpp.s
 
 # Object files for target WalletService
 WalletService_OBJECTS = \
@@ -189,71 +189,71 @@ WalletService_OBJECTS = \
 # External object files for target WalletService
 WalletService_EXTERNAL_OBJECTS =
 
-src/wallet-service: src/CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.o
-src/wallet-service: src/CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.o
-src/wallet-service: src/CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.o
-src/wallet-service: src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.o
-src/wallet-service: src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.o
-src/wallet-service: src/CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.o
-src/wallet-service: src/CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.o
-src/wallet-service: src/CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.o
-src/wallet-service: src/CMakeFiles/WalletService.dir/walletservice/main.cpp.o
-src/wallet-service: src/CMakeFiles/WalletService.dir/build.make
-src/wallet-service: src/libJsonRpcServer.a
-src/wallet-service: src/libWallet.a
-src/wallet-service: src/libMnemonics.a
-src/wallet-service: src/libErrors.a
-src/wallet-service: /usr/lib/x86_64-linux-gnu/libssl.a
-src/wallet-service: /usr/lib/x86_64-linux-gnu/libcrypto.a
-src/wallet-service: src/libWalletBackend.a
-src/wallet-service: src/libWallet.a
-src/wallet-service: src/libWalletBackend.a
-src/wallet-service: src/libNodeRpcProxy.a
-src/wallet-service: src/libTransfers.a
-src/wallet-service: src/libCryptoNoteCore.a
-src/wallet-service: src/libRpc.a
-src/wallet-service: src/libCryptoNoteCore.a
-src/wallet-service: src/libRpc.a
-src/wallet-service: src/libLogging.a
-src/wallet-service: src/libHttp.a
-src/wallet-service: src/libSystem.a
-src/wallet-service: src/libP2P.a
-src/wallet-service: external/miniupnpc/libminiupnpc.a
-src/wallet-service: src/libMnemonics.a
-src/wallet-service: src/libSerialization.a
-src/wallet-service: /usr/lib/x86_64-linux-gnu/libboost_system.a
-src/wallet-service: /usr/lib/x86_64-linux-gnu/libboost_thread.a
-src/wallet-service: /usr/lib/x86_64-linux-gnu/libboost_date_time.a
-src/wallet-service: /usr/lib/x86_64-linux-gnu/libboost_chrono.a
-src/wallet-service: /usr/lib/x86_64-linux-gnu/libboost_serialization.a
-src/wallet-service: /usr/lib/x86_64-linux-gnu/libboost_atomic.a
-src/wallet-service: src/libNigel.a
-src/wallet-service: src/libErrors.a
-src/wallet-service: src/libUtilities.a
-src/wallet-service: src/libErrors.a
-src/wallet-service: src/libUtilities.a
-src/wallet-service: src/libCrypto.a
-src/wallet-service: src/libSubWallets.a
-src/wallet-service: src/libCommon.a
-src/wallet-service: /usr/lib/x86_64-linux-gnu/libssl.a
-src/wallet-service: /usr/lib/x86_64-linux-gnu/libcrypto.a
-src/wallet-service: external/cryptopp/libcryptopp.a
-src/wallet-service: src/libLogger.a
-src/wallet-service: src/libConfig.a
-src/wallet-service: src/CMakeFiles/WalletService.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable wallet-service"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WalletService.dir/link.txt --verbose=$(VERBOSE)
+src/Evolution-Service: src/CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.o
+src/Evolution-Service: src/CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.o
+src/Evolution-Service: src/CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.o
+src/Evolution-Service: src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.o
+src/Evolution-Service: src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.o
+src/Evolution-Service: src/CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.o
+src/Evolution-Service: src/CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.o
+src/Evolution-Service: src/CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.o
+src/Evolution-Service: src/CMakeFiles/WalletService.dir/walletservice/main.cpp.o
+src/Evolution-Service: src/CMakeFiles/WalletService.dir/build.make
+src/Evolution-Service: src/libJsonRpcServer.a
+src/Evolution-Service: src/libWallet.a
+src/Evolution-Service: src/libMnemonics.a
+src/Evolution-Service: src/libErrors.a
+src/Evolution-Service: /usr/lib/x86_64-linux-gnu/libssl.a
+src/Evolution-Service: /usr/lib/x86_64-linux-gnu/libcrypto.a
+src/Evolution-Service: src/libWalletBackend.a
+src/Evolution-Service: src/libWallet.a
+src/Evolution-Service: src/libWalletBackend.a
+src/Evolution-Service: src/libNodeRpcProxy.a
+src/Evolution-Service: src/libTransfers.a
+src/Evolution-Service: src/libCryptoNoteCore.a
+src/Evolution-Service: src/libRpc.a
+src/Evolution-Service: src/libCryptoNoteCore.a
+src/Evolution-Service: src/libRpc.a
+src/Evolution-Service: src/libLogging.a
+src/Evolution-Service: src/libHttp.a
+src/Evolution-Service: src/libSystem.a
+src/Evolution-Service: src/libP2P.a
+src/Evolution-Service: external/miniupnpc/libminiupnpc.a
+src/Evolution-Service: src/libMnemonics.a
+src/Evolution-Service: src/libSerialization.a
+src/Evolution-Service: /usr/lib/x86_64-linux-gnu/libboost_system.a
+src/Evolution-Service: /usr/lib/x86_64-linux-gnu/libboost_thread.a
+src/Evolution-Service: /usr/lib/x86_64-linux-gnu/libboost_date_time.a
+src/Evolution-Service: /usr/lib/x86_64-linux-gnu/libboost_chrono.a
+src/Evolution-Service: /usr/lib/x86_64-linux-gnu/libboost_serialization.a
+src/Evolution-Service: /usr/lib/x86_64-linux-gnu/libboost_atomic.a
+src/Evolution-Service: src/libNigel.a
+src/Evolution-Service: src/libErrors.a
+src/Evolution-Service: src/libUtilities.a
+src/Evolution-Service: src/libErrors.a
+src/Evolution-Service: src/libUtilities.a
+src/Evolution-Service: src/libCrypto.a
+src/Evolution-Service: src/libSubWallets.a
+src/Evolution-Service: src/libCommon.a
+src/Evolution-Service: /usr/lib/x86_64-linux-gnu/libssl.a
+src/Evolution-Service: /usr/lib/x86_64-linux-gnu/libcrypto.a
+src/Evolution-Service: external/cryptopp/libcryptopp.a
+src/Evolution-Service: src/libLogger.a
+src/Evolution-Service: src/libConfig.a
+src/Evolution-Service: src/CMakeFiles/WalletService.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Evolution-Service"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WalletService.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/CMakeFiles/WalletService.dir/build: src/wallet-service
+src/CMakeFiles/WalletService.dir/build: src/Evolution-Service
 
 .PHONY : src/CMakeFiles/WalletService.dir/build
 
 src/CMakeFiles/WalletService.dir/clean:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && $(CMAKE_COMMAND) -P CMakeFiles/WalletService.dir/cmake_clean.cmake
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && $(CMAKE_COMMAND) -P CMakeFiles/WalletService.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/WalletService.dir/clean
 
 src/CMakeFiles/WalletService.dir/depend:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution /home/experimental/evolution-coin/Evolution-V2/Evolution/src /home/experimental/evolution-coin/Evolution-V2/Evolution/build /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/WalletService.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution-V2 /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/WalletService.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/WalletService.dir/depend
 

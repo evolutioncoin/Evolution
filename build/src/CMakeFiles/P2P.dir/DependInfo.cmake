@@ -4,19 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/src/cryptonoteprotocol/CryptoNoteProtocolHandler.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/P2P.dir/cryptonoteprotocol/CryptoNoteProtocolHandler.cpp.o"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/IP2pNodeInternal.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/P2P.dir/p2p/IP2pNodeInternal.cpp.o"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/LevinProtocol.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/P2P.dir/p2p/LevinProtocol.cpp.o"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/NetNode.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/P2P.dir/p2p/NetNode.cpp.o"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/NetNodeConfig.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/P2P.dir/p2p/NetNodeConfig.cpp.o"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pConnectionProxy.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/P2P.dir/p2p/P2pConnectionProxy.cpp.o"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pContext.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/P2P.dir/p2p/P2pContext.cpp.o"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pContextOwner.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/P2P.dir/p2p/P2pContextOwner.cpp.o"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pInterfaces.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/P2P.dir/p2p/P2pInterfaces.cpp.o"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pNode.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/P2P.dir/p2p/P2pNode.cpp.o"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pNodeConfig.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/P2P.dir/p2p/P2pNodeConfig.cpp.o"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/PeerListManager.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/P2P.dir/p2p/PeerListManager.cpp.o"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/Peerlist.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/P2P.dir/p2p/Peerlist.cpp.o"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/cryptonoteprotocol/CryptoNoteProtocolHandler.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/P2P.dir/cryptonoteprotocol/CryptoNoteProtocolHandler.cpp.o"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/IP2pNodeInternal.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/P2P.dir/p2p/IP2pNodeInternal.cpp.o"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/LevinProtocol.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/P2P.dir/p2p/LevinProtocol.cpp.o"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/NetNode.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/P2P.dir/p2p/NetNode.cpp.o"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/NetNodeConfig.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/P2P.dir/p2p/NetNodeConfig.cpp.o"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pConnectionProxy.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/P2P.dir/p2p/P2pConnectionProxy.cpp.o"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pContext.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/P2P.dir/p2p/P2pContext.cpp.o"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pContextOwner.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/P2P.dir/p2p/P2pContextOwner.cpp.o"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pInterfaces.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/P2P.dir/p2p/P2pInterfaces.cpp.o"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pNode.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/P2P.dir/p2p/P2pNode.cpp.o"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pNodeConfig.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/P2P.dir/p2p/P2pNodeConfig.cpp.o"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/PeerListManager.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/P2P.dir/p2p/PeerListManager.cpp.o"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/Peerlist.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/P2P.dir/p2p/Peerlist.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -47,15 +47,15 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../external/cryptopp"
   "../external/zstd"
   "../external/lz4"
-  "../external/miniupnpc/../home/experimental/evolution-coin/Evolution-V2/Evolution/external/miniupnpc"
+  "../external/miniupnpc/../home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/miniupnpc"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/miniupnpc/CMakeFiles/upnpc-static.dir/DependInfo.cmake"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/Serialization.dir/DependInfo.cmake"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/Common.dir/DependInfo.cmake"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/Crypto.dir/DependInfo.cmake"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/miniupnpc/CMakeFiles/upnpc-static.dir/DependInfo.cmake"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/Serialization.dir/DependInfo.cmake"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/Common.dir/DependInfo.cmake"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/Crypto.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

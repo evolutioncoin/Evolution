@@ -93,7 +93,7 @@ src/CMakeFiles/zedwallet++.dir/zedwallet++/AddressBook.cpp.o
  ../src/zedwallet++/GetInput.h
  ../src/zedwallet++/Transfer.h
  ../src/zedwallet++/Utilities.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/AddressBook.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/AddressBook.cpp
 src/CMakeFiles/zedwallet++.dir/zedwallet++/CommandDispatcher.cpp.o
  ../external/cpp-httplib/httplib.h
  ../external/cryptopp/adler32.h
@@ -185,7 +185,7 @@ src/CMakeFiles/zedwallet++.dir/zedwallet++/CommandDispatcher.cpp.o
  ../src/zedwallet++/ParseArguments.h
  ../src/zedwallet++/Transfer.h
  ../src/zedwallet++/Utilities.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/CommandDispatcher.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/CommandDispatcher.cpp
 src/CMakeFiles/zedwallet++.dir/zedwallet++/CommandImplementations.cpp.o
  ../external/cpp-httplib/httplib.h
  ../external/cryptopp/adler32.h
@@ -282,7 +282,7 @@ src/CMakeFiles/zedwallet++.dir/zedwallet++/CommandImplementations.cpp.o
  ../src/zedwallet++/ParseArguments.h
  ../src/zedwallet++/Sync.h
  ../src/zedwallet++/Utilities.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/CommandImplementations.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/CommandImplementations.cpp
 src/CMakeFiles/zedwallet++.dir/zedwallet++/Commands.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -318,7 +318,7 @@ src/CMakeFiles/zedwallet++.dir/zedwallet++/Commands.cpp.o
  ../src/crypto/hash.h
  ../src/utilities/Container.h
  ../src/zedwallet++/Commands.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/Commands.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/Commands.cpp
 src/CMakeFiles/zedwallet++.dir/zedwallet++/Fusion.cpp.o
  ../external/cpp-httplib/httplib.h
  ../external/cryptopp/adler32.h
@@ -403,7 +403,7 @@ src/CMakeFiles/zedwallet++.dir/zedwallet++/Fusion.cpp.o
  ../src/walletbackend/WalletSynchronizerRAIIWrapper.h
  ../src/zedwallet++/Fusion.h
  ../src/zedwallet++/Utilities.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/Fusion.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/Fusion.cpp
 src/CMakeFiles/zedwallet++.dir/zedwallet++/GetInput.cpp.o
  ../external/cpp-httplib/httplib.h
  ../external/cpp-linenoise/linenoise.hpp
@@ -494,7 +494,7 @@ src/CMakeFiles/zedwallet++.dir/zedwallet++/GetInput.cpp.o
  ../src/walletbackend/WalletSynchronizerRAIIWrapper.h
  ../src/zedwallet++/Commands.h
  ../src/zedwallet++/GetInput.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/GetInput.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/GetInput.cpp
 src/CMakeFiles/zedwallet++.dir/zedwallet++/Menu.cpp.o
  ../external/cpp-httplib/httplib.h
  ../external/cryptopp/adler32.h
@@ -584,7 +584,7 @@ src/CMakeFiles/zedwallet++.dir/zedwallet++/Menu.cpp.o
  ../src/zedwallet++/GetInput.h
  ../src/zedwallet++/Menu.h
  ../src/zedwallet++/ParseArguments.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/Menu.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/Menu.cpp
 src/CMakeFiles/zedwallet++.dir/zedwallet++/Open.cpp.o
  ../external/cpp-httplib/httplib.h
  ../external/cryptopp/adler32.h
@@ -678,7 +678,7 @@ src/CMakeFiles/zedwallet++.dir/zedwallet++/Open.cpp.o
  ../src/zedwallet++/Open.h
  ../src/zedwallet++/ParseArguments.h
  ../src/zedwallet++/Utilities.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/Open.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/Open.cpp
 src/CMakeFiles/zedwallet++.dir/zedwallet++/ParseArguments.cpp.o
  ../external/cpp-httplib/httplib.h
  ../external/cryptopp/adler32.h
@@ -767,7 +767,7 @@ src/CMakeFiles/zedwallet++.dir/zedwallet++/ParseArguments.cpp.o
  ../src/walletbackend/WalletSynchronizerRAIIWrapper.h
  ../src/zedwallet++/ParseArguments.h
  ../src/zedwallet++/Utilities.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/ParseArguments.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/ParseArguments.cpp
  version/version.h
 src/CMakeFiles/zedwallet++.dir/zedwallet++/Sync.cpp.o
  ../external/cpp-httplib/httplib.h
@@ -854,7 +854,7 @@ src/CMakeFiles/zedwallet++.dir/zedwallet++/Sync.cpp.o
  ../src/walletbackend/WalletSynchronizerRAIIWrapper.h
  ../src/zedwallet++/CommandImplementations.h
  ../src/zedwallet++/Sync.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/Sync.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/Sync.cpp
 src/CMakeFiles/zedwallet++.dir/zedwallet++/TransactionMonitor.cpp.o
  ../external/cpp-httplib/httplib.h
  ../external/cryptopp/adler32.h
@@ -940,7 +940,7 @@ src/CMakeFiles/zedwallet++.dir/zedwallet++/TransactionMonitor.cpp.o
  ../src/zedwallet++/CommandImplementations.h
  ../src/zedwallet++/GetInput.h
  ../src/zedwallet++/TransactionMonitor.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/TransactionMonitor.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/TransactionMonitor.cpp
 src/CMakeFiles/zedwallet++.dir/zedwallet++/Transfer.cpp.o
  ../external/cpp-httplib/httplib.h
  ../external/cryptopp/adler32.h
@@ -1029,7 +1029,7 @@ src/CMakeFiles/zedwallet++.dir/zedwallet++/Transfer.cpp.o
  ../src/zedwallet++/GetInput.h
  ../src/zedwallet++/Transfer.h
  ../src/zedwallet++/Utilities.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/Transfer.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/Transfer.cpp
 src/CMakeFiles/zedwallet++.dir/zedwallet++/Utilities.cpp.o
  ../external/cpp-httplib/httplib.h
  ../external/cryptopp/adler32.h
@@ -1115,7 +1115,7 @@ src/CMakeFiles/zedwallet++.dir/zedwallet++/Utilities.cpp.o
  ../src/walletbackend/WalletSynchronizer.h
  ../src/walletbackend/WalletSynchronizerRAIIWrapper.h
  ../src/zedwallet++/Utilities.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/Utilities.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/Utilities.cpp
 src/CMakeFiles/zedwallet++.dir/zedwallet++/ZedWallet.cpp.o
  ../external/cpp-httplib/httplib.h
  ../external/cryptopp/adler32.h
@@ -1206,5 +1206,5 @@ src/CMakeFiles/zedwallet++.dir/zedwallet++/ZedWallet.cpp.o
  ../src/zedwallet++/ParseArguments.h
  ../src/zedwallet++/Sync.h
  ../src/zedwallet++/TransactionMonitor.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/zedwallet++/ZedWallet.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/zedwallet++/ZedWallet.cpp
  version/version.h

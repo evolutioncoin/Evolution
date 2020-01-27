@@ -43,10 +43,10 @@ RM = /usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution
+CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/build
+CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build
 
 # Include any dependencies generated for this target.
 include external/lz4/CMakeFiles/lz4.dir/depend.make
@@ -59,55 +59,55 @@ include external/lz4/CMakeFiles/lz4.dir/flags.make
 
 external/lz4/CMakeFiles/lz4.dir/lz4.c.o: external/lz4/CMakeFiles/lz4.dir/flags.make
 external/lz4/CMakeFiles/lz4.dir/lz4.c.o: ../external/lz4/lz4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/lz4/CMakeFiles/lz4.dir/lz4.c.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/lz4 && /usr/bin/ccache /usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lz4.dir/lz4.c.o   -c /home/experimental/evolution-coin/Evolution-V2/Evolution/external/lz4/lz4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/lz4/CMakeFiles/lz4.dir/lz4.c.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/lz4 && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lz4.dir/lz4.c.o   -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/lz4/lz4.c
 
 external/lz4/CMakeFiles/lz4.dir/lz4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lz4.dir/lz4.c.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/lz4 && /usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/external/lz4/lz4.c > CMakeFiles/lz4.dir/lz4.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/lz4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/lz4/lz4.c > CMakeFiles/lz4.dir/lz4.c.i
 
 external/lz4/CMakeFiles/lz4.dir/lz4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lz4.dir/lz4.c.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/lz4 && /usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/external/lz4/lz4.c -o CMakeFiles/lz4.dir/lz4.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/lz4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/lz4/lz4.c -o CMakeFiles/lz4.dir/lz4.c.s
 
 external/lz4/CMakeFiles/lz4.dir/lz4hc.c.o: external/lz4/CMakeFiles/lz4.dir/flags.make
 external/lz4/CMakeFiles/lz4.dir/lz4hc.c.o: ../external/lz4/lz4hc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object external/lz4/CMakeFiles/lz4.dir/lz4hc.c.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/lz4 && /usr/bin/ccache /usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lz4.dir/lz4hc.c.o   -c /home/experimental/evolution-coin/Evolution-V2/Evolution/external/lz4/lz4hc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object external/lz4/CMakeFiles/lz4.dir/lz4hc.c.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/lz4 && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lz4.dir/lz4hc.c.o   -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/lz4/lz4hc.c
 
 external/lz4/CMakeFiles/lz4.dir/lz4hc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lz4.dir/lz4hc.c.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/lz4 && /usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/external/lz4/lz4hc.c > CMakeFiles/lz4.dir/lz4hc.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/lz4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/lz4/lz4hc.c > CMakeFiles/lz4.dir/lz4hc.c.i
 
 external/lz4/CMakeFiles/lz4.dir/lz4hc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lz4.dir/lz4hc.c.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/lz4 && /usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/external/lz4/lz4hc.c -o CMakeFiles/lz4.dir/lz4hc.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/lz4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/lz4/lz4hc.c -o CMakeFiles/lz4.dir/lz4hc.c.s
 
 external/lz4/CMakeFiles/lz4.dir/lz4frame.c.o: external/lz4/CMakeFiles/lz4.dir/flags.make
 external/lz4/CMakeFiles/lz4.dir/lz4frame.c.o: ../external/lz4/lz4frame.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object external/lz4/CMakeFiles/lz4.dir/lz4frame.c.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/lz4 && /usr/bin/ccache /usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lz4.dir/lz4frame.c.o   -c /home/experimental/evolution-coin/Evolution-V2/Evolution/external/lz4/lz4frame.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object external/lz4/CMakeFiles/lz4.dir/lz4frame.c.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/lz4 && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lz4.dir/lz4frame.c.o   -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/lz4/lz4frame.c
 
 external/lz4/CMakeFiles/lz4.dir/lz4frame.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lz4.dir/lz4frame.c.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/lz4 && /usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/external/lz4/lz4frame.c > CMakeFiles/lz4.dir/lz4frame.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/lz4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/lz4/lz4frame.c > CMakeFiles/lz4.dir/lz4frame.c.i
 
 external/lz4/CMakeFiles/lz4.dir/lz4frame.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lz4.dir/lz4frame.c.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/lz4 && /usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/external/lz4/lz4frame.c -o CMakeFiles/lz4.dir/lz4frame.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/lz4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/lz4/lz4frame.c -o CMakeFiles/lz4.dir/lz4frame.c.s
 
 external/lz4/CMakeFiles/lz4.dir/xxhash.c.o: external/lz4/CMakeFiles/lz4.dir/flags.make
 external/lz4/CMakeFiles/lz4.dir/xxhash.c.o: ../external/lz4/xxhash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object external/lz4/CMakeFiles/lz4.dir/xxhash.c.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/lz4 && /usr/bin/ccache /usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lz4.dir/xxhash.c.o   -c /home/experimental/evolution-coin/Evolution-V2/Evolution/external/lz4/xxhash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object external/lz4/CMakeFiles/lz4.dir/xxhash.c.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/lz4 && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lz4.dir/xxhash.c.o   -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/lz4/xxhash.c
 
 external/lz4/CMakeFiles/lz4.dir/xxhash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lz4.dir/xxhash.c.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/lz4 && /usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/external/lz4/xxhash.c > CMakeFiles/lz4.dir/xxhash.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/lz4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/lz4/xxhash.c > CMakeFiles/lz4.dir/xxhash.c.i
 
 external/lz4/CMakeFiles/lz4.dir/xxhash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lz4.dir/xxhash.c.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/lz4 && /usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/external/lz4/xxhash.c -o CMakeFiles/lz4.dir/xxhash.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/lz4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/lz4/xxhash.c -o CMakeFiles/lz4.dir/xxhash.c.s
 
 # Object files for target lz4
 lz4_OBJECTS = \
@@ -125,9 +125,9 @@ external/lz4/liblz4.a: external/lz4/CMakeFiles/lz4.dir/lz4frame.c.o
 external/lz4/liblz4.a: external/lz4/CMakeFiles/lz4.dir/xxhash.c.o
 external/lz4/liblz4.a: external/lz4/CMakeFiles/lz4.dir/build.make
 external/lz4/liblz4.a: external/lz4/CMakeFiles/lz4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library liblz4.a"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/lz4 && $(CMAKE_COMMAND) -P CMakeFiles/lz4.dir/cmake_clean_target.cmake
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/lz4 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lz4.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library liblz4.a"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/lz4 && $(CMAKE_COMMAND) -P CMakeFiles/lz4.dir/cmake_clean_target.cmake
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/lz4 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lz4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/lz4/CMakeFiles/lz4.dir/build: external/lz4/liblz4.a
@@ -135,10 +135,10 @@ external/lz4/CMakeFiles/lz4.dir/build: external/lz4/liblz4.a
 .PHONY : external/lz4/CMakeFiles/lz4.dir/build
 
 external/lz4/CMakeFiles/lz4.dir/clean:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/lz4 && $(CMAKE_COMMAND) -P CMakeFiles/lz4.dir/cmake_clean.cmake
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/lz4 && $(CMAKE_COMMAND) -P CMakeFiles/lz4.dir/cmake_clean.cmake
 .PHONY : external/lz4/CMakeFiles/lz4.dir/clean
 
 external/lz4/CMakeFiles/lz4.dir/depend:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution /home/experimental/evolution-coin/Evolution-V2/Evolution/external/lz4 /home/experimental/evolution-coin/Evolution-V2/Evolution/build /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/lz4 /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/lz4/CMakeFiles/lz4.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution-V2 /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/lz4 /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/lz4 /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/lz4/CMakeFiles/lz4.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/lz4/CMakeFiles/lz4.dir/depend
 

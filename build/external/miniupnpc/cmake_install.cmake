@@ -1,4 +1,4 @@
-# Install script for directory: /home/experimental/evolution-coin/Evolution-V2/Evolution/external/miniupnpc
+# Install script for directory: /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/miniupnpc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,16 +39,16 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/miniupnpc" TYPE FILE FILES
-    "/home/experimental/evolution-coin/Evolution-V2/Evolution/external/miniupnpc/miniupnpc.h"
-    "/home/experimental/evolution-coin/Evolution-V2/Evolution/external/miniupnpc/miniwget.h"
-    "/home/experimental/evolution-coin/Evolution-V2/Evolution/external/miniupnpc/upnpcommands.h"
-    "/home/experimental/evolution-coin/Evolution-V2/Evolution/external/miniupnpc/igd_desc_parse.h"
-    "/home/experimental/evolution-coin/Evolution-V2/Evolution/external/miniupnpc/upnpreplyparse.h"
-    "/home/experimental/evolution-coin/Evolution-V2/Evolution/external/miniupnpc/upnperrors.h"
-    "/home/experimental/evolution-coin/Evolution-V2/Evolution/external/miniupnpc/upnpdev.h"
-    "/home/experimental/evolution-coin/Evolution-V2/Evolution/external/miniupnpc/miniupnpctypes.h"
-    "/home/experimental/evolution-coin/Evolution-V2/Evolution/external/miniupnpc/portlistingparse.h"
-    "/home/experimental/evolution-coin/Evolution-V2/Evolution/external/miniupnpc/miniupnpc_declspec.h"
+    "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/miniupnpc/miniupnpc.h"
+    "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/miniupnpc/miniwget.h"
+    "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/miniupnpc/upnpcommands.h"
+    "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/miniupnpc/igd_desc_parse.h"
+    "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/miniupnpc/upnpreplyparse.h"
+    "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/miniupnpc/upnperrors.h"
+    "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/miniupnpc/upnpdev.h"
+    "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/miniupnpc/miniupnpctypes.h"
+    "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/miniupnpc/portlistingparse.h"
+    "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/miniupnpc/miniupnpc_declspec.h"
     )
 endif()
 

@@ -48,10 +48,10 @@ RM = /usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution
+CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/build
+CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/progress.marks
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 external/cryptopp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/progress.marks
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 external/cryptopp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 external/cryptopp/clean
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 external/cryptopp/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,17 +143,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 external/cryptopp/preinstall
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 external/cryptopp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 external/cryptopp/preinstall
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 external/cryptopp/preinstall
 .PHONY : preinstall/fast
 
 # Convenience name for target.
 external/cryptopp/CMakeFiles/static.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 external/cryptopp/CMakeFiles/static.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 external/cryptopp/CMakeFiles/static.dir/rule
 .PHONY : external/cryptopp/CMakeFiles/static.dir/rule
 
 # Convenience name for target.
@@ -163,12 +163,12 @@ static: external/cryptopp/CMakeFiles/static.dir/rule
 
 # fast build rule for target.
 static/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/static.dir/build.make external/cryptopp/CMakeFiles/static.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/static.dir/build.make external/cryptopp/CMakeFiles/static.dir/build
 .PHONY : static/fast
 
 # Convenience name for target.
 external/cryptopp/CMakeFiles/cryptopp-static.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 external/cryptopp/CMakeFiles/cryptopp-static.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 external/cryptopp/CMakeFiles/cryptopp-static.dir/rule
 .PHONY : external/cryptopp/CMakeFiles/cryptopp-static.dir/rule
 
 # Convenience name for target.
@@ -178,12 +178,12 @@ cryptopp-static: external/cryptopp/CMakeFiles/cryptopp-static.dir/rule
 
 # fast build rule for target.
 cryptopp-static/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-static.dir/build.make external/cryptopp/CMakeFiles/cryptopp-static.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-static.dir/build.make external/cryptopp/CMakeFiles/cryptopp-static.dir/build
 .PHONY : cryptopp-static/fast
 
 # Convenience name for target.
 external/cryptopp/CMakeFiles/cryptopp-object.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 external/cryptopp/CMakeFiles/cryptopp-object.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 external/cryptopp/CMakeFiles/cryptopp-object.dir/rule
 .PHONY : external/cryptopp/CMakeFiles/cryptopp-object.dir/rule
 
 # Convenience name for target.
@@ -193,7 +193,7 @@ cryptopp-object: external/cryptopp/CMakeFiles/cryptopp-object.dir/rule
 
 # fast build rule for target.
 cryptopp-object/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/build
 .PHONY : cryptopp-object/fast
 
 3way.o: 3way.cpp.o
@@ -202,7 +202,7 @@ cryptopp-object/fast:
 
 # target to build an object file
 3way.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/3way.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/3way.cpp.o
 .PHONY : 3way.cpp.o
 
 3way.i: 3way.cpp.i
@@ -211,7 +211,7 @@ cryptopp-object/fast:
 
 # target to preprocess a source file
 3way.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/3way.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/3way.cpp.i
 .PHONY : 3way.cpp.i
 
 3way.s: 3way.cpp.s
@@ -220,7 +220,7 @@ cryptopp-object/fast:
 
 # target to generate assembly for a file
 3way.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/3way.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/3way.cpp.s
 .PHONY : 3way.cpp.s
 
 adler32.o: adler32.cpp.o
@@ -229,7 +229,7 @@ adler32.o: adler32.cpp.o
 
 # target to build an object file
 adler32.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/adler32.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/adler32.cpp.o
 .PHONY : adler32.cpp.o
 
 adler32.i: adler32.cpp.i
@@ -238,7 +238,7 @@ adler32.i: adler32.cpp.i
 
 # target to preprocess a source file
 adler32.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/adler32.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/adler32.cpp.i
 .PHONY : adler32.cpp.i
 
 adler32.s: adler32.cpp.s
@@ -247,7 +247,7 @@ adler32.s: adler32.cpp.s
 
 # target to generate assembly for a file
 adler32.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/adler32.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/adler32.cpp.s
 .PHONY : adler32.cpp.s
 
 algebra.o: algebra.cpp.o
@@ -256,7 +256,7 @@ algebra.o: algebra.cpp.o
 
 # target to build an object file
 algebra.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/algebra.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/algebra.cpp.o
 .PHONY : algebra.cpp.o
 
 algebra.i: algebra.cpp.i
@@ -265,7 +265,7 @@ algebra.i: algebra.cpp.i
 
 # target to preprocess a source file
 algebra.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/algebra.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/algebra.cpp.i
 .PHONY : algebra.cpp.i
 
 algebra.s: algebra.cpp.s
@@ -274,7 +274,7 @@ algebra.s: algebra.cpp.s
 
 # target to generate assembly for a file
 algebra.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/algebra.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/algebra.cpp.s
 .PHONY : algebra.cpp.s
 
 algparam.o: algparam.cpp.o
@@ -283,7 +283,7 @@ algparam.o: algparam.cpp.o
 
 # target to build an object file
 algparam.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/algparam.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/algparam.cpp.o
 .PHONY : algparam.cpp.o
 
 algparam.i: algparam.cpp.i
@@ -292,7 +292,7 @@ algparam.i: algparam.cpp.i
 
 # target to preprocess a source file
 algparam.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/algparam.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/algparam.cpp.i
 .PHONY : algparam.cpp.i
 
 algparam.s: algparam.cpp.s
@@ -301,7 +301,7 @@ algparam.s: algparam.cpp.s
 
 # target to generate assembly for a file
 algparam.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/algparam.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/algparam.cpp.s
 .PHONY : algparam.cpp.s
 
 arc4.o: arc4.cpp.o
@@ -310,7 +310,7 @@ arc4.o: arc4.cpp.o
 
 # target to build an object file
 arc4.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/arc4.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/arc4.cpp.o
 .PHONY : arc4.cpp.o
 
 arc4.i: arc4.cpp.i
@@ -319,7 +319,7 @@ arc4.i: arc4.cpp.i
 
 # target to preprocess a source file
 arc4.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/arc4.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/arc4.cpp.i
 .PHONY : arc4.cpp.i
 
 arc4.s: arc4.cpp.s
@@ -328,7 +328,7 @@ arc4.s: arc4.cpp.s
 
 # target to generate assembly for a file
 arc4.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/arc4.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/arc4.cpp.s
 .PHONY : arc4.cpp.s
 
 aria.o: aria.cpp.o
@@ -337,7 +337,7 @@ aria.o: aria.cpp.o
 
 # target to build an object file
 aria.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/aria.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/aria.cpp.o
 .PHONY : aria.cpp.o
 
 aria.i: aria.cpp.i
@@ -346,7 +346,7 @@ aria.i: aria.cpp.i
 
 # target to preprocess a source file
 aria.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/aria.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/aria.cpp.i
 .PHONY : aria.cpp.i
 
 aria.s: aria.cpp.s
@@ -355,7 +355,7 @@ aria.s: aria.cpp.s
 
 # target to generate assembly for a file
 aria.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/aria.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/aria.cpp.s
 .PHONY : aria.cpp.s
 
 aria_simd.o: aria_simd.cpp.o
@@ -364,7 +364,7 @@ aria_simd.o: aria_simd.cpp.o
 
 # target to build an object file
 aria_simd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/aria_simd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/aria_simd.cpp.o
 .PHONY : aria_simd.cpp.o
 
 aria_simd.i: aria_simd.cpp.i
@@ -373,7 +373,7 @@ aria_simd.i: aria_simd.cpp.i
 
 # target to preprocess a source file
 aria_simd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/aria_simd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/aria_simd.cpp.i
 .PHONY : aria_simd.cpp.i
 
 aria_simd.s: aria_simd.cpp.s
@@ -382,7 +382,7 @@ aria_simd.s: aria_simd.cpp.s
 
 # target to generate assembly for a file
 aria_simd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/aria_simd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/aria_simd.cpp.s
 .PHONY : aria_simd.cpp.s
 
 ariatab.o: ariatab.cpp.o
@@ -391,7 +391,7 @@ ariatab.o: ariatab.cpp.o
 
 # target to build an object file
 ariatab.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ariatab.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ariatab.cpp.o
 .PHONY : ariatab.cpp.o
 
 ariatab.i: ariatab.cpp.i
@@ -400,7 +400,7 @@ ariatab.i: ariatab.cpp.i
 
 # target to preprocess a source file
 ariatab.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ariatab.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ariatab.cpp.i
 .PHONY : ariatab.cpp.i
 
 ariatab.s: ariatab.cpp.s
@@ -409,7 +409,7 @@ ariatab.s: ariatab.cpp.s
 
 # target to generate assembly for a file
 ariatab.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ariatab.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ariatab.cpp.s
 .PHONY : ariatab.cpp.s
 
 asn.o: asn.cpp.o
@@ -418,7 +418,7 @@ asn.o: asn.cpp.o
 
 # target to build an object file
 asn.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/asn.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/asn.cpp.o
 .PHONY : asn.cpp.o
 
 asn.i: asn.cpp.i
@@ -427,7 +427,7 @@ asn.i: asn.cpp.i
 
 # target to preprocess a source file
 asn.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/asn.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/asn.cpp.i
 .PHONY : asn.cpp.i
 
 asn.s: asn.cpp.s
@@ -436,7 +436,7 @@ asn.s: asn.cpp.s
 
 # target to generate assembly for a file
 asn.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/asn.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/asn.cpp.s
 .PHONY : asn.cpp.s
 
 authenc.o: authenc.cpp.o
@@ -445,7 +445,7 @@ authenc.o: authenc.cpp.o
 
 # target to build an object file
 authenc.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/authenc.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/authenc.cpp.o
 .PHONY : authenc.cpp.o
 
 authenc.i: authenc.cpp.i
@@ -454,7 +454,7 @@ authenc.i: authenc.cpp.i
 
 # target to preprocess a source file
 authenc.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/authenc.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/authenc.cpp.i
 .PHONY : authenc.cpp.i
 
 authenc.s: authenc.cpp.s
@@ -463,7 +463,7 @@ authenc.s: authenc.cpp.s
 
 # target to generate assembly for a file
 authenc.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/authenc.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/authenc.cpp.s
 .PHONY : authenc.cpp.s
 
 base32.o: base32.cpp.o
@@ -472,7 +472,7 @@ base32.o: base32.cpp.o
 
 # target to build an object file
 base32.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/base32.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/base32.cpp.o
 .PHONY : base32.cpp.o
 
 base32.i: base32.cpp.i
@@ -481,7 +481,7 @@ base32.i: base32.cpp.i
 
 # target to preprocess a source file
 base32.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/base32.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/base32.cpp.i
 .PHONY : base32.cpp.i
 
 base32.s: base32.cpp.s
@@ -490,7 +490,7 @@ base32.s: base32.cpp.s
 
 # target to generate assembly for a file
 base32.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/base32.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/base32.cpp.s
 .PHONY : base32.cpp.s
 
 base64.o: base64.cpp.o
@@ -499,7 +499,7 @@ base64.o: base64.cpp.o
 
 # target to build an object file
 base64.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/base64.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/base64.cpp.o
 .PHONY : base64.cpp.o
 
 base64.i: base64.cpp.i
@@ -508,7 +508,7 @@ base64.i: base64.cpp.i
 
 # target to preprocess a source file
 base64.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/base64.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/base64.cpp.i
 .PHONY : base64.cpp.i
 
 base64.s: base64.cpp.s
@@ -517,7 +517,7 @@ base64.s: base64.cpp.s
 
 # target to generate assembly for a file
 base64.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/base64.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/base64.cpp.s
 .PHONY : base64.cpp.s
 
 basecode.o: basecode.cpp.o
@@ -526,7 +526,7 @@ basecode.o: basecode.cpp.o
 
 # target to build an object file
 basecode.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/basecode.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/basecode.cpp.o
 .PHONY : basecode.cpp.o
 
 basecode.i: basecode.cpp.i
@@ -535,7 +535,7 @@ basecode.i: basecode.cpp.i
 
 # target to preprocess a source file
 basecode.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/basecode.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/basecode.cpp.i
 .PHONY : basecode.cpp.i
 
 basecode.s: basecode.cpp.s
@@ -544,7 +544,7 @@ basecode.s: basecode.cpp.s
 
 # target to generate assembly for a file
 basecode.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/basecode.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/basecode.cpp.s
 .PHONY : basecode.cpp.s
 
 bfinit.o: bfinit.cpp.o
@@ -553,7 +553,7 @@ bfinit.o: bfinit.cpp.o
 
 # target to build an object file
 bfinit.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/bfinit.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/bfinit.cpp.o
 .PHONY : bfinit.cpp.o
 
 bfinit.i: bfinit.cpp.i
@@ -562,7 +562,7 @@ bfinit.i: bfinit.cpp.i
 
 # target to preprocess a source file
 bfinit.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/bfinit.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/bfinit.cpp.i
 .PHONY : bfinit.cpp.i
 
 bfinit.s: bfinit.cpp.s
@@ -571,7 +571,7 @@ bfinit.s: bfinit.cpp.s
 
 # target to generate assembly for a file
 bfinit.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/bfinit.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/bfinit.cpp.s
 .PHONY : bfinit.cpp.s
 
 blake2.o: blake2.cpp.o
@@ -580,7 +580,7 @@ blake2.o: blake2.cpp.o
 
 # target to build an object file
 blake2.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2.cpp.o
 .PHONY : blake2.cpp.o
 
 blake2.i: blake2.cpp.i
@@ -589,7 +589,7 @@ blake2.i: blake2.cpp.i
 
 # target to preprocess a source file
 blake2.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2.cpp.i
 .PHONY : blake2.cpp.i
 
 blake2.s: blake2.cpp.s
@@ -598,7 +598,7 @@ blake2.s: blake2.cpp.s
 
 # target to generate assembly for a file
 blake2.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2.cpp.s
 .PHONY : blake2.cpp.s
 
 blake2b_simd.o: blake2b_simd.cpp.o
@@ -607,7 +607,7 @@ blake2b_simd.o: blake2b_simd.cpp.o
 
 # target to build an object file
 blake2b_simd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2b_simd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2b_simd.cpp.o
 .PHONY : blake2b_simd.cpp.o
 
 blake2b_simd.i: blake2b_simd.cpp.i
@@ -616,7 +616,7 @@ blake2b_simd.i: blake2b_simd.cpp.i
 
 # target to preprocess a source file
 blake2b_simd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2b_simd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2b_simd.cpp.i
 .PHONY : blake2b_simd.cpp.i
 
 blake2b_simd.s: blake2b_simd.cpp.s
@@ -625,7 +625,7 @@ blake2b_simd.s: blake2b_simd.cpp.s
 
 # target to generate assembly for a file
 blake2b_simd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2b_simd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2b_simd.cpp.s
 .PHONY : blake2b_simd.cpp.s
 
 blake2s_simd.o: blake2s_simd.cpp.o
@@ -634,7 +634,7 @@ blake2s_simd.o: blake2s_simd.cpp.o
 
 # target to build an object file
 blake2s_simd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2s_simd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2s_simd.cpp.o
 .PHONY : blake2s_simd.cpp.o
 
 blake2s_simd.i: blake2s_simd.cpp.i
@@ -643,7 +643,7 @@ blake2s_simd.i: blake2s_simd.cpp.i
 
 # target to preprocess a source file
 blake2s_simd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2s_simd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2s_simd.cpp.i
 .PHONY : blake2s_simd.cpp.i
 
 blake2s_simd.s: blake2s_simd.cpp.s
@@ -652,7 +652,7 @@ blake2s_simd.s: blake2s_simd.cpp.s
 
 # target to generate assembly for a file
 blake2s_simd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2s_simd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2s_simd.cpp.s
 .PHONY : blake2s_simd.cpp.s
 
 blowfish.o: blowfish.cpp.o
@@ -661,7 +661,7 @@ blowfish.o: blowfish.cpp.o
 
 # target to build an object file
 blowfish.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blowfish.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blowfish.cpp.o
 .PHONY : blowfish.cpp.o
 
 blowfish.i: blowfish.cpp.i
@@ -670,7 +670,7 @@ blowfish.i: blowfish.cpp.i
 
 # target to preprocess a source file
 blowfish.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blowfish.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blowfish.cpp.i
 .PHONY : blowfish.cpp.i
 
 blowfish.s: blowfish.cpp.s
@@ -679,7 +679,7 @@ blowfish.s: blowfish.cpp.s
 
 # target to generate assembly for a file
 blowfish.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blowfish.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blowfish.cpp.s
 .PHONY : blowfish.cpp.s
 
 blumshub.o: blumshub.cpp.o
@@ -688,7 +688,7 @@ blumshub.o: blumshub.cpp.o
 
 # target to build an object file
 blumshub.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blumshub.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blumshub.cpp.o
 .PHONY : blumshub.cpp.o
 
 blumshub.i: blumshub.cpp.i
@@ -697,7 +697,7 @@ blumshub.i: blumshub.cpp.i
 
 # target to preprocess a source file
 blumshub.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blumshub.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blumshub.cpp.i
 .PHONY : blumshub.cpp.i
 
 blumshub.s: blumshub.cpp.s
@@ -706,7 +706,7 @@ blumshub.s: blumshub.cpp.s
 
 # target to generate assembly for a file
 blumshub.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blumshub.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/blumshub.cpp.s
 .PHONY : blumshub.cpp.s
 
 camellia.o: camellia.cpp.o
@@ -715,7 +715,7 @@ camellia.o: camellia.cpp.o
 
 # target to build an object file
 camellia.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/camellia.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/camellia.cpp.o
 .PHONY : camellia.cpp.o
 
 camellia.i: camellia.cpp.i
@@ -724,7 +724,7 @@ camellia.i: camellia.cpp.i
 
 # target to preprocess a source file
 camellia.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/camellia.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/camellia.cpp.i
 .PHONY : camellia.cpp.i
 
 camellia.s: camellia.cpp.s
@@ -733,7 +733,7 @@ camellia.s: camellia.cpp.s
 
 # target to generate assembly for a file
 camellia.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/camellia.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/camellia.cpp.s
 .PHONY : camellia.cpp.s
 
 cast.o: cast.cpp.o
@@ -742,7 +742,7 @@ cast.o: cast.cpp.o
 
 # target to build an object file
 cast.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cast.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cast.cpp.o
 .PHONY : cast.cpp.o
 
 cast.i: cast.cpp.i
@@ -751,7 +751,7 @@ cast.i: cast.cpp.i
 
 # target to preprocess a source file
 cast.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cast.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cast.cpp.i
 .PHONY : cast.cpp.i
 
 cast.s: cast.cpp.s
@@ -760,7 +760,7 @@ cast.s: cast.cpp.s
 
 # target to generate assembly for a file
 cast.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cast.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cast.cpp.s
 .PHONY : cast.cpp.s
 
 casts.o: casts.cpp.o
@@ -769,7 +769,7 @@ casts.o: casts.cpp.o
 
 # target to build an object file
 casts.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/casts.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/casts.cpp.o
 .PHONY : casts.cpp.o
 
 casts.i: casts.cpp.i
@@ -778,7 +778,7 @@ casts.i: casts.cpp.i
 
 # target to preprocess a source file
 casts.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/casts.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/casts.cpp.i
 .PHONY : casts.cpp.i
 
 casts.s: casts.cpp.s
@@ -787,7 +787,7 @@ casts.s: casts.cpp.s
 
 # target to generate assembly for a file
 casts.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/casts.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/casts.cpp.s
 .PHONY : casts.cpp.s
 
 cbcmac.o: cbcmac.cpp.o
@@ -796,7 +796,7 @@ cbcmac.o: cbcmac.cpp.o
 
 # target to build an object file
 cbcmac.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cbcmac.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cbcmac.cpp.o
 .PHONY : cbcmac.cpp.o
 
 cbcmac.i: cbcmac.cpp.i
@@ -805,7 +805,7 @@ cbcmac.i: cbcmac.cpp.i
 
 # target to preprocess a source file
 cbcmac.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cbcmac.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cbcmac.cpp.i
 .PHONY : cbcmac.cpp.i
 
 cbcmac.s: cbcmac.cpp.s
@@ -814,7 +814,7 @@ cbcmac.s: cbcmac.cpp.s
 
 # target to generate assembly for a file
 cbcmac.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cbcmac.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cbcmac.cpp.s
 .PHONY : cbcmac.cpp.s
 
 ccm.o: ccm.cpp.o
@@ -823,7 +823,7 @@ ccm.o: ccm.cpp.o
 
 # target to build an object file
 ccm.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ccm.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ccm.cpp.o
 .PHONY : ccm.cpp.o
 
 ccm.i: ccm.cpp.i
@@ -832,7 +832,7 @@ ccm.i: ccm.cpp.i
 
 # target to preprocess a source file
 ccm.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ccm.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ccm.cpp.i
 .PHONY : ccm.cpp.i
 
 ccm.s: ccm.cpp.s
@@ -841,7 +841,7 @@ ccm.s: ccm.cpp.s
 
 # target to generate assembly for a file
 ccm.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ccm.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ccm.cpp.s
 .PHONY : ccm.cpp.s
 
 chacha.o: chacha.cpp.o
@@ -850,7 +850,7 @@ chacha.o: chacha.cpp.o
 
 # target to build an object file
 chacha.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha.cpp.o
 .PHONY : chacha.cpp.o
 
 chacha.i: chacha.cpp.i
@@ -859,7 +859,7 @@ chacha.i: chacha.cpp.i
 
 # target to preprocess a source file
 chacha.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha.cpp.i
 .PHONY : chacha.cpp.i
 
 chacha.s: chacha.cpp.s
@@ -868,7 +868,7 @@ chacha.s: chacha.cpp.s
 
 # target to generate assembly for a file
 chacha.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha.cpp.s
 .PHONY : chacha.cpp.s
 
 chacha_avx.o: chacha_avx.cpp.o
@@ -877,7 +877,7 @@ chacha_avx.o: chacha_avx.cpp.o
 
 # target to build an object file
 chacha_avx.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha_avx.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha_avx.cpp.o
 .PHONY : chacha_avx.cpp.o
 
 chacha_avx.i: chacha_avx.cpp.i
@@ -886,7 +886,7 @@ chacha_avx.i: chacha_avx.cpp.i
 
 # target to preprocess a source file
 chacha_avx.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha_avx.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha_avx.cpp.i
 .PHONY : chacha_avx.cpp.i
 
 chacha_avx.s: chacha_avx.cpp.s
@@ -895,7 +895,7 @@ chacha_avx.s: chacha_avx.cpp.s
 
 # target to generate assembly for a file
 chacha_avx.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha_avx.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha_avx.cpp.s
 .PHONY : chacha_avx.cpp.s
 
 chacha_simd.o: chacha_simd.cpp.o
@@ -904,7 +904,7 @@ chacha_simd.o: chacha_simd.cpp.o
 
 # target to build an object file
 chacha_simd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha_simd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha_simd.cpp.o
 .PHONY : chacha_simd.cpp.o
 
 chacha_simd.i: chacha_simd.cpp.i
@@ -913,7 +913,7 @@ chacha_simd.i: chacha_simd.cpp.i
 
 # target to preprocess a source file
 chacha_simd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha_simd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha_simd.cpp.i
 .PHONY : chacha_simd.cpp.i
 
 chacha_simd.s: chacha_simd.cpp.s
@@ -922,7 +922,7 @@ chacha_simd.s: chacha_simd.cpp.s
 
 # target to generate assembly for a file
 chacha_simd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha_simd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha_simd.cpp.s
 .PHONY : chacha_simd.cpp.s
 
 chachapoly.o: chachapoly.cpp.o
@@ -931,7 +931,7 @@ chachapoly.o: chachapoly.cpp.o
 
 # target to build an object file
 chachapoly.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chachapoly.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chachapoly.cpp.o
 .PHONY : chachapoly.cpp.o
 
 chachapoly.i: chachapoly.cpp.i
@@ -940,7 +940,7 @@ chachapoly.i: chachapoly.cpp.i
 
 # target to preprocess a source file
 chachapoly.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chachapoly.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chachapoly.cpp.i
 .PHONY : chachapoly.cpp.i
 
 chachapoly.s: chachapoly.cpp.s
@@ -949,7 +949,7 @@ chachapoly.s: chachapoly.cpp.s
 
 # target to generate assembly for a file
 chachapoly.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chachapoly.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/chachapoly.cpp.s
 .PHONY : chachapoly.cpp.s
 
 cham.o: cham.cpp.o
@@ -958,7 +958,7 @@ cham.o: cham.cpp.o
 
 # target to build an object file
 cham.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cham.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cham.cpp.o
 .PHONY : cham.cpp.o
 
 cham.i: cham.cpp.i
@@ -967,7 +967,7 @@ cham.i: cham.cpp.i
 
 # target to preprocess a source file
 cham.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cham.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cham.cpp.i
 .PHONY : cham.cpp.i
 
 cham.s: cham.cpp.s
@@ -976,7 +976,7 @@ cham.s: cham.cpp.s
 
 # target to generate assembly for a file
 cham.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cham.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cham.cpp.s
 .PHONY : cham.cpp.s
 
 cham_simd.o: cham_simd.cpp.o
@@ -985,7 +985,7 @@ cham_simd.o: cham_simd.cpp.o
 
 # target to build an object file
 cham_simd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cham_simd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cham_simd.cpp.o
 .PHONY : cham_simd.cpp.o
 
 cham_simd.i: cham_simd.cpp.i
@@ -994,7 +994,7 @@ cham_simd.i: cham_simd.cpp.i
 
 # target to preprocess a source file
 cham_simd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cham_simd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cham_simd.cpp.i
 .PHONY : cham_simd.cpp.i
 
 cham_simd.s: cham_simd.cpp.s
@@ -1003,7 +1003,7 @@ cham_simd.s: cham_simd.cpp.s
 
 # target to generate assembly for a file
 cham_simd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cham_simd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cham_simd.cpp.s
 .PHONY : cham_simd.cpp.s
 
 channels.o: channels.cpp.o
@@ -1012,7 +1012,7 @@ channels.o: channels.cpp.o
 
 # target to build an object file
 channels.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/channels.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/channels.cpp.o
 .PHONY : channels.cpp.o
 
 channels.i: channels.cpp.i
@@ -1021,7 +1021,7 @@ channels.i: channels.cpp.i
 
 # target to preprocess a source file
 channels.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/channels.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/channels.cpp.i
 .PHONY : channels.cpp.i
 
 channels.s: channels.cpp.s
@@ -1030,7 +1030,7 @@ channels.s: channels.cpp.s
 
 # target to generate assembly for a file
 channels.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/channels.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/channels.cpp.s
 .PHONY : channels.cpp.s
 
 cmac.o: cmac.cpp.o
@@ -1039,7 +1039,7 @@ cmac.o: cmac.cpp.o
 
 # target to build an object file
 cmac.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cmac.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cmac.cpp.o
 .PHONY : cmac.cpp.o
 
 cmac.i: cmac.cpp.i
@@ -1048,7 +1048,7 @@ cmac.i: cmac.cpp.i
 
 # target to preprocess a source file
 cmac.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cmac.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cmac.cpp.i
 .PHONY : cmac.cpp.i
 
 cmac.s: cmac.cpp.s
@@ -1057,7 +1057,7 @@ cmac.s: cmac.cpp.s
 
 # target to generate assembly for a file
 cmac.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cmac.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cmac.cpp.s
 .PHONY : cmac.cpp.s
 
 cpu.o: cpu.cpp.o
@@ -1066,7 +1066,7 @@ cpu.o: cpu.cpp.o
 
 # target to build an object file
 cpu.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cpu.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cpu.cpp.o
 .PHONY : cpu.cpp.o
 
 cpu.i: cpu.cpp.i
@@ -1075,7 +1075,7 @@ cpu.i: cpu.cpp.i
 
 # target to preprocess a source file
 cpu.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cpu.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cpu.cpp.i
 .PHONY : cpu.cpp.i
 
 cpu.s: cpu.cpp.s
@@ -1084,7 +1084,7 @@ cpu.s: cpu.cpp.s
 
 # target to generate assembly for a file
 cpu.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cpu.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cpu.cpp.s
 .PHONY : cpu.cpp.s
 
 crc.o: crc.cpp.o
@@ -1093,7 +1093,7 @@ crc.o: crc.cpp.o
 
 # target to build an object file
 crc.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/crc.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/crc.cpp.o
 .PHONY : crc.cpp.o
 
 crc.i: crc.cpp.i
@@ -1102,7 +1102,7 @@ crc.i: crc.cpp.i
 
 # target to preprocess a source file
 crc.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/crc.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/crc.cpp.i
 .PHONY : crc.cpp.i
 
 crc.s: crc.cpp.s
@@ -1111,7 +1111,7 @@ crc.s: crc.cpp.s
 
 # target to generate assembly for a file
 crc.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/crc.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/crc.cpp.s
 .PHONY : crc.cpp.s
 
 crc_simd.o: crc_simd.cpp.o
@@ -1120,7 +1120,7 @@ crc_simd.o: crc_simd.cpp.o
 
 # target to build an object file
 crc_simd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/crc_simd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/crc_simd.cpp.o
 .PHONY : crc_simd.cpp.o
 
 crc_simd.i: crc_simd.cpp.i
@@ -1129,7 +1129,7 @@ crc_simd.i: crc_simd.cpp.i
 
 # target to preprocess a source file
 crc_simd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/crc_simd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/crc_simd.cpp.i
 .PHONY : crc_simd.cpp.i
 
 crc_simd.s: crc_simd.cpp.s
@@ -1138,7 +1138,7 @@ crc_simd.s: crc_simd.cpp.s
 
 # target to generate assembly for a file
 crc_simd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/crc_simd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/crc_simd.cpp.s
 .PHONY : crc_simd.cpp.s
 
 cryptlib.o: cryptlib.cpp.o
@@ -1147,7 +1147,7 @@ cryptlib.o: cryptlib.cpp.o
 
 # target to build an object file
 cryptlib.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cryptlib.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cryptlib.cpp.o
 .PHONY : cryptlib.cpp.o
 
 cryptlib.i: cryptlib.cpp.i
@@ -1156,7 +1156,7 @@ cryptlib.i: cryptlib.cpp.i
 
 # target to preprocess a source file
 cryptlib.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cryptlib.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cryptlib.cpp.i
 .PHONY : cryptlib.cpp.i
 
 cryptlib.s: cryptlib.cpp.s
@@ -1165,7 +1165,7 @@ cryptlib.s: cryptlib.cpp.s
 
 # target to generate assembly for a file
 cryptlib.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cryptlib.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/cryptlib.cpp.s
 .PHONY : cryptlib.cpp.s
 
 darn.o: darn.cpp.o
@@ -1174,7 +1174,7 @@ darn.o: darn.cpp.o
 
 # target to build an object file
 darn.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/darn.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/darn.cpp.o
 .PHONY : darn.cpp.o
 
 darn.i: darn.cpp.i
@@ -1183,7 +1183,7 @@ darn.i: darn.cpp.i
 
 # target to preprocess a source file
 darn.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/darn.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/darn.cpp.i
 .PHONY : darn.cpp.i
 
 darn.s: darn.cpp.s
@@ -1192,7 +1192,7 @@ darn.s: darn.cpp.s
 
 # target to generate assembly for a file
 darn.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/darn.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/darn.cpp.s
 .PHONY : darn.cpp.s
 
 default.o: default.cpp.o
@@ -1201,7 +1201,7 @@ default.o: default.cpp.o
 
 # target to build an object file
 default.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/default.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/default.cpp.o
 .PHONY : default.cpp.o
 
 default.i: default.cpp.i
@@ -1210,7 +1210,7 @@ default.i: default.cpp.i
 
 # target to preprocess a source file
 default.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/default.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/default.cpp.i
 .PHONY : default.cpp.i
 
 default.s: default.cpp.s
@@ -1219,7 +1219,7 @@ default.s: default.cpp.s
 
 # target to generate assembly for a file
 default.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/default.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/default.cpp.s
 .PHONY : default.cpp.s
 
 des.o: des.cpp.o
@@ -1228,7 +1228,7 @@ des.o: des.cpp.o
 
 # target to build an object file
 des.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/des.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/des.cpp.o
 .PHONY : des.cpp.o
 
 des.i: des.cpp.i
@@ -1237,7 +1237,7 @@ des.i: des.cpp.i
 
 # target to preprocess a source file
 des.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/des.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/des.cpp.i
 .PHONY : des.cpp.i
 
 des.s: des.cpp.s
@@ -1246,7 +1246,7 @@ des.s: des.cpp.s
 
 # target to generate assembly for a file
 des.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/des.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/des.cpp.s
 .PHONY : des.cpp.s
 
 dessp.o: dessp.cpp.o
@@ -1255,7 +1255,7 @@ dessp.o: dessp.cpp.o
 
 # target to build an object file
 dessp.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dessp.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dessp.cpp.o
 .PHONY : dessp.cpp.o
 
 dessp.i: dessp.cpp.i
@@ -1264,7 +1264,7 @@ dessp.i: dessp.cpp.i
 
 # target to preprocess a source file
 dessp.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dessp.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dessp.cpp.i
 .PHONY : dessp.cpp.i
 
 dessp.s: dessp.cpp.s
@@ -1273,7 +1273,7 @@ dessp.s: dessp.cpp.s
 
 # target to generate assembly for a file
 dessp.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dessp.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dessp.cpp.s
 .PHONY : dessp.cpp.s
 
 dh.o: dh.cpp.o
@@ -1282,7 +1282,7 @@ dh.o: dh.cpp.o
 
 # target to build an object file
 dh.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dh.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dh.cpp.o
 .PHONY : dh.cpp.o
 
 dh.i: dh.cpp.i
@@ -1291,7 +1291,7 @@ dh.i: dh.cpp.i
 
 # target to preprocess a source file
 dh.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dh.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dh.cpp.i
 .PHONY : dh.cpp.i
 
 dh.s: dh.cpp.s
@@ -1300,7 +1300,7 @@ dh.s: dh.cpp.s
 
 # target to generate assembly for a file
 dh.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dh.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dh.cpp.s
 .PHONY : dh.cpp.s
 
 dh2.o: dh2.cpp.o
@@ -1309,7 +1309,7 @@ dh2.o: dh2.cpp.o
 
 # target to build an object file
 dh2.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dh2.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dh2.cpp.o
 .PHONY : dh2.cpp.o
 
 dh2.i: dh2.cpp.i
@@ -1318,7 +1318,7 @@ dh2.i: dh2.cpp.i
 
 # target to preprocess a source file
 dh2.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dh2.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dh2.cpp.i
 .PHONY : dh2.cpp.i
 
 dh2.s: dh2.cpp.s
@@ -1327,7 +1327,7 @@ dh2.s: dh2.cpp.s
 
 # target to generate assembly for a file
 dh2.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dh2.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dh2.cpp.s
 .PHONY : dh2.cpp.s
 
 dll.o: dll.cpp.o
@@ -1336,7 +1336,7 @@ dll.o: dll.cpp.o
 
 # target to build an object file
 dll.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dll.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dll.cpp.o
 .PHONY : dll.cpp.o
 
 dll.i: dll.cpp.i
@@ -1345,7 +1345,7 @@ dll.i: dll.cpp.i
 
 # target to preprocess a source file
 dll.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dll.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dll.cpp.i
 .PHONY : dll.cpp.i
 
 dll.s: dll.cpp.s
@@ -1354,7 +1354,7 @@ dll.s: dll.cpp.s
 
 # target to generate assembly for a file
 dll.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dll.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dll.cpp.s
 .PHONY : dll.cpp.s
 
 donna_32.o: donna_32.cpp.o
@@ -1363,7 +1363,7 @@ donna_32.o: donna_32.cpp.o
 
 # target to build an object file
 donna_32.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_32.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_32.cpp.o
 .PHONY : donna_32.cpp.o
 
 donna_32.i: donna_32.cpp.i
@@ -1372,7 +1372,7 @@ donna_32.i: donna_32.cpp.i
 
 # target to preprocess a source file
 donna_32.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_32.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_32.cpp.i
 .PHONY : donna_32.cpp.i
 
 donna_32.s: donna_32.cpp.s
@@ -1381,7 +1381,7 @@ donna_32.s: donna_32.cpp.s
 
 # target to generate assembly for a file
 donna_32.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_32.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_32.cpp.s
 .PHONY : donna_32.cpp.s
 
 donna_64.o: donna_64.cpp.o
@@ -1390,7 +1390,7 @@ donna_64.o: donna_64.cpp.o
 
 # target to build an object file
 donna_64.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_64.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_64.cpp.o
 .PHONY : donna_64.cpp.o
 
 donna_64.i: donna_64.cpp.i
@@ -1399,7 +1399,7 @@ donna_64.i: donna_64.cpp.i
 
 # target to preprocess a source file
 donna_64.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_64.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_64.cpp.i
 .PHONY : donna_64.cpp.i
 
 donna_64.s: donna_64.cpp.s
@@ -1408,7 +1408,7 @@ donna_64.s: donna_64.cpp.s
 
 # target to generate assembly for a file
 donna_64.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_64.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_64.cpp.s
 .PHONY : donna_64.cpp.s
 
 donna_sse.o: donna_sse.cpp.o
@@ -1417,7 +1417,7 @@ donna_sse.o: donna_sse.cpp.o
 
 # target to build an object file
 donna_sse.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_sse.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_sse.cpp.o
 .PHONY : donna_sse.cpp.o
 
 donna_sse.i: donna_sse.cpp.i
@@ -1426,7 +1426,7 @@ donna_sse.i: donna_sse.cpp.i
 
 # target to preprocess a source file
 donna_sse.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_sse.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_sse.cpp.i
 .PHONY : donna_sse.cpp.i
 
 donna_sse.s: donna_sse.cpp.s
@@ -1435,7 +1435,7 @@ donna_sse.s: donna_sse.cpp.s
 
 # target to generate assembly for a file
 donna_sse.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_sse.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_sse.cpp.s
 .PHONY : donna_sse.cpp.s
 
 dsa.o: dsa.cpp.o
@@ -1444,7 +1444,7 @@ dsa.o: dsa.cpp.o
 
 # target to build an object file
 dsa.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dsa.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dsa.cpp.o
 .PHONY : dsa.cpp.o
 
 dsa.i: dsa.cpp.i
@@ -1453,7 +1453,7 @@ dsa.i: dsa.cpp.i
 
 # target to preprocess a source file
 dsa.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dsa.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dsa.cpp.i
 .PHONY : dsa.cpp.i
 
 dsa.s: dsa.cpp.s
@@ -1462,7 +1462,7 @@ dsa.s: dsa.cpp.s
 
 # target to generate assembly for a file
 dsa.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dsa.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/dsa.cpp.s
 .PHONY : dsa.cpp.s
 
 eax.o: eax.cpp.o
@@ -1471,7 +1471,7 @@ eax.o: eax.cpp.o
 
 # target to build an object file
 eax.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/eax.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/eax.cpp.o
 .PHONY : eax.cpp.o
 
 eax.i: eax.cpp.i
@@ -1480,7 +1480,7 @@ eax.i: eax.cpp.i
 
 # target to preprocess a source file
 eax.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/eax.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/eax.cpp.i
 .PHONY : eax.cpp.i
 
 eax.s: eax.cpp.s
@@ -1489,7 +1489,7 @@ eax.s: eax.cpp.s
 
 # target to generate assembly for a file
 eax.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/eax.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/eax.cpp.s
 .PHONY : eax.cpp.s
 
 ec2n.o: ec2n.cpp.o
@@ -1498,7 +1498,7 @@ ec2n.o: ec2n.cpp.o
 
 # target to build an object file
 ec2n.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ec2n.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ec2n.cpp.o
 .PHONY : ec2n.cpp.o
 
 ec2n.i: ec2n.cpp.i
@@ -1507,7 +1507,7 @@ ec2n.i: ec2n.cpp.i
 
 # target to preprocess a source file
 ec2n.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ec2n.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ec2n.cpp.i
 .PHONY : ec2n.cpp.i
 
 ec2n.s: ec2n.cpp.s
@@ -1516,7 +1516,7 @@ ec2n.s: ec2n.cpp.s
 
 # target to generate assembly for a file
 ec2n.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ec2n.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ec2n.cpp.s
 .PHONY : ec2n.cpp.s
 
 eccrypto.o: eccrypto.cpp.o
@@ -1525,7 +1525,7 @@ eccrypto.o: eccrypto.cpp.o
 
 # target to build an object file
 eccrypto.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/eccrypto.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/eccrypto.cpp.o
 .PHONY : eccrypto.cpp.o
 
 eccrypto.i: eccrypto.cpp.i
@@ -1534,7 +1534,7 @@ eccrypto.i: eccrypto.cpp.i
 
 # target to preprocess a source file
 eccrypto.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/eccrypto.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/eccrypto.cpp.i
 .PHONY : eccrypto.cpp.i
 
 eccrypto.s: eccrypto.cpp.s
@@ -1543,7 +1543,7 @@ eccrypto.s: eccrypto.cpp.s
 
 # target to generate assembly for a file
 eccrypto.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/eccrypto.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/eccrypto.cpp.s
 .PHONY : eccrypto.cpp.s
 
 ecp.o: ecp.cpp.o
@@ -1552,7 +1552,7 @@ ecp.o: ecp.cpp.o
 
 # target to build an object file
 ecp.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ecp.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ecp.cpp.o
 .PHONY : ecp.cpp.o
 
 ecp.i: ecp.cpp.i
@@ -1561,7 +1561,7 @@ ecp.i: ecp.cpp.i
 
 # target to preprocess a source file
 ecp.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ecp.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ecp.cpp.i
 .PHONY : ecp.cpp.i
 
 ecp.s: ecp.cpp.s
@@ -1570,7 +1570,7 @@ ecp.s: ecp.cpp.s
 
 # target to generate assembly for a file
 ecp.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ecp.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ecp.cpp.s
 .PHONY : ecp.cpp.s
 
 elgamal.o: elgamal.cpp.o
@@ -1579,7 +1579,7 @@ elgamal.o: elgamal.cpp.o
 
 # target to build an object file
 elgamal.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/elgamal.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/elgamal.cpp.o
 .PHONY : elgamal.cpp.o
 
 elgamal.i: elgamal.cpp.i
@@ -1588,7 +1588,7 @@ elgamal.i: elgamal.cpp.i
 
 # target to preprocess a source file
 elgamal.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/elgamal.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/elgamal.cpp.i
 .PHONY : elgamal.cpp.i
 
 elgamal.s: elgamal.cpp.s
@@ -1597,7 +1597,7 @@ elgamal.s: elgamal.cpp.s
 
 # target to generate assembly for a file
 elgamal.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/elgamal.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/elgamal.cpp.s
 .PHONY : elgamal.cpp.s
 
 emsa2.o: emsa2.cpp.o
@@ -1606,7 +1606,7 @@ emsa2.o: emsa2.cpp.o
 
 # target to build an object file
 emsa2.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/emsa2.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/emsa2.cpp.o
 .PHONY : emsa2.cpp.o
 
 emsa2.i: emsa2.cpp.i
@@ -1615,7 +1615,7 @@ emsa2.i: emsa2.cpp.i
 
 # target to preprocess a source file
 emsa2.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/emsa2.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/emsa2.cpp.i
 .PHONY : emsa2.cpp.i
 
 emsa2.s: emsa2.cpp.s
@@ -1624,7 +1624,7 @@ emsa2.s: emsa2.cpp.s
 
 # target to generate assembly for a file
 emsa2.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/emsa2.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/emsa2.cpp.s
 .PHONY : emsa2.cpp.s
 
 eprecomp.o: eprecomp.cpp.o
@@ -1633,7 +1633,7 @@ eprecomp.o: eprecomp.cpp.o
 
 # target to build an object file
 eprecomp.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/eprecomp.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/eprecomp.cpp.o
 .PHONY : eprecomp.cpp.o
 
 eprecomp.i: eprecomp.cpp.i
@@ -1642,7 +1642,7 @@ eprecomp.i: eprecomp.cpp.i
 
 # target to preprocess a source file
 eprecomp.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/eprecomp.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/eprecomp.cpp.i
 .PHONY : eprecomp.cpp.i
 
 eprecomp.s: eprecomp.cpp.s
@@ -1651,7 +1651,7 @@ eprecomp.s: eprecomp.cpp.s
 
 # target to generate assembly for a file
 eprecomp.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/eprecomp.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/eprecomp.cpp.s
 .PHONY : eprecomp.cpp.s
 
 esign.o: esign.cpp.o
@@ -1660,7 +1660,7 @@ esign.o: esign.cpp.o
 
 # target to build an object file
 esign.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/esign.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/esign.cpp.o
 .PHONY : esign.cpp.o
 
 esign.i: esign.cpp.i
@@ -1669,7 +1669,7 @@ esign.i: esign.cpp.i
 
 # target to preprocess a source file
 esign.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/esign.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/esign.cpp.i
 .PHONY : esign.cpp.i
 
 esign.s: esign.cpp.s
@@ -1678,7 +1678,7 @@ esign.s: esign.cpp.s
 
 # target to generate assembly for a file
 esign.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/esign.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/esign.cpp.s
 .PHONY : esign.cpp.s
 
 files.o: files.cpp.o
@@ -1687,7 +1687,7 @@ files.o: files.cpp.o
 
 # target to build an object file
 files.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/files.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/files.cpp.o
 .PHONY : files.cpp.o
 
 files.i: files.cpp.i
@@ -1696,7 +1696,7 @@ files.i: files.cpp.i
 
 # target to preprocess a source file
 files.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/files.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/files.cpp.i
 .PHONY : files.cpp.i
 
 files.s: files.cpp.s
@@ -1705,7 +1705,7 @@ files.s: files.cpp.s
 
 # target to generate assembly for a file
 files.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/files.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/files.cpp.s
 .PHONY : files.cpp.s
 
 filters.o: filters.cpp.o
@@ -1714,7 +1714,7 @@ filters.o: filters.cpp.o
 
 # target to build an object file
 filters.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/filters.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/filters.cpp.o
 .PHONY : filters.cpp.o
 
 filters.i: filters.cpp.i
@@ -1723,7 +1723,7 @@ filters.i: filters.cpp.i
 
 # target to preprocess a source file
 filters.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/filters.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/filters.cpp.i
 .PHONY : filters.cpp.i
 
 filters.s: filters.cpp.s
@@ -1732,7 +1732,7 @@ filters.s: filters.cpp.s
 
 # target to generate assembly for a file
 filters.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/filters.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/filters.cpp.s
 .PHONY : filters.cpp.s
 
 fips140.o: fips140.cpp.o
@@ -1741,7 +1741,7 @@ fips140.o: fips140.cpp.o
 
 # target to build an object file
 fips140.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/fips140.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/fips140.cpp.o
 .PHONY : fips140.cpp.o
 
 fips140.i: fips140.cpp.i
@@ -1750,7 +1750,7 @@ fips140.i: fips140.cpp.i
 
 # target to preprocess a source file
 fips140.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/fips140.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/fips140.cpp.i
 .PHONY : fips140.cpp.i
 
 fips140.s: fips140.cpp.s
@@ -1759,7 +1759,7 @@ fips140.s: fips140.cpp.s
 
 # target to generate assembly for a file
 fips140.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/fips140.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/fips140.cpp.s
 .PHONY : fips140.cpp.s
 
 gcm.o: gcm.cpp.o
@@ -1768,7 +1768,7 @@ gcm.o: gcm.cpp.o
 
 # target to build an object file
 gcm.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gcm.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gcm.cpp.o
 .PHONY : gcm.cpp.o
 
 gcm.i: gcm.cpp.i
@@ -1777,7 +1777,7 @@ gcm.i: gcm.cpp.i
 
 # target to preprocess a source file
 gcm.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gcm.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gcm.cpp.i
 .PHONY : gcm.cpp.i
 
 gcm.s: gcm.cpp.s
@@ -1786,7 +1786,7 @@ gcm.s: gcm.cpp.s
 
 # target to generate assembly for a file
 gcm.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gcm.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gcm.cpp.s
 .PHONY : gcm.cpp.s
 
 gcm_simd.o: gcm_simd.cpp.o
@@ -1795,7 +1795,7 @@ gcm_simd.o: gcm_simd.cpp.o
 
 # target to build an object file
 gcm_simd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gcm_simd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gcm_simd.cpp.o
 .PHONY : gcm_simd.cpp.o
 
 gcm_simd.i: gcm_simd.cpp.i
@@ -1804,7 +1804,7 @@ gcm_simd.i: gcm_simd.cpp.i
 
 # target to preprocess a source file
 gcm_simd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gcm_simd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gcm_simd.cpp.i
 .PHONY : gcm_simd.cpp.i
 
 gcm_simd.s: gcm_simd.cpp.s
@@ -1813,7 +1813,7 @@ gcm_simd.s: gcm_simd.cpp.s
 
 # target to generate assembly for a file
 gcm_simd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gcm_simd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gcm_simd.cpp.s
 .PHONY : gcm_simd.cpp.s
 
 gf256.o: gf256.cpp.o
@@ -1822,7 +1822,7 @@ gf256.o: gf256.cpp.o
 
 # target to build an object file
 gf256.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf256.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf256.cpp.o
 .PHONY : gf256.cpp.o
 
 gf256.i: gf256.cpp.i
@@ -1831,7 +1831,7 @@ gf256.i: gf256.cpp.i
 
 # target to preprocess a source file
 gf256.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf256.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf256.cpp.i
 .PHONY : gf256.cpp.i
 
 gf256.s: gf256.cpp.s
@@ -1840,7 +1840,7 @@ gf256.s: gf256.cpp.s
 
 # target to generate assembly for a file
 gf256.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf256.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf256.cpp.s
 .PHONY : gf256.cpp.s
 
 gf2_32.o: gf2_32.cpp.o
@@ -1849,7 +1849,7 @@ gf2_32.o: gf2_32.cpp.o
 
 # target to build an object file
 gf2_32.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2_32.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2_32.cpp.o
 .PHONY : gf2_32.cpp.o
 
 gf2_32.i: gf2_32.cpp.i
@@ -1858,7 +1858,7 @@ gf2_32.i: gf2_32.cpp.i
 
 # target to preprocess a source file
 gf2_32.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2_32.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2_32.cpp.i
 .PHONY : gf2_32.cpp.i
 
 gf2_32.s: gf2_32.cpp.s
@@ -1867,7 +1867,7 @@ gf2_32.s: gf2_32.cpp.s
 
 # target to generate assembly for a file
 gf2_32.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2_32.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2_32.cpp.s
 .PHONY : gf2_32.cpp.s
 
 gf2n.o: gf2n.cpp.o
@@ -1876,7 +1876,7 @@ gf2n.o: gf2n.cpp.o
 
 # target to build an object file
 gf2n.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2n.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2n.cpp.o
 .PHONY : gf2n.cpp.o
 
 gf2n.i: gf2n.cpp.i
@@ -1885,7 +1885,7 @@ gf2n.i: gf2n.cpp.i
 
 # target to preprocess a source file
 gf2n.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2n.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2n.cpp.i
 .PHONY : gf2n.cpp.i
 
 gf2n.s: gf2n.cpp.s
@@ -1894,7 +1894,7 @@ gf2n.s: gf2n.cpp.s
 
 # target to generate assembly for a file
 gf2n.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2n.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2n.cpp.s
 .PHONY : gf2n.cpp.s
 
 gf2n_simd.o: gf2n_simd.cpp.o
@@ -1903,7 +1903,7 @@ gf2n_simd.o: gf2n_simd.cpp.o
 
 # target to build an object file
 gf2n_simd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2n_simd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2n_simd.cpp.o
 .PHONY : gf2n_simd.cpp.o
 
 gf2n_simd.i: gf2n_simd.cpp.i
@@ -1912,7 +1912,7 @@ gf2n_simd.i: gf2n_simd.cpp.i
 
 # target to preprocess a source file
 gf2n_simd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2n_simd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2n_simd.cpp.i
 .PHONY : gf2n_simd.cpp.i
 
 gf2n_simd.s: gf2n_simd.cpp.s
@@ -1921,7 +1921,7 @@ gf2n_simd.s: gf2n_simd.cpp.s
 
 # target to generate assembly for a file
 gf2n_simd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2n_simd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2n_simd.cpp.s
 .PHONY : gf2n_simd.cpp.s
 
 gfpcrypt.o: gfpcrypt.cpp.o
@@ -1930,7 +1930,7 @@ gfpcrypt.o: gfpcrypt.cpp.o
 
 # target to build an object file
 gfpcrypt.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gfpcrypt.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gfpcrypt.cpp.o
 .PHONY : gfpcrypt.cpp.o
 
 gfpcrypt.i: gfpcrypt.cpp.i
@@ -1939,7 +1939,7 @@ gfpcrypt.i: gfpcrypt.cpp.i
 
 # target to preprocess a source file
 gfpcrypt.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gfpcrypt.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gfpcrypt.cpp.i
 .PHONY : gfpcrypt.cpp.i
 
 gfpcrypt.s: gfpcrypt.cpp.s
@@ -1948,7 +1948,7 @@ gfpcrypt.s: gfpcrypt.cpp.s
 
 # target to generate assembly for a file
 gfpcrypt.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gfpcrypt.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gfpcrypt.cpp.s
 .PHONY : gfpcrypt.cpp.s
 
 gost.o: gost.cpp.o
@@ -1957,7 +1957,7 @@ gost.o: gost.cpp.o
 
 # target to build an object file
 gost.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gost.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gost.cpp.o
 .PHONY : gost.cpp.o
 
 gost.i: gost.cpp.i
@@ -1966,7 +1966,7 @@ gost.i: gost.cpp.i
 
 # target to preprocess a source file
 gost.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gost.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gost.cpp.i
 .PHONY : gost.cpp.i
 
 gost.s: gost.cpp.s
@@ -1975,7 +1975,7 @@ gost.s: gost.cpp.s
 
 # target to generate assembly for a file
 gost.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gost.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gost.cpp.s
 .PHONY : gost.cpp.s
 
 gzip.o: gzip.cpp.o
@@ -1984,7 +1984,7 @@ gzip.o: gzip.cpp.o
 
 # target to build an object file
 gzip.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gzip.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gzip.cpp.o
 .PHONY : gzip.cpp.o
 
 gzip.i: gzip.cpp.i
@@ -1993,7 +1993,7 @@ gzip.i: gzip.cpp.i
 
 # target to preprocess a source file
 gzip.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gzip.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gzip.cpp.i
 .PHONY : gzip.cpp.i
 
 gzip.s: gzip.cpp.s
@@ -2002,7 +2002,7 @@ gzip.s: gzip.cpp.s
 
 # target to generate assembly for a file
 gzip.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gzip.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/gzip.cpp.s
 .PHONY : gzip.cpp.s
 
 hc128.o: hc128.cpp.o
@@ -2011,7 +2011,7 @@ hc128.o: hc128.cpp.o
 
 # target to build an object file
 hc128.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hc128.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hc128.cpp.o
 .PHONY : hc128.cpp.o
 
 hc128.i: hc128.cpp.i
@@ -2020,7 +2020,7 @@ hc128.i: hc128.cpp.i
 
 # target to preprocess a source file
 hc128.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hc128.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hc128.cpp.i
 .PHONY : hc128.cpp.i
 
 hc128.s: hc128.cpp.s
@@ -2029,7 +2029,7 @@ hc128.s: hc128.cpp.s
 
 # target to generate assembly for a file
 hc128.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hc128.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hc128.cpp.s
 .PHONY : hc128.cpp.s
 
 hc256.o: hc256.cpp.o
@@ -2038,7 +2038,7 @@ hc256.o: hc256.cpp.o
 
 # target to build an object file
 hc256.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hc256.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hc256.cpp.o
 .PHONY : hc256.cpp.o
 
 hc256.i: hc256.cpp.i
@@ -2047,7 +2047,7 @@ hc256.i: hc256.cpp.i
 
 # target to preprocess a source file
 hc256.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hc256.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hc256.cpp.i
 .PHONY : hc256.cpp.i
 
 hc256.s: hc256.cpp.s
@@ -2056,7 +2056,7 @@ hc256.s: hc256.cpp.s
 
 # target to generate assembly for a file
 hc256.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hc256.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hc256.cpp.s
 .PHONY : hc256.cpp.s
 
 hex.o: hex.cpp.o
@@ -2065,7 +2065,7 @@ hex.o: hex.cpp.o
 
 # target to build an object file
 hex.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hex.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hex.cpp.o
 .PHONY : hex.cpp.o
 
 hex.i: hex.cpp.i
@@ -2074,7 +2074,7 @@ hex.i: hex.cpp.i
 
 # target to preprocess a source file
 hex.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hex.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hex.cpp.i
 .PHONY : hex.cpp.i
 
 hex.s: hex.cpp.s
@@ -2083,7 +2083,7 @@ hex.s: hex.cpp.s
 
 # target to generate assembly for a file
 hex.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hex.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hex.cpp.s
 .PHONY : hex.cpp.s
 
 hight.o: hight.cpp.o
@@ -2092,7 +2092,7 @@ hight.o: hight.cpp.o
 
 # target to build an object file
 hight.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hight.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hight.cpp.o
 .PHONY : hight.cpp.o
 
 hight.i: hight.cpp.i
@@ -2101,7 +2101,7 @@ hight.i: hight.cpp.i
 
 # target to preprocess a source file
 hight.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hight.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hight.cpp.i
 .PHONY : hight.cpp.i
 
 hight.s: hight.cpp.s
@@ -2110,7 +2110,7 @@ hight.s: hight.cpp.s
 
 # target to generate assembly for a file
 hight.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hight.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hight.cpp.s
 .PHONY : hight.cpp.s
 
 hmac.o: hmac.cpp.o
@@ -2119,7 +2119,7 @@ hmac.o: hmac.cpp.o
 
 # target to build an object file
 hmac.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hmac.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hmac.cpp.o
 .PHONY : hmac.cpp.o
 
 hmac.i: hmac.cpp.i
@@ -2128,7 +2128,7 @@ hmac.i: hmac.cpp.i
 
 # target to preprocess a source file
 hmac.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hmac.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hmac.cpp.i
 .PHONY : hmac.cpp.i
 
 hmac.s: hmac.cpp.s
@@ -2137,7 +2137,7 @@ hmac.s: hmac.cpp.s
 
 # target to generate assembly for a file
 hmac.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hmac.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hmac.cpp.s
 .PHONY : hmac.cpp.s
 
 hrtimer.o: hrtimer.cpp.o
@@ -2146,7 +2146,7 @@ hrtimer.o: hrtimer.cpp.o
 
 # target to build an object file
 hrtimer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hrtimer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hrtimer.cpp.o
 .PHONY : hrtimer.cpp.o
 
 hrtimer.i: hrtimer.cpp.i
@@ -2155,7 +2155,7 @@ hrtimer.i: hrtimer.cpp.i
 
 # target to preprocess a source file
 hrtimer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hrtimer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hrtimer.cpp.i
 .PHONY : hrtimer.cpp.i
 
 hrtimer.s: hrtimer.cpp.s
@@ -2164,7 +2164,7 @@ hrtimer.s: hrtimer.cpp.s
 
 # target to generate assembly for a file
 hrtimer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hrtimer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/hrtimer.cpp.s
 .PHONY : hrtimer.cpp.s
 
 ida.o: ida.cpp.o
@@ -2173,7 +2173,7 @@ ida.o: ida.cpp.o
 
 # target to build an object file
 ida.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ida.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ida.cpp.o
 .PHONY : ida.cpp.o
 
 ida.i: ida.cpp.i
@@ -2182,7 +2182,7 @@ ida.i: ida.cpp.i
 
 # target to preprocess a source file
 ida.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ida.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ida.cpp.i
 .PHONY : ida.cpp.i
 
 ida.s: ida.cpp.s
@@ -2191,7 +2191,7 @@ ida.s: ida.cpp.s
 
 # target to generate assembly for a file
 ida.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ida.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ida.cpp.s
 .PHONY : ida.cpp.s
 
 idea.o: idea.cpp.o
@@ -2200,7 +2200,7 @@ idea.o: idea.cpp.o
 
 # target to build an object file
 idea.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/idea.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/idea.cpp.o
 .PHONY : idea.cpp.o
 
 idea.i: idea.cpp.i
@@ -2209,7 +2209,7 @@ idea.i: idea.cpp.i
 
 # target to preprocess a source file
 idea.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/idea.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/idea.cpp.i
 .PHONY : idea.cpp.i
 
 idea.s: idea.cpp.s
@@ -2218,7 +2218,7 @@ idea.s: idea.cpp.s
 
 # target to generate assembly for a file
 idea.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/idea.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/idea.cpp.s
 .PHONY : idea.cpp.s
 
 integer.o: integer.cpp.o
@@ -2227,7 +2227,7 @@ integer.o: integer.cpp.o
 
 # target to build an object file
 integer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/integer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/integer.cpp.o
 .PHONY : integer.cpp.o
 
 integer.i: integer.cpp.i
@@ -2236,7 +2236,7 @@ integer.i: integer.cpp.i
 
 # target to preprocess a source file
 integer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/integer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/integer.cpp.i
 .PHONY : integer.cpp.i
 
 integer.s: integer.cpp.s
@@ -2245,7 +2245,7 @@ integer.s: integer.cpp.s
 
 # target to generate assembly for a file
 integer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/integer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/integer.cpp.s
 .PHONY : integer.cpp.s
 
 iterhash.o: iterhash.cpp.o
@@ -2254,7 +2254,7 @@ iterhash.o: iterhash.cpp.o
 
 # target to build an object file
 iterhash.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/iterhash.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/iterhash.cpp.o
 .PHONY : iterhash.cpp.o
 
 iterhash.i: iterhash.cpp.i
@@ -2263,7 +2263,7 @@ iterhash.i: iterhash.cpp.i
 
 # target to preprocess a source file
 iterhash.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/iterhash.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/iterhash.cpp.i
 .PHONY : iterhash.cpp.i
 
 iterhash.s: iterhash.cpp.s
@@ -2272,7 +2272,7 @@ iterhash.s: iterhash.cpp.s
 
 # target to generate assembly for a file
 iterhash.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/iterhash.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/iterhash.cpp.s
 .PHONY : iterhash.cpp.s
 
 kalyna.o: kalyna.cpp.o
@@ -2281,7 +2281,7 @@ kalyna.o: kalyna.cpp.o
 
 # target to build an object file
 kalyna.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/kalyna.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/kalyna.cpp.o
 .PHONY : kalyna.cpp.o
 
 kalyna.i: kalyna.cpp.i
@@ -2290,7 +2290,7 @@ kalyna.i: kalyna.cpp.i
 
 # target to preprocess a source file
 kalyna.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/kalyna.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/kalyna.cpp.i
 .PHONY : kalyna.cpp.i
 
 kalyna.s: kalyna.cpp.s
@@ -2299,7 +2299,7 @@ kalyna.s: kalyna.cpp.s
 
 # target to generate assembly for a file
 kalyna.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/kalyna.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/kalyna.cpp.s
 .PHONY : kalyna.cpp.s
 
 kalynatab.o: kalynatab.cpp.o
@@ -2308,7 +2308,7 @@ kalynatab.o: kalynatab.cpp.o
 
 # target to build an object file
 kalynatab.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/kalynatab.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/kalynatab.cpp.o
 .PHONY : kalynatab.cpp.o
 
 kalynatab.i: kalynatab.cpp.i
@@ -2317,7 +2317,7 @@ kalynatab.i: kalynatab.cpp.i
 
 # target to preprocess a source file
 kalynatab.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/kalynatab.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/kalynatab.cpp.i
 .PHONY : kalynatab.cpp.i
 
 kalynatab.s: kalynatab.cpp.s
@@ -2326,7 +2326,7 @@ kalynatab.s: kalynatab.cpp.s
 
 # target to generate assembly for a file
 kalynatab.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/kalynatab.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/kalynatab.cpp.s
 .PHONY : kalynatab.cpp.s
 
 keccak.o: keccak.cpp.o
@@ -2335,7 +2335,7 @@ keccak.o: keccak.cpp.o
 
 # target to build an object file
 keccak.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak.cpp.o
 .PHONY : keccak.cpp.o
 
 keccak.i: keccak.cpp.i
@@ -2344,7 +2344,7 @@ keccak.i: keccak.cpp.i
 
 # target to preprocess a source file
 keccak.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak.cpp.i
 .PHONY : keccak.cpp.i
 
 keccak.s: keccak.cpp.s
@@ -2353,7 +2353,7 @@ keccak.s: keccak.cpp.s
 
 # target to generate assembly for a file
 keccak.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak.cpp.s
 .PHONY : keccak.cpp.s
 
 keccak_core.o: keccak_core.cpp.o
@@ -2362,7 +2362,7 @@ keccak_core.o: keccak_core.cpp.o
 
 # target to build an object file
 keccak_core.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak_core.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak_core.cpp.o
 .PHONY : keccak_core.cpp.o
 
 keccak_core.i: keccak_core.cpp.i
@@ -2371,7 +2371,7 @@ keccak_core.i: keccak_core.cpp.i
 
 # target to preprocess a source file
 keccak_core.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak_core.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak_core.cpp.i
 .PHONY : keccak_core.cpp.i
 
 keccak_core.s: keccak_core.cpp.s
@@ -2380,7 +2380,7 @@ keccak_core.s: keccak_core.cpp.s
 
 # target to generate assembly for a file
 keccak_core.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak_core.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak_core.cpp.s
 .PHONY : keccak_core.cpp.s
 
 keccak_simd.o: keccak_simd.cpp.o
@@ -2389,7 +2389,7 @@ keccak_simd.o: keccak_simd.cpp.o
 
 # target to build an object file
 keccak_simd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak_simd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak_simd.cpp.o
 .PHONY : keccak_simd.cpp.o
 
 keccak_simd.i: keccak_simd.cpp.i
@@ -2398,7 +2398,7 @@ keccak_simd.i: keccak_simd.cpp.i
 
 # target to preprocess a source file
 keccak_simd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak_simd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak_simd.cpp.i
 .PHONY : keccak_simd.cpp.i
 
 keccak_simd.s: keccak_simd.cpp.s
@@ -2407,7 +2407,7 @@ keccak_simd.s: keccak_simd.cpp.s
 
 # target to generate assembly for a file
 keccak_simd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak_simd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak_simd.cpp.s
 .PHONY : keccak_simd.cpp.s
 
 lea.o: lea.cpp.o
@@ -2416,7 +2416,7 @@ lea.o: lea.cpp.o
 
 # target to build an object file
 lea.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/lea.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/lea.cpp.o
 .PHONY : lea.cpp.o
 
 lea.i: lea.cpp.i
@@ -2425,7 +2425,7 @@ lea.i: lea.cpp.i
 
 # target to preprocess a source file
 lea.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/lea.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/lea.cpp.i
 .PHONY : lea.cpp.i
 
 lea.s: lea.cpp.s
@@ -2434,7 +2434,7 @@ lea.s: lea.cpp.s
 
 # target to generate assembly for a file
 lea.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/lea.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/lea.cpp.s
 .PHONY : lea.cpp.s
 
 lea_simd.o: lea_simd.cpp.o
@@ -2443,7 +2443,7 @@ lea_simd.o: lea_simd.cpp.o
 
 # target to build an object file
 lea_simd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/lea_simd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/lea_simd.cpp.o
 .PHONY : lea_simd.cpp.o
 
 lea_simd.i: lea_simd.cpp.i
@@ -2452,7 +2452,7 @@ lea_simd.i: lea_simd.cpp.i
 
 # target to preprocess a source file
 lea_simd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/lea_simd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/lea_simd.cpp.i
 .PHONY : lea_simd.cpp.i
 
 lea_simd.s: lea_simd.cpp.s
@@ -2461,7 +2461,7 @@ lea_simd.s: lea_simd.cpp.s
 
 # target to generate assembly for a file
 lea_simd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/lea_simd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/lea_simd.cpp.s
 .PHONY : lea_simd.cpp.s
 
 luc.o: luc.cpp.o
@@ -2470,7 +2470,7 @@ luc.o: luc.cpp.o
 
 # target to build an object file
 luc.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/luc.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/luc.cpp.o
 .PHONY : luc.cpp.o
 
 luc.i: luc.cpp.i
@@ -2479,7 +2479,7 @@ luc.i: luc.cpp.i
 
 # target to preprocess a source file
 luc.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/luc.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/luc.cpp.i
 .PHONY : luc.cpp.i
 
 luc.s: luc.cpp.s
@@ -2488,7 +2488,7 @@ luc.s: luc.cpp.s
 
 # target to generate assembly for a file
 luc.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/luc.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/luc.cpp.s
 .PHONY : luc.cpp.s
 
 mars.o: mars.cpp.o
@@ -2497,7 +2497,7 @@ mars.o: mars.cpp.o
 
 # target to build an object file
 mars.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/mars.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/mars.cpp.o
 .PHONY : mars.cpp.o
 
 mars.i: mars.cpp.i
@@ -2506,7 +2506,7 @@ mars.i: mars.cpp.i
 
 # target to preprocess a source file
 mars.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/mars.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/mars.cpp.i
 .PHONY : mars.cpp.i
 
 mars.s: mars.cpp.s
@@ -2515,7 +2515,7 @@ mars.s: mars.cpp.s
 
 # target to generate assembly for a file
 mars.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/mars.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/mars.cpp.s
 .PHONY : mars.cpp.s
 
 marss.o: marss.cpp.o
@@ -2524,7 +2524,7 @@ marss.o: marss.cpp.o
 
 # target to build an object file
 marss.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/marss.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/marss.cpp.o
 .PHONY : marss.cpp.o
 
 marss.i: marss.cpp.i
@@ -2533,7 +2533,7 @@ marss.i: marss.cpp.i
 
 # target to preprocess a source file
 marss.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/marss.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/marss.cpp.i
 .PHONY : marss.cpp.i
 
 marss.s: marss.cpp.s
@@ -2542,7 +2542,7 @@ marss.s: marss.cpp.s
 
 # target to generate assembly for a file
 marss.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/marss.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/marss.cpp.s
 .PHONY : marss.cpp.s
 
 md2.o: md2.cpp.o
@@ -2551,7 +2551,7 @@ md2.o: md2.cpp.o
 
 # target to build an object file
 md2.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/md2.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/md2.cpp.o
 .PHONY : md2.cpp.o
 
 md2.i: md2.cpp.i
@@ -2560,7 +2560,7 @@ md2.i: md2.cpp.i
 
 # target to preprocess a source file
 md2.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/md2.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/md2.cpp.i
 .PHONY : md2.cpp.i
 
 md2.s: md2.cpp.s
@@ -2569,7 +2569,7 @@ md2.s: md2.cpp.s
 
 # target to generate assembly for a file
 md2.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/md2.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/md2.cpp.s
 .PHONY : md2.cpp.s
 
 md4.o: md4.cpp.o
@@ -2578,7 +2578,7 @@ md4.o: md4.cpp.o
 
 # target to build an object file
 md4.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/md4.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/md4.cpp.o
 .PHONY : md4.cpp.o
 
 md4.i: md4.cpp.i
@@ -2587,7 +2587,7 @@ md4.i: md4.cpp.i
 
 # target to preprocess a source file
 md4.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/md4.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/md4.cpp.i
 .PHONY : md4.cpp.i
 
 md4.s: md4.cpp.s
@@ -2596,7 +2596,7 @@ md4.s: md4.cpp.s
 
 # target to generate assembly for a file
 md4.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/md4.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/md4.cpp.s
 .PHONY : md4.cpp.s
 
 md5.o: md5.cpp.o
@@ -2605,7 +2605,7 @@ md5.o: md5.cpp.o
 
 # target to build an object file
 md5.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/md5.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/md5.cpp.o
 .PHONY : md5.cpp.o
 
 md5.i: md5.cpp.i
@@ -2614,7 +2614,7 @@ md5.i: md5.cpp.i
 
 # target to preprocess a source file
 md5.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/md5.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/md5.cpp.i
 .PHONY : md5.cpp.i
 
 md5.s: md5.cpp.s
@@ -2623,7 +2623,7 @@ md5.s: md5.cpp.s
 
 # target to generate assembly for a file
 md5.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/md5.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/md5.cpp.s
 .PHONY : md5.cpp.s
 
 misc.o: misc.cpp.o
@@ -2632,7 +2632,7 @@ misc.o: misc.cpp.o
 
 # target to build an object file
 misc.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/misc.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/misc.cpp.o
 .PHONY : misc.cpp.o
 
 misc.i: misc.cpp.i
@@ -2641,7 +2641,7 @@ misc.i: misc.cpp.i
 
 # target to preprocess a source file
 misc.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/misc.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/misc.cpp.i
 .PHONY : misc.cpp.i
 
 misc.s: misc.cpp.s
@@ -2650,7 +2650,7 @@ misc.s: misc.cpp.s
 
 # target to generate assembly for a file
 misc.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/misc.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/misc.cpp.s
 .PHONY : misc.cpp.s
 
 modes.o: modes.cpp.o
@@ -2659,7 +2659,7 @@ modes.o: modes.cpp.o
 
 # target to build an object file
 modes.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/modes.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/modes.cpp.o
 .PHONY : modes.cpp.o
 
 modes.i: modes.cpp.i
@@ -2668,7 +2668,7 @@ modes.i: modes.cpp.i
 
 # target to preprocess a source file
 modes.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/modes.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/modes.cpp.i
 .PHONY : modes.cpp.i
 
 modes.s: modes.cpp.s
@@ -2677,7 +2677,7 @@ modes.s: modes.cpp.s
 
 # target to generate assembly for a file
 modes.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/modes.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/modes.cpp.s
 .PHONY : modes.cpp.s
 
 mqueue.o: mqueue.cpp.o
@@ -2686,7 +2686,7 @@ mqueue.o: mqueue.cpp.o
 
 # target to build an object file
 mqueue.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/mqueue.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/mqueue.cpp.o
 .PHONY : mqueue.cpp.o
 
 mqueue.i: mqueue.cpp.i
@@ -2695,7 +2695,7 @@ mqueue.i: mqueue.cpp.i
 
 # target to preprocess a source file
 mqueue.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/mqueue.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/mqueue.cpp.i
 .PHONY : mqueue.cpp.i
 
 mqueue.s: mqueue.cpp.s
@@ -2704,7 +2704,7 @@ mqueue.s: mqueue.cpp.s
 
 # target to generate assembly for a file
 mqueue.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/mqueue.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/mqueue.cpp.s
 .PHONY : mqueue.cpp.s
 
 mqv.o: mqv.cpp.o
@@ -2713,7 +2713,7 @@ mqv.o: mqv.cpp.o
 
 # target to build an object file
 mqv.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/mqv.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/mqv.cpp.o
 .PHONY : mqv.cpp.o
 
 mqv.i: mqv.cpp.i
@@ -2722,7 +2722,7 @@ mqv.i: mqv.cpp.i
 
 # target to preprocess a source file
 mqv.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/mqv.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/mqv.cpp.i
 .PHONY : mqv.cpp.i
 
 mqv.s: mqv.cpp.s
@@ -2731,7 +2731,7 @@ mqv.s: mqv.cpp.s
 
 # target to generate assembly for a file
 mqv.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/mqv.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/mqv.cpp.s
 .PHONY : mqv.cpp.s
 
 nbtheory.o: nbtheory.cpp.o
@@ -2740,7 +2740,7 @@ nbtheory.o: nbtheory.cpp.o
 
 # target to build an object file
 nbtheory.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/nbtheory.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/nbtheory.cpp.o
 .PHONY : nbtheory.cpp.o
 
 nbtheory.i: nbtheory.cpp.i
@@ -2749,7 +2749,7 @@ nbtheory.i: nbtheory.cpp.i
 
 # target to preprocess a source file
 nbtheory.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/nbtheory.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/nbtheory.cpp.i
 .PHONY : nbtheory.cpp.i
 
 nbtheory.s: nbtheory.cpp.s
@@ -2758,7 +2758,7 @@ nbtheory.s: nbtheory.cpp.s
 
 # target to generate assembly for a file
 nbtheory.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/nbtheory.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/nbtheory.cpp.s
 .PHONY : nbtheory.cpp.s
 
 neon_simd.o: neon_simd.cpp.o
@@ -2767,7 +2767,7 @@ neon_simd.o: neon_simd.cpp.o
 
 # target to build an object file
 neon_simd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/neon_simd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/neon_simd.cpp.o
 .PHONY : neon_simd.cpp.o
 
 neon_simd.i: neon_simd.cpp.i
@@ -2776,7 +2776,7 @@ neon_simd.i: neon_simd.cpp.i
 
 # target to preprocess a source file
 neon_simd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/neon_simd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/neon_simd.cpp.i
 .PHONY : neon_simd.cpp.i
 
 neon_simd.s: neon_simd.cpp.s
@@ -2785,7 +2785,7 @@ neon_simd.s: neon_simd.cpp.s
 
 # target to generate assembly for a file
 neon_simd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/neon_simd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/neon_simd.cpp.s
 .PHONY : neon_simd.cpp.s
 
 oaep.o: oaep.cpp.o
@@ -2794,7 +2794,7 @@ oaep.o: oaep.cpp.o
 
 # target to build an object file
 oaep.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/oaep.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/oaep.cpp.o
 .PHONY : oaep.cpp.o
 
 oaep.i: oaep.cpp.i
@@ -2803,7 +2803,7 @@ oaep.i: oaep.cpp.i
 
 # target to preprocess a source file
 oaep.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/oaep.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/oaep.cpp.i
 .PHONY : oaep.cpp.i
 
 oaep.s: oaep.cpp.s
@@ -2812,7 +2812,7 @@ oaep.s: oaep.cpp.s
 
 # target to generate assembly for a file
 oaep.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/oaep.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/oaep.cpp.s
 .PHONY : oaep.cpp.s
 
 osrng.o: osrng.cpp.o
@@ -2821,7 +2821,7 @@ osrng.o: osrng.cpp.o
 
 # target to build an object file
 osrng.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/osrng.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/osrng.cpp.o
 .PHONY : osrng.cpp.o
 
 osrng.i: osrng.cpp.i
@@ -2830,7 +2830,7 @@ osrng.i: osrng.cpp.i
 
 # target to preprocess a source file
 osrng.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/osrng.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/osrng.cpp.i
 .PHONY : osrng.cpp.i
 
 osrng.s: osrng.cpp.s
@@ -2839,7 +2839,7 @@ osrng.s: osrng.cpp.s
 
 # target to generate assembly for a file
 osrng.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/osrng.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/osrng.cpp.s
 .PHONY : osrng.cpp.s
 
 padlkrng.o: padlkrng.cpp.o
@@ -2848,7 +2848,7 @@ padlkrng.o: padlkrng.cpp.o
 
 # target to build an object file
 padlkrng.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/padlkrng.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/padlkrng.cpp.o
 .PHONY : padlkrng.cpp.o
 
 padlkrng.i: padlkrng.cpp.i
@@ -2857,7 +2857,7 @@ padlkrng.i: padlkrng.cpp.i
 
 # target to preprocess a source file
 padlkrng.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/padlkrng.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/padlkrng.cpp.i
 .PHONY : padlkrng.cpp.i
 
 padlkrng.s: padlkrng.cpp.s
@@ -2866,7 +2866,7 @@ padlkrng.s: padlkrng.cpp.s
 
 # target to generate assembly for a file
 padlkrng.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/padlkrng.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/padlkrng.cpp.s
 .PHONY : padlkrng.cpp.s
 
 panama.o: panama.cpp.o
@@ -2875,7 +2875,7 @@ panama.o: panama.cpp.o
 
 # target to build an object file
 panama.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/panama.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/panama.cpp.o
 .PHONY : panama.cpp.o
 
 panama.i: panama.cpp.i
@@ -2884,7 +2884,7 @@ panama.i: panama.cpp.i
 
 # target to preprocess a source file
 panama.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/panama.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/panama.cpp.i
 .PHONY : panama.cpp.i
 
 panama.s: panama.cpp.s
@@ -2893,7 +2893,7 @@ panama.s: panama.cpp.s
 
 # target to generate assembly for a file
 panama.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/panama.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/panama.cpp.s
 .PHONY : panama.cpp.s
 
 pkcspad.o: pkcspad.cpp.o
@@ -2902,7 +2902,7 @@ pkcspad.o: pkcspad.cpp.o
 
 # target to build an object file
 pkcspad.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/pkcspad.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/pkcspad.cpp.o
 .PHONY : pkcspad.cpp.o
 
 pkcspad.i: pkcspad.cpp.i
@@ -2911,7 +2911,7 @@ pkcspad.i: pkcspad.cpp.i
 
 # target to preprocess a source file
 pkcspad.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/pkcspad.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/pkcspad.cpp.i
 .PHONY : pkcspad.cpp.i
 
 pkcspad.s: pkcspad.cpp.s
@@ -2920,7 +2920,7 @@ pkcspad.s: pkcspad.cpp.s
 
 # target to generate assembly for a file
 pkcspad.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/pkcspad.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/pkcspad.cpp.s
 .PHONY : pkcspad.cpp.s
 
 poly1305.o: poly1305.cpp.o
@@ -2929,7 +2929,7 @@ poly1305.o: poly1305.cpp.o
 
 # target to build an object file
 poly1305.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/poly1305.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/poly1305.cpp.o
 .PHONY : poly1305.cpp.o
 
 poly1305.i: poly1305.cpp.i
@@ -2938,7 +2938,7 @@ poly1305.i: poly1305.cpp.i
 
 # target to preprocess a source file
 poly1305.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/poly1305.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/poly1305.cpp.i
 .PHONY : poly1305.cpp.i
 
 poly1305.s: poly1305.cpp.s
@@ -2947,7 +2947,7 @@ poly1305.s: poly1305.cpp.s
 
 # target to generate assembly for a file
 poly1305.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/poly1305.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/poly1305.cpp.s
 .PHONY : poly1305.cpp.s
 
 polynomi.o: polynomi.cpp.o
@@ -2956,7 +2956,7 @@ polynomi.o: polynomi.cpp.o
 
 # target to build an object file
 polynomi.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/polynomi.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/polynomi.cpp.o
 .PHONY : polynomi.cpp.o
 
 polynomi.i: polynomi.cpp.i
@@ -2965,7 +2965,7 @@ polynomi.i: polynomi.cpp.i
 
 # target to preprocess a source file
 polynomi.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/polynomi.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/polynomi.cpp.i
 .PHONY : polynomi.cpp.i
 
 polynomi.s: polynomi.cpp.s
@@ -2974,7 +2974,7 @@ polynomi.s: polynomi.cpp.s
 
 # target to generate assembly for a file
 polynomi.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/polynomi.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/polynomi.cpp.s
 .PHONY : polynomi.cpp.s
 
 ppc_power7.o: ppc_power7.cpp.o
@@ -2983,7 +2983,7 @@ ppc_power7.o: ppc_power7.cpp.o
 
 # target to build an object file
 ppc_power7.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power7.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power7.cpp.o
 .PHONY : ppc_power7.cpp.o
 
 ppc_power7.i: ppc_power7.cpp.i
@@ -2992,7 +2992,7 @@ ppc_power7.i: ppc_power7.cpp.i
 
 # target to preprocess a source file
 ppc_power7.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power7.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power7.cpp.i
 .PHONY : ppc_power7.cpp.i
 
 ppc_power7.s: ppc_power7.cpp.s
@@ -3001,7 +3001,7 @@ ppc_power7.s: ppc_power7.cpp.s
 
 # target to generate assembly for a file
 ppc_power7.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power7.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power7.cpp.s
 .PHONY : ppc_power7.cpp.s
 
 ppc_power8.o: ppc_power8.cpp.o
@@ -3010,7 +3010,7 @@ ppc_power8.o: ppc_power8.cpp.o
 
 # target to build an object file
 ppc_power8.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power8.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power8.cpp.o
 .PHONY : ppc_power8.cpp.o
 
 ppc_power8.i: ppc_power8.cpp.i
@@ -3019,7 +3019,7 @@ ppc_power8.i: ppc_power8.cpp.i
 
 # target to preprocess a source file
 ppc_power8.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power8.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power8.cpp.i
 .PHONY : ppc_power8.cpp.i
 
 ppc_power8.s: ppc_power8.cpp.s
@@ -3028,7 +3028,7 @@ ppc_power8.s: ppc_power8.cpp.s
 
 # target to generate assembly for a file
 ppc_power8.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power8.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power8.cpp.s
 .PHONY : ppc_power8.cpp.s
 
 ppc_power9.o: ppc_power9.cpp.o
@@ -3037,7 +3037,7 @@ ppc_power9.o: ppc_power9.cpp.o
 
 # target to build an object file
 ppc_power9.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power9.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power9.cpp.o
 .PHONY : ppc_power9.cpp.o
 
 ppc_power9.i: ppc_power9.cpp.i
@@ -3046,7 +3046,7 @@ ppc_power9.i: ppc_power9.cpp.i
 
 # target to preprocess a source file
 ppc_power9.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power9.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power9.cpp.i
 .PHONY : ppc_power9.cpp.i
 
 ppc_power9.s: ppc_power9.cpp.s
@@ -3055,7 +3055,7 @@ ppc_power9.s: ppc_power9.cpp.s
 
 # target to generate assembly for a file
 ppc_power9.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power9.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power9.cpp.s
 .PHONY : ppc_power9.cpp.s
 
 ppc_simd.o: ppc_simd.cpp.o
@@ -3064,7 +3064,7 @@ ppc_simd.o: ppc_simd.cpp.o
 
 # target to build an object file
 ppc_simd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_simd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_simd.cpp.o
 .PHONY : ppc_simd.cpp.o
 
 ppc_simd.i: ppc_simd.cpp.i
@@ -3073,7 +3073,7 @@ ppc_simd.i: ppc_simd.cpp.i
 
 # target to preprocess a source file
 ppc_simd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_simd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_simd.cpp.i
 .PHONY : ppc_simd.cpp.i
 
 ppc_simd.s: ppc_simd.cpp.s
@@ -3082,7 +3082,7 @@ ppc_simd.s: ppc_simd.cpp.s
 
 # target to generate assembly for a file
 ppc_simd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_simd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_simd.cpp.s
 .PHONY : ppc_simd.cpp.s
 
 pssr.o: pssr.cpp.o
@@ -3091,7 +3091,7 @@ pssr.o: pssr.cpp.o
 
 # target to build an object file
 pssr.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/pssr.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/pssr.cpp.o
 .PHONY : pssr.cpp.o
 
 pssr.i: pssr.cpp.i
@@ -3100,7 +3100,7 @@ pssr.i: pssr.cpp.i
 
 # target to preprocess a source file
 pssr.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/pssr.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/pssr.cpp.i
 .PHONY : pssr.cpp.i
 
 pssr.s: pssr.cpp.s
@@ -3109,7 +3109,7 @@ pssr.s: pssr.cpp.s
 
 # target to generate assembly for a file
 pssr.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/pssr.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/pssr.cpp.s
 .PHONY : pssr.cpp.s
 
 pubkey.o: pubkey.cpp.o
@@ -3118,7 +3118,7 @@ pubkey.o: pubkey.cpp.o
 
 # target to build an object file
 pubkey.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/pubkey.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/pubkey.cpp.o
 .PHONY : pubkey.cpp.o
 
 pubkey.i: pubkey.cpp.i
@@ -3127,7 +3127,7 @@ pubkey.i: pubkey.cpp.i
 
 # target to preprocess a source file
 pubkey.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/pubkey.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/pubkey.cpp.i
 .PHONY : pubkey.cpp.i
 
 pubkey.s: pubkey.cpp.s
@@ -3136,7 +3136,7 @@ pubkey.s: pubkey.cpp.s
 
 # target to generate assembly for a file
 pubkey.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/pubkey.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/pubkey.cpp.s
 .PHONY : pubkey.cpp.s
 
 queue.o: queue.cpp.o
@@ -3145,7 +3145,7 @@ queue.o: queue.cpp.o
 
 # target to build an object file
 queue.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/queue.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/queue.cpp.o
 .PHONY : queue.cpp.o
 
 queue.i: queue.cpp.i
@@ -3154,7 +3154,7 @@ queue.i: queue.cpp.i
 
 # target to preprocess a source file
 queue.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/queue.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/queue.cpp.i
 .PHONY : queue.cpp.i
 
 queue.s: queue.cpp.s
@@ -3163,7 +3163,7 @@ queue.s: queue.cpp.s
 
 # target to generate assembly for a file
 queue.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/queue.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/queue.cpp.s
 .PHONY : queue.cpp.s
 
 rabbit.o: rabbit.cpp.o
@@ -3172,7 +3172,7 @@ rabbit.o: rabbit.cpp.o
 
 # target to build an object file
 rabbit.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rabbit.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rabbit.cpp.o
 .PHONY : rabbit.cpp.o
 
 rabbit.i: rabbit.cpp.i
@@ -3181,7 +3181,7 @@ rabbit.i: rabbit.cpp.i
 
 # target to preprocess a source file
 rabbit.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rabbit.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rabbit.cpp.i
 .PHONY : rabbit.cpp.i
 
 rabbit.s: rabbit.cpp.s
@@ -3190,7 +3190,7 @@ rabbit.s: rabbit.cpp.s
 
 # target to generate assembly for a file
 rabbit.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rabbit.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rabbit.cpp.s
 .PHONY : rabbit.cpp.s
 
 rabin.o: rabin.cpp.o
@@ -3199,7 +3199,7 @@ rabin.o: rabin.cpp.o
 
 # target to build an object file
 rabin.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rabin.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rabin.cpp.o
 .PHONY : rabin.cpp.o
 
 rabin.i: rabin.cpp.i
@@ -3208,7 +3208,7 @@ rabin.i: rabin.cpp.i
 
 # target to preprocess a source file
 rabin.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rabin.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rabin.cpp.i
 .PHONY : rabin.cpp.i
 
 rabin.s: rabin.cpp.s
@@ -3217,7 +3217,7 @@ rabin.s: rabin.cpp.s
 
 # target to generate assembly for a file
 rabin.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rabin.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rabin.cpp.s
 .PHONY : rabin.cpp.s
 
 randpool.o: randpool.cpp.o
@@ -3226,7 +3226,7 @@ randpool.o: randpool.cpp.o
 
 # target to build an object file
 randpool.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/randpool.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/randpool.cpp.o
 .PHONY : randpool.cpp.o
 
 randpool.i: randpool.cpp.i
@@ -3235,7 +3235,7 @@ randpool.i: randpool.cpp.i
 
 # target to preprocess a source file
 randpool.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/randpool.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/randpool.cpp.i
 .PHONY : randpool.cpp.i
 
 randpool.s: randpool.cpp.s
@@ -3244,7 +3244,7 @@ randpool.s: randpool.cpp.s
 
 # target to generate assembly for a file
 randpool.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/randpool.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/randpool.cpp.s
 .PHONY : randpool.cpp.s
 
 rc2.o: rc2.cpp.o
@@ -3253,7 +3253,7 @@ rc2.o: rc2.cpp.o
 
 # target to build an object file
 rc2.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rc2.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rc2.cpp.o
 .PHONY : rc2.cpp.o
 
 rc2.i: rc2.cpp.i
@@ -3262,7 +3262,7 @@ rc2.i: rc2.cpp.i
 
 # target to preprocess a source file
 rc2.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rc2.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rc2.cpp.i
 .PHONY : rc2.cpp.i
 
 rc2.s: rc2.cpp.s
@@ -3271,7 +3271,7 @@ rc2.s: rc2.cpp.s
 
 # target to generate assembly for a file
 rc2.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rc2.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rc2.cpp.s
 .PHONY : rc2.cpp.s
 
 rc5.o: rc5.cpp.o
@@ -3280,7 +3280,7 @@ rc5.o: rc5.cpp.o
 
 # target to build an object file
 rc5.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rc5.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rc5.cpp.o
 .PHONY : rc5.cpp.o
 
 rc5.i: rc5.cpp.i
@@ -3289,7 +3289,7 @@ rc5.i: rc5.cpp.i
 
 # target to preprocess a source file
 rc5.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rc5.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rc5.cpp.i
 .PHONY : rc5.cpp.i
 
 rc5.s: rc5.cpp.s
@@ -3298,7 +3298,7 @@ rc5.s: rc5.cpp.s
 
 # target to generate assembly for a file
 rc5.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rc5.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rc5.cpp.s
 .PHONY : rc5.cpp.s
 
 rc6.o: rc6.cpp.o
@@ -3307,7 +3307,7 @@ rc6.o: rc6.cpp.o
 
 # target to build an object file
 rc6.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rc6.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rc6.cpp.o
 .PHONY : rc6.cpp.o
 
 rc6.i: rc6.cpp.i
@@ -3316,7 +3316,7 @@ rc6.i: rc6.cpp.i
 
 # target to preprocess a source file
 rc6.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rc6.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rc6.cpp.i
 .PHONY : rc6.cpp.i
 
 rc6.s: rc6.cpp.s
@@ -3325,7 +3325,7 @@ rc6.s: rc6.cpp.s
 
 # target to generate assembly for a file
 rc6.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rc6.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rc6.cpp.s
 .PHONY : rc6.cpp.s
 
 rdrand.o: rdrand.cpp.o
@@ -3334,7 +3334,7 @@ rdrand.o: rdrand.cpp.o
 
 # target to build an object file
 rdrand.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rdrand.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rdrand.cpp.o
 .PHONY : rdrand.cpp.o
 
 rdrand.i: rdrand.cpp.i
@@ -3343,7 +3343,7 @@ rdrand.i: rdrand.cpp.i
 
 # target to preprocess a source file
 rdrand.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rdrand.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rdrand.cpp.i
 .PHONY : rdrand.cpp.i
 
 rdrand.s: rdrand.cpp.s
@@ -3352,7 +3352,7 @@ rdrand.s: rdrand.cpp.s
 
 # target to generate assembly for a file
 rdrand.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rdrand.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rdrand.cpp.s
 .PHONY : rdrand.cpp.s
 
 rdtables.o: rdtables.cpp.o
@@ -3361,7 +3361,7 @@ rdtables.o: rdtables.cpp.o
 
 # target to build an object file
 rdtables.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rdtables.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rdtables.cpp.o
 .PHONY : rdtables.cpp.o
 
 rdtables.i: rdtables.cpp.i
@@ -3370,7 +3370,7 @@ rdtables.i: rdtables.cpp.i
 
 # target to preprocess a source file
 rdtables.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rdtables.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rdtables.cpp.i
 .PHONY : rdtables.cpp.i
 
 rdtables.s: rdtables.cpp.s
@@ -3379,7 +3379,7 @@ rdtables.s: rdtables.cpp.s
 
 # target to generate assembly for a file
 rdtables.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rdtables.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rdtables.cpp.s
 .PHONY : rdtables.cpp.s
 
 rijndael.o: rijndael.cpp.o
@@ -3388,7 +3388,7 @@ rijndael.o: rijndael.cpp.o
 
 # target to build an object file
 rijndael.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rijndael.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rijndael.cpp.o
 .PHONY : rijndael.cpp.o
 
 rijndael.i: rijndael.cpp.i
@@ -3397,7 +3397,7 @@ rijndael.i: rijndael.cpp.i
 
 # target to preprocess a source file
 rijndael.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rijndael.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rijndael.cpp.i
 .PHONY : rijndael.cpp.i
 
 rijndael.s: rijndael.cpp.s
@@ -3406,7 +3406,7 @@ rijndael.s: rijndael.cpp.s
 
 # target to generate assembly for a file
 rijndael.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rijndael.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rijndael.cpp.s
 .PHONY : rijndael.cpp.s
 
 rijndael_simd.o: rijndael_simd.cpp.o
@@ -3415,7 +3415,7 @@ rijndael_simd.o: rijndael_simd.cpp.o
 
 # target to build an object file
 rijndael_simd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rijndael_simd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rijndael_simd.cpp.o
 .PHONY : rijndael_simd.cpp.o
 
 rijndael_simd.i: rijndael_simd.cpp.i
@@ -3424,7 +3424,7 @@ rijndael_simd.i: rijndael_simd.cpp.i
 
 # target to preprocess a source file
 rijndael_simd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rijndael_simd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rijndael_simd.cpp.i
 .PHONY : rijndael_simd.cpp.i
 
 rijndael_simd.s: rijndael_simd.cpp.s
@@ -3433,7 +3433,7 @@ rijndael_simd.s: rijndael_simd.cpp.s
 
 # target to generate assembly for a file
 rijndael_simd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rijndael_simd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rijndael_simd.cpp.s
 .PHONY : rijndael_simd.cpp.s
 
 ripemd.o: ripemd.cpp.o
@@ -3442,7 +3442,7 @@ ripemd.o: ripemd.cpp.o
 
 # target to build an object file
 ripemd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ripemd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ripemd.cpp.o
 .PHONY : ripemd.cpp.o
 
 ripemd.i: ripemd.cpp.i
@@ -3451,7 +3451,7 @@ ripemd.i: ripemd.cpp.i
 
 # target to preprocess a source file
 ripemd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ripemd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ripemd.cpp.i
 .PHONY : ripemd.cpp.i
 
 ripemd.s: ripemd.cpp.s
@@ -3460,7 +3460,7 @@ ripemd.s: ripemd.cpp.s
 
 # target to generate assembly for a file
 ripemd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ripemd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ripemd.cpp.s
 .PHONY : ripemd.cpp.s
 
 rng.o: rng.cpp.o
@@ -3469,7 +3469,7 @@ rng.o: rng.cpp.o
 
 # target to build an object file
 rng.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rng.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rng.cpp.o
 .PHONY : rng.cpp.o
 
 rng.i: rng.cpp.i
@@ -3478,7 +3478,7 @@ rng.i: rng.cpp.i
 
 # target to preprocess a source file
 rng.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rng.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rng.cpp.i
 .PHONY : rng.cpp.i
 
 rng.s: rng.cpp.s
@@ -3487,7 +3487,7 @@ rng.s: rng.cpp.s
 
 # target to generate assembly for a file
 rng.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rng.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rng.cpp.s
 .PHONY : rng.cpp.s
 
 rsa.o: rsa.cpp.o
@@ -3496,7 +3496,7 @@ rsa.o: rsa.cpp.o
 
 # target to build an object file
 rsa.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rsa.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rsa.cpp.o
 .PHONY : rsa.cpp.o
 
 rsa.i: rsa.cpp.i
@@ -3505,7 +3505,7 @@ rsa.i: rsa.cpp.i
 
 # target to preprocess a source file
 rsa.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rsa.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rsa.cpp.i
 .PHONY : rsa.cpp.i
 
 rsa.s: rsa.cpp.s
@@ -3514,7 +3514,7 @@ rsa.s: rsa.cpp.s
 
 # target to generate assembly for a file
 rsa.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rsa.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rsa.cpp.s
 .PHONY : rsa.cpp.s
 
 rw.o: rw.cpp.o
@@ -3523,7 +3523,7 @@ rw.o: rw.cpp.o
 
 # target to build an object file
 rw.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rw.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rw.cpp.o
 .PHONY : rw.cpp.o
 
 rw.i: rw.cpp.i
@@ -3532,7 +3532,7 @@ rw.i: rw.cpp.i
 
 # target to preprocess a source file
 rw.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rw.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rw.cpp.i
 .PHONY : rw.cpp.i
 
 rw.s: rw.cpp.s
@@ -3541,7 +3541,7 @@ rw.s: rw.cpp.s
 
 # target to generate assembly for a file
 rw.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rw.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/rw.cpp.s
 .PHONY : rw.cpp.s
 
 safer.o: safer.cpp.o
@@ -3550,7 +3550,7 @@ safer.o: safer.cpp.o
 
 # target to build an object file
 safer.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/safer.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/safer.cpp.o
 .PHONY : safer.cpp.o
 
 safer.i: safer.cpp.i
@@ -3559,7 +3559,7 @@ safer.i: safer.cpp.i
 
 # target to preprocess a source file
 safer.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/safer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/safer.cpp.i
 .PHONY : safer.cpp.i
 
 safer.s: safer.cpp.s
@@ -3568,7 +3568,7 @@ safer.s: safer.cpp.s
 
 # target to generate assembly for a file
 safer.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/safer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/safer.cpp.s
 .PHONY : safer.cpp.s
 
 salsa.o: salsa.cpp.o
@@ -3577,7 +3577,7 @@ salsa.o: salsa.cpp.o
 
 # target to build an object file
 salsa.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/salsa.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/salsa.cpp.o
 .PHONY : salsa.cpp.o
 
 salsa.i: salsa.cpp.i
@@ -3586,7 +3586,7 @@ salsa.i: salsa.cpp.i
 
 # target to preprocess a source file
 salsa.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/salsa.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/salsa.cpp.i
 .PHONY : salsa.cpp.i
 
 salsa.s: salsa.cpp.s
@@ -3595,7 +3595,7 @@ salsa.s: salsa.cpp.s
 
 # target to generate assembly for a file
 salsa.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/salsa.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/salsa.cpp.s
 .PHONY : salsa.cpp.s
 
 scrypt.o: scrypt.cpp.o
@@ -3604,7 +3604,7 @@ scrypt.o: scrypt.cpp.o
 
 # target to build an object file
 scrypt.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/scrypt.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/scrypt.cpp.o
 .PHONY : scrypt.cpp.o
 
 scrypt.i: scrypt.cpp.i
@@ -3613,7 +3613,7 @@ scrypt.i: scrypt.cpp.i
 
 # target to preprocess a source file
 scrypt.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/scrypt.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/scrypt.cpp.i
 .PHONY : scrypt.cpp.i
 
 scrypt.s: scrypt.cpp.s
@@ -3622,7 +3622,7 @@ scrypt.s: scrypt.cpp.s
 
 # target to generate assembly for a file
 scrypt.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/scrypt.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/scrypt.cpp.s
 .PHONY : scrypt.cpp.s
 
 seal.o: seal.cpp.o
@@ -3631,7 +3631,7 @@ seal.o: seal.cpp.o
 
 # target to build an object file
 seal.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/seal.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/seal.cpp.o
 .PHONY : seal.cpp.o
 
 seal.i: seal.cpp.i
@@ -3640,7 +3640,7 @@ seal.i: seal.cpp.i
 
 # target to preprocess a source file
 seal.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/seal.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/seal.cpp.i
 .PHONY : seal.cpp.i
 
 seal.s: seal.cpp.s
@@ -3649,7 +3649,7 @@ seal.s: seal.cpp.s
 
 # target to generate assembly for a file
 seal.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/seal.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/seal.cpp.s
 .PHONY : seal.cpp.s
 
 seed.o: seed.cpp.o
@@ -3658,7 +3658,7 @@ seed.o: seed.cpp.o
 
 # target to build an object file
 seed.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/seed.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/seed.cpp.o
 .PHONY : seed.cpp.o
 
 seed.i: seed.cpp.i
@@ -3667,7 +3667,7 @@ seed.i: seed.cpp.i
 
 # target to preprocess a source file
 seed.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/seed.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/seed.cpp.i
 .PHONY : seed.cpp.i
 
 seed.s: seed.cpp.s
@@ -3676,7 +3676,7 @@ seed.s: seed.cpp.s
 
 # target to generate assembly for a file
 seed.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/seed.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/seed.cpp.s
 .PHONY : seed.cpp.s
 
 serpent.o: serpent.cpp.o
@@ -3685,7 +3685,7 @@ serpent.o: serpent.cpp.o
 
 # target to build an object file
 serpent.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/serpent.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/serpent.cpp.o
 .PHONY : serpent.cpp.o
 
 serpent.i: serpent.cpp.i
@@ -3694,7 +3694,7 @@ serpent.i: serpent.cpp.i
 
 # target to preprocess a source file
 serpent.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/serpent.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/serpent.cpp.i
 .PHONY : serpent.cpp.i
 
 serpent.s: serpent.cpp.s
@@ -3703,7 +3703,7 @@ serpent.s: serpent.cpp.s
 
 # target to generate assembly for a file
 serpent.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/serpent.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/serpent.cpp.s
 .PHONY : serpent.cpp.s
 
 sha.o: sha.cpp.o
@@ -3712,7 +3712,7 @@ sha.o: sha.cpp.o
 
 # target to build an object file
 sha.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sha.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sha.cpp.o
 .PHONY : sha.cpp.o
 
 sha.i: sha.cpp.i
@@ -3721,7 +3721,7 @@ sha.i: sha.cpp.i
 
 # target to preprocess a source file
 sha.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sha.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sha.cpp.i
 .PHONY : sha.cpp.i
 
 sha.s: sha.cpp.s
@@ -3730,7 +3730,7 @@ sha.s: sha.cpp.s
 
 # target to generate assembly for a file
 sha.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sha.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sha.cpp.s
 .PHONY : sha.cpp.s
 
 sha3.o: sha3.cpp.o
@@ -3739,7 +3739,7 @@ sha3.o: sha3.cpp.o
 
 # target to build an object file
 sha3.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sha3.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sha3.cpp.o
 .PHONY : sha3.cpp.o
 
 sha3.i: sha3.cpp.i
@@ -3748,7 +3748,7 @@ sha3.i: sha3.cpp.i
 
 # target to preprocess a source file
 sha3.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sha3.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sha3.cpp.i
 .PHONY : sha3.cpp.i
 
 sha3.s: sha3.cpp.s
@@ -3757,7 +3757,7 @@ sha3.s: sha3.cpp.s
 
 # target to generate assembly for a file
 sha3.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sha3.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sha3.cpp.s
 .PHONY : sha3.cpp.s
 
 sha_simd.o: sha_simd.cpp.o
@@ -3766,7 +3766,7 @@ sha_simd.o: sha_simd.cpp.o
 
 # target to build an object file
 sha_simd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sha_simd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sha_simd.cpp.o
 .PHONY : sha_simd.cpp.o
 
 sha_simd.i: sha_simd.cpp.i
@@ -3775,7 +3775,7 @@ sha_simd.i: sha_simd.cpp.i
 
 # target to preprocess a source file
 sha_simd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sha_simd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sha_simd.cpp.i
 .PHONY : sha_simd.cpp.i
 
 sha_simd.s: sha_simd.cpp.s
@@ -3784,7 +3784,7 @@ sha_simd.s: sha_simd.cpp.s
 
 # target to generate assembly for a file
 sha_simd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sha_simd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sha_simd.cpp.s
 .PHONY : sha_simd.cpp.s
 
 shacal2.o: shacal2.cpp.o
@@ -3793,7 +3793,7 @@ shacal2.o: shacal2.cpp.o
 
 # target to build an object file
 shacal2.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shacal2.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shacal2.cpp.o
 .PHONY : shacal2.cpp.o
 
 shacal2.i: shacal2.cpp.i
@@ -3802,7 +3802,7 @@ shacal2.i: shacal2.cpp.i
 
 # target to preprocess a source file
 shacal2.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shacal2.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shacal2.cpp.i
 .PHONY : shacal2.cpp.i
 
 shacal2.s: shacal2.cpp.s
@@ -3811,7 +3811,7 @@ shacal2.s: shacal2.cpp.s
 
 # target to generate assembly for a file
 shacal2.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shacal2.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shacal2.cpp.s
 .PHONY : shacal2.cpp.s
 
 shacal2_simd.o: shacal2_simd.cpp.o
@@ -3820,7 +3820,7 @@ shacal2_simd.o: shacal2_simd.cpp.o
 
 # target to build an object file
 shacal2_simd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shacal2_simd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shacal2_simd.cpp.o
 .PHONY : shacal2_simd.cpp.o
 
 shacal2_simd.i: shacal2_simd.cpp.i
@@ -3829,7 +3829,7 @@ shacal2_simd.i: shacal2_simd.cpp.i
 
 # target to preprocess a source file
 shacal2_simd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shacal2_simd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shacal2_simd.cpp.i
 .PHONY : shacal2_simd.cpp.i
 
 shacal2_simd.s: shacal2_simd.cpp.s
@@ -3838,7 +3838,7 @@ shacal2_simd.s: shacal2_simd.cpp.s
 
 # target to generate assembly for a file
 shacal2_simd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shacal2_simd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shacal2_simd.cpp.s
 .PHONY : shacal2_simd.cpp.s
 
 shake.o: shake.cpp.o
@@ -3847,7 +3847,7 @@ shake.o: shake.cpp.o
 
 # target to build an object file
 shake.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shake.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shake.cpp.o
 .PHONY : shake.cpp.o
 
 shake.i: shake.cpp.i
@@ -3856,7 +3856,7 @@ shake.i: shake.cpp.i
 
 # target to preprocess a source file
 shake.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shake.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shake.cpp.i
 .PHONY : shake.cpp.i
 
 shake.s: shake.cpp.s
@@ -3865,7 +3865,7 @@ shake.s: shake.cpp.s
 
 # target to generate assembly for a file
 shake.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shake.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shake.cpp.s
 .PHONY : shake.cpp.s
 
 shark.o: shark.cpp.o
@@ -3874,7 +3874,7 @@ shark.o: shark.cpp.o
 
 # target to build an object file
 shark.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shark.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shark.cpp.o
 .PHONY : shark.cpp.o
 
 shark.i: shark.cpp.i
@@ -3883,7 +3883,7 @@ shark.i: shark.cpp.i
 
 # target to preprocess a source file
 shark.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shark.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shark.cpp.i
 .PHONY : shark.cpp.i
 
 shark.s: shark.cpp.s
@@ -3892,7 +3892,7 @@ shark.s: shark.cpp.s
 
 # target to generate assembly for a file
 shark.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shark.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/shark.cpp.s
 .PHONY : shark.cpp.s
 
 sharkbox.o: sharkbox.cpp.o
@@ -3901,7 +3901,7 @@ sharkbox.o: sharkbox.cpp.o
 
 # target to build an object file
 sharkbox.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sharkbox.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sharkbox.cpp.o
 .PHONY : sharkbox.cpp.o
 
 sharkbox.i: sharkbox.cpp.i
@@ -3910,7 +3910,7 @@ sharkbox.i: sharkbox.cpp.i
 
 # target to preprocess a source file
 sharkbox.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sharkbox.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sharkbox.cpp.i
 .PHONY : sharkbox.cpp.i
 
 sharkbox.s: sharkbox.cpp.s
@@ -3919,7 +3919,7 @@ sharkbox.s: sharkbox.cpp.s
 
 # target to generate assembly for a file
 sharkbox.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sharkbox.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sharkbox.cpp.s
 .PHONY : sharkbox.cpp.s
 
 simeck.o: simeck.cpp.o
@@ -3928,7 +3928,7 @@ simeck.o: simeck.cpp.o
 
 # target to build an object file
 simeck.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simeck.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simeck.cpp.o
 .PHONY : simeck.cpp.o
 
 simeck.i: simeck.cpp.i
@@ -3937,7 +3937,7 @@ simeck.i: simeck.cpp.i
 
 # target to preprocess a source file
 simeck.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simeck.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simeck.cpp.i
 .PHONY : simeck.cpp.i
 
 simeck.s: simeck.cpp.s
@@ -3946,7 +3946,7 @@ simeck.s: simeck.cpp.s
 
 # target to generate assembly for a file
 simeck.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simeck.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simeck.cpp.s
 .PHONY : simeck.cpp.s
 
 simeck_simd.o: simeck_simd.cpp.o
@@ -3955,7 +3955,7 @@ simeck_simd.o: simeck_simd.cpp.o
 
 # target to build an object file
 simeck_simd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simeck_simd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simeck_simd.cpp.o
 .PHONY : simeck_simd.cpp.o
 
 simeck_simd.i: simeck_simd.cpp.i
@@ -3964,7 +3964,7 @@ simeck_simd.i: simeck_simd.cpp.i
 
 # target to preprocess a source file
 simeck_simd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simeck_simd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simeck_simd.cpp.i
 .PHONY : simeck_simd.cpp.i
 
 simeck_simd.s: simeck_simd.cpp.s
@@ -3973,7 +3973,7 @@ simeck_simd.s: simeck_simd.cpp.s
 
 # target to generate assembly for a file
 simeck_simd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simeck_simd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simeck_simd.cpp.s
 .PHONY : simeck_simd.cpp.s
 
 simon.o: simon.cpp.o
@@ -3982,7 +3982,7 @@ simon.o: simon.cpp.o
 
 # target to build an object file
 simon.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simon.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simon.cpp.o
 .PHONY : simon.cpp.o
 
 simon.i: simon.cpp.i
@@ -3991,7 +3991,7 @@ simon.i: simon.cpp.i
 
 # target to preprocess a source file
 simon.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simon.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simon.cpp.i
 .PHONY : simon.cpp.i
 
 simon.s: simon.cpp.s
@@ -4000,7 +4000,7 @@ simon.s: simon.cpp.s
 
 # target to generate assembly for a file
 simon.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simon.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simon.cpp.s
 .PHONY : simon.cpp.s
 
 simon128_simd.o: simon128_simd.cpp.o
@@ -4009,7 +4009,7 @@ simon128_simd.o: simon128_simd.cpp.o
 
 # target to build an object file
 simon128_simd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simon128_simd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simon128_simd.cpp.o
 .PHONY : simon128_simd.cpp.o
 
 simon128_simd.i: simon128_simd.cpp.i
@@ -4018,7 +4018,7 @@ simon128_simd.i: simon128_simd.cpp.i
 
 # target to preprocess a source file
 simon128_simd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simon128_simd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simon128_simd.cpp.i
 .PHONY : simon128_simd.cpp.i
 
 simon128_simd.s: simon128_simd.cpp.s
@@ -4027,7 +4027,7 @@ simon128_simd.s: simon128_simd.cpp.s
 
 # target to generate assembly for a file
 simon128_simd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simon128_simd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simon128_simd.cpp.s
 .PHONY : simon128_simd.cpp.s
 
 simon64_simd.o: simon64_simd.cpp.o
@@ -4036,7 +4036,7 @@ simon64_simd.o: simon64_simd.cpp.o
 
 # target to build an object file
 simon64_simd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simon64_simd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simon64_simd.cpp.o
 .PHONY : simon64_simd.cpp.o
 
 simon64_simd.i: simon64_simd.cpp.i
@@ -4045,7 +4045,7 @@ simon64_simd.i: simon64_simd.cpp.i
 
 # target to preprocess a source file
 simon64_simd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simon64_simd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simon64_simd.cpp.i
 .PHONY : simon64_simd.cpp.i
 
 simon64_simd.s: simon64_simd.cpp.s
@@ -4054,7 +4054,7 @@ simon64_simd.s: simon64_simd.cpp.s
 
 # target to generate assembly for a file
 simon64_simd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simon64_simd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/simon64_simd.cpp.s
 .PHONY : simon64_simd.cpp.s
 
 skipjack.o: skipjack.cpp.o
@@ -4063,7 +4063,7 @@ skipjack.o: skipjack.cpp.o
 
 # target to build an object file
 skipjack.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/skipjack.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/skipjack.cpp.o
 .PHONY : skipjack.cpp.o
 
 skipjack.i: skipjack.cpp.i
@@ -4072,7 +4072,7 @@ skipjack.i: skipjack.cpp.i
 
 # target to preprocess a source file
 skipjack.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/skipjack.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/skipjack.cpp.i
 .PHONY : skipjack.cpp.i
 
 skipjack.s: skipjack.cpp.s
@@ -4081,7 +4081,7 @@ skipjack.s: skipjack.cpp.s
 
 # target to generate assembly for a file
 skipjack.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/skipjack.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/skipjack.cpp.s
 .PHONY : skipjack.cpp.s
 
 sm3.o: sm3.cpp.o
@@ -4090,7 +4090,7 @@ sm3.o: sm3.cpp.o
 
 # target to build an object file
 sm3.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sm3.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sm3.cpp.o
 .PHONY : sm3.cpp.o
 
 sm3.i: sm3.cpp.i
@@ -4099,7 +4099,7 @@ sm3.i: sm3.cpp.i
 
 # target to preprocess a source file
 sm3.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sm3.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sm3.cpp.i
 .PHONY : sm3.cpp.i
 
 sm3.s: sm3.cpp.s
@@ -4108,7 +4108,7 @@ sm3.s: sm3.cpp.s
 
 # target to generate assembly for a file
 sm3.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sm3.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sm3.cpp.s
 .PHONY : sm3.cpp.s
 
 sm4.o: sm4.cpp.o
@@ -4117,7 +4117,7 @@ sm4.o: sm4.cpp.o
 
 # target to build an object file
 sm4.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sm4.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sm4.cpp.o
 .PHONY : sm4.cpp.o
 
 sm4.i: sm4.cpp.i
@@ -4126,7 +4126,7 @@ sm4.i: sm4.cpp.i
 
 # target to preprocess a source file
 sm4.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sm4.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sm4.cpp.i
 .PHONY : sm4.cpp.i
 
 sm4.s: sm4.cpp.s
@@ -4135,7 +4135,7 @@ sm4.s: sm4.cpp.s
 
 # target to generate assembly for a file
 sm4.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sm4.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sm4.cpp.s
 .PHONY : sm4.cpp.s
 
 sm4_simd.o: sm4_simd.cpp.o
@@ -4144,7 +4144,7 @@ sm4_simd.o: sm4_simd.cpp.o
 
 # target to build an object file
 sm4_simd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sm4_simd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sm4_simd.cpp.o
 .PHONY : sm4_simd.cpp.o
 
 sm4_simd.i: sm4_simd.cpp.i
@@ -4153,7 +4153,7 @@ sm4_simd.i: sm4_simd.cpp.i
 
 # target to preprocess a source file
 sm4_simd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sm4_simd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sm4_simd.cpp.i
 .PHONY : sm4_simd.cpp.i
 
 sm4_simd.s: sm4_simd.cpp.s
@@ -4162,7 +4162,7 @@ sm4_simd.s: sm4_simd.cpp.s
 
 # target to generate assembly for a file
 sm4_simd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sm4_simd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sm4_simd.cpp.s
 .PHONY : sm4_simd.cpp.s
 
 sosemanuk.o: sosemanuk.cpp.o
@@ -4171,7 +4171,7 @@ sosemanuk.o: sosemanuk.cpp.o
 
 # target to build an object file
 sosemanuk.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sosemanuk.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sosemanuk.cpp.o
 .PHONY : sosemanuk.cpp.o
 
 sosemanuk.i: sosemanuk.cpp.i
@@ -4180,7 +4180,7 @@ sosemanuk.i: sosemanuk.cpp.i
 
 # target to preprocess a source file
 sosemanuk.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sosemanuk.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sosemanuk.cpp.i
 .PHONY : sosemanuk.cpp.i
 
 sosemanuk.s: sosemanuk.cpp.s
@@ -4189,7 +4189,7 @@ sosemanuk.s: sosemanuk.cpp.s
 
 # target to generate assembly for a file
 sosemanuk.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sosemanuk.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sosemanuk.cpp.s
 .PHONY : sosemanuk.cpp.s
 
 speck.o: speck.cpp.o
@@ -4198,7 +4198,7 @@ speck.o: speck.cpp.o
 
 # target to build an object file
 speck.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/speck.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/speck.cpp.o
 .PHONY : speck.cpp.o
 
 speck.i: speck.cpp.i
@@ -4207,7 +4207,7 @@ speck.i: speck.cpp.i
 
 # target to preprocess a source file
 speck.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/speck.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/speck.cpp.i
 .PHONY : speck.cpp.i
 
 speck.s: speck.cpp.s
@@ -4216,7 +4216,7 @@ speck.s: speck.cpp.s
 
 # target to generate assembly for a file
 speck.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/speck.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/speck.cpp.s
 .PHONY : speck.cpp.s
 
 speck128_simd.o: speck128_simd.cpp.o
@@ -4225,7 +4225,7 @@ speck128_simd.o: speck128_simd.cpp.o
 
 # target to build an object file
 speck128_simd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/speck128_simd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/speck128_simd.cpp.o
 .PHONY : speck128_simd.cpp.o
 
 speck128_simd.i: speck128_simd.cpp.i
@@ -4234,7 +4234,7 @@ speck128_simd.i: speck128_simd.cpp.i
 
 # target to preprocess a source file
 speck128_simd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/speck128_simd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/speck128_simd.cpp.i
 .PHONY : speck128_simd.cpp.i
 
 speck128_simd.s: speck128_simd.cpp.s
@@ -4243,7 +4243,7 @@ speck128_simd.s: speck128_simd.cpp.s
 
 # target to generate assembly for a file
 speck128_simd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/speck128_simd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/speck128_simd.cpp.s
 .PHONY : speck128_simd.cpp.s
 
 speck64_simd.o: speck64_simd.cpp.o
@@ -4252,7 +4252,7 @@ speck64_simd.o: speck64_simd.cpp.o
 
 # target to build an object file
 speck64_simd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/speck64_simd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/speck64_simd.cpp.o
 .PHONY : speck64_simd.cpp.o
 
 speck64_simd.i: speck64_simd.cpp.i
@@ -4261,7 +4261,7 @@ speck64_simd.i: speck64_simd.cpp.i
 
 # target to preprocess a source file
 speck64_simd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/speck64_simd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/speck64_simd.cpp.i
 .PHONY : speck64_simd.cpp.i
 
 speck64_simd.s: speck64_simd.cpp.s
@@ -4270,7 +4270,7 @@ speck64_simd.s: speck64_simd.cpp.s
 
 # target to generate assembly for a file
 speck64_simd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/speck64_simd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/speck64_simd.cpp.s
 .PHONY : speck64_simd.cpp.s
 
 square.o: square.cpp.o
@@ -4279,7 +4279,7 @@ square.o: square.cpp.o
 
 # target to build an object file
 square.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/square.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/square.cpp.o
 .PHONY : square.cpp.o
 
 square.i: square.cpp.i
@@ -4288,7 +4288,7 @@ square.i: square.cpp.i
 
 # target to preprocess a source file
 square.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/square.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/square.cpp.i
 .PHONY : square.cpp.i
 
 square.s: square.cpp.s
@@ -4297,7 +4297,7 @@ square.s: square.cpp.s
 
 # target to generate assembly for a file
 square.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/square.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/square.cpp.s
 .PHONY : square.cpp.s
 
 squaretb.o: squaretb.cpp.o
@@ -4306,7 +4306,7 @@ squaretb.o: squaretb.cpp.o
 
 # target to build an object file
 squaretb.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/squaretb.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/squaretb.cpp.o
 .PHONY : squaretb.cpp.o
 
 squaretb.i: squaretb.cpp.i
@@ -4315,7 +4315,7 @@ squaretb.i: squaretb.cpp.i
 
 # target to preprocess a source file
 squaretb.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/squaretb.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/squaretb.cpp.i
 .PHONY : squaretb.cpp.i
 
 squaretb.s: squaretb.cpp.s
@@ -4324,7 +4324,7 @@ squaretb.s: squaretb.cpp.s
 
 # target to generate assembly for a file
 squaretb.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/squaretb.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/squaretb.cpp.s
 .PHONY : squaretb.cpp.s
 
 sse_simd.o: sse_simd.cpp.o
@@ -4333,7 +4333,7 @@ sse_simd.o: sse_simd.cpp.o
 
 # target to build an object file
 sse_simd.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sse_simd.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sse_simd.cpp.o
 .PHONY : sse_simd.cpp.o
 
 sse_simd.i: sse_simd.cpp.i
@@ -4342,7 +4342,7 @@ sse_simd.i: sse_simd.cpp.i
 
 # target to preprocess a source file
 sse_simd.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sse_simd.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sse_simd.cpp.i
 .PHONY : sse_simd.cpp.i
 
 sse_simd.s: sse_simd.cpp.s
@@ -4351,7 +4351,7 @@ sse_simd.s: sse_simd.cpp.s
 
 # target to generate assembly for a file
 sse_simd.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sse_simd.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/sse_simd.cpp.s
 .PHONY : sse_simd.cpp.s
 
 strciphr.o: strciphr.cpp.o
@@ -4360,7 +4360,7 @@ strciphr.o: strciphr.cpp.o
 
 # target to build an object file
 strciphr.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/strciphr.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/strciphr.cpp.o
 .PHONY : strciphr.cpp.o
 
 strciphr.i: strciphr.cpp.i
@@ -4369,7 +4369,7 @@ strciphr.i: strciphr.cpp.i
 
 # target to preprocess a source file
 strciphr.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/strciphr.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/strciphr.cpp.i
 .PHONY : strciphr.cpp.i
 
 strciphr.s: strciphr.cpp.s
@@ -4378,7 +4378,7 @@ strciphr.s: strciphr.cpp.s
 
 # target to generate assembly for a file
 strciphr.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/strciphr.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/strciphr.cpp.s
 .PHONY : strciphr.cpp.s
 
 tea.o: tea.cpp.o
@@ -4387,7 +4387,7 @@ tea.o: tea.cpp.o
 
 # target to build an object file
 tea.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tea.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tea.cpp.o
 .PHONY : tea.cpp.o
 
 tea.i: tea.cpp.i
@@ -4396,7 +4396,7 @@ tea.i: tea.cpp.i
 
 # target to preprocess a source file
 tea.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tea.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tea.cpp.i
 .PHONY : tea.cpp.i
 
 tea.s: tea.cpp.s
@@ -4405,7 +4405,7 @@ tea.s: tea.cpp.s
 
 # target to generate assembly for a file
 tea.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tea.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tea.cpp.s
 .PHONY : tea.cpp.s
 
 tftables.o: tftables.cpp.o
@@ -4414,7 +4414,7 @@ tftables.o: tftables.cpp.o
 
 # target to build an object file
 tftables.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tftables.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tftables.cpp.o
 .PHONY : tftables.cpp.o
 
 tftables.i: tftables.cpp.i
@@ -4423,7 +4423,7 @@ tftables.i: tftables.cpp.i
 
 # target to preprocess a source file
 tftables.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tftables.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tftables.cpp.i
 .PHONY : tftables.cpp.i
 
 tftables.s: tftables.cpp.s
@@ -4432,7 +4432,7 @@ tftables.s: tftables.cpp.s
 
 # target to generate assembly for a file
 tftables.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tftables.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tftables.cpp.s
 .PHONY : tftables.cpp.s
 
 threefish.o: threefish.cpp.o
@@ -4441,7 +4441,7 @@ threefish.o: threefish.cpp.o
 
 # target to build an object file
 threefish.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/threefish.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/threefish.cpp.o
 .PHONY : threefish.cpp.o
 
 threefish.i: threefish.cpp.i
@@ -4450,7 +4450,7 @@ threefish.i: threefish.cpp.i
 
 # target to preprocess a source file
 threefish.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/threefish.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/threefish.cpp.i
 .PHONY : threefish.cpp.i
 
 threefish.s: threefish.cpp.s
@@ -4459,7 +4459,7 @@ threefish.s: threefish.cpp.s
 
 # target to generate assembly for a file
 threefish.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/threefish.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/threefish.cpp.s
 .PHONY : threefish.cpp.s
 
 tiger.o: tiger.cpp.o
@@ -4468,7 +4468,7 @@ tiger.o: tiger.cpp.o
 
 # target to build an object file
 tiger.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tiger.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tiger.cpp.o
 .PHONY : tiger.cpp.o
 
 tiger.i: tiger.cpp.i
@@ -4477,7 +4477,7 @@ tiger.i: tiger.cpp.i
 
 # target to preprocess a source file
 tiger.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tiger.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tiger.cpp.i
 .PHONY : tiger.cpp.i
 
 tiger.s: tiger.cpp.s
@@ -4486,7 +4486,7 @@ tiger.s: tiger.cpp.s
 
 # target to generate assembly for a file
 tiger.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tiger.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tiger.cpp.s
 .PHONY : tiger.cpp.s
 
 tigertab.o: tigertab.cpp.o
@@ -4495,7 +4495,7 @@ tigertab.o: tigertab.cpp.o
 
 # target to build an object file
 tigertab.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tigertab.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tigertab.cpp.o
 .PHONY : tigertab.cpp.o
 
 tigertab.i: tigertab.cpp.i
@@ -4504,7 +4504,7 @@ tigertab.i: tigertab.cpp.i
 
 # target to preprocess a source file
 tigertab.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tigertab.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tigertab.cpp.i
 .PHONY : tigertab.cpp.i
 
 tigertab.s: tigertab.cpp.s
@@ -4513,7 +4513,7 @@ tigertab.s: tigertab.cpp.s
 
 # target to generate assembly for a file
 tigertab.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tigertab.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tigertab.cpp.s
 .PHONY : tigertab.cpp.s
 
 ttmac.o: ttmac.cpp.o
@@ -4522,7 +4522,7 @@ ttmac.o: ttmac.cpp.o
 
 # target to build an object file
 ttmac.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ttmac.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ttmac.cpp.o
 .PHONY : ttmac.cpp.o
 
 ttmac.i: ttmac.cpp.i
@@ -4531,7 +4531,7 @@ ttmac.i: ttmac.cpp.i
 
 # target to preprocess a source file
 ttmac.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ttmac.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ttmac.cpp.i
 .PHONY : ttmac.cpp.i
 
 ttmac.s: ttmac.cpp.s
@@ -4540,7 +4540,7 @@ ttmac.s: ttmac.cpp.s
 
 # target to generate assembly for a file
 ttmac.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ttmac.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/ttmac.cpp.s
 .PHONY : ttmac.cpp.s
 
 tweetnacl.o: tweetnacl.cpp.o
@@ -4549,7 +4549,7 @@ tweetnacl.o: tweetnacl.cpp.o
 
 # target to build an object file
 tweetnacl.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tweetnacl.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tweetnacl.cpp.o
 .PHONY : tweetnacl.cpp.o
 
 tweetnacl.i: tweetnacl.cpp.i
@@ -4558,7 +4558,7 @@ tweetnacl.i: tweetnacl.cpp.i
 
 # target to preprocess a source file
 tweetnacl.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tweetnacl.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tweetnacl.cpp.i
 .PHONY : tweetnacl.cpp.i
 
 tweetnacl.s: tweetnacl.cpp.s
@@ -4567,7 +4567,7 @@ tweetnacl.s: tweetnacl.cpp.s
 
 # target to generate assembly for a file
 tweetnacl.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tweetnacl.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/tweetnacl.cpp.s
 .PHONY : tweetnacl.cpp.s
 
 twofish.o: twofish.cpp.o
@@ -4576,7 +4576,7 @@ twofish.o: twofish.cpp.o
 
 # target to build an object file
 twofish.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/twofish.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/twofish.cpp.o
 .PHONY : twofish.cpp.o
 
 twofish.i: twofish.cpp.i
@@ -4585,7 +4585,7 @@ twofish.i: twofish.cpp.i
 
 # target to preprocess a source file
 twofish.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/twofish.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/twofish.cpp.i
 .PHONY : twofish.cpp.i
 
 twofish.s: twofish.cpp.s
@@ -4594,7 +4594,7 @@ twofish.s: twofish.cpp.s
 
 # target to generate assembly for a file
 twofish.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/twofish.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/twofish.cpp.s
 .PHONY : twofish.cpp.s
 
 vmac.o: vmac.cpp.o
@@ -4603,7 +4603,7 @@ vmac.o: vmac.cpp.o
 
 # target to build an object file
 vmac.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/vmac.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/vmac.cpp.o
 .PHONY : vmac.cpp.o
 
 vmac.i: vmac.cpp.i
@@ -4612,7 +4612,7 @@ vmac.i: vmac.cpp.i
 
 # target to preprocess a source file
 vmac.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/vmac.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/vmac.cpp.i
 .PHONY : vmac.cpp.i
 
 vmac.s: vmac.cpp.s
@@ -4621,7 +4621,7 @@ vmac.s: vmac.cpp.s
 
 # target to generate assembly for a file
 vmac.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/vmac.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/vmac.cpp.s
 .PHONY : vmac.cpp.s
 
 wake.o: wake.cpp.o
@@ -4630,7 +4630,7 @@ wake.o: wake.cpp.o
 
 # target to build an object file
 wake.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/wake.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/wake.cpp.o
 .PHONY : wake.cpp.o
 
 wake.i: wake.cpp.i
@@ -4639,7 +4639,7 @@ wake.i: wake.cpp.i
 
 # target to preprocess a source file
 wake.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/wake.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/wake.cpp.i
 .PHONY : wake.cpp.i
 
 wake.s: wake.cpp.s
@@ -4648,7 +4648,7 @@ wake.s: wake.cpp.s
 
 # target to generate assembly for a file
 wake.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/wake.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/wake.cpp.s
 .PHONY : wake.cpp.s
 
 whrlpool.o: whrlpool.cpp.o
@@ -4657,7 +4657,7 @@ whrlpool.o: whrlpool.cpp.o
 
 # target to build an object file
 whrlpool.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/whrlpool.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/whrlpool.cpp.o
 .PHONY : whrlpool.cpp.o
 
 whrlpool.i: whrlpool.cpp.i
@@ -4666,7 +4666,7 @@ whrlpool.i: whrlpool.cpp.i
 
 # target to preprocess a source file
 whrlpool.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/whrlpool.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/whrlpool.cpp.i
 .PHONY : whrlpool.cpp.i
 
 whrlpool.s: whrlpool.cpp.s
@@ -4675,7 +4675,7 @@ whrlpool.s: whrlpool.cpp.s
 
 # target to generate assembly for a file
 whrlpool.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/whrlpool.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/whrlpool.cpp.s
 .PHONY : whrlpool.cpp.s
 
 xed25519.o: xed25519.cpp.o
@@ -4684,7 +4684,7 @@ xed25519.o: xed25519.cpp.o
 
 # target to build an object file
 xed25519.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/xed25519.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/xed25519.cpp.o
 .PHONY : xed25519.cpp.o
 
 xed25519.i: xed25519.cpp.i
@@ -4693,7 +4693,7 @@ xed25519.i: xed25519.cpp.i
 
 # target to preprocess a source file
 xed25519.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/xed25519.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/xed25519.cpp.i
 .PHONY : xed25519.cpp.i
 
 xed25519.s: xed25519.cpp.s
@@ -4702,7 +4702,7 @@ xed25519.s: xed25519.cpp.s
 
 # target to generate assembly for a file
 xed25519.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/xed25519.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/xed25519.cpp.s
 .PHONY : xed25519.cpp.s
 
 xtr.o: xtr.cpp.o
@@ -4711,7 +4711,7 @@ xtr.o: xtr.cpp.o
 
 # target to build an object file
 xtr.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/xtr.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/xtr.cpp.o
 .PHONY : xtr.cpp.o
 
 xtr.i: xtr.cpp.i
@@ -4720,7 +4720,7 @@ xtr.i: xtr.cpp.i
 
 # target to preprocess a source file
 xtr.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/xtr.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/xtr.cpp.i
 .PHONY : xtr.cpp.i
 
 xtr.s: xtr.cpp.s
@@ -4729,7 +4729,7 @@ xtr.s: xtr.cpp.s
 
 # target to generate assembly for a file
 xtr.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/xtr.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/xtr.cpp.s
 .PHONY : xtr.cpp.s
 
 xtrcrypt.o: xtrcrypt.cpp.o
@@ -4738,7 +4738,7 @@ xtrcrypt.o: xtrcrypt.cpp.o
 
 # target to build an object file
 xtrcrypt.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/xtrcrypt.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/xtrcrypt.cpp.o
 .PHONY : xtrcrypt.cpp.o
 
 xtrcrypt.i: xtrcrypt.cpp.i
@@ -4747,7 +4747,7 @@ xtrcrypt.i: xtrcrypt.cpp.i
 
 # target to preprocess a source file
 xtrcrypt.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/xtrcrypt.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/xtrcrypt.cpp.i
 .PHONY : xtrcrypt.cpp.i
 
 xtrcrypt.s: xtrcrypt.cpp.s
@@ -4756,7 +4756,7 @@ xtrcrypt.s: xtrcrypt.cpp.s
 
 # target to generate assembly for a file
 xtrcrypt.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/xtrcrypt.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/xtrcrypt.cpp.s
 .PHONY : xtrcrypt.cpp.s
 
 zdeflate.o: zdeflate.cpp.o
@@ -4765,7 +4765,7 @@ zdeflate.o: zdeflate.cpp.o
 
 # target to build an object file
 zdeflate.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/zdeflate.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/zdeflate.cpp.o
 .PHONY : zdeflate.cpp.o
 
 zdeflate.i: zdeflate.cpp.i
@@ -4774,7 +4774,7 @@ zdeflate.i: zdeflate.cpp.i
 
 # target to preprocess a source file
 zdeflate.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/zdeflate.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/zdeflate.cpp.i
 .PHONY : zdeflate.cpp.i
 
 zdeflate.s: zdeflate.cpp.s
@@ -4783,7 +4783,7 @@ zdeflate.s: zdeflate.cpp.s
 
 # target to generate assembly for a file
 zdeflate.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/zdeflate.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/zdeflate.cpp.s
 .PHONY : zdeflate.cpp.s
 
 zinflate.o: zinflate.cpp.o
@@ -4792,7 +4792,7 @@ zinflate.o: zinflate.cpp.o
 
 # target to build an object file
 zinflate.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/zinflate.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/zinflate.cpp.o
 .PHONY : zinflate.cpp.o
 
 zinflate.i: zinflate.cpp.i
@@ -4801,7 +4801,7 @@ zinflate.i: zinflate.cpp.i
 
 # target to preprocess a source file
 zinflate.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/zinflate.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/zinflate.cpp.i
 .PHONY : zinflate.cpp.i
 
 zinflate.s: zinflate.cpp.s
@@ -4810,7 +4810,7 @@ zinflate.s: zinflate.cpp.s
 
 # target to generate assembly for a file
 zinflate.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/zinflate.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/zinflate.cpp.s
 .PHONY : zinflate.cpp.s
 
 zlib.o: zlib.cpp.o
@@ -4819,7 +4819,7 @@ zlib.o: zlib.cpp.o
 
 # target to build an object file
 zlib.cpp.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/zlib.cpp.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/zlib.cpp.o
 .PHONY : zlib.cpp.o
 
 zlib.i: zlib.cpp.i
@@ -4828,7 +4828,7 @@ zlib.i: zlib.cpp.i
 
 # target to preprocess a source file
 zlib.cpp.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/zlib.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/zlib.cpp.i
 .PHONY : zlib.cpp.i
 
 zlib.s: zlib.cpp.s
@@ -4837,7 +4837,7 @@ zlib.s: zlib.cpp.s
 
 # target to generate assembly for a file
 zlib.cpp.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/zlib.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/zlib.cpp.s
 .PHONY : zlib.cpp.s
 
 # Help Target

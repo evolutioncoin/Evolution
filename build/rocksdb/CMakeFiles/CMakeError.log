@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/experimental/evolution-coin/Evolution-V2/Evolution/build/rocksdb/CMakeFiles/CMakeTmp
+Change Dir: /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/rocksdb/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bead8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bead8.dir/build.make CMakeFiles/cmTC_bead8.dir/build
-make[1]: Entering directory '/home/experimental/evolution-coin/Evolution-V2/Evolution/build/rocksdb/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bead8.dir/CheckSymbolExists.c.o
-/usr/bin/gcc-8    -o CMakeFiles/cmTC_bead8.dir/CheckSymbolExists.c.o   -c /home/experimental/evolution-coin/Evolution-V2/Evolution/build/rocksdb/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_bead8
-/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bead8.dir/link.txt --verbose=1
-/usr/bin/gcc-8      CMakeFiles/cmTC_bead8.dir/CheckSymbolExists.c.o  -o cmTC_bead8 
-CMakeFiles/cmTC_bead8.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_f65d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f65d5.dir/build.make CMakeFiles/cmTC_f65d5.dir/build
+make[1]: Entering directory '/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/rocksdb/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f65d5.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f65d5.dir/CheckSymbolExists.c.o   -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/rocksdb/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f65d5
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f65d5.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f65d5.dir/CheckSymbolExists.c.o  -o cmTC_f65d5 
+CMakeFiles/cmTC_f65d5.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_bead8.dir/build.make:86: recipe for target 'cmTC_bead8' failed
-make[1]: *** [cmTC_bead8] Error 1
-make[1]: Leaving directory '/home/experimental/evolution-coin/Evolution-V2/Evolution/build/rocksdb/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_bead8/fast' failed
-make: *** [cmTC_bead8/fast] Error 2
+CMakeFiles/cmTC_f65d5.dir/build.make:86: recipe for target 'cmTC_f65d5' failed
+make[1]: *** [cmTC_f65d5] Error 1
+make[1]: Leaving directory '/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/rocksdb/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_f65d5/fast' failed
+make: *** [cmTC_f65d5/fast] Error 2
 
-File /home/experimental/evolution-coin/Evolution-V2/Evolution/build/rocksdb/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/rocksdb/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/experimental/evolution-coin/Evolution-V2/Evolution/build/rocksdb/CMakeFiles/CMakeTmp
+Change Dir: /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/rocksdb/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1297f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1297f.dir/build.make CMakeFiles/cmTC_1297f.dir/build
-make[1]: Entering directory '/home/experimental/evolution-coin/Evolution-V2/Evolution/build/rocksdb/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1297f.dir/CheckFunctionExists.c.o
-/usr/bin/gcc-8   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1297f.dir/CheckFunctionExists.c.o   -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_1297f
-/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1297f.dir/link.txt --verbose=1
-/usr/bin/gcc-8  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_1297f.dir/CheckFunctionExists.c.o  -o cmTC_1297f -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_3c9ef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3c9ef.dir/build.make CMakeFiles/cmTC_3c9ef.dir/build
+make[1]: Entering directory '/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/rocksdb/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c9ef.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3c9ef.dir/CheckFunctionExists.c.o   -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3c9ef
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c9ef.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_3c9ef.dir/CheckFunctionExists.c.o  -o cmTC_3c9ef -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_1297f.dir/build.make:86: recipe for target 'cmTC_1297f' failed
-make[1]: *** [cmTC_1297f] Error 1
-make[1]: Leaving directory '/home/experimental/evolution-coin/Evolution-V2/Evolution/build/rocksdb/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_1297f/fast' failed
-make: *** [cmTC_1297f/fast] Error 2
+CMakeFiles/cmTC_3c9ef.dir/build.make:86: recipe for target 'cmTC_3c9ef' failed
+make[1]: *** [cmTC_3c9ef] Error 1
+make[1]: Leaving directory '/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/rocksdb/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_3c9ef/fast' failed
+make: *** [cmTC_3c9ef/fast] Error 2
 
 

@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/HttpClient.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.o"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/HttpServer.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.o"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/JsonRpc.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.o"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/RpcServer.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.o"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/HttpClient.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.o"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/HttpServer.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.o"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/JsonRpc.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.o"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/RpcServer.cpp" "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -38,24 +38,24 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../external/cryptopp"
   "../external/zstd"
   "../external/lz4"
-  "../external/miniupnpc/../home/experimental/evolution-coin/Evolution-V2/Evolution/external/miniupnpc"
+  "../external/miniupnpc/../home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/miniupnpc"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/P2P.dir/DependInfo.cmake"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/Utilities.dir/DependInfo.cmake"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/CryptoNoteCore.dir/DependInfo.cmake"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/miniupnpc/CMakeFiles/upnpc-static.dir/DependInfo.cmake"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/Errors.dir/DependInfo.cmake"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/SubWallets.dir/DependInfo.cmake"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/Logger.dir/DependInfo.cmake"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/Serialization.dir/DependInfo.cmake"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/Logging.dir/DependInfo.cmake"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/Common.dir/DependInfo.cmake"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/Crypto.dir/DependInfo.cmake"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/Http.dir/DependInfo.cmake"
-  "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/System.dir/DependInfo.cmake"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/P2P.dir/DependInfo.cmake"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/Utilities.dir/DependInfo.cmake"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/CryptoNoteCore.dir/DependInfo.cmake"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/miniupnpc/CMakeFiles/upnpc-static.dir/DependInfo.cmake"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/Errors.dir/DependInfo.cmake"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/SubWallets.dir/DependInfo.cmake"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/Logger.dir/DependInfo.cmake"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/Serialization.dir/DependInfo.cmake"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/Logging.dir/DependInfo.cmake"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/Common.dir/DependInfo.cmake"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/Crypto.dir/DependInfo.cmake"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/Http.dir/DependInfo.cmake"
+  "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/System.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

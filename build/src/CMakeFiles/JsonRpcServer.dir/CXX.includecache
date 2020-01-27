@@ -1380,9 +1380,9 @@ serialization/ISerializer.h
 wallet/WalletGreen.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/jsonrpcserver/JsonRpcServer.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/jsonrpcserver/JsonRpcServer.cpp
 JsonRpcServer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/jsonrpcserver/JsonRpcServer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/jsonrpcserver/JsonRpcServer.h
 fstream
 -
 future
@@ -1394,7 +1394,7 @@ memory
 sstream
 -
 http/HttpParserErrorCodes.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/jsonrpcserver/http/HttpParserErrorCodes.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/jsonrpcserver/http/HttpParserErrorCodes.h
 system/TcpConnection.h
 -
 system/TcpListener.h
@@ -1404,19 +1404,19 @@ system/TcpStream.h
 system/Ipv4Address.h
 -
 http/HttpParser.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/jsonrpcserver/http/HttpParser.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/jsonrpcserver/http/HttpParser.h
 http/HttpResponse.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/jsonrpcserver/http/HttpResponse.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/jsonrpcserver/http/HttpResponse.h
 rpc/JsonRpc.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/jsonrpcserver/rpc/JsonRpc.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/jsonrpcserver/rpc/JsonRpc.h
 common/JsonValue.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/jsonrpcserver/common/JsonValue.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/jsonrpcserver/common/JsonValue.h
 serialization/JsonInputValueSerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/jsonrpcserver/serialization/JsonInputValueSerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/jsonrpcserver/serialization/JsonInputValueSerializer.h
 serialization/JsonOutputStreamSerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/jsonrpcserver/serialization/JsonOutputStreamSerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/jsonrpcserver/serialization/JsonOutputStreamSerializer.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/jsonrpcserver/JsonRpcServer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/jsonrpcserver/JsonRpcServer.h
 system_error
 -
 system/Dispatcher.h
@@ -1424,11 +1424,11 @@ system/Dispatcher.h
 system/Event.h
 -
 logging/ILogger.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/jsonrpcserver/logging/ILogger.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/jsonrpcserver/logging/ILogger.h
 logging/LoggerRef.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/jsonrpcserver/logging/LoggerRef.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/jsonrpcserver/logging/LoggerRef.h
 rpc/HttpServer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/jsonrpcserver/rpc/HttpServer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/jsonrpcserver/rpc/HttpServer.h
 walletservice/ConfigurationManager.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/jsonrpcserver/walletservice/ConfigurationManager.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/jsonrpcserver/walletservice/ConfigurationManager.h
 

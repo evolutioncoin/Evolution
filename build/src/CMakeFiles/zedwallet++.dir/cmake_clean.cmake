@@ -13,8 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/zedwallet++.dir/zedwallet++/Transfer.cpp.o"
   "CMakeFiles/zedwallet++.dir/zedwallet++/Utilities.cpp.o"
   "CMakeFiles/zedwallet++.dir/zedwallet++/ZedWallet.cpp.o"
-  "zedwallet-beta.pdb"
-  "zedwallet-beta"
+  "wallet-beta.pdb"
+  "wallet-beta"
 )
 
 # Per-language clean rules from dependency scanning.

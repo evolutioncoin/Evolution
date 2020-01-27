@@ -87,5 +87,5 @@ src/CMakeFiles/WalletUpgrader.dir/walletupgrader/Main.cpp.o
  ../src/walletbackend/WalletBackend.h
  ../src/walletbackend/WalletSynchronizer.h
  ../src/walletbackend/WalletSynchronizerRAIIWrapper.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletupgrader/Main.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletupgrader/Main.cpp
  version/version.h

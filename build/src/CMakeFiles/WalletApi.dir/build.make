@@ -43,10 +43,10 @@ RM = /usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution
+CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/build
+CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/WalletApi.dir/depend.make
@@ -59,42 +59,42 @@ include src/CMakeFiles/WalletApi.dir/flags.make
 
 src/CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.o: src/CMakeFiles/WalletApi.dir/flags.make
 src/CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.o: ../src/walletapi/ApiDispatcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/ccache /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletapi/ApiDispatcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletapi/ApiDispatcher.cpp
 
 src/CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletapi/ApiDispatcher.cpp > CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletapi/ApiDispatcher.cpp > CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.i
 
 src/CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletapi/ApiDispatcher.cpp -o CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletapi/ApiDispatcher.cpp -o CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.s
 
 src/CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.o: src/CMakeFiles/WalletApi.dir/flags.make
 src/CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.o: ../src/walletapi/ParseArguments.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/ccache /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletapi/ParseArguments.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletapi/ParseArguments.cpp
 
 src/CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletapi/ParseArguments.cpp > CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletapi/ParseArguments.cpp > CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.i
 
 src/CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletapi/ParseArguments.cpp -o CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletapi/ParseArguments.cpp -o CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.s
 
 src/CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.o: src/CMakeFiles/WalletApi.dir/flags.make
 src/CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.o: ../src/walletapi/WalletApi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/ccache /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletapi/WalletApi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletapi/WalletApi.cpp
 
 src/CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletapi/WalletApi.cpp > CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletapi/WalletApi.cpp > CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.i
 
 src/CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletapi/WalletApi.cpp -o CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletapi/WalletApi.cpp -o CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.s
 
 # Object files for target WalletApi
 WalletApi_OBJECTS = \
@@ -148,8 +148,8 @@ src/wallet-api: /usr/lib/x86_64-linux-gnu/libboost_serialization.a
 src/wallet-api: /usr/lib/x86_64-linux-gnu/libboost_atomic.a
 src/wallet-api: external/miniupnpc/libminiupnpc.a
 src/wallet-api: src/CMakeFiles/WalletApi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable wallet-api"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WalletApi.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable wallet-api"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WalletApi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/WalletApi.dir/build: src/wallet-api
@@ -157,10 +157,10 @@ src/CMakeFiles/WalletApi.dir/build: src/wallet-api
 .PHONY : src/CMakeFiles/WalletApi.dir/build
 
 src/CMakeFiles/WalletApi.dir/clean:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && $(CMAKE_COMMAND) -P CMakeFiles/WalletApi.dir/cmake_clean.cmake
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && $(CMAKE_COMMAND) -P CMakeFiles/WalletApi.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/WalletApi.dir/clean
 
 src/CMakeFiles/WalletApi.dir/depend:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution /home/experimental/evolution-coin/Evolution-V2/Evolution/src /home/experimental/evolution-coin/Evolution-V2/Evolution/build /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/WalletApi.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution-V2 /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/WalletApi.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/WalletApi.dir/depend
 

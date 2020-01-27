@@ -1362,13 +1362,13 @@ serialization/ISerializer.h
 wallet/WalletGreen.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/errors/Errors.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/errors/Errors.cpp
 errors/Errors.h
 -
 ostream
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/errors/ValidateParameters.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/errors/ValidateParameters.cpp
 errors/ValidateParameters.h
 -
 common/Base58.h

@@ -39,9 +39,9 @@ src/CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.o
  ../src/logging/ILogger.h
  ../src/p2p/NetNodeConfig.h
  ../src/p2p/P2pProtocolTypes.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/ConfigurationManager.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/ConfigurationManager.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/WalletServiceConfiguration.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/ConfigurationManager.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/ConfigurationManager.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/WalletServiceConfiguration.h
  version/version.h
 src/CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.o
  ../external/nlohmann-json/json.hpp
@@ -98,8 +98,8 @@ src/CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.o
  ../src/serialization/CryptoNoteSerialization.h
  ../src/serialization/ISerializer.h
  ../src/serialization/SerializationOverloads.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/NodeFactory.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/NodeFactory.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/NodeFactory.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/NodeFactory.h
 src/CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -204,12 +204,12 @@ src/CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.o
  ../src/walletservice/ConfigurationManager.h
  ../src/walletservice/NodeFactory.h
  ../src/walletservice/WalletService.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/ConfigurationManager.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/PaymentGateService.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/PaymentGateService.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/PaymentServiceJsonRpcMessages.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/PaymentServiceJsonRpcServer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/WalletServiceConfiguration.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/ConfigurationManager.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/PaymentGateService.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/PaymentGateService.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/PaymentServiceJsonRpcMessages.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/PaymentServiceJsonRpcServer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/WalletServiceConfiguration.h
  version/version.h
 src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.o
  ../external/nlohmann-json/json.hpp
@@ -290,9 +290,9 @@ src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp
  ../src/wallet/IFusionManager.h
  ../src/wallet/WalletGreen.h
  ../src/wallet/WalletIndices.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/PaymentServiceJsonRpcMessages.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/PaymentServiceJsonRpcMessages.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/WalletService.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/PaymentServiceJsonRpcMessages.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/PaymentServiceJsonRpcMessages.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/WalletService.h
 src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -399,10 +399,10 @@ src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.o
  ../src/walletservice/ConfigurationManager.h
  ../src/walletservice/WalletServiceConfiguration.h
  ../src/zedwallet/Types.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/PaymentServiceJsonRpcMessages.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/PaymentServiceJsonRpcServer.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/PaymentServiceJsonRpcServer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/WalletService.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/PaymentServiceJsonRpcMessages.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/PaymentServiceJsonRpcServer.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/PaymentServiceJsonRpcServer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/WalletService.h
 src/CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -522,7 +522,7 @@ src/CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.o
  ../src/walletservice/WalletService.h
  ../src/walletservice/WalletServiceErrorCategory.h
  ../src/zedwallet/Types.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/WalletService.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/WalletService.cpp
 src/CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.o
  ../external/cxxopts/cxxopts.hpp
  ../external/nlohmann-json/json.hpp
@@ -562,12 +562,12 @@ src/CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.o
  ../src/crypto/hash-ops.h
  ../src/crypto/hash.h
  ../src/logging/ILogger.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/WalletServiceConfiguration.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/WalletServiceConfiguration.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/WalletServiceConfiguration.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/WalletServiceConfiguration.h
  version/version.h
 src/CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.o
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/WalletServiceErrorCategory.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/WalletServiceErrorCategory.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/WalletServiceErrorCategory.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/WalletServiceErrorCategory.h
 src/CMakeFiles/WalletService.dir/walletservice/main.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -658,8 +658,8 @@ src/CMakeFiles/WalletService.dir/walletservice/main.cpp.o
  ../src/walletservice/NodeFactory.h
  ../src/walletservice/PaymentServiceJsonRpcMessages.h
  ../src/walletservice/WalletService.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/ConfigurationManager.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/PaymentGateService.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/WalletServiceConfiguration.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletservice/main.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/ConfigurationManager.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/PaymentGateService.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/WalletServiceConfiguration.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletservice/main.cpp
  version/version.h

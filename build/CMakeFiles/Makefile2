@@ -59,10 +59,10 @@ RM = /usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution
+CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/build
+CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/version.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/buil
 CMakeFiles/version.dir/all:
 	$(MAKE) -f CMakeFiles/version.dir/build.make CMakeFiles/version.dir/depend
 	$(MAKE) -f CMakeFiles/version.dir/build.make CMakeFiles/version.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num= "Built target version"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num= "Built target version"
 .PHONY : CMakeFiles/version.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/version.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/version.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/version.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : CMakeFiles/version.dir/rule
 
 # Convenience name for target.
@@ -136,14 +136,14 @@ external/preinstall: external/lz4/preinstall
 external/CMakeFiles/rocksdb.dir/all:
 	$(MAKE) -f external/CMakeFiles/rocksdb.dir/build.make external/CMakeFiles/rocksdb.dir/depend
 	$(MAKE) -f external/CMakeFiles/rocksdb.dir/build.make external/CMakeFiles/rocksdb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num= "Built target rocksdb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num= "Built target rocksdb"
 .PHONY : external/CMakeFiles/rocksdb.dir/all
 
 # Build rule for subdir invocation for target.
 external/CMakeFiles/rocksdb.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 external/CMakeFiles/rocksdb.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : external/CMakeFiles/rocksdb.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ external/miniupnpc/preinstall:
 external/miniupnpc/CMakeFiles/upnpc-static.dir/all:
 	$(MAKE) -f external/miniupnpc/CMakeFiles/upnpc-static.dir/build.make external/miniupnpc/CMakeFiles/upnpc-static.dir/depend
 	$(MAKE) -f external/miniupnpc/CMakeFiles/upnpc-static.dir/build.make external/miniupnpc/CMakeFiles/upnpc-static.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=85,86,87 "Built target upnpc-static"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=85,86,87 "Built target upnpc-static"
 .PHONY : external/miniupnpc/CMakeFiles/upnpc-static.dir/all
 
 # Include target in all.
@@ -196,9 +196,9 @@ all: external/miniupnpc/CMakeFiles/upnpc-static.dir/all
 
 # Build rule for subdir invocation for target.
 external/miniupnpc/CMakeFiles/upnpc-static.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 external/miniupnpc/CMakeFiles/upnpc-static.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : external/miniupnpc/CMakeFiles/upnpc-static.dir/rule
 
 # Convenience name for target.
@@ -244,14 +244,14 @@ external/cryptopp/preinstall:
 external/cryptopp/CMakeFiles/static.dir/all: external/cryptopp/CMakeFiles/cryptopp-static.dir/all
 	$(MAKE) -f external/cryptopp/CMakeFiles/static.dir/build.make external/cryptopp/CMakeFiles/static.dir/depend
 	$(MAKE) -f external/cryptopp/CMakeFiles/static.dir/build.make external/cryptopp/CMakeFiles/static.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num= "Built target static"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num= "Built target static"
 .PHONY : external/cryptopp/CMakeFiles/static.dir/all
 
 # Build rule for subdir invocation for target.
 external/cryptopp/CMakeFiles/static.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 35
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 35
 	$(MAKE) -f CMakeFiles/Makefile2 external/cryptopp/CMakeFiles/static.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : external/cryptopp/CMakeFiles/static.dir/rule
 
 # Convenience name for target.
@@ -276,7 +276,7 @@ clean: external/cryptopp/CMakeFiles/static.dir/clean
 external/cryptopp/CMakeFiles/cryptopp-static.dir/all: external/cryptopp/CMakeFiles/cryptopp-object.dir/all
 	$(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-static.dir/build.make external/cryptopp/CMakeFiles/cryptopp-static.dir/depend
 	$(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-static.dir/build.make external/cryptopp/CMakeFiles/cryptopp-static.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num= "Built target cryptopp-static"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num= "Built target cryptopp-static"
 .PHONY : external/cryptopp/CMakeFiles/cryptopp-static.dir/all
 
 # Include target in all.
@@ -286,9 +286,9 @@ all: external/cryptopp/CMakeFiles/cryptopp-static.dir/all
 
 # Build rule for subdir invocation for target.
 external/cryptopp/CMakeFiles/cryptopp-static.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 35
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 35
 	$(MAKE) -f CMakeFiles/Makefile2 external/cryptopp/CMakeFiles/cryptopp-static.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : external/cryptopp/CMakeFiles/cryptopp-static.dir/rule
 
 # Convenience name for target.
@@ -313,7 +313,7 @@ clean: external/cryptopp/CMakeFiles/cryptopp-static.dir/clean
 external/cryptopp/CMakeFiles/cryptopp-object.dir/all:
 	$(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/depend
 	$(MAKE) -f external/cryptopp/CMakeFiles/cryptopp-object.dir/build.make external/cryptopp/CMakeFiles/cryptopp-object.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81 "Built target cryptopp-object"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81 "Built target cryptopp-object"
 .PHONY : external/cryptopp/CMakeFiles/cryptopp-object.dir/all
 
 # Include target in all.
@@ -323,9 +323,9 @@ all: external/cryptopp/CMakeFiles/cryptopp-object.dir/all
 
 # Build rule for subdir invocation for target.
 external/cryptopp/CMakeFiles/cryptopp-object.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 35
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 35
 	$(MAKE) -f CMakeFiles/Makefile2 external/cryptopp/CMakeFiles/cryptopp-object.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : external/cryptopp/CMakeFiles/cryptopp-object.dir/rule
 
 # Convenience name for target.
@@ -368,7 +368,7 @@ external/zstd/preinstall:
 external/zstd/CMakeFiles/zstd.dir/all:
 	$(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/depend
 	$(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=94,95,96,97,98,99,100 "Built target zstd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=94,95,96,97,98,99,100 "Built target zstd"
 .PHONY : external/zstd/CMakeFiles/zstd.dir/all
 
 # Include target in all.
@@ -378,9 +378,9 @@ all: external/zstd/CMakeFiles/zstd.dir/all
 
 # Build rule for subdir invocation for target.
 external/zstd/CMakeFiles/zstd.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 external/zstd/CMakeFiles/zstd.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : external/zstd/CMakeFiles/zstd.dir/rule
 
 # Convenience name for target.
@@ -423,7 +423,7 @@ external/lz4/preinstall:
 external/lz4/CMakeFiles/lz4.dir/all:
 	$(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/depend
 	$(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=83 "Built target lz4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=83 "Built target lz4"
 .PHONY : external/lz4/CMakeFiles/lz4.dir/all
 
 # Include target in all.
@@ -433,9 +433,9 @@ all: external/lz4/CMakeFiles/lz4.dir/all
 
 # Build rule for subdir invocation for target.
 external/lz4/CMakeFiles/lz4.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 external/lz4/CMakeFiles/lz4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : external/lz4/CMakeFiles/lz4.dir/rule
 
 # Convenience name for target.
@@ -540,14 +540,14 @@ src/CMakeFiles/pool.dir/all: src/CMakeFiles/Evolutiond.dir/all
 src/CMakeFiles/pool.dir/all: src/CMakeFiles/WalletService.dir/all
 	$(MAKE) -f src/CMakeFiles/pool.dir/build.make src/CMakeFiles/pool.dir/depend
 	$(MAKE) -f src/CMakeFiles/pool.dir/build.make src/CMakeFiles/pool.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num= "Built target pool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num= "Built target pool"
 .PHONY : src/CMakeFiles/pool.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/pool.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 90
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 90
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/pool.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/pool.dir/rule
 
 # Convenience name for target.
@@ -590,7 +590,7 @@ src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/System.dir/all
 src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/SubWallets.dir/all
 	$(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/depend
 	$(MAKE) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=91,92,93 "Built target zedwallet++"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=91,92,93 "Built target zedwallet++"
 .PHONY : src/CMakeFiles/zedwallet++.dir/all
 
 # Include target in all.
@@ -600,9 +600,9 @@ all: src/CMakeFiles/zedwallet++.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/zedwallet++.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 83
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 83
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/zedwallet++.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/zedwallet++.dir/rule
 
 # Convenience name for target.
@@ -646,7 +646,7 @@ src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/System.dir/all
 src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/SubWallets.dir/all
 	$(MAKE) -f src/CMakeFiles/WalletUpgrader.dir/build.make src/CMakeFiles/WalletUpgrader.dir/depend
 	$(MAKE) -f src/CMakeFiles/WalletUpgrader.dir/build.make src/CMakeFiles/WalletUpgrader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=46 "Built target WalletUpgrader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=46 "Built target WalletUpgrader"
 .PHONY : src/CMakeFiles/WalletUpgrader.dir/all
 
 # Include target in all.
@@ -656,9 +656,9 @@ all: src/CMakeFiles/WalletUpgrader.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/WalletUpgrader.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 81
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 81
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/WalletUpgrader.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/WalletUpgrader.dir/rule
 
 # Convenience name for target.
@@ -702,7 +702,7 @@ src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/System.dir/all
 src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/SubWallets.dir/all
 	$(MAKE) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/depend
 	$(MAKE) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=42 "Built target WalletApi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=42 "Built target WalletApi"
 .PHONY : src/CMakeFiles/WalletApi.dir/all
 
 # Include target in all.
@@ -712,9 +712,9 @@ all: src/CMakeFiles/WalletApi.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/WalletApi.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 81
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 81
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/WalletApi.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/WalletApi.dir/rule
 
 # Convenience name for target.
@@ -754,7 +754,7 @@ src/CMakeFiles/Evolutiond.dir/all: src/CMakeFiles/System.dir/all
 src/CMakeFiles/Evolutiond.dir/all: src/CMakeFiles/SubWallets.dir/all
 	$(MAKE) -f src/CMakeFiles/Evolutiond.dir/build.make src/CMakeFiles/Evolutiond.dir/depend
 	$(MAKE) -f src/CMakeFiles/Evolutiond.dir/build.make src/CMakeFiles/Evolutiond.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num= "Built target Evolutiond"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num= "Built target Evolutiond"
 .PHONY : src/CMakeFiles/Evolutiond.dir/all
 
 # Include target in all.
@@ -764,9 +764,9 @@ all: src/CMakeFiles/Evolutiond.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Evolutiond.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 46
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 46
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Evolutiond.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Evolutiond.dir/rule
 
 # Convenience name for target.
@@ -811,7 +811,7 @@ src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/System.dir/all
 src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/SubWallets.dir/all
 	$(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/depend
 	$(MAKE) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=44,45 "Built target WalletService"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=44,45 "Built target WalletService"
 .PHONY : src/CMakeFiles/WalletService.dir/all
 
 # Include target in all.
@@ -821,9 +821,9 @@ all: src/CMakeFiles/WalletService.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/WalletService.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 82
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 82
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/WalletService.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/WalletService.dir/rule
 
 # Convenience name for target.
@@ -848,7 +848,7 @@ clean: src/CMakeFiles/WalletService.dir/clean
 src/CMakeFiles/Logging.dir/all: src/CMakeFiles/Common.dir/all
 	$(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/depend
 	$(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=23,24 "Built target Logging"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=23,24 "Built target Logging"
 .PHONY : src/CMakeFiles/Logging.dir/all
 
 # Include target in all.
@@ -858,9 +858,9 @@ all: src/CMakeFiles/Logging.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Logging.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Logging.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Logging.dir/rule
 
 # Convenience name for target.
@@ -885,7 +885,7 @@ clean: src/CMakeFiles/Logging.dir/clean
 src/CMakeFiles/Mnemonics.dir/all:
 	$(MAKE) -f src/CMakeFiles/Mnemonics.dir/build.make src/CMakeFiles/Mnemonics.dir/depend
 	$(MAKE) -f src/CMakeFiles/Mnemonics.dir/build.make src/CMakeFiles/Mnemonics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=25 "Built target Mnemonics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=25 "Built target Mnemonics"
 .PHONY : src/CMakeFiles/Mnemonics.dir/all
 
 # Include target in all.
@@ -895,9 +895,9 @@ all: src/CMakeFiles/Mnemonics.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Mnemonics.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Mnemonics.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Mnemonics.dir/rule
 
 # Convenience name for target.
@@ -941,7 +941,7 @@ src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/System.dir/all
 src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/SubWallets.dir/all
 	$(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/depend
 	$(MAKE) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=88,89,90 "Built target zedwallet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=88,89,90 "Built target zedwallet"
 .PHONY : src/CMakeFiles/zedwallet.dir/all
 
 # Include target in all.
@@ -951,9 +951,9 @@ all: src/CMakeFiles/zedwallet.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/zedwallet.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 83
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 83
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/zedwallet.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/zedwallet.dir/rule
 
 # Convenience name for target.
@@ -978,7 +978,7 @@ clean: src/CMakeFiles/zedwallet.dir/clean
 src/CMakeFiles/JsonRpcServer.dir/all: CMakeFiles/version.dir/all
 	$(MAKE) -f src/CMakeFiles/JsonRpcServer.dir/build.make src/CMakeFiles/JsonRpcServer.dir/depend
 	$(MAKE) -f src/CMakeFiles/JsonRpcServer.dir/build.make src/CMakeFiles/JsonRpcServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num= "Built target JsonRpcServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num= "Built target JsonRpcServer"
 .PHONY : src/CMakeFiles/JsonRpcServer.dir/all
 
 # Include target in all.
@@ -988,9 +988,9 @@ all: src/CMakeFiles/JsonRpcServer.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/JsonRpcServer.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/JsonRpcServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/JsonRpcServer.dir/rule
 
 # Convenience name for target.
@@ -1015,7 +1015,7 @@ clean: src/CMakeFiles/JsonRpcServer.dir/clean
 src/CMakeFiles/Logger.dir/all:
 	$(MAKE) -f src/CMakeFiles/Logger.dir/build.make src/CMakeFiles/Logger.dir/depend
 	$(MAKE) -f src/CMakeFiles/Logger.dir/build.make src/CMakeFiles/Logger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num= "Built target Logger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num= "Built target Logger"
 .PHONY : src/CMakeFiles/Logger.dir/all
 
 # Include target in all.
@@ -1025,9 +1025,9 @@ all: src/CMakeFiles/Logger.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Logger.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Logger.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Logger.dir/rule
 
 # Convenience name for target.
@@ -1052,7 +1052,7 @@ clean: src/CMakeFiles/Logger.dir/clean
 src/CMakeFiles/BlockchainExplorer.dir/all:
 	$(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/depend
 	$(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num= "Built target BlockchainExplorer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num= "Built target BlockchainExplorer"
 .PHONY : src/CMakeFiles/BlockchainExplorer.dir/all
 
 # Include target in all.
@@ -1062,9 +1062,9 @@ all: src/CMakeFiles/BlockchainExplorer.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/BlockchainExplorer.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/BlockchainExplorer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/BlockchainExplorer.dir/rule
 
 # Convenience name for target.
@@ -1089,7 +1089,7 @@ clean: src/CMakeFiles/BlockchainExplorer.dir/clean
 src/CMakeFiles/Wallet.dir/all: src/CMakeFiles/WalletBackend.dir/all
 	$(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/depend
 	$(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=41 "Built target Wallet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=41 "Built target Wallet"
 .PHONY : src/CMakeFiles/Wallet.dir/all
 
 # Include target in all.
@@ -1099,9 +1099,9 @@ all: src/CMakeFiles/Wallet.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Wallet.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 80
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 80
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Wallet.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Wallet.dir/rule
 
 # Convenience name for target.
@@ -1133,7 +1133,7 @@ src/CMakeFiles/miner.dir/all: src/CMakeFiles/System.dir/all
 src/CMakeFiles/miner.dir/all: src/CMakeFiles/SubWallets.dir/all
 	$(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/depend
 	$(MAKE) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=84 "Built target miner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=84 "Built target miner"
 .PHONY : src/CMakeFiles/miner.dir/all
 
 # Include target in all.
@@ -1143,9 +1143,9 @@ all: src/CMakeFiles/miner.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/miner.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/miner.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/miner.dir/rule
 
 # Convenience name for target.
@@ -1170,7 +1170,7 @@ clean: src/CMakeFiles/miner.dir/clean
 src/CMakeFiles/Errors.dir/all: src/CMakeFiles/Utilities.dir/all
 	$(MAKE) -f src/CMakeFiles/Errors.dir/build.make src/CMakeFiles/Errors.dir/depend
 	$(MAKE) -f src/CMakeFiles/Errors.dir/build.make src/CMakeFiles/Errors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=20 "Built target Errors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=20 "Built target Errors"
 .PHONY : src/CMakeFiles/Errors.dir/all
 
 # Include target in all.
@@ -1180,9 +1180,9 @@ all: src/CMakeFiles/Errors.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Errors.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Errors.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Errors.dir/rule
 
 # Convenience name for target.
@@ -1211,7 +1211,7 @@ src/CMakeFiles/P2P.dir/all: src/CMakeFiles/Common.dir/all
 src/CMakeFiles/P2P.dir/all: src/CMakeFiles/Serialization.dir/all
 	$(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/depend
 	$(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=27,28,29 "Built target P2P"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=27,28,29 "Built target P2P"
 .PHONY : src/CMakeFiles/P2P.dir/all
 
 # Include target in all.
@@ -1221,9 +1221,9 @@ all: src/CMakeFiles/P2P.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/P2P.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/P2P.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/P2P.dir/rule
 
 # Convenience name for target.
@@ -1248,7 +1248,7 @@ clean: src/CMakeFiles/P2P.dir/clean
 src/CMakeFiles/Rpc.dir/all: src/CMakeFiles/CryptoNoteCore.dir/all
 	$(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/depend
 	$(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=30 "Built target Rpc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=30 "Built target Rpc"
 .PHONY : src/CMakeFiles/Rpc.dir/all
 
 # Include target in all.
@@ -1258,9 +1258,9 @@ all: src/CMakeFiles/Rpc.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Rpc.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 38
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 38
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Rpc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Rpc.dir/rule
 
 # Convenience name for target.
@@ -1285,7 +1285,7 @@ clean: src/CMakeFiles/Rpc.dir/clean
 src/CMakeFiles/Crypto.dir/all:
 	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/depend
 	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=7,8,9,10 "Built target Crypto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=7,8,9,10 "Built target Crypto"
 .PHONY : src/CMakeFiles/Crypto.dir/all
 
 # Include target in all.
@@ -1295,9 +1295,9 @@ all: src/CMakeFiles/Crypto.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Crypto.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Crypto.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Crypto.dir/rule
 
 # Convenience name for target.
@@ -1322,7 +1322,7 @@ clean: src/CMakeFiles/Crypto.dir/clean
 src/CMakeFiles/Http.dir/all:
 	$(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/depend
 	$(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=21,22 "Built target Http"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=21,22 "Built target Http"
 .PHONY : src/CMakeFiles/Http.dir/all
 
 # Include target in all.
@@ -1332,9 +1332,9 @@ all: src/CMakeFiles/Http.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Http.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Http.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Http.dir/rule
 
 # Convenience name for target.
@@ -1370,7 +1370,7 @@ src/CMakeFiles/Transfers.dir/all: src/CMakeFiles/System.dir/all
 src/CMakeFiles/Transfers.dir/all: src/CMakeFiles/SubWallets.dir/all
 	$(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/depend
 	$(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=37,38 "Built target Transfers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=37,38 "Built target Transfers"
 .PHONY : src/CMakeFiles/Transfers.dir/all
 
 # Include target in all.
@@ -1380,9 +1380,9 @@ all: src/CMakeFiles/Transfers.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Transfers.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 40
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 40
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Transfers.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Transfers.dir/rule
 
 # Convenience name for target.
@@ -1407,7 +1407,7 @@ clean: src/CMakeFiles/Transfers.dir/clean
 src/CMakeFiles/Config.dir/all:
 	$(MAKE) -f src/CMakeFiles/Config.dir/build.make src/CMakeFiles/Config.dir/depend
 	$(MAKE) -f src/CMakeFiles/Config.dir/build.make src/CMakeFiles/Config.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=6 "Built target Config"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=6 "Built target Config"
 .PHONY : src/CMakeFiles/Config.dir/all
 
 # Include target in all.
@@ -1417,9 +1417,9 @@ all: src/CMakeFiles/Config.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Config.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Config.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Config.dir/rule
 
 # Convenience name for target.
@@ -1455,7 +1455,7 @@ src/CMakeFiles/CryptoNoteCore.dir/all: src/CMakeFiles/System.dir/all
 src/CMakeFiles/CryptoNoteCore.dir/all: src/CMakeFiles/SubWallets.dir/all
 	$(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/depend
 	$(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=11,12,13,14,15,16,17,18,19 "Built target CryptoNoteCore"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=11,12,13,14,15,16,17,18,19 "Built target CryptoNoteCore"
 .PHONY : src/CMakeFiles/CryptoNoteCore.dir/all
 
 # Include target in all.
@@ -1465,9 +1465,9 @@ all: src/CMakeFiles/CryptoNoteCore.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/CryptoNoteCore.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 37
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/CryptoNoteCore.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/CryptoNoteCore.dir/rule
 
 # Convenience name for target.
@@ -1492,7 +1492,7 @@ clean: src/CMakeFiles/CryptoNoteCore.dir/clean
 src/CMakeFiles/Common.dir/all:
 	$(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/depend
 	$(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target Common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target Common"
 .PHONY : src/CMakeFiles/Common.dir/all
 
 # Include target in all.
@@ -1502,9 +1502,9 @@ all: src/CMakeFiles/Common.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Common.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Common.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Common.dir/rule
 
 # Convenience name for target.
@@ -1530,14 +1530,14 @@ src/CMakeFiles/cli.dir/all: src/CMakeFiles/Evolutiond.dir/all
 src/CMakeFiles/cli.dir/all: src/CMakeFiles/zedwallet.dir/all
 	$(MAKE) -f src/CMakeFiles/cli.dir/build.make src/CMakeFiles/cli.dir/depend
 	$(MAKE) -f src/CMakeFiles/cli.dir/build.make src/CMakeFiles/cli.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num= "Built target cli"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num= "Built target cli"
 .PHONY : src/CMakeFiles/cli.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/cli.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 91
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 91
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/cli.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/cli.dir/rule
 
 # Convenience name for target.
@@ -1564,14 +1564,14 @@ src/CMakeFiles/solominer.dir/all: src/CMakeFiles/zedwallet.dir/all
 src/CMakeFiles/solominer.dir/all: src/CMakeFiles/miner.dir/all
 	$(MAKE) -f src/CMakeFiles/solominer.dir/build.make src/CMakeFiles/solominer.dir/depend
 	$(MAKE) -f src/CMakeFiles/solominer.dir/build.make src/CMakeFiles/solominer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num= "Built target solominer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num= "Built target solominer"
 .PHONY : src/CMakeFiles/solominer.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/solominer.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 92
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/solominer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/solominer.dir/rule
 
 # Convenience name for target.
@@ -1600,7 +1600,7 @@ src/CMakeFiles/Nigel.dir/all: src/CMakeFiles/Common.dir/all
 src/CMakeFiles/Nigel.dir/all: src/CMakeFiles/SubWallets.dir/all
 	$(MAKE) -f src/CMakeFiles/Nigel.dir/build.make src/CMakeFiles/Nigel.dir/depend
 	$(MAKE) -f src/CMakeFiles/Nigel.dir/build.make src/CMakeFiles/Nigel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num= "Built target Nigel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num= "Built target Nigel"
 .PHONY : src/CMakeFiles/Nigel.dir/all
 
 # Include target in all.
@@ -1610,9 +1610,9 @@ all: src/CMakeFiles/Nigel.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Nigel.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Nigel.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Nigel.dir/rule
 
 # Convenience name for target.
@@ -1648,7 +1648,7 @@ src/CMakeFiles/NodeRpcProxy.dir/all: src/CMakeFiles/System.dir/all
 src/CMakeFiles/NodeRpcProxy.dir/all: src/CMakeFiles/SubWallets.dir/all
 	$(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/depend
 	$(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=26 "Built target NodeRpcProxy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=26 "Built target NodeRpcProxy"
 .PHONY : src/CMakeFiles/NodeRpcProxy.dir/all
 
 # Include target in all.
@@ -1658,9 +1658,9 @@ all: src/CMakeFiles/NodeRpcProxy.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/NodeRpcProxy.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 39
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 39
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/NodeRpcProxy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/NodeRpcProxy.dir/rule
 
 # Convenience name for target.
@@ -1686,7 +1686,7 @@ src/CMakeFiles/Serialization.dir/all: src/CMakeFiles/Crypto.dir/all
 src/CMakeFiles/Serialization.dir/all: src/CMakeFiles/Common.dir/all
 	$(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/depend
 	$(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=31,32 "Built target Serialization"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=31,32 "Built target Serialization"
 .PHONY : src/CMakeFiles/Serialization.dir/all
 
 # Include target in all.
@@ -1696,9 +1696,9 @@ all: src/CMakeFiles/Serialization.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Serialization.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Serialization.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Serialization.dir/rule
 
 # Convenience name for target.
@@ -1725,7 +1725,7 @@ src/CMakeFiles/cryptotest.dir/all: src/CMakeFiles/Crypto.dir/all
 src/CMakeFiles/cryptotest.dir/all: src/CMakeFiles/Common.dir/all
 	$(MAKE) -f src/CMakeFiles/cryptotest.dir/build.make src/CMakeFiles/cryptotest.dir/depend
 	$(MAKE) -f src/CMakeFiles/cryptotest.dir/build.make src/CMakeFiles/cryptotest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=82 "Built target cryptotest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=82 "Built target cryptotest"
 .PHONY : src/CMakeFiles/cryptotest.dir/all
 
 # Include target in all.
@@ -1735,9 +1735,9 @@ all: src/CMakeFiles/cryptotest.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/cryptotest.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/cryptotest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/cryptotest.dir/rule
 
 # Convenience name for target.
@@ -1762,7 +1762,7 @@ clean: src/CMakeFiles/cryptotest.dir/clean
 src/CMakeFiles/System.dir/all:
 	$(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/depend
 	$(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=34,35,36 "Built target System"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=34,35,36 "Built target System"
 .PHONY : src/CMakeFiles/System.dir/all
 
 # Include target in all.
@@ -1772,9 +1772,9 @@ all: src/CMakeFiles/System.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/System.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/System.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/System.dir/rule
 
 # Convenience name for target.
@@ -1802,7 +1802,7 @@ src/CMakeFiles/Utilities.dir/all: src/CMakeFiles/Common.dir/all
 src/CMakeFiles/Utilities.dir/all: src/CMakeFiles/SubWallets.dir/all
 	$(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/depend
 	$(MAKE) -f src/CMakeFiles/Utilities.dir/build.make src/CMakeFiles/Utilities.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=39,40 "Built target Utilities"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=39,40 "Built target Utilities"
 .PHONY : src/CMakeFiles/Utilities.dir/all
 
 # Include target in all.
@@ -1812,9 +1812,9 @@ all: src/CMakeFiles/Utilities.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Utilities.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Utilities.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Utilities.dir/rule
 
 # Convenience name for target.
@@ -1840,7 +1840,7 @@ src/CMakeFiles/SubWallets.dir/all: src/CMakeFiles/Logger.dir/all
 src/CMakeFiles/SubWallets.dir/all: src/CMakeFiles/Common.dir/all
 	$(MAKE) -f src/CMakeFiles/SubWallets.dir/build.make src/CMakeFiles/SubWallets.dir/depend
 	$(MAKE) -f src/CMakeFiles/SubWallets.dir/build.make src/CMakeFiles/SubWallets.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=33 "Built target SubWallets"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=33 "Built target SubWallets"
 .PHONY : src/CMakeFiles/SubWallets.dir/all
 
 # Include target in all.
@@ -1850,9 +1850,9 @@ all: src/CMakeFiles/SubWallets.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/SubWallets.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/SubWallets.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/SubWallets.dir/rule
 
 # Convenience name for target.
@@ -1894,7 +1894,7 @@ src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/System.dir/all
 src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/SubWallets.dir/all
 	$(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/depend
 	$(MAKE) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=43 "Built target WalletBackend"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=43 "Built target WalletBackend"
 .PHONY : src/CMakeFiles/WalletBackend.dir/all
 
 # Include target in all.
@@ -1904,9 +1904,9 @@ all: src/CMakeFiles/WalletBackend.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/WalletBackend.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 79
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 79
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/WalletBackend.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/WalletBackend.dir/rule
 
 # Convenience name for target.

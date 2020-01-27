@@ -1964,7 +1964,7 @@ serialization/ISerializer.h
 wallet/WalletGreen.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletbackend/BlockDownloader.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletbackend/BlockDownloader.cpp
 walletbackend/BlockDownloader.h
 -
 config/WalletConfig.h
@@ -1980,7 +1980,7 @@ walletbackend/Constants.h
 config/Config.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletbackend/JsonSerialization.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletbackend/JsonSerialization.cpp
 walletbackend/JsonSerialization.h
 -
 common/StringTools.h
@@ -1998,13 +1998,13 @@ walletbackend/WalletBackend.h
 walletbackend/WalletSynchronizer.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletbackend/SynchronizationStatus.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletbackend/SynchronizationStatus.cpp
 walletbackend/SynchronizationStatus.h
 -
 walletbackend/Constants.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletbackend/Transfer.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletbackend/Transfer.cpp
 walletbackend/Transfer.h
 -
 config/Constants.h
@@ -2024,15 +2024,15 @@ utilities/Utilities.h
 walletbackend/WalletBackend.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletbackend/WalletBackend.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletbackend/WalletBackend.cpp
 walletbackend/WalletBackend.h
 -
 JsonHelper.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletbackend/JsonHelper.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletbackend/JsonHelper.h
 rapidjson/stringbuffer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletbackend/rapidjson/stringbuffer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletbackend/rapidjson/stringbuffer.h
 rapidjson/writer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletbackend/rapidjson/writer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletbackend/rapidjson/writer.h
 common/Base58.h
 -
 common/FileSystemShim.h
@@ -2082,7 +2082,7 @@ walletbackend/Constants.h
 walletbackend/Transfer.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletbackend/WalletSynchronizer.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletbackend/WalletSynchronizer.cpp
 walletbackend/WalletSynchronizer.h
 -
 common/StringTools.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/experimental/evolution-coin/Evolution-V2/Evolution/src
+# Install script for directory: /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -48,10 +48,10 @@ RM = /usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution
+CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/build
+CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

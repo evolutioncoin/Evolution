@@ -666,7 +666,7 @@ CryptoTypes.h
 hash-ops.h
 ../src/crypto/hash-ops.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/cryptotest/main.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/cryptotest/main.cpp
 iostream
 -
 chrono
@@ -678,13 +678,13 @@ cxxopts.hpp
 config/CliHeader.h
 -
 CryptoNote.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/cryptotest/CryptoNote.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/cryptotest/CryptoNote.h
 CryptoTypes.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/cryptotest/CryptoTypes.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/cryptotest/CryptoTypes.h
 common/StringTools.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/cryptotest/common/StringTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/cryptotest/common/StringTools.h
 crypto/crypto.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/cryptotest/crypto/crypto.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/cryptotest/crypto/crypto.h
 
 version/version.h
 

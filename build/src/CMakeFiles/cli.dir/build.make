@@ -43,10 +43,10 @@ RM = /usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution
+CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/build
+CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build
 
 # Utility rule file for cli.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/buil
 include src/CMakeFiles/cli.dir/progress.make
 
 src/CMakeFiles/cli: src/Evolutiond
-src/CMakeFiles/cli: src/zedwallet
+src/CMakeFiles/cli: src/EvolutionWallet
 
 
 cli: src/CMakeFiles/cli
@@ -68,10 +68,10 @@ src/CMakeFiles/cli.dir/build: cli
 .PHONY : src/CMakeFiles/cli.dir/build
 
 src/CMakeFiles/cli.dir/clean:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && $(CMAKE_COMMAND) -P CMakeFiles/cli.dir/cmake_clean.cmake
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && $(CMAKE_COMMAND) -P CMakeFiles/cli.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/cli.dir/clean
 
 src/CMakeFiles/cli.dir/depend:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution /home/experimental/evolution-coin/Evolution-V2/Evolution/src /home/experimental/evolution-coin/Evolution-V2/Evolution/build /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/cli.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution-V2 /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/cli.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/cli.dir/depend
 

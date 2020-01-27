@@ -36,18 +36,18 @@ src/CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.o
  ../src/config/CryptoNoteConfig.h
  ../src/crypto/hash-ops.h
  ../src/crypto/hash.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/BinaryInputStreamSerializer.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/BinaryInputStreamSerializer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/ISerializer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/SerializationOverloads.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/BinaryInputStreamSerializer.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/BinaryInputStreamSerializer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/ISerializer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/SerializationOverloads.h
 src/CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.o
  ../src/common/IOutputStream.h
  ../src/common/StreamTools.h
  ../src/common/StringView.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/BinaryOutputStreamSerializer.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/BinaryOutputStreamSerializer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/ISerializer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/SerializationOverloads.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/BinaryOutputStreamSerializer.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/BinaryOutputStreamSerializer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/ISerializer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/SerializationOverloads.h
 src/CMakeFiles/Serialization.dir/serialization/BlockchainExplorerDataSerialization.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -89,8 +89,8 @@ src/CMakeFiles/Serialization.dir/serialization/BlockchainExplorerDataSerializati
  ../src/serialization/CryptoNoteSerialization.h
  ../src/serialization/ISerializer.h
  ../src/serialization/SerializationOverloads.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/BlockchainExplorerDataSerialization.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/BlockchainExplorerDataSerialization.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/BlockchainExplorerDataSerialization.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/BlockchainExplorerDataSerialization.h
 src/CMakeFiles/Serialization.dir/serialization/CryptoNoteSerialization.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -186,54 +186,54 @@ src/CMakeFiles/Serialization.dir/serialization/CryptoNoteSerialization.cpp.o
  ../src/wallet/WalletGreen.h
  ../src/wallet/WalletIndices.h
  ../src/zedwallet/Types.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/CryptoNoteSerialization.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/CryptoNoteSerialization.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/CryptoNoteSerialization.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/CryptoNoteSerialization.h
 src/CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.o
  ../src/common/JsonValue.h
  ../src/common/StringView.h
  ../src/serialization/ISerializer.h
  ../src/serialization/JsonInputStreamSerializer.h
  ../src/serialization/JsonInputValueSerializer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/JsonInputStreamSerializer.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/JsonInputStreamSerializer.cpp
 src/CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.o
  ../src/common/JsonValue.h
  ../src/common/StringTools.h
  ../src/common/StringView.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/ISerializer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/JsonInputValueSerializer.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/JsonInputValueSerializer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/ISerializer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/JsonInputValueSerializer.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/JsonInputValueSerializer.h
 src/CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.o
  ../src/common/StringTools.h
  ../src/common/StringView.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/JsonValue.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/ISerializer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/JsonOutputStreamSerializer.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/JsonOutputStreamSerializer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/JsonValue.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/ISerializer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/JsonOutputStreamSerializer.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/JsonOutputStreamSerializer.h
 src/CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.o
  ../src/common/IInputStream.h
  ../src/common/JsonValue.h
  ../src/common/StreamTools.h
  ../src/common/StringView.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/ISerializer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/JsonInputValueSerializer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/KVBinaryCommon.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/KVBinaryInputStreamSerializer.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/KVBinaryInputStreamSerializer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/ISerializer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/JsonInputValueSerializer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/KVBinaryCommon.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/KVBinaryInputStreamSerializer.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/KVBinaryInputStreamSerializer.h
 src/CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.o
  ../src/common/IOutputStream.h
  ../src/common/StreamTools.h
  ../src/common/StringView.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/ISerializer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/KVBinaryCommon.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/KVBinaryOutputStreamSerializer.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/KVBinaryOutputStreamSerializer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/MemoryStream.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/ISerializer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/KVBinaryCommon.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/KVBinaryOutputStreamSerializer.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/KVBinaryOutputStreamSerializer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/MemoryStream.h
 src/CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.o
  ../src/common/IOutputStream.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/MemoryStream.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/MemoryStream.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/MemoryStream.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/MemoryStream.h
 src/CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.o
  ../src/common/StringView.h
  ../src/serialization/ISerializer.h
  ../src/serialization/SerializationOverloads.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/serialization/SerializationOverloads.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/serialization/SerializationOverloads.cpp

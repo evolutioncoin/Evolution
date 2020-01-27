@@ -1742,7 +1742,7 @@ serialization/ISerializer.h
 wallet/WalletGreen.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/BlockUtilities.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/BlockUtilities.cpp
 miner/BlockUtilities.h
 -
 common/CryptoNoteTools.h
@@ -1754,11 +1754,11 @@ serialization/CryptoNoteSerialization.h
 serialization/SerializationTools.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/BlockchainMonitor.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/BlockchainMonitor.cpp
 BlockchainMonitor.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/BlockchainMonitor.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/BlockchainMonitor.h
 common/StringTools.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/common/StringTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/common/StringTools.h
 system/EventLock.h
 -
 system/Timer.h
@@ -1766,17 +1766,17 @@ system/Timer.h
 system/InterruptedException.h
 -
 rpc/CoreRpcServerCommandsDefinitions.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/rpc/CoreRpcServerCommandsDefinitions.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/rpc/CoreRpcServerCommandsDefinitions.h
 rpc/JsonRpc.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/rpc/JsonRpc.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/rpc/JsonRpc.h
 utilities/ColouredMsg.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/BlockchainMonitor.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/BlockchainMonitor.h
 CryptoTypes.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/CryptoTypes.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/CryptoTypes.h
 httplib.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/httplib.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/httplib.h
 optional
 -
 system/ContextGroup.h
@@ -1786,9 +1786,9 @@ system/Dispatcher.h
 system/Event.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/Miner.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/Miner.cpp
 Miner.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/Miner.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/Miner.h
 iostream
 -
 common/CheckDifficulty.h
@@ -1806,7 +1806,7 @@ system/InterruptedException.h
 utilities/ColouredMsg.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/Miner.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/Miner.h
 atomic
 -
 thread
@@ -1820,13 +1820,13 @@ system/Event.h
 system/RemoteContext.h
 -
 CryptoNote.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/CryptoNote.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/CryptoNote.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/MinerEvent.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/MinerEvent.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/MinerManager.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/MinerManager.cpp
 MinerManager.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/MinerManager.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/MinerManager.h
 common/CryptoNoteTools.h
 -
 common/StringTools.h
@@ -1842,7 +1842,7 @@ utilities/ColouredMsg.h
 utilities/FormatTools.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/MinerManager.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/MinerManager.h
 queue
 -
 system/ContextGroup.h
@@ -1850,19 +1850,19 @@ system/ContextGroup.h
 system/Event.h
 -
 BlockchainMonitor.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/BlockchainMonitor.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/BlockchainMonitor.h
 logging/LoggerRef.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/logging/LoggerRef.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/logging/LoggerRef.h
 Miner.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/Miner.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/Miner.h
 MinerEvent.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/MinerEvent.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/MinerEvent.h
 MiningConfig.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/MiningConfig.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/MiningConfig.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/MiningConfig.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/MiningConfig.cpp
 MiningConfig.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/MiningConfig.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/MiningConfig.h
 iostream
 -
 thread
@@ -1884,13 +1884,13 @@ config/CliHeader.h
 config/CryptoNoteConfig.h
 -
 common/StringTools.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/common/StringTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/common/StringTools.h
 common/Util.h
 -
 logging/ILogger.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/logging/ILogger.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/logging/ILogger.h
 version.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/version.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/version.h
 errors/ValidateParameters.h
 -
 utilities/ColouredMsg.h
@@ -1900,17 +1900,17 @@ utilities/String.h
 utilities/Utilities.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/MiningConfig.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/MiningConfig.h
 version.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/version.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/version.h
 cstdint
 -
 string
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/main.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/main.cpp
 MinerManager.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/miner/MinerManager.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/miner/MinerManager.h
 system/Dispatcher.h
 -
 

@@ -39,5 +39,5 @@ src/CMakeFiles/cryptotest.dir/cryptotest/main.cpp.o
  ../src/crypto/crypto.h
  ../src/crypto/hash-ops.h
  ../src/crypto/hash.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/cryptotest/main.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/cryptotest/main.cpp
  version/version.h

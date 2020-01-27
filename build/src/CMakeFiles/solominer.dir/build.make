@@ -43,10 +43,10 @@ RM = /usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution
+CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/build
+CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build
 
 # Utility rule file for solominer.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/buil
 include src/CMakeFiles/solominer.dir/progress.make
 
 src/CMakeFiles/solominer: src/Evolutiond
-src/CMakeFiles/solominer: src/zedwallet
+src/CMakeFiles/solominer: src/EvolutionWallet
 src/CMakeFiles/solominer: src/miner
 
 
@@ -69,10 +69,10 @@ src/CMakeFiles/solominer.dir/build: solominer
 .PHONY : src/CMakeFiles/solominer.dir/build
 
 src/CMakeFiles/solominer.dir/clean:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && $(CMAKE_COMMAND) -P CMakeFiles/solominer.dir/cmake_clean.cmake
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && $(CMAKE_COMMAND) -P CMakeFiles/solominer.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/solominer.dir/clean
 
 src/CMakeFiles/solominer.dir/depend:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution /home/experimental/evolution-coin/Evolution-V2/Evolution/src /home/experimental/evolution-coin/Evolution-V2/Evolution/build /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/solominer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution-V2 /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/solominer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/solominer.dir/depend
 

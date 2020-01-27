@@ -101,8 +101,8 @@ src/CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.o
  ../src/wallet/WalletGreen.h
  ../src/wallet/WalletIndices.h
  ../src/zedwallet/Types.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/HttpClient.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/HttpClient.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/HttpClient.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/HttpClient.h
 src/CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.o
  ../src/http/HttpParser.h
  ../src/http/HttpRequest.h
@@ -118,8 +118,8 @@ src/CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.o
  ../src/system/InterruptedException.h
  ../src/system/Ipv4Address.h
  ../src/system/TcpStream.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/HttpServer.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/HttpServer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/HttpServer.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/HttpServer.h
 src/CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -217,9 +217,9 @@ src/CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.o
  ../src/wallet/WalletGreen.h
  ../src/wallet/WalletIndices.h
  ../src/zedwallet/Types.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/CoreRpcServerCommandsDefinitions.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/JsonRpc.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/JsonRpc.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/CoreRpcServerCommandsDefinitions.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/JsonRpc.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/JsonRpc.h
 src/CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -374,5 +374,5 @@ src/CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.o
  ../src/wallet/WalletGreen.h
  ../src/wallet/WalletIndices.h
  ../src/zedwallet/Types.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/rpc/RpcServer.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/rpc/RpcServer.cpp
  version/version.h

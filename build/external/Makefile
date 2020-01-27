@@ -48,10 +48,10 @@ RM = /usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution
+CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/build
+CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/CMakeFiles/progress.marks
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 external/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/CMakeFiles/progress.marks
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 external/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 external/clean
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 external/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,17 +143,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 external/preinstall
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 external/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 external/preinstall
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 external/preinstall
 .PHONY : preinstall/fast
 
 # Convenience name for target.
 external/CMakeFiles/rocksdb.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 external/CMakeFiles/rocksdb.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 external/CMakeFiles/rocksdb.dir/rule
 .PHONY : external/CMakeFiles/rocksdb.dir/rule
 
 # Convenience name for target.
@@ -163,7 +163,7 @@ rocksdb: external/CMakeFiles/rocksdb.dir/rule
 
 # fast build rule for target.
 rocksdb/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/CMakeFiles/rocksdb.dir/build.make external/CMakeFiles/rocksdb.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/CMakeFiles/rocksdb.dir/build.make external/CMakeFiles/rocksdb.dir/build
 .PHONY : rocksdb/fast
 
 # Help Target

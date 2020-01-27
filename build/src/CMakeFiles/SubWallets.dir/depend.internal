@@ -43,7 +43,7 @@ src/CMakeFiles/SubWallets.dir/subwallets/SubWallet.cpp.o
  ../src/subwallets/SubWallet.h
  ../src/utilities/Utilities.h
  ../src/walletbackend/Constants.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/subwallets/SubWallet.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/subwallets/SubWallet.cpp
 src/CMakeFiles/SubWallets.dir/subwallets/SubWallets.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -86,4 +86,4 @@ src/CMakeFiles/SubWallets.dir/subwallets/SubWallets.cpp.o
  ../src/subwallets/SubWallets.h
  ../src/utilities/Addresses.h
  ../src/utilities/Utilities.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/subwallets/SubWallets.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/subwallets/SubWallets.cpp

@@ -8,8 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.o"
   "CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.o"
   "CMakeFiles/WalletService.dir/walletservice/main.cpp.o"
-  "wallet-service.pdb"
-  "wallet-service"
+  "Evolution-Service.pdb"
+  "Evolution-Service"
 )
 
 # Per-language clean rules from dependency scanning.

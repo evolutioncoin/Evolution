@@ -43,10 +43,10 @@ RM = /usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution
+CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/build
+CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/BlockchainExplorer.dir/depend.make
@@ -59,29 +59,29 @@ include src/CMakeFiles/BlockchainExplorer.dir/flags.make
 
 src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorer.cpp.o: src/CMakeFiles/BlockchainExplorer.dir/flags.make
 src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorer.cpp.o: ../src/blockchainexplorer/BlockchainExplorer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorer.cpp.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/ccache /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorer.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution/src/blockchainexplorer/BlockchainExplorer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorer.cpp.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorer.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/blockchainexplorer/BlockchainExplorer.cpp
 
 src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorer.cpp.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/src/blockchainexplorer/BlockchainExplorer.cpp > CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorer.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/blockchainexplorer/BlockchainExplorer.cpp > CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorer.cpp.i
 
 src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorer.cpp.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/src/blockchainexplorer/BlockchainExplorer.cpp -o CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorer.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/blockchainexplorer/BlockchainExplorer.cpp -o CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorer.cpp.s
 
 src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.o: src/CMakeFiles/BlockchainExplorer.dir/flags.make
 src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.o: ../src/blockchainexplorer/BlockchainExplorerErrors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.o"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/ccache /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution/src/blockchainexplorer/BlockchainExplorerErrors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.o"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/blockchainexplorer/BlockchainExplorerErrors.cpp
 
 src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.i"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/src/blockchainexplorer/BlockchainExplorerErrors.cpp > CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/blockchainexplorer/BlockchainExplorerErrors.cpp > CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.i
 
 src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.s"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/src/blockchainexplorer/BlockchainExplorerErrors.cpp -o CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/blockchainexplorer/BlockchainExplorerErrors.cpp -o CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.s
 
 # Object files for target BlockchainExplorer
 BlockchainExplorer_OBJECTS = \
@@ -95,9 +95,9 @@ src/libBlockchainExplorer.a: src/CMakeFiles/BlockchainExplorer.dir/blockchainexp
 src/libBlockchainExplorer.a: src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.o
 src/libBlockchainExplorer.a: src/CMakeFiles/BlockchainExplorer.dir/build.make
 src/libBlockchainExplorer.a: src/CMakeFiles/BlockchainExplorer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libBlockchainExplorer.a"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && $(CMAKE_COMMAND) -P CMakeFiles/BlockchainExplorer.dir/cmake_clean_target.cmake
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BlockchainExplorer.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libBlockchainExplorer.a"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && $(CMAKE_COMMAND) -P CMakeFiles/BlockchainExplorer.dir/cmake_clean_target.cmake
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BlockchainExplorer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/BlockchainExplorer.dir/build: src/libBlockchainExplorer.a
@@ -105,10 +105,10 @@ src/CMakeFiles/BlockchainExplorer.dir/build: src/libBlockchainExplorer.a
 .PHONY : src/CMakeFiles/BlockchainExplorer.dir/build
 
 src/CMakeFiles/BlockchainExplorer.dir/clean:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src && $(CMAKE_COMMAND) -P CMakeFiles/BlockchainExplorer.dir/cmake_clean.cmake
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src && $(CMAKE_COMMAND) -P CMakeFiles/BlockchainExplorer.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/BlockchainExplorer.dir/clean
 
 src/CMakeFiles/BlockchainExplorer.dir/depend:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution /home/experimental/evolution-coin/Evolution-V2/Evolution/src /home/experimental/evolution-coin/Evolution-V2/Evolution/build /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src /home/experimental/evolution-coin/Evolution-V2/Evolution/build/src/CMakeFiles/BlockchainExplorer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution-V2 /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/src/CMakeFiles/BlockchainExplorer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/BlockchainExplorer.dir/depend
 

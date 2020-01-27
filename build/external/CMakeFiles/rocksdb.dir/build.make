@@ -43,10 +43,10 @@ RM = /usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution
+CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/build
+CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build
 
 # Utility rule file for rocksdb.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/buil
 include external/CMakeFiles/rocksdb.dir/progress.make
 
 external/CMakeFiles/rocksdb:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/rocksdb && $(MAKE) rocksdb
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/rocksdb && $(MAKE) rocksdb
 
 rocksdb: external/CMakeFiles/rocksdb
 rocksdb: external/CMakeFiles/rocksdb.dir/build.make
@@ -67,10 +67,10 @@ external/CMakeFiles/rocksdb.dir/build: rocksdb
 .PHONY : external/CMakeFiles/rocksdb.dir/build
 
 external/CMakeFiles/rocksdb.dir/clean:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external && $(CMAKE_COMMAND) -P CMakeFiles/rocksdb.dir/cmake_clean.cmake
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external && $(CMAKE_COMMAND) -P CMakeFiles/rocksdb.dir/cmake_clean.cmake
 .PHONY : external/CMakeFiles/rocksdb.dir/clean
 
 external/CMakeFiles/rocksdb.dir/depend:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution /home/experimental/evolution-coin/Evolution-V2/Evolution/external /home/experimental/evolution-coin/Evolution-V2/Evolution/build /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/CMakeFiles/rocksdb.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution-V2 /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/CMakeFiles/rocksdb.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/CMakeFiles/rocksdb.dir/depend
 

@@ -580,7 +580,7 @@ errors/Errors.h
 
 ../src/mnemonics/WordList.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/mnemonics/Mnemonics.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/mnemonics/Mnemonics.cpp
 algorithm
 -
 mnemonics/CRC32.h

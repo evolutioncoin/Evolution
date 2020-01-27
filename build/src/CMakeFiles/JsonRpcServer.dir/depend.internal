@@ -108,5 +108,5 @@ src/CMakeFiles/JsonRpcServer.dir/jsonrpcserver/JsonRpcServer.cpp.o
  ../src/walletservice/ConfigurationManager.h
  ../src/walletservice/WalletServiceConfiguration.h
  ../src/zedwallet/Types.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/jsonrpcserver/JsonRpcServer.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/jsonrpcserver/JsonRpcServer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/jsonrpcserver/JsonRpcServer.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/jsonrpcserver/JsonRpcServer.h

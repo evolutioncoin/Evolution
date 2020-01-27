@@ -38,7 +38,7 @@ namespace CryptoNote {
 
 		const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX = 2;
 		const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V2 = 3;
-		const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V3 = 280000; //diff adjustment
+		const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V3 = 480000; //diff adjustment
 
 		const unsigned EMISSION_SPEED_FACTOR = 25;
 		static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
@@ -87,7 +87,7 @@ namespace CryptoNote {
 
 		//DustFund Parameters
 		const uint64_t CRYPTONOTE_DUST_OUT_LIMIT = UINT64_C(1000000); //the limit up to which dust outs should be removed and contributed back to the dust fund
-		const char CRYPTONOTE_DUST_OUT_ADDRESS[] = "evcFDKSkDHwDaMUGPjKEVs6PVjNJFEJX1AKttUVQEbLuGfxmEYcsPvyGZiAx7QmGHq6yHyQCkh4uDS5sUXxaqZw25YHKR7sKFW";
+		const char CRYPTONOTE_DUST_OUT_ADDRESS[] = "evcFCsTprMXMy6HZDbo3AcBmZMFWvndWM5VL7qRW83kWJseD6on1dPLSFqaoYhjHj3BR32ptiQLEWjRN49cfWXgo3JepQZnBst";
 
 		const uint64_t MINIMUM_FEE = UINT64_C(10000000); //0.01 minimum fee
 
@@ -127,7 +127,7 @@ namespace CryptoNote {
 		const uint64_t MAX_BLOCK_SIZE_GROWTH_SPEED_DENOMINATOR = 365 * 24 * 60 * 60 / DIFFICULTY_TARGET;
 		const uint64_t MAX_EXTRA_SIZE = 2048;
 		const uint64_t MAX_EXTRA_SIZE_V2 = 10240;
-		const uint64_t MAX_EXTRA_SIZE_V2_HEIGHT = 300000; //height at which tx extra is limited to 10240
+		const uint64_t MAX_EXTRA_SIZE_V2_HEIGHT = 480000; //height at which tx extra is limited to 10240
 
 		/* 1 billion EVC */
 		/* This is enforced on the daemon side. An output > 100 million causes
@@ -139,7 +139,7 @@ namespace CryptoNote {
 		 * be created in a transaction */
 		const uint64_t MAX_OUTPUT_SIZE_CLIENT = 100000000000000000;
 
-		const uint64_t MAX_OUTPUT_SIZE_HEIGHT = 400000;
+		const uint64_t MAX_OUTPUT_SIZE_HEIGHT = 40000000;
 		/* For new projects forked from this code base, the values immediately below
    should be changed to 0 to prevent issues with transaction processing
    and other possible unexpected behavior */
@@ -166,7 +166,7 @@ namespace CryptoNote {
 
 		/* This prevents tx's from having a rediculous number of outputs in relation to inputs */
 		const size_t NORMAL_TX_MAX_OUTPUT_COUNT_V1 = 90;
-		const size_t NORMAL_TX_MAX_OUTPUT_COUNT_V1_HEIGHT = 400000;
+		const size_t NORMAL_TX_MAX_OUTPUT_COUNT_V1_HEIGHT = 40000000;
 
 		const uint32_t UPGRADE_HEIGHT_V2 = 1;
 		const uint32_t UPGRADE_HEIGHT_V3 = 2;
@@ -221,8 +221,8 @@ namespace CryptoNote {
 		const char     MINER_CONFIG_FILE_NAME[] = "miner_conf.json";
 	} // parameters
 
-	const char     CRYPTONOTE_NAME[] = "Evolution";
-	const char     DATADIR_NAME[]              =             "Evolution-v1";
+	const char     CRYPTONOTE_NAME[] = "Evolution-DB";
+
 	
 	const uint8_t  TRANSACTION_VERSION_1 = 1;
 	const uint8_t  TRANSACTION_VERSION_2 = 2;
@@ -282,8 +282,8 @@ const std::unordered_map<
 	const uint32_t P2P_DEFAULT_HANDSHAKE_INTERVAL = 60;            // seconds
 	const uint32_t P2P_DEFAULT_PACKET_MAX_SIZE = 50000000;      // 50 000 000 bytes maximum packet size
 	const uint32_t P2P_DEFAULT_PEERS_IN_HANDSHAKE = 250;
-	const uint32_t P2P_DEFAULT_CONNECTION_TIMEOUT = 5000;          // 5 seconds
-	const uint32_t P2P_DEFAULT_PING_CONNECTION_TIMEOUT = 2000;          // 2 seconds
+	const uint32_t P2P_DEFAULT_CONNECTION_TIMEOUT = 7000;          // 7 seconds
+	const uint32_t P2P_DEFAULT_PING_CONNECTION_TIMEOUT = 2500;          // 2.5 seconds
 	const uint64_t P2P_DEFAULT_INVOKE_TIMEOUT = 60 * 2 * 1000; // 2 minutes
 	const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT = 5000;          // 5 seconds
 	const char     P2P_STAT_TRUSTED_PUB_KEY[] = "";
@@ -303,7 +303,8 @@ const std::unordered_map<
 
 	const char* const SEED_NODES[] = {	//add seed nodes
 		
-		"evolutioncoin.go.ro:22100" // nodlocal 1
+		"79.115.186.120:22100",   // main node
+		"82.38.224.216:22100"    // node1
 
 	};
 } // CryptoNote

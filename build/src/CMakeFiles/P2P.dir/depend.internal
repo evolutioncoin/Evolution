@@ -123,8 +123,8 @@ src/CMakeFiles/P2P.dir/cryptonoteprotocol/CryptoNoteProtocolHandler.cpp.o
  ../src/wallet/WalletGreen.h
  ../src/wallet/WalletIndices.h
  ../src/zedwallet/Types.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/cryptonoteprotocol/CryptoNoteProtocolHandler.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/cryptonoteprotocol/CryptoNoteProtocolHandler.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/cryptonoteprotocol/CryptoNoteProtocolHandler.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/cryptonoteprotocol/CryptoNoteProtocolHandler.h
 src/CMakeFiles/P2P.dir/p2p/IP2pNodeInternal.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -167,10 +167,10 @@ src/CMakeFiles/P2P.dir/p2p/IP2pNodeInternal.cpp.o
  ../src/serialization/CryptoNoteSerialization.h
  ../src/serialization/ISerializer.h
  ../src/serialization/SerializationOverloads.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/IP2pNodeInternal.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/IP2pNodeInternal.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pProtocolDefinitions.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pProtocolTypes.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/IP2pNodeInternal.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/IP2pNodeInternal.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pProtocolDefinitions.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pProtocolTypes.h
 src/CMakeFiles/P2P.dir/p2p/LevinProtocol.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -214,8 +214,8 @@ src/CMakeFiles/P2P.dir/p2p/LevinProtocol.cpp.o
  ../src/serialization/KVBinaryInputStreamSerializer.h
  ../src/serialization/KVBinaryOutputStreamSerializer.h
  ../src/serialization/MemoryStream.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/LevinProtocol.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/LevinProtocol.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/LevinProtocol.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/LevinProtocol.h
 src/CMakeFiles/P2P.dir/p2p/NetNode.cpp.o
  ../external/miniupnpc/igd_desc_parse.h
  ../external/miniupnpc/miniupnpc.h
@@ -322,15 +322,15 @@ src/CMakeFiles/P2P.dir/p2p/NetNode.cpp.o
  ../src/system/EventLock.h
  ../src/system/InterruptedException.h
  ../src/system/Ipv4Address.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/ConnectionContext.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/LevinProtocol.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/NetNode.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/NetNode.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/NetNodeCommon.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/NetNodeConfig.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pProtocolDefinitions.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pProtocolTypes.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/PeerListManager.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/ConnectionContext.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/LevinProtocol.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/NetNode.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/NetNode.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/NetNodeCommon.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/NetNodeConfig.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pProtocolDefinitions.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pProtocolTypes.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/PeerListManager.h
  version/version.h
 src/CMakeFiles/P2P.dir/p2p/NetNodeConfig.cpp.o
  ../external/nlohmann-json/json.hpp
@@ -366,9 +366,9 @@ src/CMakeFiles/P2P.dir/p2p/NetNodeConfig.cpp.o
  ../src/crypto/hash-ops.h
  ../src/crypto/hash.h
  ../src/crypto/random.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/NetNodeConfig.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/NetNodeConfig.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pProtocolTypes.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/NetNodeConfig.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/NetNodeConfig.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pProtocolTypes.h
 src/CMakeFiles/P2P.dir/p2p/P2pConnectionProxy.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -437,17 +437,17 @@ src/CMakeFiles/P2P.dir/p2p/P2pConnectionProxy.cpp.o
  ../src/system/ContextGroup.h
  ../src/system/Event.h
  ../src/system/InterruptedException.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/IP2pNodeInternal.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/LevinProtocol.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/NetNodeConfig.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pConnectionProxy.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pConnectionProxy.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pContext.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pContextOwner.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pInterfaces.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pNode.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pProtocolDefinitions.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pProtocolTypes.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/IP2pNodeInternal.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/LevinProtocol.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/NetNodeConfig.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pConnectionProxy.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pConnectionProxy.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pContext.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pContextOwner.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pInterfaces.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pNode.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pProtocolDefinitions.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pProtocolTypes.h
 src/CMakeFiles/P2P.dir/p2p/P2pContext.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -508,12 +508,12 @@ src/CMakeFiles/P2P.dir/p2p/P2pContext.cpp.o
  ../src/system/InterruptedException.h
  ../src/system/Ipv4Address.h
  ../src/system/OperationTimeout.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/LevinProtocol.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pContext.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pContext.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pInterfaces.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pProtocolDefinitions.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pProtocolTypes.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/LevinProtocol.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pContext.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pContext.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pInterfaces.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pProtocolDefinitions.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pProtocolTypes.h
 src/CMakeFiles/P2P.dir/p2p/P2pContextOwner.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -570,13 +570,13 @@ src/CMakeFiles/P2P.dir/p2p/P2pContextOwner.cpp.o
  ../src/serialization/SerializationOverloads.h
  ../src/system/ContextGroup.h
  ../src/system/Event.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/LevinProtocol.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pContext.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pContextOwner.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pContextOwner.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pInterfaces.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pProtocolDefinitions.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pProtocolTypes.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/LevinProtocol.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pContext.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pContextOwner.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pContextOwner.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pInterfaces.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pProtocolDefinitions.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pProtocolTypes.h
 src/CMakeFiles/P2P.dir/p2p/P2pInterfaces.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -607,8 +607,8 @@ src/CMakeFiles/P2P.dir/p2p/P2pInterfaces.cpp.o
  ../include/CryptoTypes.h
  ../include/JsonHelper.h
  ../src/common/StringTools.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pInterfaces.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pInterfaces.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pInterfaces.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pInterfaces.h
 src/CMakeFiles/P2P.dir/p2p/P2pNode.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -685,17 +685,17 @@ src/CMakeFiles/P2P.dir/p2p/P2pNode.cpp.o
  ../src/system/InterruptedException.h
  ../src/system/Ipv4Address.h
  ../src/system/OperationTimeout.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/IP2pNodeInternal.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/LevinProtocol.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/NetNodeConfig.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pConnectionProxy.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pContext.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pContextOwner.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pInterfaces.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pNode.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pNode.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pProtocolDefinitions.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pProtocolTypes.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/IP2pNodeInternal.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/LevinProtocol.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/NetNodeConfig.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pConnectionProxy.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pContext.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pContextOwner.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pInterfaces.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pNode.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pNode.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pProtocolDefinitions.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pProtocolTypes.h
 src/CMakeFiles/P2P.dir/p2p/P2pNodeConfig.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -728,10 +728,10 @@ src/CMakeFiles/P2P.dir/p2p/P2pNodeConfig.cpp.o
  ../src/config/CryptoNoteConfig.h
  ../src/crypto/hash-ops.h
  ../src/crypto/hash.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/NetNodeConfig.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pNodeConfig.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pNodeConfig.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/P2pProtocolTypes.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/NetNodeConfig.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pNodeConfig.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pNodeConfig.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/P2pProtocolTypes.h
 src/CMakeFiles/P2P.dir/p2p/PeerListManager.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -770,10 +770,10 @@ src/CMakeFiles/P2P.dir/p2p/PeerListManager.cpp.o
  ../src/serialization/ISerializer.h
  ../src/serialization/SerializationOverloads.h
  ../src/system/Ipv4Address.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/PeerListManager.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/PeerListManager.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/PeerListManager.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/PeerListManager.h
 src/CMakeFiles/P2P.dir/p2p/Peerlist.cpp.o
  ../src/common/StringTools.h
  ../src/p2p/P2pProtocolTypes.h
  ../src/p2p/Peerlist.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/p2p/Peerlist.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/p2p/Peerlist.cpp

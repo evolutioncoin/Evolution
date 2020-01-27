@@ -3,7 +3,7 @@
 
 src/CMakeFiles/Errors.dir/errors/Errors.cpp.o
  ../src/errors/Errors.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/errors/Errors.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/errors/Errors.cpp
 src/CMakeFiles/Errors.dir/errors/ValidateParameters.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -109,4 +109,4 @@ src/CMakeFiles/Errors.dir/errors/ValidateParameters.cpp.o
  ../src/wallet/WalletGreen.h
  ../src/wallet/WalletIndices.h
  ../src/zedwallet/Types.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/errors/ValidateParameters.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/errors/ValidateParameters.cpp

@@ -32,13 +32,13 @@ src/CMakeFiles/Common.dir/common/Base58.cpp.o
  ../src/common/int-util.h
  ../src/crypto/hash-ops.h
  ../src/crypto/hash.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/Base58.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/Base58.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/Varint.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/int-util.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/Base58.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/Base58.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/Varint.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/int-util.h
 src/CMakeFiles/Common.dir/common/BlockingQueue.cpp.o
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/BlockingQueue.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/BlockingQueue.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/BlockingQueue.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/BlockingQueue.h
 src/CMakeFiles/Common.dir/common/CheckDifficulty.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -70,16 +70,16 @@ src/CMakeFiles/Common.dir/common/CheckDifficulty.cpp.o
  ../src/common/int-util.h
  ../src/crypto/hash-ops.h
  ../src/crypto/hash.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/CheckDifficulty.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/CheckDifficulty.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/CheckDifficulty.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/CheckDifficulty.h
 src/CMakeFiles/Common.dir/common/ConsoleHandler.cpp.o
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/BlockingQueue.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/ConsoleHandler.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/ConsoleHandler.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/ConsoleTools.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/BlockingQueue.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/ConsoleHandler.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/ConsoleHandler.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/ConsoleTools.h
 src/CMakeFiles/Common.dir/common/ConsoleTools.cpp.o
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/ConsoleTools.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/ConsoleTools.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/ConsoleTools.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/ConsoleTools.h
 src/CMakeFiles/Common.dir/common/CryptoNoteTools.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -173,67 +173,67 @@ src/CMakeFiles/Common.dir/common/CryptoNoteTools.cpp.o
  ../src/wallet/WalletGreen.h
  ../src/wallet/WalletIndices.h
  ../src/zedwallet/Types.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/CryptoNoteTools.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/CryptoNoteTools.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/CryptoNoteTools.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/CryptoNoteTools.h
 src/CMakeFiles/Common.dir/common/FileMappedVector.cpp.o
  ../src/common/FileSystemShim.h
  ../src/common/ScopeExit.h
  ../src/crypto/random.h
  ../src/platform/posix/system/MemoryMappedFile.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/FileMappedVector.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/FileMappedVector.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/FileMappedVector.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/FileMappedVector.h
 src/CMakeFiles/Common.dir/common/IInputStream.cpp.o
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IInputStream.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IInputStream.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IInputStream.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IInputStream.h
 src/CMakeFiles/Common.dir/common/IOutputStream.cpp.o
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IOutputStream.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IOutputStream.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IOutputStream.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IOutputStream.h
 src/CMakeFiles/Common.dir/common/JsonValue.cpp.o
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/JsonValue.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/JsonValue.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/JsonValue.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/JsonValue.h
 src/CMakeFiles/Common.dir/common/Math.cpp.o
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/Math.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/Math.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/Math.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/Math.h
 src/CMakeFiles/Common.dir/common/MemoryInputStream.cpp.o
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IInputStream.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/MemoryInputStream.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/MemoryInputStream.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IInputStream.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/MemoryInputStream.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/MemoryInputStream.h
 src/CMakeFiles/Common.dir/common/PathTools.cpp.o
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/PathTools.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/PathTools.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/PathTools.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/PathTools.h
 src/CMakeFiles/Common.dir/common/ScopeExit.cpp.o
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/ScopeExit.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/ScopeExit.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/ScopeExit.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/ScopeExit.h
 src/CMakeFiles/Common.dir/common/SignalHandler.cpp.o
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/SignalHandler.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/SignalHandler.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/SignalHandler.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/SignalHandler.h
 src/CMakeFiles/Common.dir/common/StdInputStream.cpp.o
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IInputStream.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StdInputStream.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StdInputStream.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IInputStream.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StdInputStream.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StdInputStream.h
 src/CMakeFiles/Common.dir/common/StdOutputStream.cpp.o
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IOutputStream.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StdOutputStream.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StdOutputStream.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IOutputStream.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StdOutputStream.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StdOutputStream.h
 src/CMakeFiles/Common.dir/common/StreamTools.cpp.o
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IInputStream.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IOutputStream.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StreamTools.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StreamTools.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IInputStream.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IOutputStream.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StreamTools.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StreamTools.h
 src/CMakeFiles/Common.dir/common/StringInputStream.cpp.o
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IInputStream.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StringInputStream.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StringInputStream.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IInputStream.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StringInputStream.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StringInputStream.h
 src/CMakeFiles/Common.dir/common/StringOutputStream.cpp.o
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IOutputStream.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StringOutputStream.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StringOutputStream.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IOutputStream.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StringOutputStream.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StringOutputStream.h
 src/CMakeFiles/Common.dir/common/StringTools.cpp.o
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StringTools.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StringTools.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StringTools.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StringTools.h
 src/CMakeFiles/Common.dir/common/StringView.cpp.o
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StringView.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/StringView.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StringView.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/StringView.h
 src/CMakeFiles/Common.dir/common/TransactionExtra.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -327,8 +327,8 @@ src/CMakeFiles/Common.dir/common/TransactionExtra.cpp.o
  ../src/wallet/WalletGreen.h
  ../src/wallet/WalletIndices.h
  ../src/zedwallet/Types.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/TransactionExtra.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/TransactionExtra.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/TransactionExtra.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/TransactionExtra.h
 src/CMakeFiles/Common.dir/common/Util.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -362,9 +362,9 @@ src/CMakeFiles/Common.dir/common/Util.cpp.o
  ../src/config/CryptoNoteConfig.h
  ../src/crypto/hash-ops.h
  ../src/crypto/hash.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/Util.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/Util.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/Util.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/Util.h
 src/CMakeFiles/Common.dir/common/VectorOutputStream.cpp.o
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/IOutputStream.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/VectorOutputStream.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/common/VectorOutputStream.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/IOutputStream.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/VectorOutputStream.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/common/VectorOutputStream.h

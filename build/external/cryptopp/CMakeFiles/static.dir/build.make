@@ -43,10 +43,10 @@ RM = /usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution
+CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/build
+CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build
 
 # Utility rule file for static.
 
@@ -67,10 +67,10 @@ external/cryptopp/CMakeFiles/static.dir/build: static
 .PHONY : external/cryptopp/CMakeFiles/static.dir/build
 
 external/cryptopp/CMakeFiles/static.dir/clean:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp && $(CMAKE_COMMAND) -P CMakeFiles/static.dir/cmake_clean.cmake
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp && $(CMAKE_COMMAND) -P CMakeFiles/static.dir/cmake_clean.cmake
 .PHONY : external/cryptopp/CMakeFiles/static.dir/clean
 
 external/cryptopp/CMakeFiles/static.dir/depend:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution /home/experimental/evolution-coin/Evolution-V2/Evolution/external/cryptopp /home/experimental/evolution-coin/Evolution-V2/Evolution/build /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/static.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution-V2 /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/cryptopp /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/static.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/cryptopp/CMakeFiles/static.dir/depend
 

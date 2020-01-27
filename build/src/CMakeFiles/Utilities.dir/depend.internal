@@ -99,7 +99,7 @@ src/CMakeFiles/Utilities.dir/utilities/Addresses.cpp.o
  ../src/wallet/WalletGreen.h
  ../src/wallet/WalletIndices.h
  ../src/zedwallet/Types.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/utilities/Addresses.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/utilities/Addresses.cpp
 src/CMakeFiles/Utilities.dir/utilities/FormatTools.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -151,12 +151,12 @@ src/CMakeFiles/Utilities.dir/utilities/FormatTools.cpp.o
  ../src/serialization/ISerializer.h
  ../src/serialization/SerializationOverloads.h
  ../src/utilities/FormatTools.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/utilities/FormatTools.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/utilities/FormatTools.cpp
 src/CMakeFiles/Utilities.dir/utilities/Input.cpp.o
  ../src/common/ConsoleTools.h
  ../src/utilities/ColouredMsg.h
  ../src/utilities/Input.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/utilities/Input.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/utilities/Input.cpp
 src/CMakeFiles/Utilities.dir/utilities/Mixins.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -190,7 +190,7 @@ src/CMakeFiles/Utilities.dir/utilities/Mixins.cpp.o
  ../src/crypto/hash-ops.h
  ../src/crypto/hash.h
  ../src/utilities/Mixins.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/utilities/Mixins.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/utilities/Mixins.cpp
 src/CMakeFiles/Utilities.dir/utilities/ParseExtra.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -221,15 +221,15 @@ src/CMakeFiles/Utilities.dir/utilities/ParseExtra.cpp.o
  ../src/common/StringTools.h
  ../src/config/Constants.h
  ../src/utilities/ParseExtra.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/utilities/ParseExtra.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/utilities/ParseExtra.cpp
 src/CMakeFiles/Utilities.dir/utilities/PasswordContainer.cpp.o
  ../src/common/ConsoleTools.h
  ../src/utilities/ColouredMsg.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/utilities/PasswordContainer.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/utilities/PasswordContainer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/utilities/PasswordContainer.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/utilities/PasswordContainer.h
 src/CMakeFiles/Utilities.dir/utilities/String.cpp.o
  ../src/utilities/String.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/utilities/String.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/utilities/String.cpp
 src/CMakeFiles/Utilities.dir/utilities/Utilities.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -268,4 +268,4 @@ src/CMakeFiles/Utilities.dir/utilities/Utilities.cpp.o
  ../src/errors/Errors.h
  ../src/utilities/String.h
  ../src/utilities/Utilities.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/utilities/Utilities.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/utilities/Utilities.cpp

@@ -45,7 +45,7 @@ unset(_expectedTargets)
 add_library(cryptopp-static STATIC IMPORTED)
 
 set_target_properties(cryptopp-static PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/experimental/evolution-coin/Evolution-V2/Evolution/external/cryptopp"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/cryptopp"
 )
 
 # Import target "cryptopp-static" for configuration "Release"
@@ -53,7 +53,7 @@ set_property(TARGET cryptopp-static APPEND PROPERTY IMPORTED_CONFIGURATIONS RELE
 set_target_properties(cryptopp-static PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
   IMPORTED_LINK_INTERFACE_LIBRARIES_RELEASE "-lpthread"
-  IMPORTED_LOCATION_RELEASE "/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/libcryptopp.a"
+  IMPORTED_LOCATION_RELEASE "/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/libcryptopp.a"
   )
 
 # This file does not depend on other imported targets which have

@@ -1362,21 +1362,21 @@ serialization/ISerializer.h
 wallet/WalletGreen.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/noderpcproxy/NodeErrors.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/noderpcproxy/NodeErrors.cpp
 NodeErrors.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/noderpcproxy/NodeErrors.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/noderpcproxy/NodeErrors.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/noderpcproxy/NodeErrors.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/noderpcproxy/NodeErrors.h
 string
 -
 system_error
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/noderpcproxy/NodeRpcProxy.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/noderpcproxy/NodeRpcProxy.cpp
 NodeRpcProxy.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/noderpcproxy/NodeRpcProxy.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/noderpcproxy/NodeRpcProxy.h
 NodeErrors.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/noderpcproxy/NodeErrors.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/noderpcproxy/NodeErrors.h
 atomic
 -
 ctime
@@ -1402,21 +1402,21 @@ system/Timer.h
 cryptonotecore/TransactionApi.h
 -
 common/StringTools.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/noderpcproxy/common/StringTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/noderpcproxy/common/StringTools.h
 cryptonotecore/CryptoNoteBasicImpl.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/noderpcproxy/cryptonotecore/CryptoNoteBasicImpl.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/noderpcproxy/cryptonotecore/CryptoNoteBasicImpl.h
 common/CryptoNoteTools.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/noderpcproxy/common/CryptoNoteTools.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/noderpcproxy/common/CryptoNoteTools.h
 logging/DummyLogger.h
 -
 rpc/CoreRpcServerCommandsDefinitions.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/noderpcproxy/rpc/CoreRpcServerCommandsDefinitions.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/noderpcproxy/rpc/CoreRpcServerCommandsDefinitions.h
 rpc/HttpClient.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/noderpcproxy/rpc/HttpClient.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/noderpcproxy/rpc/HttpClient.h
 rpc/JsonRpc.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/noderpcproxy/rpc/JsonRpc.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/noderpcproxy/rpc/JsonRpc.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/noderpcproxy/NodeRpcProxy.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/noderpcproxy/NodeRpcProxy.h
 atomic
 -
 condition_variable
@@ -1430,11 +1430,11 @@ thread
 unordered_set
 -
 common/ObserverManager.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/noderpcproxy/common/ObserverManager.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/noderpcproxy/common/ObserverManager.h
 logging/LoggerRef.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/noderpcproxy/logging/LoggerRef.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/noderpcproxy/logging/LoggerRef.h
 INode.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/noderpcproxy/INode.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/noderpcproxy/INode.h
 rpc/CoreRpcServerCommandsDefinitions.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/noderpcproxy/rpc/CoreRpcServerCommandsDefinitions.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/noderpcproxy/rpc/CoreRpcServerCommandsDefinitions.h
 

@@ -81,7 +81,7 @@ src/CMakeFiles/WalletBackend.dir/walletbackend/BlockDownloader.cpp.o
  ../src/walletbackend/BlockDownloader.h
  ../src/walletbackend/Constants.h
  ../src/walletbackend/SynchronizationStatus.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletbackend/BlockDownloader.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletbackend/BlockDownloader.cpp
 src/CMakeFiles/WalletBackend.dir/walletbackend/JsonSerialization.cpp.o
  ../external/cpp-httplib/httplib.h
  ../external/cryptopp/adler32.h
@@ -163,7 +163,7 @@ src/CMakeFiles/WalletBackend.dir/walletbackend/JsonSerialization.cpp.o
  ../src/walletbackend/WalletBackend.h
  ../src/walletbackend/WalletSynchronizer.h
  ../src/walletbackend/WalletSynchronizerRAIIWrapper.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletbackend/JsonSerialization.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletbackend/JsonSerialization.cpp
 src/CMakeFiles/WalletBackend.dir/walletbackend/SynchronizationStatus.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -199,7 +199,7 @@ src/CMakeFiles/WalletBackend.dir/walletbackend/SynchronizationStatus.cpp.o
  ../src/crypto/hash.h
  ../src/walletbackend/Constants.h
  ../src/walletbackend/SynchronizationStatus.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletbackend/SynchronizationStatus.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletbackend/SynchronizationStatus.cpp
 src/CMakeFiles/WalletBackend.dir/walletbackend/Transfer.cpp.o
  ../external/cpp-httplib/httplib.h
  ../external/cryptopp/adler32.h
@@ -330,7 +330,7 @@ src/CMakeFiles/WalletBackend.dir/walletbackend/Transfer.cpp.o
  ../src/walletbackend/WalletSynchronizer.h
  ../src/walletbackend/WalletSynchronizerRAIIWrapper.h
  ../src/zedwallet/Types.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletbackend/Transfer.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletbackend/Transfer.cpp
 src/CMakeFiles/WalletBackend.dir/walletbackend/WalletBackend.cpp.o
  ../external/cpp-httplib/httplib.h
  ../external/cryptopp/adler32.h
@@ -481,7 +481,7 @@ src/CMakeFiles/WalletBackend.dir/walletbackend/WalletBackend.cpp.o
  ../src/walletbackend/WalletSynchronizer.h
  ../src/walletbackend/WalletSynchronizerRAIIWrapper.h
  ../src/zedwallet/Types.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletbackend/WalletBackend.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletbackend/WalletBackend.cpp
 src/CMakeFiles/WalletBackend.dir/walletbackend/WalletSynchronizer.cpp.o
  ../external/cpp-httplib/httplib.h
  ../external/cryptopp/adler32.h
@@ -565,4 +565,4 @@ src/CMakeFiles/WalletBackend.dir/walletbackend/WalletSynchronizer.cpp.o
  ../src/walletbackend/EventHandler.h
  ../src/walletbackend/SynchronizationStatus.h
  ../src/walletbackend/WalletSynchronizer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletbackend/WalletSynchronizer.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletbackend/WalletSynchronizer.cpp

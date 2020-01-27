@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/http/HttpParser.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/http/HttpParser.cpp
 HttpParser.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/http/HttpParser.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/http/HttpParser.h
 algorithm
 -
 HttpParserErrorCodes.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/http/HttpParserErrorCodes.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/http/HttpParserErrorCodes.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/http/HttpParser.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/http/HttpParser.h
 iostream
 -
 map
@@ -22,25 +22,25 @@ map
 string
 -
 HttpRequest.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/http/HttpRequest.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/http/HttpRequest.h
 HttpResponse.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/http/HttpResponse.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/http/HttpResponse.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/http/HttpParserErrorCodes.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/http/HttpParserErrorCodes.cpp
 HttpParserErrorCodes.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/http/HttpParserErrorCodes.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/http/HttpParserErrorCodes.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/http/HttpParserErrorCodes.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/http/HttpParserErrorCodes.h
 string
 -
 system_error
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/http/HttpRequest.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/http/HttpRequest.cpp
 HttpRequest.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/http/HttpRequest.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/http/HttpRequest.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/http/HttpRequest.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/http/HttpRequest.h
 iostream
 -
 map
@@ -48,13 +48,13 @@ map
 string
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/http/HttpResponse.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/http/HttpResponse.cpp
 HttpResponse.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/http/HttpResponse.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/http/HttpResponse.h
 stdexcept
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/http/HttpResponse.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/http/HttpResponse.h
 ostream
 -
 string

@@ -2160,11 +2160,11 @@ serialization/ISerializer.h
 wallet/WalletGreen.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/WalletAsyncContextCounter.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/WalletAsyncContextCounter.cpp
 WalletAsyncContextCounter.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/WalletAsyncContextCounter.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/WalletAsyncContextCounter.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/WalletAsyncContextCounter.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/WalletAsyncContextCounter.h
 condition_variable
 -
 mutex
@@ -2172,17 +2172,17 @@ mutex
 stdint.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/WalletErrors.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/WalletErrors.cpp
 WalletErrors.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/WalletErrors.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/WalletErrors.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/WalletErrors.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/WalletErrors.h
 string
 -
 system_error
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/WalletGreen.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/WalletGreen.cpp
 wallet/WalletGreen.h
 -
 algorithm
@@ -2224,7 +2224,7 @@ ctime
 fstream
 -
 ITransaction.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/ITransaction.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/ITransaction.h
 numeric
 -
 random
@@ -2262,45 +2262,45 @@ walletbackend/Transfer.h
 walletbackend/WalletBackend.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/WalletSerializationV2.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/WalletSerializationV2.cpp
 WalletSerializationV2.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/WalletSerializationV2.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/WalletSerializationV2.h
 serialization/CryptoNoteSerialization.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/serialization/CryptoNoteSerialization.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/serialization/CryptoNoteSerialization.h
 serialization/BinaryInputStreamSerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/serialization/BinaryInputStreamSerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/serialization/BinaryInputStreamSerializer.h
 serialization/BinaryOutputStreamSerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/serialization/BinaryOutputStreamSerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/serialization/BinaryOutputStreamSerializer.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/WalletSerializationV2.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/WalletSerializationV2.h
 common/IInputStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/common/IInputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/common/IInputStream.h
 common/IOutputStream.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/common/IOutputStream.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/common/IOutputStream.h
 serialization/ISerializer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/serialization/ISerializer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/serialization/ISerializer.h
 transfers/TransfersSynchronizer.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/transfers/TransfersSynchronizer.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/transfers/TransfersSynchronizer.h
 wallet/WalletIndices.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/wallet/WalletIndices.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/wallet/WalletIndices.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/WalletUtils.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/WalletUtils.cpp
 WalletUtils.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/WalletUtils.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/WalletUtils.h
 CryptoNote.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/CryptoNote.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/CryptoNote.h
 crypto/crypto.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/crypto/crypto.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/crypto/crypto.h
 wallet/WalletErrors.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/wallet/WalletErrors.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/wallet/WalletErrors.h
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/WalletUtils.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/WalletUtils.h
 string
 -
 WalletGreenTypes.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/WalletGreenTypes.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/WalletGreenTypes.h
 cryptonotecore/Currency.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/cryptonotecore/Currency.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/cryptonotecore/Currency.h
 wallet/WalletGreen.h
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/wallet/wallet/WalletGreen.h
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/wallet/wallet/WalletGreen.h
 

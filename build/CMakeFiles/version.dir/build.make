@@ -43,10 +43,10 @@ RM = /usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution
+CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/build
+CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build
 
 # Utility rule file for version.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/buil
 include CMakeFiles/version.dir/progress.make
 
 CMakeFiles/version:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution && /usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -D VERSION=0.1 -D GIT=/usr/bin/git -D TO=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/version/version.h -P /home/experimental/evolution-coin/Evolution-V2/Evolution/src/version.cmake
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2 && /usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -D VERSION=0.1 -D GIT=/usr/bin/git -D TO=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/version/version.h -P /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/version.cmake
 
 version: CMakeFiles/version
 version: CMakeFiles/version.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/version.dir/clean:
 .PHONY : CMakeFiles/version.dir/clean
 
 CMakeFiles/version.dir/depend:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution /home/experimental/evolution-coin/Evolution-V2/Evolution /home/experimental/evolution-coin/Evolution-V2/Evolution/build /home/experimental/evolution-coin/Evolution-V2/Evolution/build /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles/version.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution-V2 /home/experimental/evolution-coin/Evolution-V2/Evolution-V2 /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles/version.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/version.dir/depend
 

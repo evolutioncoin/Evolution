@@ -43,10 +43,10 @@ RM = /usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution
+CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/build
+CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build
 
 # Include any dependencies generated for this target.
 include external/cryptopp/CMakeFiles/cryptopp-static.dir/depend.make
@@ -62,178 +62,178 @@ cryptopp__static_OBJECTS =
 
 # External object files for target cryptopp-static
 cryptopp__static_EXTERNAL_OBJECTS = \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/cryptlib.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/cpu.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/integer.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/3way.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/adler32.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/algebra.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/algparam.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/arc4.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/aria.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/aria_simd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/ariatab.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/asn.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/authenc.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/base32.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/base64.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/basecode.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/bfinit.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2b_simd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2s_simd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/blowfish.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/blumshub.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/camellia.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/cast.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/casts.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/cbcmac.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/ccm.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha_avx.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha_simd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/chachapoly.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/cham.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/cham_simd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/channels.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/cmac.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/crc.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/crc_simd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/darn.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/default.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/des.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/dessp.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/dh.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/dh2.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/dll.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_32.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_64.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_sse.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/dsa.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/eax.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/ec2n.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/eccrypto.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/ecp.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/elgamal.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/emsa2.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/eprecomp.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/esign.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/files.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/filters.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/fips140.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/gcm.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/gcm_simd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/gf256.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2_32.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2n.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2n_simd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/gfpcrypt.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/gost.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/gzip.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/hc128.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/hc256.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/hex.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/hight.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/hmac.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/hrtimer.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/ida.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/idea.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/iterhash.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/kalyna.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/kalynatab.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak_core.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak_simd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/lea.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/lea_simd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/luc.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/mars.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/marss.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/md2.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/md4.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/md5.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/misc.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/modes.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/mqueue.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/mqv.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/nbtheory.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/neon_simd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/oaep.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/osrng.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/padlkrng.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/panama.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/pkcspad.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/poly1305.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/polynomi.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power7.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power8.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power9.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_simd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/pssr.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/pubkey.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/queue.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rabbit.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rabin.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/randpool.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rc2.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rc5.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rc6.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rdrand.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rdtables.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rijndael.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rijndael_simd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/ripemd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rng.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rsa.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rw.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/safer.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/salsa.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/scrypt.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/seal.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/seed.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/serpent.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/sha.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/sha3.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/sha_simd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/shacal2.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/shacal2_simd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/shake.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/shark.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/sharkbox.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/simeck.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/simeck_simd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/simon.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/simon128_simd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/simon64_simd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/skipjack.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/sm3.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/sm4.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/sm4_simd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/sosemanuk.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/speck.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/speck128_simd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/speck64_simd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/square.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/squaretb.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/sse_simd.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/strciphr.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/tea.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/tftables.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/threefish.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/tiger.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/tigertab.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/ttmac.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/tweetnacl.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/twofish.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/vmac.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/wake.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/whrlpool.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/xed25519.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/xtr.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/xtrcrypt.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/zdeflate.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/zinflate.cpp.o" \
-"/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/zlib.cpp.o"
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/cryptlib.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/cpu.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/integer.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/3way.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/adler32.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/algebra.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/algparam.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/arc4.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/aria.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/aria_simd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/ariatab.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/asn.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/authenc.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/base32.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/base64.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/basecode.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/bfinit.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2b_simd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/blake2s_simd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/blowfish.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/blumshub.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/camellia.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/cast.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/casts.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/cbcmac.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/ccm.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha_avx.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/chacha_simd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/chachapoly.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/cham.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/cham_simd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/channels.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/cmac.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/crc.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/crc_simd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/darn.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/default.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/des.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/dessp.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/dh.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/dh2.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/dll.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_32.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_64.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/donna_sse.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/dsa.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/eax.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/ec2n.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/eccrypto.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/ecp.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/elgamal.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/emsa2.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/eprecomp.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/esign.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/files.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/filters.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/fips140.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/gcm.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/gcm_simd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/gf256.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2_32.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2n.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/gf2n_simd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/gfpcrypt.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/gost.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/gzip.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/hc128.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/hc256.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/hex.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/hight.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/hmac.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/hrtimer.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/ida.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/idea.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/iterhash.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/kalyna.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/kalynatab.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak_core.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/keccak_simd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/lea.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/lea_simd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/luc.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/mars.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/marss.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/md2.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/md4.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/md5.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/misc.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/modes.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/mqueue.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/mqv.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/nbtheory.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/neon_simd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/oaep.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/osrng.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/padlkrng.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/panama.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/pkcspad.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/poly1305.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/polynomi.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power7.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power8.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_power9.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/ppc_simd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/pssr.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/pubkey.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/queue.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rabbit.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rabin.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/randpool.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rc2.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rc5.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rc6.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rdrand.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rdtables.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rijndael.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rijndael_simd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/ripemd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rng.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rsa.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/rw.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/safer.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/salsa.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/scrypt.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/seal.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/seed.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/serpent.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/sha.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/sha3.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/sha_simd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/shacal2.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/shacal2_simd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/shake.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/shark.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/sharkbox.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/simeck.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/simeck_simd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/simon.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/simon128_simd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/simon64_simd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/skipjack.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/sm3.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/sm4.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/sm4_simd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/sosemanuk.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/speck.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/speck128_simd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/speck64_simd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/square.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/squaretb.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/sse_simd.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/strciphr.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/tea.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/tftables.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/threefish.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/tiger.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/tigertab.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/ttmac.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/tweetnacl.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/twofish.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/vmac.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/wake.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/whrlpool.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/xed25519.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/xtr.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/xtrcrypt.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/zdeflate.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/zinflate.cpp.o" \
+"/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-object.dir/zlib.cpp.o"
 
 external/cryptopp/libcryptopp.a: external/cryptopp/CMakeFiles/cryptopp-object.dir/cryptlib.cpp.o
 external/cryptopp/libcryptopp.a: external/cryptopp/CMakeFiles/cryptopp-object.dir/cpu.cpp.o
@@ -409,9 +409,9 @@ external/cryptopp/libcryptopp.a: external/cryptopp/CMakeFiles/cryptopp-object.di
 external/cryptopp/libcryptopp.a: external/cryptopp/CMakeFiles/cryptopp-object.dir/zlib.cpp.o
 external/cryptopp/libcryptopp.a: external/cryptopp/CMakeFiles/cryptopp-static.dir/build.make
 external/cryptopp/libcryptopp.a: external/cryptopp/CMakeFiles/cryptopp-static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX static library libcryptopp.a"
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp && $(CMAKE_COMMAND) -P CMakeFiles/cryptopp-static.dir/cmake_clean_target.cmake
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cryptopp-static.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX static library libcryptopp.a"
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp && $(CMAKE_COMMAND) -P CMakeFiles/cryptopp-static.dir/cmake_clean_target.cmake
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cryptopp-static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/cryptopp/CMakeFiles/cryptopp-static.dir/build: external/cryptopp/libcryptopp.a
@@ -419,10 +419,10 @@ external/cryptopp/CMakeFiles/cryptopp-static.dir/build: external/cryptopp/libcry
 .PHONY : external/cryptopp/CMakeFiles/cryptopp-static.dir/build
 
 external/cryptopp/CMakeFiles/cryptopp-static.dir/clean:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp && $(CMAKE_COMMAND) -P CMakeFiles/cryptopp-static.dir/cmake_clean.cmake
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp && $(CMAKE_COMMAND) -P CMakeFiles/cryptopp-static.dir/cmake_clean.cmake
 .PHONY : external/cryptopp/CMakeFiles/cryptopp-static.dir/clean
 
 external/cryptopp/CMakeFiles/cryptopp-static.dir/depend:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution /home/experimental/evolution-coin/Evolution-V2/Evolution/external/cryptopp /home/experimental/evolution-coin/Evolution-V2/Evolution/build /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/CMakeFiles/cryptopp-static.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution-V2 /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/cryptopp /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/CMakeFiles/cryptopp-static.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/cryptopp/CMakeFiles/cryptopp-static.dir/depend
 

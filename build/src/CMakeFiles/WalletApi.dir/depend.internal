@@ -103,7 +103,7 @@ src/CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.o
  ../src/walletbackend/WalletBackend.h
  ../src/walletbackend/WalletSynchronizer.h
  ../src/walletbackend/WalletSynchronizerRAIIWrapper.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletapi/ApiDispatcher.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletapi/ApiDispatcher.cpp
 src/CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.o
  ../external/cxxopts/cxxopts.hpp
  ../external/nlohmann-json/json.hpp
@@ -143,7 +143,7 @@ src/CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.o
  ../src/crypto/hash.h
  ../src/logger/Logger.h
  ../src/walletapi/ParseArguments.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletapi/ParseArguments.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletapi/ParseArguments.cpp
  version/version.h
 src/CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.o
  ../external/cpp-httplib/httplib.h
@@ -237,5 +237,5 @@ src/CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.o
  ../src/walletbackend/WalletBackend.h
  ../src/walletbackend/WalletSynchronizer.h
  ../src/walletbackend/WalletSynchronizerRAIIWrapper.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/walletapi/WalletApi.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/walletapi/WalletApi.cpp
  version/version.h

@@ -48,10 +48,10 @@ RM = /usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution
+CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/build
+CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/zstd/CMakeFiles/progress.marks
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 external/zstd/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/zstd/CMakeFiles/progress.marks
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 external/zstd/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 external/zstd/clean
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 external/zstd/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,17 +143,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 external/zstd/preinstall
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 external/zstd/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 external/zstd/preinstall
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 external/zstd/preinstall
 .PHONY : preinstall/fast
 
 # Convenience name for target.
 external/zstd/CMakeFiles/zstd.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 external/zstd/CMakeFiles/zstd.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 external/zstd/CMakeFiles/zstd.dir/rule
 .PHONY : external/zstd/CMakeFiles/zstd.dir/rule
 
 # Convenience name for target.
@@ -163,7 +163,7 @@ zstd: external/zstd/CMakeFiles/zstd.dir/rule
 
 # fast build rule for target.
 zstd/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/build
 .PHONY : zstd/fast
 
 lib/common/debug.o: lib/common/debug.c.o
@@ -172,7 +172,7 @@ lib/common/debug.o: lib/common/debug.c.o
 
 # target to build an object file
 lib/common/debug.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/debug.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/debug.c.o
 .PHONY : lib/common/debug.c.o
 
 lib/common/debug.i: lib/common/debug.c.i
@@ -181,7 +181,7 @@ lib/common/debug.i: lib/common/debug.c.i
 
 # target to preprocess a source file
 lib/common/debug.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/debug.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/debug.c.i
 .PHONY : lib/common/debug.c.i
 
 lib/common/debug.s: lib/common/debug.c.s
@@ -190,7 +190,7 @@ lib/common/debug.s: lib/common/debug.c.s
 
 # target to generate assembly for a file
 lib/common/debug.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/debug.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/debug.c.s
 .PHONY : lib/common/debug.c.s
 
 lib/common/entropy_common.o: lib/common/entropy_common.c.o
@@ -199,7 +199,7 @@ lib/common/entropy_common.o: lib/common/entropy_common.c.o
 
 # target to build an object file
 lib/common/entropy_common.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/entropy_common.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/entropy_common.c.o
 .PHONY : lib/common/entropy_common.c.o
 
 lib/common/entropy_common.i: lib/common/entropy_common.c.i
@@ -208,7 +208,7 @@ lib/common/entropy_common.i: lib/common/entropy_common.c.i
 
 # target to preprocess a source file
 lib/common/entropy_common.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/entropy_common.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/entropy_common.c.i
 .PHONY : lib/common/entropy_common.c.i
 
 lib/common/entropy_common.s: lib/common/entropy_common.c.s
@@ -217,7 +217,7 @@ lib/common/entropy_common.s: lib/common/entropy_common.c.s
 
 # target to generate assembly for a file
 lib/common/entropy_common.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/entropy_common.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/entropy_common.c.s
 .PHONY : lib/common/entropy_common.c.s
 
 lib/common/error_private.o: lib/common/error_private.c.o
@@ -226,7 +226,7 @@ lib/common/error_private.o: lib/common/error_private.c.o
 
 # target to build an object file
 lib/common/error_private.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/error_private.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/error_private.c.o
 .PHONY : lib/common/error_private.c.o
 
 lib/common/error_private.i: lib/common/error_private.c.i
@@ -235,7 +235,7 @@ lib/common/error_private.i: lib/common/error_private.c.i
 
 # target to preprocess a source file
 lib/common/error_private.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/error_private.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/error_private.c.i
 .PHONY : lib/common/error_private.c.i
 
 lib/common/error_private.s: lib/common/error_private.c.s
@@ -244,7 +244,7 @@ lib/common/error_private.s: lib/common/error_private.c.s
 
 # target to generate assembly for a file
 lib/common/error_private.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/error_private.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/error_private.c.s
 .PHONY : lib/common/error_private.c.s
 
 lib/common/fse_decompress.o: lib/common/fse_decompress.c.o
@@ -253,7 +253,7 @@ lib/common/fse_decompress.o: lib/common/fse_decompress.c.o
 
 # target to build an object file
 lib/common/fse_decompress.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/fse_decompress.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/fse_decompress.c.o
 .PHONY : lib/common/fse_decompress.c.o
 
 lib/common/fse_decompress.i: lib/common/fse_decompress.c.i
@@ -262,7 +262,7 @@ lib/common/fse_decompress.i: lib/common/fse_decompress.c.i
 
 # target to preprocess a source file
 lib/common/fse_decompress.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/fse_decompress.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/fse_decompress.c.i
 .PHONY : lib/common/fse_decompress.c.i
 
 lib/common/fse_decompress.s: lib/common/fse_decompress.c.s
@@ -271,7 +271,7 @@ lib/common/fse_decompress.s: lib/common/fse_decompress.c.s
 
 # target to generate assembly for a file
 lib/common/fse_decompress.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/fse_decompress.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/fse_decompress.c.s
 .PHONY : lib/common/fse_decompress.c.s
 
 lib/common/pool.o: lib/common/pool.c.o
@@ -280,7 +280,7 @@ lib/common/pool.o: lib/common/pool.c.o
 
 # target to build an object file
 lib/common/pool.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/pool.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/pool.c.o
 .PHONY : lib/common/pool.c.o
 
 lib/common/pool.i: lib/common/pool.c.i
@@ -289,7 +289,7 @@ lib/common/pool.i: lib/common/pool.c.i
 
 # target to preprocess a source file
 lib/common/pool.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/pool.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/pool.c.i
 .PHONY : lib/common/pool.c.i
 
 lib/common/pool.s: lib/common/pool.c.s
@@ -298,7 +298,7 @@ lib/common/pool.s: lib/common/pool.c.s
 
 # target to generate assembly for a file
 lib/common/pool.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/pool.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/pool.c.s
 .PHONY : lib/common/pool.c.s
 
 lib/common/threading.o: lib/common/threading.c.o
@@ -307,7 +307,7 @@ lib/common/threading.o: lib/common/threading.c.o
 
 # target to build an object file
 lib/common/threading.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/threading.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/threading.c.o
 .PHONY : lib/common/threading.c.o
 
 lib/common/threading.i: lib/common/threading.c.i
@@ -316,7 +316,7 @@ lib/common/threading.i: lib/common/threading.c.i
 
 # target to preprocess a source file
 lib/common/threading.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/threading.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/threading.c.i
 .PHONY : lib/common/threading.c.i
 
 lib/common/threading.s: lib/common/threading.c.s
@@ -325,7 +325,7 @@ lib/common/threading.s: lib/common/threading.c.s
 
 # target to generate assembly for a file
 lib/common/threading.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/threading.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/threading.c.s
 .PHONY : lib/common/threading.c.s
 
 lib/common/xxhash.o: lib/common/xxhash.c.o
@@ -334,7 +334,7 @@ lib/common/xxhash.o: lib/common/xxhash.c.o
 
 # target to build an object file
 lib/common/xxhash.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/xxhash.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/xxhash.c.o
 .PHONY : lib/common/xxhash.c.o
 
 lib/common/xxhash.i: lib/common/xxhash.c.i
@@ -343,7 +343,7 @@ lib/common/xxhash.i: lib/common/xxhash.c.i
 
 # target to preprocess a source file
 lib/common/xxhash.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/xxhash.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/xxhash.c.i
 .PHONY : lib/common/xxhash.c.i
 
 lib/common/xxhash.s: lib/common/xxhash.c.s
@@ -352,7 +352,7 @@ lib/common/xxhash.s: lib/common/xxhash.c.s
 
 # target to generate assembly for a file
 lib/common/xxhash.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/xxhash.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/xxhash.c.s
 .PHONY : lib/common/xxhash.c.s
 
 lib/common/zstd_common.o: lib/common/zstd_common.c.o
@@ -361,7 +361,7 @@ lib/common/zstd_common.o: lib/common/zstd_common.c.o
 
 # target to build an object file
 lib/common/zstd_common.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/zstd_common.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/zstd_common.c.o
 .PHONY : lib/common/zstd_common.c.o
 
 lib/common/zstd_common.i: lib/common/zstd_common.c.i
@@ -370,7 +370,7 @@ lib/common/zstd_common.i: lib/common/zstd_common.c.i
 
 # target to preprocess a source file
 lib/common/zstd_common.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/zstd_common.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/zstd_common.c.i
 .PHONY : lib/common/zstd_common.c.i
 
 lib/common/zstd_common.s: lib/common/zstd_common.c.s
@@ -379,7 +379,7 @@ lib/common/zstd_common.s: lib/common/zstd_common.c.s
 
 # target to generate assembly for a file
 lib/common/zstd_common.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/zstd_common.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/common/zstd_common.c.s
 .PHONY : lib/common/zstd_common.c.s
 
 lib/compress/fse_compress.o: lib/compress/fse_compress.c.o
@@ -388,7 +388,7 @@ lib/compress/fse_compress.o: lib/compress/fse_compress.c.o
 
 # target to build an object file
 lib/compress/fse_compress.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/fse_compress.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/fse_compress.c.o
 .PHONY : lib/compress/fse_compress.c.o
 
 lib/compress/fse_compress.i: lib/compress/fse_compress.c.i
@@ -397,7 +397,7 @@ lib/compress/fse_compress.i: lib/compress/fse_compress.c.i
 
 # target to preprocess a source file
 lib/compress/fse_compress.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/fse_compress.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/fse_compress.c.i
 .PHONY : lib/compress/fse_compress.c.i
 
 lib/compress/fse_compress.s: lib/compress/fse_compress.c.s
@@ -406,7 +406,7 @@ lib/compress/fse_compress.s: lib/compress/fse_compress.c.s
 
 # target to generate assembly for a file
 lib/compress/fse_compress.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/fse_compress.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/fse_compress.c.s
 .PHONY : lib/compress/fse_compress.c.s
 
 lib/compress/hist.o: lib/compress/hist.c.o
@@ -415,7 +415,7 @@ lib/compress/hist.o: lib/compress/hist.c.o
 
 # target to build an object file
 lib/compress/hist.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/hist.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/hist.c.o
 .PHONY : lib/compress/hist.c.o
 
 lib/compress/hist.i: lib/compress/hist.c.i
@@ -424,7 +424,7 @@ lib/compress/hist.i: lib/compress/hist.c.i
 
 # target to preprocess a source file
 lib/compress/hist.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/hist.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/hist.c.i
 .PHONY : lib/compress/hist.c.i
 
 lib/compress/hist.s: lib/compress/hist.c.s
@@ -433,7 +433,7 @@ lib/compress/hist.s: lib/compress/hist.c.s
 
 # target to generate assembly for a file
 lib/compress/hist.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/hist.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/hist.c.s
 .PHONY : lib/compress/hist.c.s
 
 lib/compress/huf_compress.o: lib/compress/huf_compress.c.o
@@ -442,7 +442,7 @@ lib/compress/huf_compress.o: lib/compress/huf_compress.c.o
 
 # target to build an object file
 lib/compress/huf_compress.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/huf_compress.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/huf_compress.c.o
 .PHONY : lib/compress/huf_compress.c.o
 
 lib/compress/huf_compress.i: lib/compress/huf_compress.c.i
@@ -451,7 +451,7 @@ lib/compress/huf_compress.i: lib/compress/huf_compress.c.i
 
 # target to preprocess a source file
 lib/compress/huf_compress.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/huf_compress.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/huf_compress.c.i
 .PHONY : lib/compress/huf_compress.c.i
 
 lib/compress/huf_compress.s: lib/compress/huf_compress.c.s
@@ -460,7 +460,7 @@ lib/compress/huf_compress.s: lib/compress/huf_compress.c.s
 
 # target to generate assembly for a file
 lib/compress/huf_compress.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/huf_compress.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/huf_compress.c.s
 .PHONY : lib/compress/huf_compress.c.s
 
 lib/compress/zstd_compress.o: lib/compress/zstd_compress.c.o
@@ -469,7 +469,7 @@ lib/compress/zstd_compress.o: lib/compress/zstd_compress.c.o
 
 # target to build an object file
 lib/compress/zstd_compress.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_compress.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_compress.c.o
 .PHONY : lib/compress/zstd_compress.c.o
 
 lib/compress/zstd_compress.i: lib/compress/zstd_compress.c.i
@@ -478,7 +478,7 @@ lib/compress/zstd_compress.i: lib/compress/zstd_compress.c.i
 
 # target to preprocess a source file
 lib/compress/zstd_compress.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_compress.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_compress.c.i
 .PHONY : lib/compress/zstd_compress.c.i
 
 lib/compress/zstd_compress.s: lib/compress/zstd_compress.c.s
@@ -487,7 +487,7 @@ lib/compress/zstd_compress.s: lib/compress/zstd_compress.c.s
 
 # target to generate assembly for a file
 lib/compress/zstd_compress.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_compress.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_compress.c.s
 .PHONY : lib/compress/zstd_compress.c.s
 
 lib/compress/zstd_compress_literals.o: lib/compress/zstd_compress_literals.c.o
@@ -496,7 +496,7 @@ lib/compress/zstd_compress_literals.o: lib/compress/zstd_compress_literals.c.o
 
 # target to build an object file
 lib/compress/zstd_compress_literals.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_compress_literals.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_compress_literals.c.o
 .PHONY : lib/compress/zstd_compress_literals.c.o
 
 lib/compress/zstd_compress_literals.i: lib/compress/zstd_compress_literals.c.i
@@ -505,7 +505,7 @@ lib/compress/zstd_compress_literals.i: lib/compress/zstd_compress_literals.c.i
 
 # target to preprocess a source file
 lib/compress/zstd_compress_literals.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_compress_literals.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_compress_literals.c.i
 .PHONY : lib/compress/zstd_compress_literals.c.i
 
 lib/compress/zstd_compress_literals.s: lib/compress/zstd_compress_literals.c.s
@@ -514,7 +514,7 @@ lib/compress/zstd_compress_literals.s: lib/compress/zstd_compress_literals.c.s
 
 # target to generate assembly for a file
 lib/compress/zstd_compress_literals.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_compress_literals.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_compress_literals.c.s
 .PHONY : lib/compress/zstd_compress_literals.c.s
 
 lib/compress/zstd_compress_sequences.o: lib/compress/zstd_compress_sequences.c.o
@@ -523,7 +523,7 @@ lib/compress/zstd_compress_sequences.o: lib/compress/zstd_compress_sequences.c.o
 
 # target to build an object file
 lib/compress/zstd_compress_sequences.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_compress_sequences.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_compress_sequences.c.o
 .PHONY : lib/compress/zstd_compress_sequences.c.o
 
 lib/compress/zstd_compress_sequences.i: lib/compress/zstd_compress_sequences.c.i
@@ -532,7 +532,7 @@ lib/compress/zstd_compress_sequences.i: lib/compress/zstd_compress_sequences.c.i
 
 # target to preprocess a source file
 lib/compress/zstd_compress_sequences.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_compress_sequences.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_compress_sequences.c.i
 .PHONY : lib/compress/zstd_compress_sequences.c.i
 
 lib/compress/zstd_compress_sequences.s: lib/compress/zstd_compress_sequences.c.s
@@ -541,7 +541,7 @@ lib/compress/zstd_compress_sequences.s: lib/compress/zstd_compress_sequences.c.s
 
 # target to generate assembly for a file
 lib/compress/zstd_compress_sequences.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_compress_sequences.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_compress_sequences.c.s
 .PHONY : lib/compress/zstd_compress_sequences.c.s
 
 lib/compress/zstd_double_fast.o: lib/compress/zstd_double_fast.c.o
@@ -550,7 +550,7 @@ lib/compress/zstd_double_fast.o: lib/compress/zstd_double_fast.c.o
 
 # target to build an object file
 lib/compress/zstd_double_fast.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_double_fast.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_double_fast.c.o
 .PHONY : lib/compress/zstd_double_fast.c.o
 
 lib/compress/zstd_double_fast.i: lib/compress/zstd_double_fast.c.i
@@ -559,7 +559,7 @@ lib/compress/zstd_double_fast.i: lib/compress/zstd_double_fast.c.i
 
 # target to preprocess a source file
 lib/compress/zstd_double_fast.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_double_fast.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_double_fast.c.i
 .PHONY : lib/compress/zstd_double_fast.c.i
 
 lib/compress/zstd_double_fast.s: lib/compress/zstd_double_fast.c.s
@@ -568,7 +568,7 @@ lib/compress/zstd_double_fast.s: lib/compress/zstd_double_fast.c.s
 
 # target to generate assembly for a file
 lib/compress/zstd_double_fast.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_double_fast.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_double_fast.c.s
 .PHONY : lib/compress/zstd_double_fast.c.s
 
 lib/compress/zstd_fast.o: lib/compress/zstd_fast.c.o
@@ -577,7 +577,7 @@ lib/compress/zstd_fast.o: lib/compress/zstd_fast.c.o
 
 # target to build an object file
 lib/compress/zstd_fast.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_fast.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_fast.c.o
 .PHONY : lib/compress/zstd_fast.c.o
 
 lib/compress/zstd_fast.i: lib/compress/zstd_fast.c.i
@@ -586,7 +586,7 @@ lib/compress/zstd_fast.i: lib/compress/zstd_fast.c.i
 
 # target to preprocess a source file
 lib/compress/zstd_fast.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_fast.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_fast.c.i
 .PHONY : lib/compress/zstd_fast.c.i
 
 lib/compress/zstd_fast.s: lib/compress/zstd_fast.c.s
@@ -595,7 +595,7 @@ lib/compress/zstd_fast.s: lib/compress/zstd_fast.c.s
 
 # target to generate assembly for a file
 lib/compress/zstd_fast.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_fast.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_fast.c.s
 .PHONY : lib/compress/zstd_fast.c.s
 
 lib/compress/zstd_lazy.o: lib/compress/zstd_lazy.c.o
@@ -604,7 +604,7 @@ lib/compress/zstd_lazy.o: lib/compress/zstd_lazy.c.o
 
 # target to build an object file
 lib/compress/zstd_lazy.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_lazy.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_lazy.c.o
 .PHONY : lib/compress/zstd_lazy.c.o
 
 lib/compress/zstd_lazy.i: lib/compress/zstd_lazy.c.i
@@ -613,7 +613,7 @@ lib/compress/zstd_lazy.i: lib/compress/zstd_lazy.c.i
 
 # target to preprocess a source file
 lib/compress/zstd_lazy.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_lazy.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_lazy.c.i
 .PHONY : lib/compress/zstd_lazy.c.i
 
 lib/compress/zstd_lazy.s: lib/compress/zstd_lazy.c.s
@@ -622,7 +622,7 @@ lib/compress/zstd_lazy.s: lib/compress/zstd_lazy.c.s
 
 # target to generate assembly for a file
 lib/compress/zstd_lazy.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_lazy.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_lazy.c.s
 .PHONY : lib/compress/zstd_lazy.c.s
 
 lib/compress/zstd_ldm.o: lib/compress/zstd_ldm.c.o
@@ -631,7 +631,7 @@ lib/compress/zstd_ldm.o: lib/compress/zstd_ldm.c.o
 
 # target to build an object file
 lib/compress/zstd_ldm.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_ldm.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_ldm.c.o
 .PHONY : lib/compress/zstd_ldm.c.o
 
 lib/compress/zstd_ldm.i: lib/compress/zstd_ldm.c.i
@@ -640,7 +640,7 @@ lib/compress/zstd_ldm.i: lib/compress/zstd_ldm.c.i
 
 # target to preprocess a source file
 lib/compress/zstd_ldm.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_ldm.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_ldm.c.i
 .PHONY : lib/compress/zstd_ldm.c.i
 
 lib/compress/zstd_ldm.s: lib/compress/zstd_ldm.c.s
@@ -649,7 +649,7 @@ lib/compress/zstd_ldm.s: lib/compress/zstd_ldm.c.s
 
 # target to generate assembly for a file
 lib/compress/zstd_ldm.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_ldm.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_ldm.c.s
 .PHONY : lib/compress/zstd_ldm.c.s
 
 lib/compress/zstd_opt.o: lib/compress/zstd_opt.c.o
@@ -658,7 +658,7 @@ lib/compress/zstd_opt.o: lib/compress/zstd_opt.c.o
 
 # target to build an object file
 lib/compress/zstd_opt.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_opt.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_opt.c.o
 .PHONY : lib/compress/zstd_opt.c.o
 
 lib/compress/zstd_opt.i: lib/compress/zstd_opt.c.i
@@ -667,7 +667,7 @@ lib/compress/zstd_opt.i: lib/compress/zstd_opt.c.i
 
 # target to preprocess a source file
 lib/compress/zstd_opt.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_opt.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_opt.c.i
 .PHONY : lib/compress/zstd_opt.c.i
 
 lib/compress/zstd_opt.s: lib/compress/zstd_opt.c.s
@@ -676,7 +676,7 @@ lib/compress/zstd_opt.s: lib/compress/zstd_opt.c.s
 
 # target to generate assembly for a file
 lib/compress/zstd_opt.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_opt.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstd_opt.c.s
 .PHONY : lib/compress/zstd_opt.c.s
 
 lib/compress/zstdmt_compress.o: lib/compress/zstdmt_compress.c.o
@@ -685,7 +685,7 @@ lib/compress/zstdmt_compress.o: lib/compress/zstdmt_compress.c.o
 
 # target to build an object file
 lib/compress/zstdmt_compress.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstdmt_compress.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstdmt_compress.c.o
 .PHONY : lib/compress/zstdmt_compress.c.o
 
 lib/compress/zstdmt_compress.i: lib/compress/zstdmt_compress.c.i
@@ -694,7 +694,7 @@ lib/compress/zstdmt_compress.i: lib/compress/zstdmt_compress.c.i
 
 # target to preprocess a source file
 lib/compress/zstdmt_compress.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstdmt_compress.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstdmt_compress.c.i
 .PHONY : lib/compress/zstdmt_compress.c.i
 
 lib/compress/zstdmt_compress.s: lib/compress/zstdmt_compress.c.s
@@ -703,7 +703,7 @@ lib/compress/zstdmt_compress.s: lib/compress/zstdmt_compress.c.s
 
 # target to generate assembly for a file
 lib/compress/zstdmt_compress.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstdmt_compress.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/compress/zstdmt_compress.c.s
 .PHONY : lib/compress/zstdmt_compress.c.s
 
 lib/decompress/huf_decompress.o: lib/decompress/huf_decompress.c.o
@@ -712,7 +712,7 @@ lib/decompress/huf_decompress.o: lib/decompress/huf_decompress.c.o
 
 # target to build an object file
 lib/decompress/huf_decompress.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/huf_decompress.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/huf_decompress.c.o
 .PHONY : lib/decompress/huf_decompress.c.o
 
 lib/decompress/huf_decompress.i: lib/decompress/huf_decompress.c.i
@@ -721,7 +721,7 @@ lib/decompress/huf_decompress.i: lib/decompress/huf_decompress.c.i
 
 # target to preprocess a source file
 lib/decompress/huf_decompress.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/huf_decompress.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/huf_decompress.c.i
 .PHONY : lib/decompress/huf_decompress.c.i
 
 lib/decompress/huf_decompress.s: lib/decompress/huf_decompress.c.s
@@ -730,7 +730,7 @@ lib/decompress/huf_decompress.s: lib/decompress/huf_decompress.c.s
 
 # target to generate assembly for a file
 lib/decompress/huf_decompress.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/huf_decompress.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/huf_decompress.c.s
 .PHONY : lib/decompress/huf_decompress.c.s
 
 lib/decompress/zstd_ddict.o: lib/decompress/zstd_ddict.c.o
@@ -739,7 +739,7 @@ lib/decompress/zstd_ddict.o: lib/decompress/zstd_ddict.c.o
 
 # target to build an object file
 lib/decompress/zstd_ddict.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/zstd_ddict.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/zstd_ddict.c.o
 .PHONY : lib/decompress/zstd_ddict.c.o
 
 lib/decompress/zstd_ddict.i: lib/decompress/zstd_ddict.c.i
@@ -748,7 +748,7 @@ lib/decompress/zstd_ddict.i: lib/decompress/zstd_ddict.c.i
 
 # target to preprocess a source file
 lib/decompress/zstd_ddict.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/zstd_ddict.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/zstd_ddict.c.i
 .PHONY : lib/decompress/zstd_ddict.c.i
 
 lib/decompress/zstd_ddict.s: lib/decompress/zstd_ddict.c.s
@@ -757,7 +757,7 @@ lib/decompress/zstd_ddict.s: lib/decompress/zstd_ddict.c.s
 
 # target to generate assembly for a file
 lib/decompress/zstd_ddict.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/zstd_ddict.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/zstd_ddict.c.s
 .PHONY : lib/decompress/zstd_ddict.c.s
 
 lib/decompress/zstd_decompress.o: lib/decompress/zstd_decompress.c.o
@@ -766,7 +766,7 @@ lib/decompress/zstd_decompress.o: lib/decompress/zstd_decompress.c.o
 
 # target to build an object file
 lib/decompress/zstd_decompress.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/zstd_decompress.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/zstd_decompress.c.o
 .PHONY : lib/decompress/zstd_decompress.c.o
 
 lib/decompress/zstd_decompress.i: lib/decompress/zstd_decompress.c.i
@@ -775,7 +775,7 @@ lib/decompress/zstd_decompress.i: lib/decompress/zstd_decompress.c.i
 
 # target to preprocess a source file
 lib/decompress/zstd_decompress.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/zstd_decompress.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/zstd_decompress.c.i
 .PHONY : lib/decompress/zstd_decompress.c.i
 
 lib/decompress/zstd_decompress.s: lib/decompress/zstd_decompress.c.s
@@ -784,7 +784,7 @@ lib/decompress/zstd_decompress.s: lib/decompress/zstd_decompress.c.s
 
 # target to generate assembly for a file
 lib/decompress/zstd_decompress.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/zstd_decompress.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/zstd_decompress.c.s
 .PHONY : lib/decompress/zstd_decompress.c.s
 
 lib/decompress/zstd_decompress_block.o: lib/decompress/zstd_decompress_block.c.o
@@ -793,7 +793,7 @@ lib/decompress/zstd_decompress_block.o: lib/decompress/zstd_decompress_block.c.o
 
 # target to build an object file
 lib/decompress/zstd_decompress_block.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/zstd_decompress_block.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/zstd_decompress_block.c.o
 .PHONY : lib/decompress/zstd_decompress_block.c.o
 
 lib/decompress/zstd_decompress_block.i: lib/decompress/zstd_decompress_block.c.i
@@ -802,7 +802,7 @@ lib/decompress/zstd_decompress_block.i: lib/decompress/zstd_decompress_block.c.i
 
 # target to preprocess a source file
 lib/decompress/zstd_decompress_block.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/zstd_decompress_block.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/zstd_decompress_block.c.i
 .PHONY : lib/decompress/zstd_decompress_block.c.i
 
 lib/decompress/zstd_decompress_block.s: lib/decompress/zstd_decompress_block.c.s
@@ -811,7 +811,7 @@ lib/decompress/zstd_decompress_block.s: lib/decompress/zstd_decompress_block.c.s
 
 # target to generate assembly for a file
 lib/decompress/zstd_decompress_block.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/zstd_decompress_block.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/decompress/zstd_decompress_block.c.s
 .PHONY : lib/decompress/zstd_decompress_block.c.s
 
 lib/deprecated/zbuff_common.o: lib/deprecated/zbuff_common.c.o
@@ -820,7 +820,7 @@ lib/deprecated/zbuff_common.o: lib/deprecated/zbuff_common.c.o
 
 # target to build an object file
 lib/deprecated/zbuff_common.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/deprecated/zbuff_common.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/deprecated/zbuff_common.c.o
 .PHONY : lib/deprecated/zbuff_common.c.o
 
 lib/deprecated/zbuff_common.i: lib/deprecated/zbuff_common.c.i
@@ -829,7 +829,7 @@ lib/deprecated/zbuff_common.i: lib/deprecated/zbuff_common.c.i
 
 # target to preprocess a source file
 lib/deprecated/zbuff_common.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/deprecated/zbuff_common.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/deprecated/zbuff_common.c.i
 .PHONY : lib/deprecated/zbuff_common.c.i
 
 lib/deprecated/zbuff_common.s: lib/deprecated/zbuff_common.c.s
@@ -838,7 +838,7 @@ lib/deprecated/zbuff_common.s: lib/deprecated/zbuff_common.c.s
 
 # target to generate assembly for a file
 lib/deprecated/zbuff_common.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/deprecated/zbuff_common.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/deprecated/zbuff_common.c.s
 .PHONY : lib/deprecated/zbuff_common.c.s
 
 lib/deprecated/zbuff_compress.o: lib/deprecated/zbuff_compress.c.o
@@ -847,7 +847,7 @@ lib/deprecated/zbuff_compress.o: lib/deprecated/zbuff_compress.c.o
 
 # target to build an object file
 lib/deprecated/zbuff_compress.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/deprecated/zbuff_compress.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/deprecated/zbuff_compress.c.o
 .PHONY : lib/deprecated/zbuff_compress.c.o
 
 lib/deprecated/zbuff_compress.i: lib/deprecated/zbuff_compress.c.i
@@ -856,7 +856,7 @@ lib/deprecated/zbuff_compress.i: lib/deprecated/zbuff_compress.c.i
 
 # target to preprocess a source file
 lib/deprecated/zbuff_compress.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/deprecated/zbuff_compress.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/deprecated/zbuff_compress.c.i
 .PHONY : lib/deprecated/zbuff_compress.c.i
 
 lib/deprecated/zbuff_compress.s: lib/deprecated/zbuff_compress.c.s
@@ -865,7 +865,7 @@ lib/deprecated/zbuff_compress.s: lib/deprecated/zbuff_compress.c.s
 
 # target to generate assembly for a file
 lib/deprecated/zbuff_compress.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/deprecated/zbuff_compress.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/deprecated/zbuff_compress.c.s
 .PHONY : lib/deprecated/zbuff_compress.c.s
 
 lib/deprecated/zbuff_decompress.o: lib/deprecated/zbuff_decompress.c.o
@@ -874,7 +874,7 @@ lib/deprecated/zbuff_decompress.o: lib/deprecated/zbuff_decompress.c.o
 
 # target to build an object file
 lib/deprecated/zbuff_decompress.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/deprecated/zbuff_decompress.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/deprecated/zbuff_decompress.c.o
 .PHONY : lib/deprecated/zbuff_decompress.c.o
 
 lib/deprecated/zbuff_decompress.i: lib/deprecated/zbuff_decompress.c.i
@@ -883,7 +883,7 @@ lib/deprecated/zbuff_decompress.i: lib/deprecated/zbuff_decompress.c.i
 
 # target to preprocess a source file
 lib/deprecated/zbuff_decompress.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/deprecated/zbuff_decompress.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/deprecated/zbuff_decompress.c.i
 .PHONY : lib/deprecated/zbuff_decompress.c.i
 
 lib/deprecated/zbuff_decompress.s: lib/deprecated/zbuff_decompress.c.s
@@ -892,7 +892,7 @@ lib/deprecated/zbuff_decompress.s: lib/deprecated/zbuff_decompress.c.s
 
 # target to generate assembly for a file
 lib/deprecated/zbuff_decompress.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/deprecated/zbuff_decompress.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/deprecated/zbuff_decompress.c.s
 .PHONY : lib/deprecated/zbuff_decompress.c.s
 
 lib/dictBuilder/cover.o: lib/dictBuilder/cover.c.o
@@ -901,7 +901,7 @@ lib/dictBuilder/cover.o: lib/dictBuilder/cover.c.o
 
 # target to build an object file
 lib/dictBuilder/cover.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/cover.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/cover.c.o
 .PHONY : lib/dictBuilder/cover.c.o
 
 lib/dictBuilder/cover.i: lib/dictBuilder/cover.c.i
@@ -910,7 +910,7 @@ lib/dictBuilder/cover.i: lib/dictBuilder/cover.c.i
 
 # target to preprocess a source file
 lib/dictBuilder/cover.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/cover.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/cover.c.i
 .PHONY : lib/dictBuilder/cover.c.i
 
 lib/dictBuilder/cover.s: lib/dictBuilder/cover.c.s
@@ -919,7 +919,7 @@ lib/dictBuilder/cover.s: lib/dictBuilder/cover.c.s
 
 # target to generate assembly for a file
 lib/dictBuilder/cover.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/cover.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/cover.c.s
 .PHONY : lib/dictBuilder/cover.c.s
 
 lib/dictBuilder/divsufsort.o: lib/dictBuilder/divsufsort.c.o
@@ -928,7 +928,7 @@ lib/dictBuilder/divsufsort.o: lib/dictBuilder/divsufsort.c.o
 
 # target to build an object file
 lib/dictBuilder/divsufsort.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/divsufsort.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/divsufsort.c.o
 .PHONY : lib/dictBuilder/divsufsort.c.o
 
 lib/dictBuilder/divsufsort.i: lib/dictBuilder/divsufsort.c.i
@@ -937,7 +937,7 @@ lib/dictBuilder/divsufsort.i: lib/dictBuilder/divsufsort.c.i
 
 # target to preprocess a source file
 lib/dictBuilder/divsufsort.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/divsufsort.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/divsufsort.c.i
 .PHONY : lib/dictBuilder/divsufsort.c.i
 
 lib/dictBuilder/divsufsort.s: lib/dictBuilder/divsufsort.c.s
@@ -946,7 +946,7 @@ lib/dictBuilder/divsufsort.s: lib/dictBuilder/divsufsort.c.s
 
 # target to generate assembly for a file
 lib/dictBuilder/divsufsort.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/divsufsort.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/divsufsort.c.s
 .PHONY : lib/dictBuilder/divsufsort.c.s
 
 lib/dictBuilder/fastcover.o: lib/dictBuilder/fastcover.c.o
@@ -955,7 +955,7 @@ lib/dictBuilder/fastcover.o: lib/dictBuilder/fastcover.c.o
 
 # target to build an object file
 lib/dictBuilder/fastcover.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/fastcover.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/fastcover.c.o
 .PHONY : lib/dictBuilder/fastcover.c.o
 
 lib/dictBuilder/fastcover.i: lib/dictBuilder/fastcover.c.i
@@ -964,7 +964,7 @@ lib/dictBuilder/fastcover.i: lib/dictBuilder/fastcover.c.i
 
 # target to preprocess a source file
 lib/dictBuilder/fastcover.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/fastcover.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/fastcover.c.i
 .PHONY : lib/dictBuilder/fastcover.c.i
 
 lib/dictBuilder/fastcover.s: lib/dictBuilder/fastcover.c.s
@@ -973,7 +973,7 @@ lib/dictBuilder/fastcover.s: lib/dictBuilder/fastcover.c.s
 
 # target to generate assembly for a file
 lib/dictBuilder/fastcover.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/fastcover.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/fastcover.c.s
 .PHONY : lib/dictBuilder/fastcover.c.s
 
 lib/dictBuilder/zdict.o: lib/dictBuilder/zdict.c.o
@@ -982,7 +982,7 @@ lib/dictBuilder/zdict.o: lib/dictBuilder/zdict.c.o
 
 # target to build an object file
 lib/dictBuilder/zdict.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/zdict.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/zdict.c.o
 .PHONY : lib/dictBuilder/zdict.c.o
 
 lib/dictBuilder/zdict.i: lib/dictBuilder/zdict.c.i
@@ -991,7 +991,7 @@ lib/dictBuilder/zdict.i: lib/dictBuilder/zdict.c.i
 
 # target to preprocess a source file
 lib/dictBuilder/zdict.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/zdict.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/zdict.c.i
 .PHONY : lib/dictBuilder/zdict.c.i
 
 lib/dictBuilder/zdict.s: lib/dictBuilder/zdict.c.s
@@ -1000,7 +1000,7 @@ lib/dictBuilder/zdict.s: lib/dictBuilder/zdict.c.s
 
 # target to generate assembly for a file
 lib/dictBuilder/zdict.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/zdict.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/zstd/CMakeFiles/zstd.dir/build.make external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/zdict.c.s
 .PHONY : lib/dictBuilder/zdict.c.s
 
 # Help Target

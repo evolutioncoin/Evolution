@@ -48,10 +48,10 @@ RM = /usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution
+CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/build
+CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles /home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/lz4/CMakeFiles/progress.marks
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 external/lz4/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution/build/CMakeFiles 0
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/lz4/CMakeFiles/progress.marks
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 external/lz4/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 external/lz4/clean
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 external/lz4/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,17 +143,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 external/lz4/preinstall
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 external/lz4/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 external/lz4/preinstall
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 external/lz4/preinstall
 .PHONY : preinstall/fast
 
 # Convenience name for target.
 external/lz4/CMakeFiles/lz4.dir/rule:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f CMakeFiles/Makefile2 external/lz4/CMakeFiles/lz4.dir/rule
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f CMakeFiles/Makefile2 external/lz4/CMakeFiles/lz4.dir/rule
 .PHONY : external/lz4/CMakeFiles/lz4.dir/rule
 
 # Convenience name for target.
@@ -163,7 +163,7 @@ lz4: external/lz4/CMakeFiles/lz4.dir/rule
 
 # fast build rule for target.
 lz4/fast:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/build
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/build
 .PHONY : lz4/fast
 
 lz4.o: lz4.c.o
@@ -172,7 +172,7 @@ lz4.o: lz4.c.o
 
 # target to build an object file
 lz4.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/lz4.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/lz4.c.o
 .PHONY : lz4.c.o
 
 lz4.i: lz4.c.i
@@ -181,7 +181,7 @@ lz4.i: lz4.c.i
 
 # target to preprocess a source file
 lz4.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/lz4.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/lz4.c.i
 .PHONY : lz4.c.i
 
 lz4.s: lz4.c.s
@@ -190,7 +190,7 @@ lz4.s: lz4.c.s
 
 # target to generate assembly for a file
 lz4.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/lz4.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/lz4.c.s
 .PHONY : lz4.c.s
 
 lz4frame.o: lz4frame.c.o
@@ -199,7 +199,7 @@ lz4frame.o: lz4frame.c.o
 
 # target to build an object file
 lz4frame.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/lz4frame.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/lz4frame.c.o
 .PHONY : lz4frame.c.o
 
 lz4frame.i: lz4frame.c.i
@@ -208,7 +208,7 @@ lz4frame.i: lz4frame.c.i
 
 # target to preprocess a source file
 lz4frame.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/lz4frame.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/lz4frame.c.i
 .PHONY : lz4frame.c.i
 
 lz4frame.s: lz4frame.c.s
@@ -217,7 +217,7 @@ lz4frame.s: lz4frame.c.s
 
 # target to generate assembly for a file
 lz4frame.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/lz4frame.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/lz4frame.c.s
 .PHONY : lz4frame.c.s
 
 lz4hc.o: lz4hc.c.o
@@ -226,7 +226,7 @@ lz4hc.o: lz4hc.c.o
 
 # target to build an object file
 lz4hc.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/lz4hc.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/lz4hc.c.o
 .PHONY : lz4hc.c.o
 
 lz4hc.i: lz4hc.c.i
@@ -235,7 +235,7 @@ lz4hc.i: lz4hc.c.i
 
 # target to preprocess a source file
 lz4hc.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/lz4hc.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/lz4hc.c.i
 .PHONY : lz4hc.c.i
 
 lz4hc.s: lz4hc.c.s
@@ -244,7 +244,7 @@ lz4hc.s: lz4hc.c.s
 
 # target to generate assembly for a file
 lz4hc.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/lz4hc.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/lz4hc.c.s
 .PHONY : lz4hc.c.s
 
 xxhash.o: xxhash.c.o
@@ -253,7 +253,7 @@ xxhash.o: xxhash.c.o
 
 # target to build an object file
 xxhash.c.o:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/xxhash.c.o
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/xxhash.c.o
 .PHONY : xxhash.c.o
 
 xxhash.i: xxhash.c.i
@@ -262,7 +262,7 @@ xxhash.i: xxhash.c.i
 
 # target to preprocess a source file
 xxhash.c.i:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/xxhash.c.i
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/xxhash.c.i
 .PHONY : xxhash.c.i
 
 xxhash.s: xxhash.c.s
@@ -271,7 +271,7 @@ xxhash.s: xxhash.c.s
 
 # target to generate assembly for a file
 xxhash.c.s:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/xxhash.c.s
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build && $(MAKE) -f external/lz4/CMakeFiles/lz4.dir/build.make external/lz4/CMakeFiles/lz4.dir/xxhash.c.s
 .PHONY : xxhash.c.s
 
 # Help Target

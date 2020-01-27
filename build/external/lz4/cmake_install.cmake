@@ -1,4 +1,4 @@
-# Install script for directory: /home/experimental/evolution-coin/Evolution-V2/Evolution/external/lz4
+# Install script for directory: /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/lz4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

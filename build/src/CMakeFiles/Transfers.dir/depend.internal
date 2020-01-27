@@ -67,12 +67,12 @@ src/CMakeFiles/Transfers.dir/transfers/BlockchainSynchronizer.cpp.o
  ../src/serialization/CryptoNoteSerialization.h
  ../src/serialization/ISerializer.h
  ../src/serialization/SerializationOverloads.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/BlockchainSynchronizer.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/BlockchainSynchronizer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/CommonTypes.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/IBlockchainSynchronizer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/IObservableImpl.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/SynchronizationState.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/BlockchainSynchronizer.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/BlockchainSynchronizer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/CommonTypes.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/IBlockchainSynchronizer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/IObservableImpl.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/SynchronizationState.h
 src/CMakeFiles/Transfers.dir/transfers/SynchronizationState.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -130,9 +130,9 @@ src/CMakeFiles/Transfers.dir/transfers/SynchronizationState.cpp.o
  ../src/serialization/CryptoNoteSerialization.h
  ../src/serialization/ISerializer.h
  ../src/serialization/SerializationOverloads.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/CommonTypes.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/SynchronizationState.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/SynchronizationState.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/CommonTypes.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/SynchronizationState.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/SynchronizationState.h
 src/CMakeFiles/Transfers.dir/transfers/TransfersConsumer.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -204,14 +204,14 @@ src/CMakeFiles/Transfers.dir/transfers/TransfersConsumer.cpp.o
  ../src/serialization/CryptoNoteSerialization.h
  ../src/serialization/ISerializer.h
  ../src/serialization/SerializationOverloads.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/CommonTypes.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/IBlockchainSynchronizer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/IObservableImpl.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/TransfersConsumer.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/TransfersConsumer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/TransfersContainer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/TransfersSubscription.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/TypeHelpers.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/CommonTypes.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/IBlockchainSynchronizer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/IObservableImpl.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/TransfersConsumer.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/TransfersConsumer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/TransfersContainer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/TransfersSubscription.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/TypeHelpers.h
 src/CMakeFiles/Transfers.dir/transfers/TransfersContainer.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -273,8 +273,8 @@ src/CMakeFiles/Transfers.dir/transfers/TransfersContainer.cpp.o
  ../src/serialization/CryptoNoteSerialization.h
  ../src/serialization/ISerializer.h
  ../src/serialization/SerializationOverloads.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/TransfersContainer.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/TransfersContainer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/TransfersContainer.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/TransfersContainer.h
 src/CMakeFiles/Transfers.dir/transfers/TransfersSubscription.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -330,10 +330,10 @@ src/CMakeFiles/Transfers.dir/transfers/TransfersSubscription.cpp.o
  ../src/serialization/CryptoNoteSerialization.h
  ../src/serialization/ISerializer.h
  ../src/serialization/SerializationOverloads.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/IObservableImpl.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/TransfersContainer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/TransfersSubscription.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/TransfersSubscription.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/IObservableImpl.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/TransfersContainer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/TransfersSubscription.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/TransfersSubscription.h
 src/CMakeFiles/Transfers.dir/transfers/TransfersSynchronizer.cpp.o
  ../external/nlohmann-json/json.hpp
  ../external/rapidjson/allocators.h
@@ -394,11 +394,11 @@ src/CMakeFiles/Transfers.dir/transfers/TransfersSynchronizer.cpp.o
  ../src/serialization/CryptoNoteSerialization.h
  ../src/serialization/ISerializer.h
  ../src/serialization/SerializationOverloads.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/IBlockchainSynchronizer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/IObservableImpl.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/TransfersConsumer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/TransfersContainer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/TransfersSubscription.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/TransfersSynchronizer.cpp
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/TransfersSynchronizer.h
- /home/experimental/evolution-coin/Evolution-V2/Evolution/src/transfers/TypeHelpers.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/IBlockchainSynchronizer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/IObservableImpl.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/TransfersConsumer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/TransfersContainer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/TransfersSubscription.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/TransfersSynchronizer.cpp
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/TransfersSynchronizer.h
+ /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/transfers/TypeHelpers.h

@@ -710,7 +710,7 @@ errors/Errors.h
 config/CryptoNoteConfig.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/subwallets/SubWallet.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/subwallets/SubWallet.cpp
 subwallets/SubWallet.h
 -
 config/Constants.h
@@ -722,7 +722,7 @@ utilities/Utilities.h
 walletbackend/Constants.h
 -
 
-/home/experimental/evolution-coin/Evolution-V2/Evolution/src/subwallets/SubWallets.cpp
+/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/src/subwallets/SubWallets.cpp
 subwallets/SubWallets.h
 -
 config/CryptoNoteConfig.h

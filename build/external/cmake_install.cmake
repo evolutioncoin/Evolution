@@ -1,4 +1,4 @@
-# Install script for directory: /home/experimental/evolution-coin/Evolution-V2/Evolution/external
+# Install script for directory: /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/miniupnpc/cmake_install.cmake")
-  include("/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/cryptopp/cmake_install.cmake")
-  include("/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/zstd/cmake_install.cmake")
-  include("/home/experimental/evolution-coin/Evolution-V2/Evolution/build/external/lz4/cmake_install.cmake")
+  include("/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/miniupnpc/cmake_install.cmake")
+  include("/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/cryptopp/cmake_install.cmake")
+  include("/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/zstd/cmake_install.cmake")
+  include("/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/external/lz4/cmake_install.cmake")
 
 endif()
 

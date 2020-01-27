@@ -43,10 +43,10 @@ RM = /usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/external/rocksdb
+CMAKE_SOURCE_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/rocksdb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution/build/rocksdb
+CMAKE_BINARY_DIR = /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/rocksdb
 
 # Include any dependencies generated for this target.
 include CMakeFiles/build_version.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/build_version.dir/flags.make
 
 CMakeFiles/build_version.dir/build_version.cc.o: CMakeFiles/build_version.dir/flags.make
 CMakeFiles/build_version.dir/build_version.cc.o: build_version.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution/build/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/build_version.dir/build_version.cc.o"
-	/usr/bin/ccache /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/build_version.dir/build_version.cc.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution/build/rocksdb/build_version.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/build_version.dir/build_version.cc.o"
+	/usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/build_version.dir/build_version.cc.o -c /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/rocksdb/build_version.cc
 
 CMakeFiles/build_version.dir/build_version.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/build_version.dir/build_version.cc.i"
-	/usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution/build/rocksdb/build_version.cc > CMakeFiles/build_version.dir/build_version.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/rocksdb/build_version.cc > CMakeFiles/build_version.dir/build_version.cc.i
 
 CMakeFiles/build_version.dir/build_version.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/build_version.dir/build_version.cc.s"
-	/usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution/build/rocksdb/build_version.cc -o CMakeFiles/build_version.dir/build_version.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/rocksdb/build_version.cc -o CMakeFiles/build_version.dir/build_version.cc.s
 
 build_version: CMakeFiles/build_version.dir/build_version.cc.o
 build_version: CMakeFiles/build_version.dir/build.make
@@ -85,6 +85,6 @@ CMakeFiles/build_version.dir/clean:
 .PHONY : CMakeFiles/build_version.dir/clean
 
 CMakeFiles/build_version.dir/depend:
-	cd /home/experimental/evolution-coin/Evolution-V2/Evolution/build/rocksdb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution/external/rocksdb /home/experimental/evolution-coin/Evolution-V2/Evolution/external/rocksdb /home/experimental/evolution-coin/Evolution-V2/Evolution/build/rocksdb /home/experimental/evolution-coin/Evolution-V2/Evolution/build/rocksdb /home/experimental/evolution-coin/Evolution-V2/Evolution/build/rocksdb/CMakeFiles/build_version.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/rocksdb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/rocksdb /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/external/rocksdb /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/rocksdb /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/rocksdb /home/experimental/evolution-coin/Evolution-V2/Evolution-V2/build/rocksdb/CMakeFiles/build_version.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/build_version.dir/depend
 
