@@ -38,7 +38,7 @@ namespace CryptoNote {
 
 		const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX = 2;
 		const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V2 = 3;
-		const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V3 = 250000; //diff adjustment
+		const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V3 = 480000; //diff adjustment
 
 		const unsigned EMISSION_SPEED_FACTOR = 25;
 		static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
@@ -87,7 +87,7 @@ namespace CryptoNote {
 
 		//DustFund Parameters
 		const uint64_t CRYPTONOTE_DUST_OUT_LIMIT = UINT64_C(1000000); //the limit up to which dust outs should be removed and contributed back to the dust fund
-		const char CRYPTONOTE_DUST_OUT_ADDRESS[] = "evcFADnJ8QJGP974EzANyp6nxFuaB9FeCXoSRrgRqtWKPwnHCYXPkzGW7SxnjVkNygdRRw8PSMBt6CFvbN79dCN478kgypzcMr";
+		const char CRYPTONOTE_DUST_OUT_ADDRESS[] = "evcFCsTprMXMy6HZDbo3AcBmZMFWvndWM5VL7qRW83kWJseD6on1dPLSFqaoYhjHj3BR32ptiQLEWjRN49cfWXgo3JepQZnBst";
 
 		const uint64_t MINIMUM_FEE = UINT64_C(10000000); //0.1 minimum fee
 
@@ -127,7 +127,7 @@ namespace CryptoNote {
 		const uint64_t MAX_BLOCK_SIZE_GROWTH_SPEED_DENOMINATOR = 365 * 24 * 60 * 60 / DIFFICULTY_TARGET;
 		const uint64_t MAX_EXTRA_SIZE = 2048;
 		const uint64_t MAX_EXTRA_SIZE_V2 = 10240;
-		const uint64_t MAX_EXTRA_SIZE_V2_HEIGHT = 300000; //height at which tx extra is limited to 10240
+		const uint64_t MAX_EXTRA_SIZE_V2_HEIGHT = 480000; //height at which tx extra is limited to 10240
 
 		/* 1 billion EVC */
 		/* This is enforced on the daemon side. An output > 100 million causes
@@ -139,7 +139,7 @@ namespace CryptoNote {
 		 * be created in a transaction */
 		const uint64_t MAX_OUTPUT_SIZE_CLIENT = 100000000000000000;
 
-		const uint64_t MAX_OUTPUT_SIZE_HEIGHT = 400000;
+		const uint64_t MAX_OUTPUT_SIZE_HEIGHT = 40000000;
 		/* For new projects forked from this code base, the values immediately below
    should be changed to 0 to prevent issues with transaction processing
    and other possible unexpected behavior */
@@ -165,8 +165,8 @@ namespace CryptoNote {
 		const size_t FUSION_TX_MAX_POOL_COUNT = 50;
 
 		/* This prevents tx's from having a rediculous number of outputs in relation to inputs */
-		const size_t NORMAL_TX_MAX_OUTPUT_COUNT_V1 = 50;
-		const size_t NORMAL_TX_MAX_OUTPUT_COUNT_V1_HEIGHT = 400000;
+		const size_t NORMAL_TX_MAX_OUTPUT_COUNT_V1 = 90;
+		const size_t NORMAL_TX_MAX_OUTPUT_COUNT_V1_HEIGHT = 40000000;
 
 		const uint32_t UPGRADE_HEIGHT_V2 = 1;
 		const uint32_t UPGRADE_HEIGHT_V3 = 2;
@@ -221,7 +221,7 @@ namespace CryptoNote {
 		const char     MINER_CONFIG_FILE_NAME[] = "miner_conf.json";
 	} // parameters
 
-	const char     CRYPTONOTE_NAME[]	=	"Evolution";
+	const char     CRYPTONOTE_NAME[] = "Evolution-DB";
 
 	
 	const uint8_t  TRANSACTION_VERSION_1 = 1;
@@ -303,8 +303,8 @@ const std::unordered_map<
 
 	const char* const SEED_NODES[] = {	//add seed nodes
 		
-		"79.115.186.120:22100", // main node 1
-		"82.38.224.216:22100"   // node2 pxlwarr
+		"79.115.186.120:22100",   // main node
+		"82.38.224.216:22100"    // node1
 
 	};
 } // CryptoNote
