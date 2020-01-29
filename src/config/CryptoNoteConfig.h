@@ -38,7 +38,7 @@ namespace CryptoNote {
 
 		const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX = 2;
 		const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V2 = 3;
-		const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V3 = 480000; //diff adjustment
+		const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V3 = 5000000; //diff adjustment
 
 		const unsigned EMISSION_SPEED_FACTOR = 25;
 		static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
@@ -66,19 +66,19 @@ namespace CryptoNote {
 		* You should see your premine appear in the previously generated wallet.
 
 		*/
-		const char     GENESIS_COINBASE_TX_HEX[] = "013c01ff0001d3b3ed826f0265e2a8cae689a8075c109b3b7a22b16e3dbb1fde222b9ac63f7d130d031bf7422101540aa55b9efd27ad0808c81e4c1c483ce71ccc6fca180dbf4d4ebdd9b3dc15b0";
+		const char     GENESIS_COINBASE_TX_HEX[] = "00f0a7b9c894c5150000210190a3a4d8eb7baf1bd1af430c39e13ac8fa110a87640236375ca078d8c85306a1";
 		static_assert(sizeof(GENESIS_COINBASE_TX_HEX)/sizeof(*GENESIS_COINBASE_TX_HEX) != 1, "GENESIS_COINBASE_TX_HEX must not be empty.");
 
 		/* This is the unix timestamp of the first "mined" block (technically block 2, not the genesis block)
 		   You can get this value by doing "print_block 2" in Evolutiond. It is used to know what timestamp
 		   to import from when the block height cannot be found in the node or the node is offline. */
 
-		const uint64_t GENESIS_BLOCK_TIMESTAMP = 1579874533;  // Replace with block 2 timestamp
+		const uint64_t GENESIS_BLOCK_TIMESTAMP = 0;  // Replace with block 2 timestamp
 
 		const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW = 100;
 		
 		/* If you Fork PLE Please set the below value to 100000 NOT 10000 as this will fix a mistake we made at mainnetlaunch with transaction sizes */
-		const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE = 10000; //size of block (bytes) after which reward for block calculated using block size
+		const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE = 100000; //size of block (bytes) after which reward for block calculated using block size
 		const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V1 = 100000; //size of block (bytes) after which reward for block calculated using block size (fix tx sizes issue)
 		const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_CURRENT = CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE;
 		const size_t   CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE = 600;
@@ -86,19 +86,21 @@ namespace CryptoNote {
 		const size_t   CRYPTONOTE_DUST_DECIMAL_POINT = 8; //the decimal places to calculate DUST up to... 
 
 		//DustFund Parameters
-		const uint64_t CRYPTONOTE_DUST_OUT_LIMIT = UINT64_C(1000000); //the limit up to which dust outs should be removed and contributed back to the dust fund
+		const uint64_t CRYPTONOTE_DUST_OUT_LIMIT = UINT64_C(10000000); //the limit up to which dust outs should be removed and contributed back to the dust fund
 		const char CRYPTONOTE_DUST_OUT_ADDRESS[] = "evcFCsTprMXMy6HZDbo3AcBmZMFWvndWM5VL7qRW83kWJseD6on1dPLSFqaoYhjHj3BR32ptiQLEWjRN49cfWXgo3JepQZnBst";
 
 		const uint64_t MINIMUM_FEE = UINT64_C(10000000); //0.1 minimum fee
 
-		const uint64_t MINIMUM_MIXIN = 3;
-		const uint64_t MAXIMUM_MIXIN = 12;
+		/* This section defines our minimum and maximum mixin counts required for transactions */
+
+		const uint64_t MINIMUM_MIXIN = 0;
+		const uint64_t MAXIMUM_MIXIN = 3;
 
 		const uint64_t MINIMUM_MIXIN_V1 = 0;
-		const uint64_t MAXIMUM_MIXIN_V1 = 7;
+		const uint64_t MAXIMUM_MIXIN_V1 = 3;
 
 		/* The heights to activate the mixin limits at */
-		const uint32_t MIXIN_LIMITS_V1_HEIGHT = 500000; //height at which new Mixin Limits Kick in
+		const uint32_t MIXIN_LIMITS_V1_HEIGHT = 5000000; //height at which new Mixin Limits Kick in
 
 		/* The mixin to use by default with zedwallet and wallet-service */
 		/* DEFAULT_MIXIN_V1 is the mixin used before MIXIN_LIMITS_V1_HEIGHT is started */
@@ -122,12 +124,12 @@ namespace CryptoNote {
 
 		static_assert(2 * DIFFICULTY_CUT <= DIFFICULTY_WINDOW - 2, "Bad DIFFICULTY_WINDOW or DIFFICULTY_CUT");
 
-		const size_t   MAX_BLOCK_SIZE_INITIAL = 512000;
+		const size_t   MAX_BLOCK_SIZE_INITIAL = 100000;
 		const uint64_t MAX_BLOCK_SIZE_GROWTH_SPEED_NUMERATOR = 100 * 1024;
 		const uint64_t MAX_BLOCK_SIZE_GROWTH_SPEED_DENOMINATOR = 365 * 24 * 60 * 60 / DIFFICULTY_TARGET;
-		const uint64_t MAX_EXTRA_SIZE = 2048;
+		const uint64_t MAX_EXTRA_SIZE = 140000;
 		const uint64_t MAX_EXTRA_SIZE_V2 = 10240;
-		const uint64_t MAX_EXTRA_SIZE_V2_HEIGHT = 480000; //height at which tx extra is limited to 10240
+		const uint64_t MAX_EXTRA_SIZE_V2_HEIGHT = 5000000; //height at which tx extra is limited to 10240
 
 		/* 1 billion EVC */
 		/* This is enforced on the daemon side. An output > 100 million causes
@@ -162,7 +164,7 @@ namespace CryptoNote {
 		   at any given time. Incoming fusion transactions that attempt to exceed this limit
 		   will be rejected from the pool and will not be added. This mechanism is in place
 		   to help curtail fusion transaction spam. */
-		const size_t FUSION_TX_MAX_POOL_COUNT = 50;
+		const size_t FUSION_TX_MAX_POOL_COUNT = 100;
 
 		/* This prevents tx's from having a rediculous number of outputs in relation to inputs */
 		const size_t NORMAL_TX_MAX_OUTPUT_COUNT_V1 = 90;
@@ -193,7 +195,7 @@ namespace CryptoNote {
 					 	  500, //first fork to introduce DUST fund
 						  600, //fix tx sizes issue
 				 	         1000, // CN Turtle
-					        50000, //Difficulty Update
+					      5000000, //Difficulty Update
 				 	     40000000, // mixin limits reset & argon2 POW
 				            100000000 // next fork height (dust v2 & net protect)
 		};
@@ -298,7 +300,7 @@ const std::unordered_map<
 
 	const static boost::uuids::uuid CRYPTONOTE_NETWORK =
 	{
-		{  0xa9, 0x2d, 0x5b, 0x2c, 0xcf, 0x12, 0x15, 0x81, 0x8b, 0xf9, 0xb1, 0xa4, 0xc6, 0xa5, 0xb3, 0xa1  }
+		{  0xa6, 0x2d, 0x5b, 0x2c, 0xcf, 0x12, 0x14, 0x51, 0x7b, 0xf3, 0xb1, 0xa4, 0xc6, 0xa5, 0xb3, 0xa1  }
 	};
 
 	const char* const SEED_NODES[] = {	//add seed nodes
